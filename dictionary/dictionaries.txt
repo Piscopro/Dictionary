@@ -1,0 +1,1458 @@
+boy	con trai
+human	người
+girl	con gái
+dog	chó
+cat	mèo
+dolphin	cá heo
+elephant	con voi
+flower	cây hoa
+mountain	núi đá
+computer	máy tính
+ocean	đại dương
+rainbow	cầu vồng
+sunshine	ánh sáng mặt trời
+moon	mặt trăng
+bicycle	xe đạp
+book	sách
+music	âm nhạc
+friend	bạn bè
+smile	nụ cười
+dream	giấc mơ
+adventure	phiêu lưu
+kindness lòng tốt
+knowledge	tri thức
+journey	hành trình
+creativity	sáng tạo
+peace	hòa bình
+happiness	hạnh phúc
+laughter	tiếng cười
+star	ngôi sao
+forest	rừng
+sky	bầu trời
+beach	bãi biển
+courage	lòng can đảm
+freedom	tự do
+hope	hy vọng
+love	tình yêu
+sunset	hoàng hôn
+joy	niềm vui
+wisdom	sự khôn ngoan
+serenity	thanh bình
+energy	năng lượng
+gratitude	lòng biết ơn
+blessing	phước lành
+strength	sức mạnh
+harmony	hòa hợp
+compassion	lòng nhân ái
+victory	chiến thắng
+imagination	trí tưởng tượng
+wonder	sự kỳ diệu
+balance	cân bằng
+patience	lòng kiên nhẫn
+inspiration	nguồn cảm hứng
+tranquility	sự yên bình
+bravery	lòng gan dạ
+innovation	sự đổi mới
+health	sức khỏe
+faith	niềm tin
+resilience	sự kiên trì
+confidence	lòng tự tin
+purpose	mục đích
+grace	sự duyên dáng
+vitality	sức sống
+curiosity	sự tò mò
+effort	nỗ lực
+optimism	lạc quan
+warmth	sự ấm áp
+elegance	sự thanh lịch
+caring	sự chăm sóc
+sincerity	sự chân thành
+laughter	tiếng cười
+integrity	chính trực
+humility	lòng khiêm tốn
+generosity	lòng rộng lượng
+cheerfulness	sự phấn khởi
+faithfulness	lòng trung thành
+modesty	sự khiêm tốn
+confidence	lòng tự tin
+compassion	lòng nhân ái
+victory	chiến thắng
+imagination	trí tưởng tượng
+wonder	sự kỳ diệu
+balance	cân bằng
+patience	lòng kiên nhẫn
+inspiration	nguồn cảm hứng
+tranquility	sự yên bình
+bravery	lòng gan dạ
+innovation	sự đổi mới
+health	sức khỏe
+faith	niềm tin
+resilience	sự kiên trì
+confidence	lòng tự tin
+purpose	mục đích
+grace	sự duyên dáng
+vitality	sức sống
+curiosity	sự tò mò
+effort	nỗ lực
+optimism	lạc quan
+warmth	sự ấm áp
+elegance	sự thanh lịch
+caring	sự chăm sóc
+sincerity	sự chân thành
+laughter	tiếng cười
+integrity	chính trực
+humility	lòng khiêm tốn
+generosity	lòng rộng lượng
+cheerfulness	sự phấn khởi
+faithfulness	lòng trung thành
+modesty	sự khiêm tốn
+happiness	hạnh phúc
+laughter	tiếng cười
+star	ngôi sao
+forest	rừng
+sky	bầu trời
+beach	bãi biển
+courage	lòng can đảm
+freedom	tự do
+hope	hy vọng
+love	tình yêu
+sunset	hoàng hôn
+joy	niềm vui
+wisdom	sự khôn ngoan
+serenity	thanh bình
+energy	năng lượng
+gratitude	lòng biết ơn
+blessing	phước lành
+strength	sức mạnh
+harmony	hòa hợp
+compassion	lòng nhân ái
+victory	chiến thắng
+imagination	trí tưởng tượng
+wonder	sự kỳ diệu
+balance	cân bằng
+patience	lòng kiên nhẫn
+inspiration	nguồn cảm hứng
+tranquility	sự yên bình
+bravery	lòng gan dạ
+innovation	sự đổi mới
+health	sức khỏe
+faith	niềm tin
+resilience	sự kiên trì
+confidence	lòng tự tin
+purpose	mục đích
+grace	sự duyên dáng
+vitality	sức sống
+curiosity	sự tò mò
+effort	nỗ lực
+optimism	lạc quan
+warmth	sự ấm áp
+elegance	sự thanh lịch
+caring	sự chăm sóc
+sincerity	sự chân thành
+laughter	tiếng cười
+integrity	chính trực
+humility	lòng khiêm tốn
+generosity	lòng rộng lượng
+cheerfulness	sự phấn khởi
+faithfulness	lòng trung thành
+modesty	sự khiêm tốn
+happiness	hạnh phúc
+laughter	tiếng cười
+star	ngôi sao
+forest	rừng
+sky	bầu trời
+beach	bãi biển
+courage	lòng can đảm
+freedom	tự do
+hope	hy vọng
+love	tình yêu
+sunset	hoàng hôn
+joy	niềm vui
+wisdom	sự khôn ngoan
+serenity	thanh bình
+energy	năng lượng
+gratitude	lòng biết ơn
+blessing	phước lành
+strength	sức mạnh
+harmony	hòa hợp
+compassion	lòng nhân ái
+victory	chiến thắng
+imagination	trí tưởng tượng
+wonder	sự kỳ diệu
+balance	cân bằng
+patience	lòng kiên nhẫn
+inspiration	nguồn cảm hứng
+tranquility	sự yên bình
+bravery	lòng gan dạ
+innovation	sự đổi mới
+health	sức khỏe
+faith	niềm tin
+resilience	sự kiên trì
+confidence	lòng tự tin
+purpose	mục đích
+grace	sự duyên dáng
+vitality	sức sống
+curiosity	sự tò mò
+effort	nỗ lực
+optimism	lạc quan
+warmth	sự ấm áp
+elegance	sự thanh lịch
+caring	sự chăm sóc
+sincerity	sự chân thành
+laughter	tiếng cười
+integrity	chính trực
+humility	lòng khiêm tốn
+generosity	lòng rộng lượng
+cheerfulness	sự phấn khởi
+faithfulness	lòng trung thành
+modesty	sự khiêm tốn
+happiness	hạnh phúc
+laughter	tiếng cười
+star	ngôi sao
+forest	rừng
+sky	bầu trời
+beach	bãi biển
+courage	lòng can đảm
+freedom	tự do
+hope	hy vọng
+love	tình yêu
+sunset	hoàng hôn
+joy	niềm vui
+wisdom	sự khôn ngoan
+serenity	thanh bình
+energy	năng lượng
+gratitude	lòng biết ơn
+blessing	phước lành
+strength	sức mạnh
+harmony	hòa hợp
+compassion	lòng nhân ái
+victory	chiến thắng
+imagination	trí tưởng tượng
+wonder	sự kỳ diệu
+balance	cân bằng
+patience	lòng kiên nhẫn
+inspiration	nguồn cảm hứng
+tranquility	sự yên bình
+bravery	lòng gan dạ
+innovation	sự đổi mới
+health	sức khỏe
+faith	niềm tin
+resilience	sự kiên trì
+confidence	lòng tự tin
+purpose	mục đích
+grace	sự duyên dáng
+vitality	sức sống
+curiosity	sự tò mò
+effort	nỗ lực
+optimism	lạc quan
+warmth	sự ấm áp
+elegance	sự thanh lịch
+caring	sự chăm sóc
+sincerity	sự chân thành
+laughter	tiếng cười
+integrity	chính trực
+humility	lòng khiêm tốn
+generosity	lòng rộng lượng
+cheerfulness	sự phấn khởi
+faithfulness	lòng trung thành
+modesty	sự khiêm tốn
+confidence	lòng tự tin
+compassion	lòng nhân ái
+victory	chiến thắng
+imagination	trí tưởng tượng
+wonder	sự kỳ diệu
+balance	cân bằng
+patience	lòng kiên nhẫn
+inspiration	nguồn cảm hứng
+tranquility	sự yên bình
+bravery	lòng gan dạ
+innovation	sự đổi mới
+health	sức khỏe
+faith	niềm tin
+resilience	sự kiên trì
+confidence	lòng tự tin
+purpose	mục đích
+grace	sự duyên dáng
+vitality	sức sống
+curiosity	sự tò mò
+effort	nỗ lực
+optimism	lạc quan
+warmth	sự ấm áp
+elegance	sự thanh lịch
+caring	sự chăm sóc
+sincerity	sự chân thành
+laughter	tiếng cười
+integrity	chính trực
+humility	lòng khiêm tốn
+generosity	lòng rộng lượng
+cheerfulness	sự phấn khởi
+faithfulness	lòng trung thành
+modesty	sự khiêm tốn
+happiness	hạnh phúc
+laughter	tiếng cười
+star	ngôi sao
+forest	rừng
+sky	bầu trời
+beach	bãi biển
+courage	lòng can đảm
+freedom	tự do
+hope	hy vọng
+love	tình yêu
+sunset	hoàng hôn
+joy	niềm vui
+wisdom	sự khôn ngoan
+serenity	thanh bình
+energy	năng lượng
+gratitude	lòng biết ơn
+blessing	phước lành
+strength	sức mạnh
+harmony	hòa hợp
+compassion	lòng nhân ái
+victory	chiến thắng
+imagination	trí tưởng tượng
+wonder	sự kỳ diệu
+balance	cân bằng
+patience	lòng kiên nhẫn
+inspiration	nguồn cảm hứng
+tranquility	sự yên bình
+bravery	lòng gan dạ
+innovation	sự đổi mới
+health	sức khỏe
+faith	niềm tin
+resilience	sự kiên trì
+confidence	lòng tự tin
+purpose	mục đích
+grace	sự duyên dáng
+vitality	sức sống
+curiosity	sự tò mò
+effort	nỗ lực
+optimism	lạc quan
+warmth	sự ấm áp
+elegance	sự thanh lịch
+caring	sự chăm sóc
+sincerity	sự chân thành
+laughter	tiếng cười
+integrity	chính trực
+humility	lòng khiêm tốn
+generosity	lòng rộng lượng
+cheerfulness	sự phấn khởi
+faithfulness	lòng trung thành
+modesty	sự khiêm tốn
+happiness	hạnh phúc
+laughter	tiếng cười
+star	ngôi sao
+forest	rừng
+sky	bầu trời
+beach	bãi biển
+courage	lòng can đảm
+freedom	tự do
+hope	hy vọng
+love	tình yêu
+sunset	hoàng hôn
+joy	niềm vui
+wisdom	sự khôn ngoan
+serenity	thanh bình
+energy	năng lượng
+gratitude	lòng biết ơn
+blessing	phước lành
+strength	sức mạnh
+harmony	hòa hợp
+compassion	lòng nhân ái
+victory	chiến thắng
+imagination	trí tưởng tượng
+wonder	sự kỳ diệu
+balance	cân bằng
+patience	lòng kiên nhẫn
+inspiration	nguồn cảm hứng
+tranquility	sự yên bình
+bravery	lòng gan dạ
+innovation	sự đổi mới
+health	sức khỏe
+faith	niềm tin
+resilience	sự kiên trì
+confidence	lòng tự tin
+purpose	mục đích
+grace	sự duyên dáng
+vitality	sức sống
+curiosity	sự tò mò
+effort	nỗ lực
+optimism	lạc quan
+warmth	sự ấm áp
+elegance	sự thanh lịch
+caring	sự chăm sóc
+sincerity	sự chân thành
+laughter	tiếng cười
+integrity	chính trực
+humility	lòng khiêm tốn
+generosity	lòng rộng lượng
+cheerfulness	sự phấn khởi
+faithfulness	lòng trung thành
+modesty	sự khiêm tốn
+happiness	hạnh phúc
+laughter	tiếng cười
+star	ngôi sao
+forest	rừng
+sky	bầu trời
+beach	bãi biển
+courage	lòng can đảm
+freedom	tự do
+hope	hy vọng
+love	tình yêu
+sunset	hoàng hôn
+joy	niềm vui
+wisdom	sự khôn ngoan
+serenity	thanh bình
+energy	năng lượng
+gratitude	lòng biết ơn
+blessing	phước lành
+strength	sức mạnh
+harmony	hòa hợp
+compassion	lòng nhân ái
+victory	chiến thắng
+imagination	trí tưởng tượng
+wonder	sự kỳ diệu
+balance	cân bằng
+patience	lòng kiên nhẫn
+inspiration	nguồn cảm hứng
+tranquility	sự yên bình
+bravery	lòng gan dạ
+innovation	sự đổi mới
+health	sức khỏe
+faith	niềm tin
+resilience	sự kiên trì
+confidence	lòng tự tin
+purpose	mục đích
+grace	sự duyên dáng
+vitality	sức sống
+curiosity	sự tò mò
+effort	nỗ lực
+optimism	lạc quan
+warmth	sự ấm áp
+elegance	sự thanh lịch
+caring	sự chăm sóc
+sincerity	sự chân thành
+laughter	tiếng cười
+integrity	chính trực
+humility	lòng khiêm tốn
+generosity	lòng rộng lượng
+cheerfulness	sự phấn khởi
+faithfulness	lòng trung thành
+modesty	sự khiêm tốn
+confidence	lòng tự tin
+compassion	lòng nhân ái
+victory	chiến thắng
+imagination	trí tưởng tượng
+wonder	sự kỳ diệu
+balance	cân bằng
+patience	lòng kiên nhẫn
+inspiration	nguồn cảm hứng
+tranquility	sự yên bình
+bravery	lòng gan dạ
+innovation	sự đổi mới
+health	sức khỏe
+faith	niềm tin
+resilience	sự kiên trì
+confidence	lòng tự tin
+purpose	mục đích
+grace	sự duyên dáng
+vitality	sức sống
+curiosity	sự tò mò
+effort	nỗ lực
+optimism	lạc quan
+warmth	sự ấm áp
+elegance	sự thanh lịch
+caring	sự chăm sóc
+sincerity	sự chân thành
+laughter	tiếng cười
+integrity	chính trực
+humility	lòng khiêm tốn
+generosity	lòng rộng lượng
+cheerfulness	sự phấn khởi
+faithfulness	lòng trung thành
+modesty	sự khiêm tốn
+happiness	hạnh phúc
+laughter	tiếng cười
+star	ngôi sao
+forest	rừng
+sky	bầu trời
+beach	bãi biển
+courage	lòng can đảm
+freedom	tự do
+hope	hy vọng
+love	tình yêu
+sunset	hoàng hôn
+joy	niềm vui
+wisdom	sự khôn ngoan
+serenity	thanh bình
+energy	năng lượng
+gratitude	lòng biết ơn
+blessing	phước lành
+strength	sức mạnh
+harmony	hòa hợp
+compassion	lòng nhân ái
+victory	chiến thắng
+imagination	trí tưởng tượng
+wonder	sự kỳ diệu
+balance	cân bằng
+patience	lòng kiên nhẫn
+inspiration	nguồn cảm hứng
+tranquility	sự yên bình
+bravery	lòng gan dạ
+innovation	sự đổi mới
+health	sức khỏe
+faith	niềm tin
+resilience	sự kiên trì
+confidence	lòng tự tin
+purpose	mục đích
+grace	sự duyên dáng
+vitality	sức sống
+curiosity	sự tò mò
+effort	nỗ lực
+optimism	lạc quan
+warmth	sự ấm áp
+elegance	sự thanh lịch
+caring	sự chăm sóc
+sincerity	sự chân thành
+laughter	tiếng cười
+integrity	chính trực
+humility	lòng khiêm tốn
+generosity	lòng rộng lượng
+cheerfulness	sự phấn khởi
+faithfulness	lòng trung thành
+modesty	sự khiêm tốn
+happiness	hạnh phúc
+laughter	tiếng cười
+star	ngôi sao
+forest	rừng
+sky	bầu trời
+beach	bãi biển
+courage	lòng can đảm
+freedom	tự do
+hope	hy vọng
+love	tình yêu
+sunset	hoàng hôn
+joy	niềm vui
+wisdom	sự khôn ngoan
+serenity	thanh bình
+energy	năng lượng
+gratitude	lòng biết ơn
+blessing	phước lành
+strength	sức mạnh
+harmony	hòa hợp
+compassion	lòng nhân ái
+victory	chiến thắng
+imagination	trí tưởng tượng
+wonder	sự kỳ diệu
+balance	cân bằng
+patience	lòng kiên nhẫn
+inspiration	nguồn cảm hứng
+tranquility	sự yên bình
+bravery	lòng gan dạ
+innovation	sự đổi mới
+health	sức khỏe
+faith	niềm tin
+resilience	sự kiên trì
+confidence	lòng tự tin
+purpose	mục đích
+grace	sự duyên dáng
+vitality	sức sống
+curiosity	sự tò mò
+effort	nỗ lực
+optimism	lạc quan
+warmth	sự ấm áp
+elegance	sự thanh lịch
+caring	sự chăm sóc
+sincerity	sự chân thành
+laughter	tiếng cười
+integrity	chính trực
+humility	lòng khiêm tốn
+generosity	lòng rộng lượng
+cheerfulness	sự phấn khởi
+faithfulness	lòng trung thành
+modesty	sự khiêm tốn
+happiness	hạnh phúc
+laughter	tiếng cười
+star	ngôi sao
+forest	rừng
+sky	bầu trời
+beach	bãi biển
+courage	lòng can đảm
+freedom	tự do
+hope	hy vọng
+love	tình yêu
+sunset	hoàng hôn
+joy	niềm vui
+wisdom	sự khôn ngoan
+serenity	thanh bình
+energy	năng lượng
+gratitude	lòng biết ơn
+blessing	phước lành
+strength	sức mạnh
+harmony	hòa hợp
+compassion	lòng nhân ái
+victory	chiến thắng
+imagination	trí tưởng tượng
+wonder	sự kỳ diệu
+balance	cân bằng
+patience	lòng kiên nhẫn
+inspiration	nguồn cảm hứng
+tranquility	sự yên bình
+bravery	lòng gan dạ
+innovation	sự đổi mới
+health	sức khỏe
+faith	niềm tin
+resilience	sự kiên trì
+confidence	lòng tự tin
+purpose	mục đích
+grace	sự duyên dáng
+vitality	sức sống
+curiosity	sự tò mò
+effort	nỗ lực
+optimism	lạc quan
+warmth	sự ấm áp
+elegance	sự thanh lịch
+caring	sự chăm sóc
+sincerity	sự chân thành
+laughter	tiếng cười
+integrity	chính trực
+humility	lòng khiêm tốn
+generosity	lòng rộng lượng
+cheerfulness	sự phấn khởi
+faithfulness	lòng trung thành
+modesty	sự khiêm tốn
+confidence	lòng tự tin
+compassion	lòng nhân ái
+victory	chiến thắng
+imagination	trí tưởng tượng
+wonder	sự kỳ diệu
+balance	cân bằng
+patience	lòng kiên nhẫn
+inspiration	nguồn cảm hứng
+tranquility	sự yên bình
+bravery	lòng gan dạ
+innovation	sự đổi mới
+health	sức khỏe
+faith	niềm tin
+resilience	sự kiên trì
+confidence	lòng tự tin
+purpose	mục đích
+grace	sự duyên dáng
+vitality	sức sống
+curiosity	sự tò mò
+effort	nỗ lực
+optimism	lạc quan
+warmth	sự ấm áp
+elegance	sự thanh lịch
+caring	sự chăm sóc
+sincerity	sự chân thành
+laughter	tiếng cười
+integrity	chính trực
+humility	lòng khiêm tốn
+generosity	lòng rộng lượng
+cheerfulness	sự phấn khởi
+faithfulness	lòng trung thành
+modesty	sự khiêm tốn
+happiness	hạnh phúc
+laughter	tiếng cười
+star	ngôi sao
+forest	rừng
+sky	bầu trời
+beach	bãi biển
+courage	lòng can đảm
+freedom	tự do
+hope	hy vọng
+love	tình yêu
+sunset	hoàng hôn
+joy	niềm vui
+wisdom	sự khôn ngoan
+serenity	thanh bình
+energy	năng lượng
+gratitude	lòng biết ơn
+blessing	phước lành
+strength	sức mạnh
+harmony	hòa hợp
+compassion	lòng nhân ái
+victory	chiến thắng
+imagination	trí tưởng tượng
+wonder	sự kỳ diệu
+balance	cân bằng
+patience	lòng kiên nhẫn
+inspiration	nguồn cảm hứng
+tranquility	sự yên bình
+bravery	lòng gan dạ
+innovation	sự đổi mới
+health	sức khỏe
+faith	niềm tin
+resilience	sự kiên trì
+confidence	lòng tự tin
+purpose	mục đích
+grace	sự duyên dáng
+vitality	sức sống
+curiosity	sự tò mò
+effort	nỗ lực
+optimism	lạc quan
+warmth	sự ấm áp
+elegance	sự thanh lịch
+caring	sự chăm sóc
+sincerity	sự chân thành
+laughter	tiếng cười
+integrity	chính trực
+humility	lòng khiêm tốn
+generosity	lòng rộng lượng
+cheerfulness	sự phấn khởi
+faithfulness	lòng trung thành
+modesty	sự khiêm tốn
+happiness	hạnh phúc
+laughter	tiếng cười
+star	ngôi sao
+forest	rừng
+sky	bầu trời
+beach	bãi biển
+courage	lòng can đảm
+freedom	tự do
+hope	hy vọng
+love	tình yêu
+sunset	hoàng hôn
+joy	niềm vui
+wisdom	sự khôn ngoan
+serenity	thanh bình
+energy	năng lượng
+gratitude	lòng biết ơn
+blessing	phước lành
+strength	sức mạnh
+harmony	hòa hợp
+compassion	lòng nhân ái
+victory	chiến thắng
+imagination	trí tưởng tượng
+wonder	sự kỳ diệu
+balance	cân bằng
+patience	lòng kiên nhẫn
+inspiration	nguồn cảm hứng
+tranquility	sự yên bình
+bravery	lòng gan dạ
+innovation	sự đổi mới
+health	sức khỏe
+faith	niềm tin
+resilience	sự kiên trì
+confidence	lòng tự tin
+purpose	mục đích
+grace	sự duyên dáng
+vitality	sức sống
+curiosity	sự tò mò
+effort	nỗ lực
+optimism	lạc quan
+warmth	sự ấm áp
+elegance	sự thanh lịch
+caring	sự chăm sóc
+sincerity	sự chân thành
+laughter	tiếng cười
+integrity	chính trực
+humility	lòng khiêm tốn
+generosity	lòng rộng lượng
+cheerfulness	sự phấn khởi
+faithfulness	lòng trung thành
+modesty	sự khiêm tốn
+happiness	hạnh phúc
+laughter	tiếng cười
+star	ngôi sao
+forest	rừng
+sky	bầu trời
+beach	bãi biển
+courage	lòng can đảm
+freedom	tự do
+hope	hy vọng
+love	tình yêu
+sunset	hoàng hôn
+joy	niềm vui
+wisdom	sự khôn ngoan
+serenity	thanh bình
+energy	năng lượng
+gratitude	lòng biết ơn
+blessing	phước lành
+strength	sức mạnh
+harmony	hòa hợp
+compassion	lòng nhân ái
+victory	chiến thắng
+imagination	trí tưởng tượng
+wonder	sự kỳ diệu
+balance	cân bằng
+patience	lòng kiên nhẫn
+inspiration	nguồn cảm hứng
+tranquility	sự yên bình
+bravery	lòng gan dạ
+innovation	sự đổi mới
+health	sức khỏe
+faith	niềm tin
+resilience	sự kiên trì
+confidence	lòng tự tin
+purpose	mục đích
+grace	sự duyên dáng
+vitality	sức sống
+curiosity	sự tò mò
+effort	nỗ lực
+optimism	lạc quan
+warmth	sự ấm áp
+elegance	sự thanh lịch
+caring	sự chăm sóc
+sincerity	sự chân thành
+laughter	tiếng cười
+integrity	chính trực
+humility	lòng khiêm tốn
+generosity	lòng rộng lượng
+cheerfulness	sự phấn khởi
+faithfulness	lòng trung thành
+modesty	sự khiêm tốn
+confidence	lòng tự tin
+compassion	lòng nhân ái
+victory	chiến thắng
+imagination	trí tưởng tượng
+wonder	sự kỳ diệu
+balance	cân bằng
+patience	lòng kiên nhẫn
+inspiration	nguồn cảm hứng
+tranquility	sự yên bình
+bravery	lòng gan dạ
+innovation	sự đổi mới
+health	sức khỏe
+faith	niềm tin
+resilience	sự kiên trì
+confidence	lòng tự tin
+purpose	mục đích
+grace	sự duyên dáng
+vitality	sức sống
+curiosity	sự tò mò
+effort	nỗ lực
+optimism	lạc quan
+warmth	sự ấm áp
+elegance	sự thanh lịch
+caring	sự chăm sóc
+sincerity	sự chân thành
+laughter	tiếng cười
+integrity	chính trực
+humility	lòng khiêm tốn
+generosity	lòng rộng lượng
+cheerfulness	sự phấn khởi
+faithfulness	lòng trung thành
+modesty	sự khiêm tốn
+happiness	hạnh phúc
+laughter	tiếng cười
+star	ngôi sao
+forest	rừng
+sky	bầu trời
+beach	bãi biển
+courage	lòng can đảm
+freedom	tự do
+hope	hy vọng
+love	tình yêu
+sunset	hoàng hôn
+joy	niềm vui
+wisdom	sự khôn ngoan
+serenity	thanh bình
+energy	năng lượng
+gratitude	lòng biết ơn
+blessing	phước lành
+strength	sức mạnh
+harmony	hòa hợp
+compassion	lòng nhân ái
+victory	chiến thắng
+imagination	trí tưởng tượng
+wonder	sự kỳ diệu
+balance	cân bằng
+patience	lòng kiên nhẫn
+inspiration	nguồn cảm hứng
+tranquility	sự yên bình
+bravery	lòng gan dạ
+innovation	sự đổi mới
+health	sức khỏe
+faith	niềm tin
+resilience	sự kiên trì
+confidence	lòng tự tin
+purpose	mục đích
+grace	sự duyên dáng
+vitality	sức sống
+curiosity	sự tò mò
+effort	nỗ lực
+optimism	lạc quan
+warmth	sự ấm áp
+elegance	sự thanh lịch
+caring	sự chăm sóc
+sincerity	sự chân thành
+laughter	tiếng cười
+integrity	chính trực
+humility	lòng khiêm tốn
+generosity	lòng rộng lượng
+cheerfulness	sự phấn khởi
+faithfulness	lòng trung thành
+modesty	sự khiêm tốn
+happiness	hạnh phúc
+laughter	tiếng cười
+star	ngôi sao
+forest	rừng
+sky	bầu trời
+beach	bãi biển
+courage	lòng can đảm
+freedom	tự do
+hope	hy vọng
+love	tình yêu
+sunset	hoàng hôn
+joy	niềm vui
+wisdom	sự khôn ngoan
+serenity	thanh bình
+energy	năng lượng
+gratitude	lòng biết ơn
+blessing	phước lành
+strength	sức mạnh
+harmony	hòa hợp
+compassion	lòng nhân ái
+victory	chiến thắng
+imagination	trí tưởng tượng
+wonder	sự kỳ diệu
+balance	cân bằng
+patience	lòng kiên nhẫn
+inspiration	nguồn cảm hứng
+tranquility	sự yên bình
+bravery	lòng gan dạ
+innovation	sự đổi mới
+health	sức khỏe
+faith	niềm tin
+resilience	sự kiên trì
+confidence	lòng tự tin
+purpose	mục đích
+grace	sự duyên dáng
+vitality	sức sống
+curiosity	sự tò mò
+effort	nỗ lực
+optimism	lạc quan
+warmth	sự ấm áp
+elegance	sự thanh lịch
+caring	sự chăm sóc
+sincerity	sự chân thành
+laughter	tiếng cười
+integrity	chính trực
+humility	lòng khiêm tốn
+generosity	lòng rộng lượng
+cheerfulness	sự phấn khởi
+faithfulness	lòng trung thành
+modesty	sự khiêm tốn
+happiness	hạnh phúc
+laughter	tiếng cười
+star	ngôi sao
+forest	rừng
+sky	bầu trời
+beach	bãi biển
+courage	lòng can đảm
+freedom	tự do
+hope	hy vọng
+love	tình yêu
+sunset	hoàng hôn
+joy	niềm vui
+wisdom	sự khôn ngoan
+serenity	thanh bình
+energy	năng lượng
+gratitude	lòng biết ơn
+blessing	phước lành
+strength	sức mạnh
+harmony	hòa hợp
+compassion	lòng nhân ái
+victory	chiến thắng
+imagination	trí tưởng tượng
+wonder	sự kỳ diệu
+balance	cân bằng
+patience	lòng kiên nhẫn
+inspiration	nguồn cảm hứng
+tranquility	sự yên bình
+bravery	lòng gan dạ
+innovation	sự đổi mới
+health	sức khỏe
+faith	niềm tin
+resilience	sự kiên trì
+confidence	lòng tự tin
+purpose	mục đích
+grace	sự duyên dáng
+vitality	sức sống
+curiosity	sự tò mò
+effort	nỗ lực
+optimism	lạc quan
+warmth	sự ấm áp
+elegance	sự thanh lịch
+caring	sự chăm sóc
+sincerity	sự chân thành
+laughter	tiếng cười
+integrity	chính trực
+humility	lòng khiêm tốn
+generosity	lòng rộng lượng
+cheerfulness	sự phấn khởi
+faithfulness	lòng trung thành
+modesty	sự khiêm tốn
+confidence	lòng tự tin
+compassion	lòng nhân ái
+victory	chiến thắng
+imagination	trí tưởng tượng
+wonder	sự kỳ diệu
+balance	cân bằng
+patience	lòng kiên nhẫn
+inspiration	nguồn cảm hứng
+tranquility	sự yên bình
+bravery	lòng gan dạ
+innovation	sự đổi mới
+health	sức khỏe
+faith	niềm tin
+resilience	sự kiên trì
+confidence	lòng tự tin
+purpose	mục đích
+grace	sự duyên dáng
+vitality	sức sống
+curiosity	sự tò mò
+effort	nỗ lực
+optimism	lạc quan
+warmth	sự ấm áp
+elegance	sự thanh lịch
+caring	sự chăm sóc
+sincerity	sự chân thành
+laughter	tiếng cười
+integrity	chính trực
+humility	lòng khiêm tốn
+generosity	lòng rộng lượng
+cheerfulness	sự phấn khởi
+faithfulness	lòng trung thành
+modesty	sự khiêm tốn
+happiness	hạnh phúc
+laughter	tiếng cười
+star	ngôi sao
+forest	rừng
+sky	bầu trời
+beach	bãi biển
+courage	lòng can đảm
+freedom	tự do
+hope	hy vọng
+love	tình yêu
+sunset	hoàng hôn
+joy	niềm vui
+wisdom	sự khôn ngoan
+serenity	thanh bình
+energy	năng lượng
+gratitude	lòng biết ơn
+blessing	phước lành
+strength	sức mạnh
+harmony	hòa hợp
+compassion	lòng nhân ái
+victory	chiến thắng
+imagination	trí tưởng tượng
+wonder	sự kỳ diệu
+balance	cân bằng
+patience	lòng kiên nhẫn
+inspiration	nguồn cảm hứng
+tranquility	sự yên bình
+bravery	lòng gan dạ
+innovation	sự đổi mới
+health	sức khỏe
+faith	niềm tin
+resilience	sự kiên trì
+confidence	lòng tự tin
+purpose	mục đích
+grace	sự duyên dáng
+vitality	sức sống
+curiosity	sự tò mò
+effort	nỗ lực
+optimism	lạc quan
+warmth	sự ấm áp
+elegance	sự thanh lịch
+caring	sự chăm sóc
+sincerity	sự chân thành
+laughter	tiếng cười
+integrity	chính trực
+humility	lòng khiêm tốn
+generosity	lòng rộng lượng
+cheerfulness	sự phấn khởi
+faithfulness	lòng trung thành
+modesty	sự khiêm tốn
+happiness	hạnh phúc
+laughter	tiếng cười
+star	ngôi sao
+forest	rừng
+sky	bầu trời
+beach	bãi biển
+courage	lòng can đảm
+freedom	tự do
+hope	hy vọng
+love	tình yêu
+sunset	hoàng hôn
+joy	niềm vui
+wisdom	sự khôn ngoan
+serenity	thanh bình
+energy	năng lượng
+gratitude	lòng biết ơn
+blessing	phước lành
+strength	sức mạnh
+harmony	hòa hợp
+compassion	lòng nhân ái
+victory	chiến thắng
+imagination	trí tưởng tượng
+wonder	sự kỳ diệu
+balance	cân bằng
+patience	lòng kiên nhẫn
+inspiration	nguồn cảm hứng
+tranquility	sự yên bình
+bravery	lòng gan dạ
+innovation	sự đổi mới
+health	sức khỏe
+faith	niềm tin
+resilience	sự kiên trì
+confidence	lòng tự tin
+purpose	mục đích
+grace	sự duyên dáng
+vitality	sức sống
+curiosity	sự tò mò
+effort	nỗ lực
+optimism	lạc quan
+warmth	sự ấm áp
+elegance	sự thanh lịch
+caring	sự chăm sóc
+sincerity	sự chân thành
+laughter	tiếng cười
+integrity	chính trực
+humility	lòng khiêm tốn
+generosity	lòng rộng lượng
+cheerfulness	sự phấn khởi
+faithfulness	lòng trung thành
+modesty	sự khiêm tốn
+happiness	hạnh phúc
+laughter	tiếng cười
+star	ngôi sao
+forest	rừng
+sky	bầu trời
+beach	bãi biển
+courage	lòng can đảm
+freedom	tự do
+hope	hy vọng
+love	tình yêu
+sunset	hoàng hôn
+joy	niềm vui
+wisdom	sự khôn ngoan
+serenity	thanh bình
+energy	năng lượng
+gratitude	lòng biết ơn
+blessing	phước lành
+strength	sức mạnh
+harmony	hòa hợp
+compassion	lòng nhân ái
+victory	chiến thắng
+imagination	trí tưởng tượng
+wonder	sự kỳ diệu
+balance	cân bằng
+patience	lòng kiên nhẫn
+inspiration	nguồn cảm hứng
+tranquility	sự yên bình
+bravery	lòng gan dạ
+innovation	sự đổi mới
+health	sức khỏe
+faith	niềm tin
+resilience	sự kiên trì
+confidence	lòng tự tin
+purpose	mục đích
+grace	sự duyên dáng
+vitality	sức sống
+curiosity	sự tò mò
+effort	nỗ lực
+optimism	lạc quan
+warmth	sự ấm áp
+elegance	sự thanh lịch
+caring	sự chăm sóc
+sincerity	sự chân thành
+laughter	tiếng cười
+integrity	chính trực
+humility	lòng khiêm tốn
+generosity	lòng rộng lượng
+cheerfulness	sự phấn khởi
+faithfulness	lòng trung thành
+modesty	sự khiêm tốn
+confidence	lòng tự tin
+compassion	lòng nhân ái
+victory	chiến thắng
+imagination	trí tưởng tượng
+wonder	sự kỳ diệu
+balance	cân bằng
+patience	lòng kiên nhẫn
+inspiration	nguồn cảm hứng
+tranquility	sự yên bình
+bravery	lòng gan dạ
+innovation	sự đổi mới
+health	sức khỏe
+faith	niềm tin
+resilience	sự kiên trì
+confidence	lòng tự tin
+purpose	mục đích
+grace	sự duyên dáng
+vitality	sức sống
+curiosity	sự tò mò
+effort	nỗ lực
+optimism	lạc quan
+warmth	sự ấm áp
+elegance	sự thanh lịch
+caring	sự chăm sóc
+sincerity	sự chân thành
+laughter	tiếng cười
+integrity	chính trực
+humility	lòng khiêm tốn
+generosity	lòng rộng lượng
+cheerfulness	sự phấn khởi
+faithfulness	lòng trung thành
+modesty	sự khiêm tốn
+happiness	hạnh phúc
+laughter	tiếng cười
+star	ngôi sao
+forest	rừng
+sky	bầu trời
+beach	bãi biển
+courage	lòng can đảm
+freedom	tự do
+hope	hy vọng
+love	tình yêu
+sunset	hoàng hôn
+joy	niềm vui
+wisdom	sự khôn ngoan
+serenity	thanh bình
+energy	năng lượng
+gratitude	lòng biết ơn
+blessing	phước lành
+strength	sức mạnh
+harmony	hòa hợp
+compassion	lòng nhân ái
+victory	chiến thắng
+imagination	trí tưởng tượng
+wonder	sự kỳ diệu
+balance	cân bằng
+patience	lòng kiên nhẫn
+inspiration	nguồn cảm hứng
+tranquility	sự yên bình
+bravery	lòng gan dạ
+innovation	sự đổi mới
+health	sức khỏe
+faith	niềm tin
+resilience	sự kiên trì
+confidence	lòng tự tin
+purpose	mục đích
+grace	sự duyên dáng
+vitality	sức sống
+curiosity	sự tò mò
+effort	nỗ lực
+optimism	lạc quan
+warmth	sự ấm áp
+elegance	sự thanh lịch
+caring	sự chăm sóc
+sincerity	sự chân thành
+laughter	tiếng cười
+integrity	chính trực
+humility	lòng khiêm tốn
+generosity	lòng rộng lượng
+cheerfulness	sự phấn khởi
+faithfulness	lòng trung thành
+modesty	sự khiêm tốn
+happiness	hạnh phúc
+laughter	tiếng cười
+star	ngôi sao
+forest	rừng
+sky	bầu trời
+beach	bãi biển
+courage	lòng can đảm
+freedom	tự do
+hope	hy vọng
+love	tình yêu
+sunset	hoàng hôn
+joy	niềm vui
+wisdom	sự khôn ngoan
+serenity	thanh bình
+energy	năng lượng
+gratitude	lòng biết ơn
+blessing	phước lành
+strength	sức mạnh
+harmony	hòa hợp
+compassion	lòng nhân ái
+victory	chiến thắng
+imagination	trí tưởng tượng
+wonder	sự kỳ diệu
+balance	cân bằng
+patience	lòng kiên nhẫn
+inspiration	nguồn cảm hứng
+tranquility	sự yên bình
+bravery	lòng gan dạ
+innovation	sự đổi mới
+health	sức khỏe
+faith	niềm tin
+resilience	sự kiên trì
+confidence	lòng tự tin
+purpose	mục đích
+grace	sự duyên dáng
+vitality	sức sống
+curiosity	sự tò mò
+effort	nỗ lực
+optimism	lạc quan
+warmth	sự ấm áp
+elegance	sự thanh lịch
+caring	sự chăm sóc
+sincerity	sự chân thành
+laughter	tiếng cười
+integrity	chính trực
+humility	lòng khiêm tốn
+generosity	lòng rộng lượng
+cheerfulness	sự phấn khởi
+faithfulness	lòng trung thành
+modesty	sự khiêm tốn
+happiness	hạnh phúc
+laughter	tiếng cười
+star	ngôi sao
+forest	rừng
+sky	bầu trời
+beach	bãi biển
+courage	lòng can đảm
+freedom	tự do
+hope	hy vọng
+love	tình yêu
+sunset	hoàng hôn
+joy	niềm vui
+wisdom	sự khôn ngoan
+serenity	thanh bình
+energy	năng lượng
+gratitude	lòng biết ơn
+blessing	phước lành
+strength	sức mạnh
+harmony	hòa hợp
+compassion	lòng nhân ái
+victory	chiến thắng
+imagination	trí tưởng tượng
+wonder	sự kỳ diệu
+balance	cân bằng
+patience	lòng kiên nhẫn
+inspiration	nguồn cảm hứng
+tranquility	sự yên bình
+bravery	lòng gan dạ
+innovation	sự đổi mới
+health	sức khỏe
+faith	niềm tin
+resilience	sự kiên trì
+confidence	lòng tự tin
+purpose	mục đích
+grace	sự duyên dáng
+grace	sự duyên dáng
+vitality	sức sống
+curiosity	sự tò mò
+effort	nỗ lực
+optimism	lạc quan
+warmth	sự ấm áp
+elegance	sự thanh lịch
+caring	sự chăm sóc
+sincerity	sự chân thành
+laughter	tiếng cười
+integrity	chính trực
+humility	lòng khiêm tốn
+generosity	lòng rộng lượng
+cheerfulness	sự phấn khởi
+faithfulness	lòng trung thành
+modesty	sự khiêm tốn
+happiness	hạnh phúc
+laughter	tiếng cười
+star	ngôi sao
+forest	rừng
+sky	bầu trời
+beach	bãi biển
+courage	lòng can đảm
+freedom	tự do
+hope	hy vọng
+love	tình yêu
+sunset	hoàng hôn
+joy	niềm vui
+wisdom	sự khôn ngoan
+serenity	thanh bình
+energy	năng lượng
+gratitude	lòng biết ơn
+blessing	phước lành
+strength	sức mạnh
+harmony	hòa hợp
+compassion	lòng nhân ái
+victory	chiến thắng
+imagination	trí tưởng tượng
+wonder	sự kỳ diệu
+balance	cân bằng
+patience	lòng kiên nhẫn
+inspiration	nguồn cảm hứng
+tranquility	sự yên bình
+bravery	lòng gan dạ
+innovation	sự đổi mới
+health	sức khỏe
+faith	niềm tin
+resilience	sự kiên trì
+confidence	lòng tự tin
+purpose	mục đích
+grace	sự duyên dáng
+vitality	sức sống
+curiosity	sự tò mò
+effort	nỗ lực
+optimism	lạc quan
+warmth	sự ấm áp
+elegance	sự thanh lịch
+caring	sự chăm sóc
+sincerity	sự chân thành
+laughter	tiếng cười
+integrity	chính trực
+humility	lòng khiêm tốn
+generosity	lòng rộng lượng
+cheerfulness	sự phấn khởi
+faithfulness	lòng trung thành
+modesty	sự khiêm tốn
+happiness	hạnh phúc
+laughter	tiếng cười
+star	ngôi sao
+forest	rừng
+sky	bầu trời
+beach	bãi biển
+courage	lòng can đảm
+freedom	tự do
+hope	hy vọng
+love	tình yêu
+sunset	hoàng hôn
+joy	niềm vui
+wisdom	sự khôn ngoan
+serenity	thanh bình
+energy	năng lượng
+gratitude	lòng biết ơn
+blessing	phước lành
+strength	sức mạnh
+harmony	hòa hợp
+compassion	lòng nhân ái
+victory	chiến thắng
+imagination	trí tưởng tượng
+wonder	sự kỳ diệu
+balance	cân bằng
+patience	lòng kiên nhẫn
+inspiration	nguồn cảm hứng
+tranquility	sự yên bình
+bravery	lòng gan dạ
+innovation	sự đổi mới
+health	sức khỏe
+faith	niềm tin
+resilience	sự kiên trì
+confidence	lòng tự tin
+purpose	mục đích
+grace	sự duyên dáng
+vitality	sức sống
+curiosity	sự tò mò
+effort	nỗ lực
+optimism	lạc quan
+warmth	sự ấm áp
+elegance	sự thanh lịch
+caring	sự chăm sóc
+sincerity	sự chân thành
+laughter	tiếng cười
+integrity	chính trực
+humility	lòng khiêm tốn
+generosity	lòng rộng lượng
+cheerfulness	sự phấn khởi
+faithfulness	lòng trung thành
+modesty	sự khiêm tốn
+happiness	hạnh phúc
+laughter	tiếng cười
+star	ngôi sao
+forest	rừng
+sky	bầu trời
+beach	bãi biển
+courage	lòng can đảm
