@@ -1,5 +1,3 @@
-
-
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
@@ -50,7 +48,7 @@ class DictionaryCommandLine {
     }
 
     private void readQuestionsFromFile(ArrayList<String[]> questions) throws IOException {
-        BufferedReader br = new BufferedReader(new FileReader("src/main/questions.txt"));
+        BufferedReader br = new BufferedReader(new FileReader("dictionary/questions.txt"));
         String line;
 
         while ((line = br.readLine()) != null) {
