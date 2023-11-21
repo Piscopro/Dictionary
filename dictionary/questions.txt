@@ -1,0 +1,7 @@
+What's _ your name?;is;are;did;was;A
+What is the capital of France?;London;Berlin;Paris;Madrid;C
+How many continents are there on Earth?;Five;Six;Seven;Eight;B
+Who wrote "Romeo and Juliet"?;Jane Austen;William Shakespeare;Charles Dickens;Mark Twain;B
+What is the largest mammal on Earth?;Elephant;Giraffe;Blue Whale;Tiger;C
+Which planet is known as the Red Planet?;Venus;Mars;Jupiter;Saturn;B
+
