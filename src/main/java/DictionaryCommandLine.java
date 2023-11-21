@@ -18,11 +18,11 @@ class DictionaryCommandLine {
 
     public void showAllWords() {
         ArrayList<Word> words = this.dictionaryManagement.getDictionary().getWords();
-        System.out.println("No | English | Vietnamese");
+        System.out.println("No   | English             | Pronunciation       | VietNamese");
 
         for(int i = 0; i < words.size(); ++i) {
             Word word = (Word)words.get(i);
-            System.out.printf("%-5d| %-20s| %s%n", i + 1, word.getWordTarget(), word.getWordExplain());
+            System.out.printf("%-5d| %-20s| %-20s| %s%n", i + 1, word.getWordTarget(), word.getPronunciation(), word.getWordExplain());
         }
 
     }
@@ -36,9 +36,11 @@ class DictionaryCommandLine {
         for(int i = 0; i < numberOfWords; ++i) {
             System.out.print("Nhập từ tiếng Anh: ");
             String word_target = scanner.nextLine();
+            System.out.print("Nhập phát âm: ");
+            String pronunciation = scanner.nextLine();
             System.out.print("Nhập giải thích bằng tiếng Việt: ");
             String word_explain = scanner.nextLine();
-            this.dictionaryManagement.addWord(word_target, word_explain);
+            this.dictionaryManagement.addWord(word_target, pronunciation, word_explain);
         }
 
         System.out.println("Sucess!");
@@ -117,7 +119,9 @@ class DictionaryCommandLine {
                     String wordToUpdate = scanner.nextLine();
                     System.out.print("Enter the new meaning in Vietnamese: ");
                     String newExplain = scanner.nextLine();
-                    this.dictionaryManagement.editWord(wordToUpdate, newExplain);
+                    System.out.print("Enter the new pronunciation: ");
+                    String newPronunciation = scanner.nextLine();
+                    this.dictionaryManagement.editWord(wordToUpdate, newPronunciation, newExplain);
                     break;
                 case 4:
                     this.showAllWords();
@@ -135,15 +139,15 @@ class DictionaryCommandLine {
                         System.out.println("Words that start with \"" + prefix + "\":");
                         Iterator var13 = searchResults.iterator();
 
-                        while(true) {
+                        while (true) {
                             if (!var13.hasNext()) {
                                 continue label32;
                             }
 
-                            Word entry = (Word)var13.next();
+                            Word entry = (Word) var13.next();
                             PrintStream var12 = System.out;
                             String var10001 = entry.getWordTarget();
-                            var12.println(var10001 + " Definition: " + entry.getWordExplain());
+                            var12.println(var10001 + "\nPronunciation: " + entry.getPronunciation() + "\nDefinition: " + entry.getWordExplain() + "\n");
                         }
                     }
 
