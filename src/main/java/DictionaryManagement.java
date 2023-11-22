@@ -3,6 +3,8 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
 import java.util.Iterator;
+import java.util.List;
+import java.util.Stack;
 
 class DictionaryManagement {
     private static Dictionary dictionary;
@@ -127,6 +129,7 @@ class DictionaryManagement {
                     }
                 }
             }
+            dictionary.addHistory(entry);
         } else {
             System.out.println("Word not found in the dictionary.");
         }
@@ -255,4 +258,23 @@ class DictionaryManagement {
         dictionary.addWord(newWord);
     }
 
+    public void showSearchHistory(String op) {
+        ArrayList<Word> history = new ArrayList<>(dictionary.getSearchHistory());
+        if (op.equals("full")) {
+            for (int i = history.size() - 1; i >= 0; i--) {
+                System.out.println(history.get(i).getWord_target());
+            }
+        } else if (op.equals("search")) {
+            if (history.size() > 5) {
+                for (int i = history.size() - 1; i >= history.size() - 5; i--) {
+                    System.out.println(history.get(i).getWord_target());
+                }
+            } else {
+                for (int i = history.size() - 1; i >= 0; i--) {
+                    System.out.println(history.get(i).getWord_target());
+                }
+            }
+
+        }
+    }
 }

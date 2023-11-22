@@ -161,6 +161,7 @@ class DictionaryCommandLine {
             System.out.println("[7] Game");
             System.out.println("[8] Import from file");
             System.out.println("[9] Export to file");
+            System.out.println("[10] History");
             System.out.print("Your action: ");
             int choice = scanner.nextInt();
             scanner.nextLine();
@@ -240,6 +241,17 @@ class DictionaryCommandLine {
                     String exportFilePath = "src/main/dictionaries.txt";
                     var10000 = this.dictionaryManagement;
                     DictionaryManagement.dictionaryExportToFile(exportFilePath);
+                    break;
+                case 10:
+                    System.out.println("1: Full history, 2: Search history");
+                    Scanner sc = new Scanner(System.in);
+                    int op = sc.nextInt();
+                    if (op == 1) {
+                        dictionaryManagement.showSearchHistory("full");
+                    } else if (op == 2) {
+                        dictionaryManagement.showSearchHistory("search");
+                    }
+
                     break;
                 default:
                     System.out.println("Action not supported.");
