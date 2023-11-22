@@ -1,13 +1,13 @@
-import java.util.Objects;
+import java.util.ArrayList;
+import java.util.List;
 
 class Word {
     private String word_target;
-    String word_explain;
     private String pronunciation;
+    private List<Meaning> meanings = new ArrayList<Meaning>();
 
-    public Word(String word_target, String pronunciation, String word_explain) {
+    public Word(String word_target, String pronunciation) {
         this.word_target = word_target;
-        this.word_explain = word_explain;
         this.pronunciation = pronunciation;
     }
 
@@ -15,16 +15,8 @@ class Word {
         return this.word_target;
     }
 
-    public String getWordExplain() {
-        return this.word_explain;
-    }
-
     public void setWord_target(String word_target) {
         this.word_target = word_target;
-    }
-
-    public void setWord_explain(String word_explain) {
-        this.word_explain = word_explain;
     }
 
     public String getPronunciation() {
@@ -35,15 +27,27 @@ class Word {
         this.pronunciation = pronunciation;
     }
 
+    public String getWord_target() {
+        return word_target;
+    }
+
+    public List<Meaning> getMeanings() {
+        return meanings;
+    }
+
+    public void addMeaning(Meaning currentMeaning) {
+        meanings.add(currentMeaning);
+    }
+
     @Override
-    public boolean equals(Object o) {
-        if (this == o) return true;
-        if (!(o instanceof Word word)) return false;
-        return Objects.equals(word_target, word.word_target) && Objects.equals(word_explain, word.word_explain) && Objects.equals(getPronunciation(), word.getPronunciation());
+    public boolean equals(Object obj) {
+        return super.equals(obj);
     }
 
     @Override
     public int hashCode() {
-        return Objects.hash(word_target, word_explain, getPronunciation());
+        return super.hashCode();
     }
 }
+
+

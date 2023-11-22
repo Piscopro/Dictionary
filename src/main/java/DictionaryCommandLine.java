@@ -16,7 +16,7 @@ class DictionaryCommandLine {
     public DictionaryCommandLine() {
     }
 
-    public void showAllWords() {
+    /*public void showAllWords() {
         ArrayList<Word> words = this.dictionaryManagement.getDictionary().getWords();
         System.out.println("No   | English             | Pronunciation       | VietNamese");
 
@@ -25,26 +25,154 @@ class DictionaryCommandLine {
             System.out.printf("%-5d| %-20s| %-20s| %s%n", i + 1, word.getWordTarget(), word.getPronunciation(), word.getWordExplain());
         }
 
+    }*/
+
+    public void showAllWords() {
+        ArrayList<Word> words = this.dictionaryManagement.getDictionary().getWords();
+
+        for (Word word : words) {
+            // Print word and pronunciation
+            System.out.println(word.getWordTarget() + " " + word.getPronunciation());
+
+            // Loop through and print each meaning of the word
+            for (Meaning meaning : word.getMeanings()) {
+                System.out.println("*  " + meaning.getPartOfSpeech());
+
+                // Split the description into lines based on the dash '-'
+                String[] descriptionLines = meaning.getDescription().split("\\s*-\\s*");
+
+                // Print each line of the description without the leading empty line
+                boolean isFirstLine = true;
+                for (String line : descriptionLines) {
+                    if (!isFirstLine) {
+                        System.out.println("   - " + line.trim());
+                    } else {
+                        //System.out.println("   - " + line.trim());
+                        isFirstLine = false;
+                    }
+                }
+
+                System.out.println(); // Empty line after each meaning
+            }
+
+            System.out.println(); // Empty line after each word
+        }
     }
 
+    /*public void insertFromCommandline() {
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Nhập số lượng từ vựng: ");
+        int numberOfWords = scanner.nextInt();
+        scanner.nextLine();
+
+        for (int i = 0; i < numberOfWords; i++) {
+            System.out.print("Nhập từ tiếng Anh: ");
+            String wordTarget = scanner.nextLine();
+            System.out.print("Nhập phát âm: ");
+            String pronunciation = scanner.nextLine();
+
+            // Tạo một đối tượng Word mới
+            Word newWord = new Word(wordTarget, pronunciation);
+
+            System.out.print("Nhập số lượng nghĩa của từ: ");
+            int numberOfMeanings = scanner.nextInt();
+            scanner.nextLine();
+
+            for (int j = 0; j < numberOfMeanings; j++) {
+                System.out.print("Nhập loại từ (phần cú pháp) cho nghĩa " + (j + 1) + ": ");
+                String partOfSpeech = scanner.nextLine();
+
+                System.out.print("Nhập mô tả nghĩa cho nghĩa " + (j + 1) + ": ");
+                StringBuilder meaningInput = new StringBuilder();
+
+                // Read multiple lines for the meaning
+                while (true) {
+                    String line = scanner.nextLine();
+                    if (line.isEmpty()) {
+                        break;
+                    }
+                    meaningInput.append(line).append("\n");
+                }
+
+                // Remove trailing newline character
+                String meaningText = meaningInput.toString().trim();
+
+                // Split meaningText into partOfSpeech and description
+                String[] meaningParts = meaningText.split(": ", 2);
+                if (meaningParts.length == 2) {
+                    String description = meaningParts[1].trim();
+
+                    // Thêm mỗi nghĩa vào đối tượng Word
+                    newWord.addMeaning(new Meaning(partOfSpeech, description));
+                } else {
+                    System.out.println("Invalid input format. Please use 'partOfSpeech: description'.");
+                    j--; // Decrement j to re-enter the current meaning
+                }
+            }
+
+            // Thêm từ vào từ điển
+            this.dictionaryManagement.addWord(newWord);
+        }
+
+        System.out.println("Success!");
+    }
+
+     */
     public void insertFromCommandline() {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Nhập số lượng từ vựng: ");
         int numberOfWords = scanner.nextInt();
         scanner.nextLine();
 
-        for(int i = 0; i < numberOfWords; ++i) {
+        for (int i = 0; i < numberOfWords; i++) {
             System.out.print("Nhập từ tiếng Anh: ");
-            String word_target = scanner.nextLine();
+            String wordTarget = scanner.nextLine();
+
             System.out.print("Nhập phát âm: ");
             String pronunciation = scanner.nextLine();
-            System.out.print("Nhập giải thích bằng tiếng Việt: ");
-            String word_explain = scanner.nextLine();
-            this.dictionaryManagement.addWord(word_target, pronunciation, word_explain);
+
+            // Tạo một đối tượng Word mới
+            Word newWord = new Word(wordTarget, pronunciation);
+
+            System.out.print("Nhập số lượng nghĩa của từ: ");
+            int numberOfMeanings = scanner.nextInt();
+            scanner.nextLine();
+
+            for (int j = 0; j < numberOfMeanings; j++) {
+                System.out.print("Nhập loại từ (phần cú pháp) cho nghĩa " + (j + 1) + ": ");
+                String partOfSpeech = scanner.nextLine();
+
+                System.out.println("Nhập mô tả nghĩa cho nghĩa " + (j + 1) + ": ");
+                StringBuilder meaningInput = new StringBuilder();
+
+                // Read multiple lines for the meaning
+                while (true) {
+                    String line = scanner.nextLine();
+                    if (line.isEmpty()) {
+                        break;
+                    }
+                    meaningInput.append(line).append("\n");
+                }
+
+                // Remove trailing newline character
+                String meaningText = meaningInput.toString().trim();
+
+                // Thêm mỗi nghĩa vào đối tượng Word
+                newWord.addMeaning(new Meaning(partOfSpeech, meaningText));
+            }
+
+            // Thêm từ vào từ điển
+            this.dictionaryManagement.addWord(newWord);
         }
 
-        System.out.println("Sucess!");
+        System.out.println("Success!");
     }
+
+
+
+
+
+
 
     public void dictionaryBasic() {
         this.insertFromCommandline();
@@ -54,7 +182,7 @@ class DictionaryCommandLine {
     public void startGame() {
         try {
             ArrayList<String> questions = new ArrayList();
-            BufferedReader br = new BufferedReader(new FileReader("questions.txt"));
+            BufferedReader br = new BufferedReader(new FileReader("src/main/questions.txt"));
 
             String line;
             while((line = br.readLine()) != null) {
@@ -117,11 +245,13 @@ class DictionaryCommandLine {
                 case 3:
                     System.out.print("Enter the word to update: ");
                     String wordToUpdate = scanner.nextLine();
-                    System.out.print("Enter the new meaning in Vietnamese: ");
-                    String newExplain = scanner.nextLine();
                     System.out.print("Enter the new pronunciation: ");
                     String newPronunciation = scanner.nextLine();
-                    this.dictionaryManagement.editWord(wordToUpdate, newPronunciation, newExplain);
+                    System.out.print("Enter the new part of Speech: ");
+                    String newpartOfSpeech = scanner.nextLine();
+                    System.out.print("Enter the new description: ");
+                    String newdescription = scanner.nextLine();
+                    this.dictionaryManagement.editWord(wordToUpdate, newPronunciation, newpartOfSpeech, newdescription);
                     break;
                 case 4:
                     this.showAllWords();
@@ -135,23 +265,25 @@ class DictionaryCommandLine {
                     System.out.print("Enter a prefix to search for: ");
                     String prefix = scanner.nextLine();
                     ArrayList<Word> searchResults = this.dictionaryManagement.dictionarySearcher(prefix);
-                    if (searchResults.size() > 0) {
-                        System.out.println("Words that start with \"" + prefix + "\":");
-                        Iterator var13 = searchResults.iterator();
 
-                        while (true) {
-                            if (!var13.hasNext()) {
-                                continue label32;
+                    if (!searchResults.isEmpty()) {
+                        System.out.println("Words that start with \"" + prefix + "\":");
+
+                        for (Word entry : searchResults) {
+                            System.out.println("Word: " + entry.getWordTarget());
+                            System.out.println("Pronunciation: " + entry.getPronunciation());
+
+                            for (Meaning meaning : entry.getMeanings()) {
+                                System.out.println("Part of Speech: " + meaning.getPartOfSpeech());
+                                System.out.println("Description: " + meaning.getDescription());
                             }
 
-                            Word entry = (Word) var13.next();
-                            PrintStream var12 = System.out;
-                            String var10001 = entry.getWordTarget();
-                            var12.println(var10001 + "\nPronunciation: " + entry.getPronunciation() + "\nDefinition: " + entry.getWordExplain() + "\n");
+                            System.out.println(); // Dòng trống giữa các từ
                         }
+                    } else {
+                        System.out.println("No words found.");
                     }
 
-                    System.out.println("No words found.");
                     break;
                 case 7:
                     this.startGame();

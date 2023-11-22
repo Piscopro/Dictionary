@@ -1,12 +1,6 @@
-
-import java.io.BufferedReader;
-import java.io.BufferedWriter;
-import java.io.FileReader;
-import java.io.FileWriter;
-import java.io.IOException;
+import java.io.*;
 import java.util.ArrayList;
 import java.util.Iterator;
-import java.util.HashSet;
 
 class DictionaryManagement {
     private static Dictionary dictionary;
@@ -15,128 +9,122 @@ class DictionaryManagement {
         dictionary = new Dictionary();
     }
 
+    public static void insertFromFile(String fileName) {
+        try (BufferedReader reader = new BufferedReader(new FileReader(fileName))) {
+            String line;
+            Word currentWord = null;
+            Meaning currentMeaning = null;
+            StringBuilder descriptionBuilder = new StringBuilder();
+
+            while ((line = reader.readLine()) != null) {
+                line = line.trim();
+
+                if (line.startsWith("@")) {
+                    // Xử lý kết thúc của Word hiện tại
+                    if (currentMeaning != null && descriptionBuilder.length() > 0) {
+                        currentMeaning.setDescription(descriptionBuilder.toString().trim());
+                        descriptionBuilder.setLength(0);
+                    }
+                    currentMeaning = null;
+
+                    // Tạo Word mới
+                    String[] parts = line.split(" /");
+                    if (parts.length < 2) {
+                        System.out.println("Dữ liệu không đúng định dạng tại dòng: " + line);
+                        continue;
+                    }
+                    String word = parts[0].substring(1).trim();
+                    String pronunciation = "/" + parts[1].trim();
+                    currentWord = new Word(word, pronunciation);
+                    dictionary.addWord(currentWord);
+                } else if (currentWord != null && line.startsWith("*")) {
+                    // Kết thúc mô tả Meaning hiện tại
+                    if (currentMeaning != null) {
+                        currentMeaning.setDescription(descriptionBuilder.toString().trim());
+                        descriptionBuilder.setLength(0);
+                    }
+
+                    // Tạo Meaning mới
+                    String partOfSpeech = line.substring(1).trim();
+                    currentMeaning = new Meaning(partOfSpeech, "");
+                    currentWord.addMeaning(currentMeaning);
+                } else if (currentMeaning != null) {
+                    // Thêm dữ liệu vào mô tả
+                    descriptionBuilder.append(line).append(" ");
+                }
+            }
+
+            // Xử lý mô tả cuối cùng
+            if (currentMeaning != null && descriptionBuilder.length() > 0) {
+                currentMeaning.setDescription(descriptionBuilder.toString().trim());
+            }
+
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+
+    public static void dictionaryExportToFile(String fileName) {
+        try {
+            BufferedWriter bw = new BufferedWriter(new FileWriter(fileName));
+            Iterator<Word> iterator = dictionary.getWords().iterator();
+
+            while (iterator.hasNext()) {
+                Word entry = iterator.next();
+                // Xuất từ và phiên âm
+                bw.write("@" + entry.getWordTarget() + " /" + entry.getPronunciation() + "/\n");
+
+                // Xuất mỗi Meaning
+                for (Meaning meaning : entry.getMeanings()) {
+                    bw.write("*  " + meaning.getPartOfSpeech() + "\n");
+                    bw.write("  " + meaning.getDescription() + "\n");
+                }
+
+                // Thêm một dòng trống giữa các từ
+                bw.newLine();
+            }
+
+            bw.close();
+            System.out.println("Data exported to " + fileName);
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+
     public Dictionary getDictionary() {
         return dictionary;
     }
 
-    /*public static void insertFromFile(String fileName) {
-        HashSet<Word> wordSet = new HashSet<>();
-
-        try {
-            BufferedReader br = new BufferedReader(new FileReader(fileName));
-
-            String line;
-            while ((line = br.readLine()) != null) {
-                String[] parts = line.split("\t");
-                if (parts.length == 2) {
-                    String word_target = parts[0];
-                    String word_explain = parts[1];
-                    Word newWord = new Word(word_target, word_explain);
-
-                    // Thêm từ mới vào HashSet, nếu từ đó chưa tồn tại trong HashSet
-                    wordSet.add(newWord);
-                }
-            }
-
-            br.close();
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-
-        // Cập nhật từ điển với các từ trong HashSet
-        for (Word word : wordSet) {
-            dictionary.addWord(word);
-        }
-    }*/
-
-    public static void insertFromFile(String fileName) {
-        HashSet<Word> wordSet = new HashSet<>();
-
-        try {
-            BufferedReader br = new BufferedReader(new FileReader(fileName));
-
-            String line;
-            while ((line = br.readLine()) != null) {
-                String[] parts = line.split("\t");
-                if (parts.length == 3) {  // Thay đổi từ 2 thành 3
-                    String word_target = parts[0];
-                    String word_explain = parts[2];
-                    String pronunciation = parts[1];  // Thêm pronunciation từ file vào
-
-                    Word newWord = new Word(word_target, pronunciation, word_explain);
-                    //newWord.setPronunciation(pronunciation);
-
-                    wordSet.add(newWord);
-                }
-            }
-
-            br.close();
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-
-        for (Word word : wordSet) {
-            dictionary.addWord(word);
-        }
-    }
-
-
-
-
     public void dictionaryLookup(String word) {
-        Iterator var2 = dictionary.getWords().iterator();
+        Iterator<Word> iterator = dictionary.getWords().iterator();
 
-        Word entry;
-        do {
-            if (!var2.hasNext()) {
-                System.out.println("Word not found in the dictionary.");
-                return;
+        while (iterator.hasNext()) {
+            Word entry = iterator.next();
+
+            if (entry.getWordTarget().equalsIgnoreCase(word)) {
+                System.out.println("Word: " + entry.getWordTarget());
+                System.out.println("Pronunciation: " + entry.getPronunciation());
+
+                for (Meaning meaning : entry.getMeanings()) {
+                    System.out.println("Part of Speech: " + meaning.getPartOfSpeech());
+                    System.out.println("Description: " + meaning.getDescription());
+                }
+
+                return; // Kết thúc phương thức sau khi đã tìm thấy và in từ
             }
+        }
 
-            entry = (Word)var2.next();
-        } while(!entry.getWordTarget().equalsIgnoreCase(word));
-
-        System.out.println("Pronunciation: " + " " + entry.getPronunciation() + "          Definition: " + " " + entry.getWordExplain());
+        // Nếu không tìm thấy từ
+        System.out.println("Word not found in the dictionary.");
     }
 
-    public void addWord(String word_target, String pronunciation, String word_explain) {
-        Word newWord = new Word(word_target, pronunciation, word_explain);
+    public void addWord(String word_target, String pronunciation, String partOfSpeech, String description) {
+        Word newWord = new Word(word_target, pronunciation);
         dictionary.addWord(newWord);
     }
 
-    /*public void editWord(String word_target, String newExplain) {
-        Iterator var3 = dictionary.getWords().iterator();
 
-        Word entry;
-        do {
-            if (!var3.hasNext()) {
-                System.out.println("Word not found in the dictionary.");
-                return;
-            }
 
-            entry = (Word)var3.next();
-        } while(!entry.getWordTarget().equalsIgnoreCase(word_target));
-
-        entry.word_explain = newExplain;
-        System.out.println("Definition updated.");
-    }*/
-    public void editWord(String word_target, String newPronunciation ,String newExplain) {
-        Iterator var3 = dictionary.getWords().iterator();
-
-        Word entry;
-        do {
-            if (!var3.hasNext()) {
-                System.out.println("Word not found in the dictionary.");
-                return;
-            }
-
-            entry = (Word)var3.next();
-        } while(!entry.getWordTarget().equalsIgnoreCase(word_target));
-
-        entry.setWord_explain(newExplain);
-        entry.setPronunciation(newPronunciation);  // Thêm dòng này để cập nhật pronunciation
-        System.out.println("Definition and pronunciation updated.");
-    }
 
 
     /*public void deleteWord(String word_target) {
@@ -156,13 +144,45 @@ class DictionaryManagement {
         System.out.println("Word deleted from the dictionary.");
     }*/
 
-    public void deleteWord(String word_target) {
+    public void editWord(String word_target, String newPronunciation, String newPartOfSpeech, String newDescription) {
         Iterator<Word> iterator = dictionary.getWords().iterator();
 
         while (iterator.hasNext()) {
             Word entry = iterator.next();
 
             if (entry.getWordTarget().equalsIgnoreCase(word_target)) {
+                entry.setPronunciation(newPronunciation); // Cập nhật phiên âm
+
+                boolean foundMeaning = false;
+                for (Meaning meaning : entry.getMeanings()) {
+                    if (meaning.getPartOfSpeech().equalsIgnoreCase(newPartOfSpeech)) {
+                        meaning.setDescription(newDescription);
+                        foundMeaning = true;
+                        break;
+                    }
+                }
+
+                if (!foundMeaning) {
+                    // Nếu không tìm thấy Meaning phù hợp, thêm Meaning mới
+                    entry.addMeaning(new Meaning(newPartOfSpeech, newDescription));
+                }
+
+                System.out.println("Word, pronunciation, and meanings updated.");
+                return;
+            }
+        }
+
+        // Nếu không tìm thấy từ
+        System.out.println("Word not found in the dictionary.");
+    }
+
+    public void deleteWord(String wordTarget) {
+        Iterator<Word> iterator = dictionary.getWords().iterator();
+
+        while (iterator.hasNext()) {
+            Word entry = iterator.next();
+
+            if (entry.getWordTarget().equalsIgnoreCase(wordTarget)) {
                 iterator.remove();
                 System.out.println("Word deleted from the dictionary.");
                 return;
@@ -172,13 +192,12 @@ class DictionaryManagement {
         System.out.println("Word not found in the dictionary.");
     }
 
-
     public ArrayList<Word> dictionarySearcher(String prefix) {
-        ArrayList<Word> searchResults = new ArrayList();
-        Iterator var3 = dictionary.getWords().iterator();
+        ArrayList<Word> searchResults = new ArrayList<>();
+        Iterator<Word> iterator = dictionary.getWords().iterator();
 
-        while(var3.hasNext()) {
-            Word entry = (Word)var3.next();
+        while (iterator.hasNext()) {
+            Word entry = iterator.next();
             if (entry.getWordTarget().toLowerCase().startsWith(prefix.toLowerCase())) {
                 searchResults.add(entry);
             }
@@ -187,65 +206,8 @@ class DictionaryManagement {
         return searchResults;
     }
 
-
-
-    /*public static void dictionaryExportToFile(String fileName) {
-        try {
-            BufferedWriter bw = new BufferedWriter(new FileWriter(fileName));
-            Iterator var2 = dictionary.getWords().iterator();
-
-            while(var2.hasNext()) {
-                Word entry = (Word)var2.next();
-                String var10001 = entry.getWordTarget();
-                bw.write(var10001 + "\t" + entry.getWordExplain());
-                bw.newLine();
-            }
-
-            bw.close();
-            System.out.println("Data exported to " + fileName);
-        } catch (IOException var4) {
-            var4.printStackTrace();
-        }
-
-    }*/
-
-    public static void dictionaryExportToFile(String fileName) {
-        try {
-            BufferedWriter bw = new BufferedWriter(new FileWriter(fileName));
-            Iterator var2 = dictionary.getWords().iterator();
-
-            while(var2.hasNext()) {
-                Word entry = (Word)var2.next();
-                String var10001 = entry.getWordTarget();
-                bw.write(var10001 + "\t" + entry.getPronunciation() + "\t" + entry.getWordExplain());  // Thêm pronunciation vào file
-                bw.newLine();
-            }
-
-            bw.close();
-            System.out.println("Data exported to " + fileName);
-        } catch (IOException var4) {
-            var4.printStackTrace();
-        }
+    public void addWord(Word newWord) {
+        dictionary.addWord(newWord);
     }
 
-
-    private void exportToFile(String fileName) {
-        try {
-            BufferedWriter bw = new BufferedWriter(new FileWriter(fileName));
-            Iterator var3 = dictionary.getWords().iterator();
-
-            while(var3.hasNext()) {
-                Word entry = (Word)var3.next();
-                String var10001 = entry.getWordTarget();
-                bw.write(var10001 + "\t" + entry.getPronunciation() + "\t" + entry.getWordExplain());
-                bw.newLine();
-            }
-
-            bw.close();
-            System.out.println("Data exported to " + fileName);
-        } catch (IOException var5) {
-            var5.printStackTrace();
-        }
-
-    }
 }
