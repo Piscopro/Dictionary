@@ -11,15 +11,15 @@ public class Meaning {
         return partOfSpeech;
     }
 
-    public void setDescription(String description) {
-        this.description = description;
+    public void setPartOfSpeech(String partOfSpeech) {
+        this.partOfSpeech = partOfSpeech;
     }
 
     public String getDescription() {
         return description;
     }
 
-    public void setPartOfSpeech(String partOfSpeech) {
-        this.partOfSpeech = partOfSpeech;
+    public void setDescription(String description) {
+        this.description = description;
     }
 }

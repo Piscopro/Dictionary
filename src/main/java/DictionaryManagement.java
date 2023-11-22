@@ -1,5 +1,7 @@
 import java.io.*;
 import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Comparator;
 import java.util.Iterator;
 
 class DictionaryManagement {
@@ -96,36 +98,78 @@ class DictionaryManagement {
     }
 
     public void dictionaryLookup(String word) {
-        Iterator<Word> iterator = dictionary.getWords().iterator();
+        // Sắp xếp danh sách từ điển nếu chưa được sắp xếp
+        ArrayList<Word> words = dictionary.getWords();
+        if (!isDictionarySorted(words)) {
+            sortDictionary(words);
+        }
 
-        while (iterator.hasNext()) {
-            Word entry = iterator.next();
+        int index = binarySearch(words, word);
 
-            if (entry.getWordTarget().equalsIgnoreCase(word)) {
-                System.out.println("Word: " + entry.getWordTarget());
-                System.out.println("Pronunciation: " + entry.getPronunciation());
+        if (index != -1) {
+            Word entry = words.get(index);
+            System.out.println("Word: " + entry.getWordTarget() + " " + entry.getPronunciation());
 
-                for (Meaning meaning : entry.getMeanings()) {
-                    System.out.println("Part of Speech: " + meaning.getPartOfSpeech());
-                    System.out.println("Description: " + meaning.getDescription());
+            for (Meaning meaning : entry.getMeanings()) {
+                System.out.println("*  " + meaning.getPartOfSpeech());
+
+                // Split the description into lines based on the dash '-'
+                String[] descriptionLines = meaning.getDescription().split("\\s*-\\s*");
+
+                // Print each line of the description without the leading empty line
+                boolean isFirstLine = true;
+                for (String line : descriptionLines) {
+                    if (!isFirstLine) {
+                        System.out.println("   - " + line.trim());
+                    } else {
+                        //System.out.println("   - " + line.trim());
+                        isFirstLine = false;
+                    }
                 }
+            }
+        } else {
+            System.out.println("Word not found in the dictionary.");
+        }
+    }
 
-                return; // Kết thúc phương thức sau khi đã tìm thấy và in từ
+    private boolean isDictionarySorted(ArrayList<Word> words) {
+        for (int i = 1; i < words.size(); i++) {
+            if (words.get(i - 1).getWordTarget().compareTo(words.get(i).getWordTarget()) > 0) {
+                return false;
+            }
+        }
+        return true;
+    }
+
+    private void sortDictionary(ArrayList<Word> words) {
+        Collections.sort(words, Comparator.comparing(Word::getWordTarget));
+    }
+
+    private int binarySearch(ArrayList<Word> words, String target) {
+        int left = 0;
+        int right = words.size() - 1;
+
+        while (left <= right) {
+            int mid = left + (right - left) / 2;
+            int compareResult = words.get(mid).getWordTarget().compareToIgnoreCase(target);
+
+            if (compareResult == 0) {
+                return mid; // Tìm thấy từ
+            } else if (compareResult < 0) {
+                left = mid + 1;
+            } else {
+                right = mid - 1;
             }
         }
 
-        // Nếu không tìm thấy từ
-        System.out.println("Word not found in the dictionary.");
+        return -1; // Không tìm thấy từ
     }
+
 
     public void addWord(String word_target, String pronunciation, String partOfSpeech, String description) {
         Word newWord = new Word(word_target, pronunciation);
         dictionary.addWord(newWord);
     }
-
-
-
-
 
     /*public void deleteWord(String word_target) {
         Iterator var2 = dictionary.getWords().iterator();
@@ -175,6 +219,7 @@ class DictionaryManagement {
         // Nếu không tìm thấy từ
         System.out.println("Word not found in the dictionary.");
     }
+
 
     public void deleteWord(String wordTarget) {
         Iterator<Word> iterator = dictionary.getWords().iterator();

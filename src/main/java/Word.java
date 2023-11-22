@@ -15,10 +15,6 @@ class Word {
         return this.word_target;
     }
 
-    public void setWord_target(String word_target) {
-        this.word_target = word_target;
-    }
-
     public String getPronunciation() {
         return pronunciation;
     }
@@ -29,6 +25,10 @@ class Word {
 
     public String getWord_target() {
         return word_target;
+    }
+
+    public void setWord_target(String word_target) {
+        this.word_target = word_target;
     }
 
     public List<Meaning> getMeanings() {

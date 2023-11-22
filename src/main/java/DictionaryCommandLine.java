@@ -1,17 +1,13 @@
-
-
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
-import java.io.PrintStream;
 import java.util.ArrayList;
-import java.util.Iterator;
 import java.util.Random;
 import java.util.Scanner;
 
 class DictionaryCommandLine {
-    private DictionaryManagement dictionaryManagement = new DictionaryManagement();
     private static final String QUESTIONS_FILE = "questions.txt";
+    private DictionaryManagement dictionaryManagement = new DictionaryManagement();
 
     public DictionaryCommandLine() {
     }
@@ -51,11 +47,9 @@ class DictionaryCommandLine {
                         isFirstLine = false;
                     }
                 }
-
-                System.out.println(); // Empty line after each meaning
             }
 
-            System.out.println(); // Empty line after each word
+            System.out.println();
         }
     }
 
@@ -169,11 +163,6 @@ class DictionaryCommandLine {
     }
 
 
-
-
-
-
-
     public void dictionaryBasic() {
         this.insertFromCommandline();
         this.showAllWords();
@@ -185,14 +174,14 @@ class DictionaryCommandLine {
             BufferedReader br = new BufferedReader(new FileReader("src/main/questions.txt"));
 
             String line;
-            while((line = br.readLine()) != null) {
+            while ((line = br.readLine()) != null) {
                 questions.add(line);
             }
 
             br.close();
             Random rand = new Random();
             int randomIndex = rand.nextInt(questions.size());
-            String randomQuestion = (String)questions.get(randomIndex);
+            String randomQuestion = (String) questions.get(randomIndex);
             System.out.println(randomQuestion);
             String answer = randomQuestion.split("Answer: ")[1];
             Scanner scanner = new Scanner(System.in);
@@ -214,7 +203,7 @@ class DictionaryCommandLine {
         Scanner scanner = new Scanner(System.in);
 
         label32:
-        while(true) {
+        while (true) {
             System.out.println("Welcome to My Application!");
             System.out.println("[0] Exit");
             System.out.println("[1] Add");
@@ -270,16 +259,24 @@ class DictionaryCommandLine {
                         System.out.println("Words that start with \"" + prefix + "\":");
 
                         for (Word entry : searchResults) {
-                            System.out.println("Word: " + entry.getWordTarget());
-                            System.out.println("Pronunciation: " + entry.getPronunciation());
-
+                            System.out.println(entry.getWordTarget() + " " + entry.getPronunciation());
                             for (Meaning meaning : entry.getMeanings()) {
-                                System.out.println("Part of Speech: " + meaning.getPartOfSpeech());
-                                System.out.println("Description: " + meaning.getDescription());
-                            }
+                                System.out.println("*  " + meaning.getPartOfSpeech());
 
-                            System.out.println(); // Dòng trống giữa các từ
+                                // Split the description into lines based on the dash '-'
+                                String[] descriptionLines = meaning.getDescription().split("\\s*-\\s*");
+                                boolean isFirstLine = true;
+                                for (String line : descriptionLines) {
+                                    if (!isFirstLine) {
+                                        System.out.println("   - " + line.trim());
+                                    } else {
+                                        isFirstLine = false;
+                                    }
+                                }
+                            }
+                            System.out.println();
                         }
+
                     } else {
                         System.out.println("No words found.");
                     }
