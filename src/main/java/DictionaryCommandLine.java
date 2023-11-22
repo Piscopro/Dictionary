@@ -53,65 +53,6 @@ class DictionaryCommandLine {
         }
     }
 
-    /*public void insertFromCommandline() {
-        Scanner scanner = new Scanner(System.in);
-        System.out.print("Nhập số lượng từ vựng: ");
-        int numberOfWords = scanner.nextInt();
-        scanner.nextLine();
-
-        for (int i = 0; i < numberOfWords; i++) {
-            System.out.print("Nhập từ tiếng Anh: ");
-            String wordTarget = scanner.nextLine();
-            System.out.print("Nhập phát âm: ");
-            String pronunciation = scanner.nextLine();
-
-            // Tạo một đối tượng Word mới
-            Word newWord = new Word(wordTarget, pronunciation);
-
-            System.out.print("Nhập số lượng nghĩa của từ: ");
-            int numberOfMeanings = scanner.nextInt();
-            scanner.nextLine();
-
-            for (int j = 0; j < numberOfMeanings; j++) {
-                System.out.print("Nhập loại từ (phần cú pháp) cho nghĩa " + (j + 1) + ": ");
-                String partOfSpeech = scanner.nextLine();
-
-                System.out.print("Nhập mô tả nghĩa cho nghĩa " + (j + 1) + ": ");
-                StringBuilder meaningInput = new StringBuilder();
-
-                // Read multiple lines for the meaning
-                while (true) {
-                    String line = scanner.nextLine();
-                    if (line.isEmpty()) {
-                        break;
-                    }
-                    meaningInput.append(line).append("\n");
-                }
-
-                // Remove trailing newline character
-                String meaningText = meaningInput.toString().trim();
-
-                // Split meaningText into partOfSpeech and description
-                String[] meaningParts = meaningText.split(": ", 2);
-                if (meaningParts.length == 2) {
-                    String description = meaningParts[1].trim();
-
-                    // Thêm mỗi nghĩa vào đối tượng Word
-                    newWord.addMeaning(new Meaning(partOfSpeech, description));
-                } else {
-                    System.out.println("Invalid input format. Please use 'partOfSpeech: description'.");
-                    j--; // Decrement j to re-enter the current meaning
-                }
-            }
-
-            // Thêm từ vào từ điển
-            this.dictionaryManagement.addWord(newWord);
-        }
-
-        System.out.println("Success!");
-    }
-
-     */
     public void insertFromCommandline() {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Nhập số lượng từ vựng: ");
