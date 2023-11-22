@@ -4,4 +4,117 @@ How many continents are there on Earth?;Five;Six;Seven;Eight;B
 Who wrote "Romeo and Juliet"?;Jane Austen;William Shakespeare;Charles Dickens;Mark Twain;B
 What is the largest mammal on Earth?;Elephant;Giraffe;Blue Whale;Tiger;C
 Which planet is known as the Red Planet?;Venus;Mars;Jupiter;Saturn;B
-
+What is the plural form of the word “mouse”?;Mouses;Mice;Mouse;Mouce;B
+Which word can be used to complete this sentence: “She _ very happy today.”?;is;are;am;be;A
+What is the past tense of the verb “sing”?;Sang;Singed;Sung;Sing;A
+Which word is an antonym of “big”?;Large;Small;Tall;Long;B
+What is the meaning of the word “delicious”?;Very tasty;Very spicy;Very healthy;Very fresh;A
+She _ a book yesterday.;reads;reading;readed;read;D
+I _ to the music while I was working.;listens;listening;listen;listened;D
+They _ playing football when it started to rain.;were;is;are;was;A
+He _ not like to eat vegetables.;does;did;done;do;A
+We _ to the cinema last night.;went;go;going;goes;A
+The cat is _ the table.;at;over;in;on;D
+She _ beautiful.;are;be;am;is;D
+They _ watching a movie.;am;are;be;is;B
+I _ a new bicycle.;had;having;has;have;D
+It _ raining outside.;am;are;be;is;D
+She _ a lot of friends.;had;having;have;has;D
+I _ a cake for her birthday.;bakes;baking;bake;baked;A
+They _ to the park every Sunday.;go;went;goes;going;C
+He _ his homework.;does;did;done;do;A
+We _ a new car.;buy;buys;buying;bought;B
+The dog is _ the bone.;eats;eat;eating;ate;C
+She _ to school by bus.;goes;went;going;go;A
+They _ a big house.;have;had;having;has;A
+I _ my keys.;lose;loses;losing;lost;B
+Choose the correct preposition: She is fond _ chocolate.;of;for;with;in;A
+Identify the main verb in the sentence: “The quick brown fox jumps over the lazy dog.” ;quick;brown;jumps;over;C
+What is the past participle of ‘go’?;went;goes;gone;going;C
+Which of the following words is an adverb?;quickly;quick;quickness;quicken;A
+Choose the correct form of the verb: If I _ a bird, I could fly.;am;was;were;be;C
+What is the plural form of ‘mouse’?;mouses;mice;mouse;moose;B
+Which of the following sentences is in the passive voice?;I ate dinner.;Dinner was eaten by me.;I was eating dinner.;I eat dinner.;B
+What is the synonym of ‘happy’?;sad;joyful;angry;fearful;B
+What is the antonym of ‘ancient’?;old;modern;past;historic;B
+Fill in the blank with the correct form of the verb: By the time we arrived, the movie _ already started.;has;had;have;having;B
+What is the superlative form of ‘good’?;better;best;gooder;goodest;B
+Which of the following is a countable noun?;music;water;apple;information;C
+What is the past tense of ‘write’?;wrote;written;write;writing;A
+Which of the following is a compound word?;sunshine;sun;shine;sunshiny;A
+What type of word is ‘under’ in the sentence: “The cat is under the table.”?;noun;verb;preposition;adjective;C
+What is the correct possessive pronoun in this sentence: “This book is _.”?;I;me;mine;my;C
+Which of the following sentences is a question?;She is going to the market.;Is she going to the market?;She goes to the market.;She went to the market.;B
+What is the correct conjunction in this sentence: “I want to play outside, _ it is raining.”?;and;but;or;so;B
+What is the adjective in this sentence: “The sky is blue.”?;the;sky;is;blue;D
+What is the adverb in this sentence: “She sings beautifully.”?;she;sings;beautifully;sing;C
+What is the correct article in this sentence: “_ apple is red.”?;a;an;the;no article;B
+Identify the indirect object in the sentence: “John gave Mary a book.” ;John;Mary;book;gave;B
+What is the present perfect tense of ‘run’?;ran;runs;run;has run;D
+Which of the following words is a noun?;run;quickly;happy;dog;D
+Choose the correct pronoun: “_ is raining outside.”;It;He;She;They;A
+What is the past simple tense of ‘see’?;saw;seen;see;seeing;A
+Which of the following sentences is in the active voice?;The cake was eaten by me.;I eat the cake.;The cake is being eaten by me.;The cake has been eaten by me.;B
+What is the synonym of ‘big’?;small;large;tiny;micro;B
+What is the antonym of ‘up’?;down;above;over;upward;A
+Fill in the blank with the correct form of the verb: “If I were you, I _ do it.”;will;would;can;do;B
+What is the comparative form of ‘bad’?;worse;worst;badder;baddest;A
+Which of the following is an uncountable noun?;dog;cat;water;boy;C
+What is the past participle of ‘drink’?;drank;drinks;drink;drunk;D
+Which of the following is a compound word?;sunshine;sun;shine;sunny;A
+What type of word is ‘because’ in the sentence: “I am happy because it is sunny.”?;noun;verb;conjunction;adjective;C
+What is the correct possessive adjective in this sentence: “_ book is on the table.”?;You;Your;Yours;You’re;B
+Which of the following sentences is an exclamation?;What a beautiful day!;Is it a beautiful day?;It is a beautiful day.;It was a beautiful day.;A
+What is the correct conjunction in this sentence: “I like tea _ I don’t like coffee.”?;and;but;or;so;B
+What is the adjective in this sentence: “It is a sunny day.”?;it;is;a;sunny;D
+What is the adverb in this sentence: “He runs quickly.”?;he;runs;quickly;run;C
+What is the correct preposition to use in this sentence: “She is confident _ her abilities.”?;of;for;in;with
+Identify the subjunctive mood in these sentences: “If I were you, I would study more.” ;If I were you;I would study more;If I were;were you
+What is the past perfect tense of the verb ‘run’?;had run;has run;ran;run
+Which of the following words is an abstract noun?;happiness;dog;table;apple
+Choose the correct reflexive pronoun to use in this sentence: “She bought herself a gift.” ;herself;himself;itself;themselves
+What is the future perfect tense of the verb ‘see’?;will have seen;will see;have seen;seen
+Which of the following sentences is in the subjunctive mood?;I wish I were a bird.;I am a bird.;I was a bird.;I will be a bird.
+What is the synonym of the word ‘serendipity’?;unhappiness;misfortune;fluke;disaster
+What is the antonym of the word ‘ascend’?;climb;soar;descend;rise
+Fill in the blank with the correct form of the verb: “Had they studied, they _ have passed the exam.”;will;would;can;do
+What is the superlative form of the adjective ‘bad’?;worse;worst;badder;baddest
+Which of the following is a collective noun?;flock;cat;water;boy
+What is the past participle of the verb ‘drink’?;drank;drinks;drink;drunk
+Which of the following is a compound-complex sentence?;I ate dinner and watched a movie.;I ate dinner after I watched a movie.;I ate dinner, and after that, I watched a movie.;I ate dinner because I was hungry.
+What type of word is ‘although’ in the sentence: “Although it was raining, I went for a walk.”?;noun;verb;conjunction;adjective
+What is the correct possessive adjective in this sentence: “_ book is on the table.”?;You;Your;Yours;You’re
+Which of the following sentences is an exclamatory sentence?;What a beautiful day!;Is it a beautiful day?;It is a beautiful day.;It was a beautiful day.
+What is the correct conjunction in this sentence: “I like tea _ I don’t like coffee.”?;and;but;or;so
+What is the adjective in this sentence: “It is a sunny day.”?;it;is;a;sunny
+What is the adverb in this sentence: “He runs quickly.”?;he;runs;quickly;run
+What is the correct preposition to use in this sentence: “She is proficient _ three languages.”?;at;for;in;with
+Identify the conditional type of this sentence: “If it rains, I will stay at home.” ;zero conditional;first conditional;second conditional;third conditional
+What is the past perfect continuous tense of the verb ‘run’?;had been running;has been running;was running;runs
+Which of the following words is a concrete noun?;love;dog;freedom;wisdom
+Choose the correct intensive pronoun to use in this sentence: “I myself cooked the dinner.” ;myself;himself;itself;themselves
+What is the future perfect continuous tense of the verb ‘see’?;will have been seeing;will see;have seen;seen
+Which of the following sentences is in the indicative mood?;If I were rich, I would travel the world.;I am rich.;I were rich.;I will be rich.
+What is the synonym of the word ‘ephemeral’?;permanent;lasting;transitory;enduring
+What is the antonym of the word ‘obfuscate’?;clarify;muddy;cloud;complicate
+Fill in the blank with the correct form of the verb: “By the time they arrive, we _ have finished dinner.”;will;would;can;will have
+Choose the correct word to complete the sentence: “The _ of the argument did not convince everyone.”;tenor;tenet;tenant;tenure
+Identify the correct idiom: “It’s raining cats and _.”;dogs;hogs;jogs;logs
+What is the correct spelling of the word that means ‘occurring yearly’?;anual;annual;annuel;anuell
+Which of the following words is a palindrome (a word that reads the same backward as forward)?;radar;radio;radical;radish
+Choose the correct homophone in this sentence: “They went _ sea in a sieve.”;to;two;too;tu
+What is the future perfect tense of the verb ‘lie’ (as in ‘tell a falsehood’)?;will have lain;will have lied;will have lay;will have lie
+Which of the following sentences uses ‘affect’ and ‘effect’ correctly?;The weather can effect my mood.;The weather can affect my mood.;The affect of the weather is powerful.;The effect of the weather can be strong.
+What is the synonym of the word ‘pusillanimous’?;brave;fearless;courageous;timid
+What is the antonym of the word ‘ascetic’?;hedonistic;hermit;reclusive;monastic
+Fill in the blank with the correct form of the verb: “If he had practiced, he _ have won the competition.”;will;would;can;do
+What is the superlative form of the adjective ‘little’ (meaning small in size)?;less;lesser;least;littlest
+Which of the following is a collective noun?;pride;lion;animal;creature
+What is the past participle of the verb ‘ring’?;rang;rang;ring;run
+Which of the following is a compound-complex sentence?;I ate dinner and watched a movie.;I ate dinner after I watched a movie.;I ate dinner, and after that, I watched a movie.;I ate dinner because I was hungry.
+What type of word is ‘although’ in the sentence: “Although it was raining, I went for a walk.”?;noun;verb;conjunction;adjective
+What is the correct possessive adjective in this sentence: “_ book is on the table.”?;You;Your;Yours;You’re
+Which of the following sentences is an exclamatory sentence?;What a beautiful day!;Is it a beautiful day?;It is a beautiful day.;It was a beautiful day.
+What is the correct conjunction in this sentence: “I like tea _ I don’t like coffee.”?;and;but;or;so
+What is the adjective in this sentence: “It is a sunny day.”?;it;is;a;sunny
+What is the adverb in this sentence: “He runs quickly.”?;he;runs;quickly;run
