@@ -115,7 +115,7 @@ class DictionaryCommandLine {
     }
 
     private void readQuestionsFromFile(ArrayList<String[]> questions) throws IOException {
-        BufferedReader br = new BufferedReader(new FileReader("dictionary/questions.txt"));
+        BufferedReader br = new BufferedReader(new FileReader("src/main/questions.txt"));
         String line;
 
         while ((line = br.readLine()) != null) {
