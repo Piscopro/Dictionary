@@ -2,8 +2,10 @@ import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.Random;
 import java.util.Scanner;
+import java.util.Collections;
 
 class DictionaryCommandLine {
     private static final String QUESTIONS_FILE = "questions.txt";
@@ -26,6 +28,9 @@ class DictionaryCommandLine {
     public void showAllWords() {
         ArrayList<Word> words = this.dictionaryManagement.getDictionary().getWords();
 
+        // Sort the words alphabetically
+        Collections.sort(words, (w1, w2) -> w1.getWordTarget().compareToIgnoreCase(w2.getWordTarget()));
+
         for (Word word : words) {
             // Print word and pronunciation
             System.out.println(word.getWordTarget() + " " + word.getPronunciation());
@@ -43,7 +48,6 @@ class DictionaryCommandLine {
                     if (!isFirstLine) {
                         System.out.println("   - " + line.trim());
                     } else {
-                        //System.out.println("   - " + line.trim());
                         isFirstLine = false;
                     }
                 }
@@ -52,6 +56,7 @@ class DictionaryCommandLine {
             System.out.println();
         }
     }
+
 
     public void insertFromCommandline() {
         Scanner scanner = new Scanner(System.in);
