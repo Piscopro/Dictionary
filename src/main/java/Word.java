@@ -35,6 +35,11 @@ class Word {
         return meanings;
     }
 
+    public String getFirstMeaning() {
+        String[] descriptionLines = meanings.get(0).getDescription().split("\\s*-\\s*");
+        return descriptionLines[1].trim();
+    }
+
     public void addMeaning(Meaning currentMeaning) {
         meanings.add(currentMeaning);
     }

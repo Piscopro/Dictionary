@@ -183,6 +183,7 @@ class DictionaryCommandLine {
             System.out.println("[8] Import from file");
             System.out.println("[9] Export to file");
             System.out.println("[10] History");
+            System.out.println("[11] Favourites / My Words");
             System.out.print("Your action: ");
             int choice = scanner.nextInt();
             scanner.nextLine();
@@ -272,8 +273,22 @@ class DictionaryCommandLine {
                     } else if (op == 2) {
                         dictionaryManagement.showSearchHistory("search");
                     }
-
                     break;
+//                case 11:
+//                    System.out.println("1: Full list, 2: Add word, 3: Delete word");
+//                    int op1 = scanner.nextInt();
+//                    if (op1 == 1) {
+//                        dictionaryManagement.showFavourite();
+//                    } else if (op1 == 2) {
+//                        System.out.println("Enter the word you want to add: ");
+//                        String word = scanner.next();
+//                        dictionaryManagement.addFavourite(word);
+//                    } else if (op1 == 3) {
+//                        System.out.println("Enter the word you want to delete: ");
+//                        String word = scanner.next();
+//                        dictionaryManagement.deleteFavourite(word);
+//                    }
+//                    break;
                 default:
                     System.out.println("Action not supported.");
             }

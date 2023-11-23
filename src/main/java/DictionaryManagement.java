@@ -258,23 +258,45 @@ class DictionaryManagement {
         dictionary.addWord(newWord);
     }
 
+    public String showWordFirstMeaning(Word word) {
+        StringBuilder wordMeaning = new StringBuilder();
+        wordMeaning.append(word.getWordTarget() + "\n" + word.getFirstMeaning());
+        return wordMeaning.toString();
+    }
+
     public void showSearchHistory(String op) {
         ArrayList<Word> history = new ArrayList<>(dictionary.getSearchHistory());
+
         if (op.equals("full")) {
             for (int i = history.size() - 1; i >= 0; i--) {
-                System.out.println(history.get(i).getWord_target());
+                System.out.println(showWordFirstMeaning(history.get(i)));
             }
         } else if (op.equals("search")) {
             if (history.size() > 5) {
                 for (int i = history.size() - 1; i >= history.size() - 5; i--) {
-                    System.out.println(history.get(i).getWord_target());
+                    System.out.println(showWordFirstMeaning(history.get(i)));
                 }
             } else {
                 for (int i = history.size() - 1; i >= 0; i--) {
-                    System.out.println(history.get(i).getWord_target());
+                    System.out.println(showWordFirstMeaning(history.get(i)));
                 }
             }
 
         }
+    }
+
+    public void showFavourite() {
+        ArrayList<Word> favourites = new ArrayList<>(dictionary.getFavouriteWords());
+        for (int i = favourites.size() - 1; i >= 0; i--) {
+            System.out.println(showWordFirstMeaning(favourites.get(i)));
+        }
+    }
+
+    public void addFavourite(Word word) {
+        dictionary.addFavourite(word);
+    }
+
+    public void deleteFavourite(Word word) {
+        dictionary.deleteFavourite(word);
     }
 }
