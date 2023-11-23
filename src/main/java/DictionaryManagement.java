@@ -1,10 +1,10 @@
 import java.io.*;
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.Comparator;
-import java.util.Iterator;
-import java.util.List;
-import java.util.Stack;
+import java.net.HttpURLConnection;
+import java.net.MalformedURLException;
+import java.net.URL;
+import java.net.URLEncoder;
+import java.nio.charset.StandardCharsets;
+import java.util.*;
 
 class DictionaryManagement {
     private static Dictionary dictionary;
@@ -279,9 +279,7 @@ class DictionaryManagement {
     }
 
     public String showWordFirstMeaning(Word word) {
-        StringBuilder wordMeaning = new StringBuilder();
-        wordMeaning.append(word.getWordTarget() + "\n" + word.getFirstMeaning());
-        return wordMeaning.toString();
+        return word.getWordTarget() + "\n" + word.getFirstMeaning();
     }
 
     public void showSearchHistory(String op) {
@@ -309,6 +307,45 @@ class DictionaryManagement {
         for (int i = favourites.size() - 1; i >= 0; i--) {
             System.out.println(showWordFirstMeaning(favourites.get(i)));
         }
+    }
+
+    public void translateSentence() throws IOException {
+        Scanner sc = new Scanner(System.in);
+
+        System.out.print("Choose language: 1. Eng-Vie, 2. Vie-Eng ");
+        int choice = sc.nextInt();
+        String sl, tl;
+        if (choice == 1) {
+            System.out.println("Eng-Vie:");
+            sl = "en";
+            tl = "vi";
+        } else {
+            System.out.println("Vie-Eng:");
+            sl = "vi";
+            tl = "en";
+        }
+
+        sc.nextLine(); // Consume newline left-over
+        System.out.print("Enter the sentence to be translated: ");
+        String query = sc.nextLine();
+
+        query = URLEncoder.encode(query, StandardCharsets.UTF_8);
+
+        String urlStr = "https://translate.googleapis.com/translate_a/single?client=gtx&sl=" + sl + "&tl=" + tl + "&dt=t&q=" + query;
+        URL url = new URL(urlStr);
+        HttpURLConnection conn = (HttpURLConnection) url.openConnection();
+        conn.setRequestMethod("GET");
+        BufferedReader in = new BufferedReader(new InputStreamReader(conn.getInputStream()));
+        String inputLine;
+        StringBuffer content = new StringBuffer();
+        while ((inputLine = in.readLine()) != null) {
+            content.append(inputLine);
+        }
+        in.close();
+        conn.disconnect();
+        String jsonString = content.toString();
+        String translatedText = jsonString.split("\"")[1];
+        System.out.println("Translated sentenced: " + translatedText);
     }
 
     public void addFavourite(Word word) {

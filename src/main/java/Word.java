@@ -54,5 +54,3 @@ class Word {
         return super.hashCode();
     }
 }
-
-
