@@ -184,6 +184,7 @@ class DictionaryCommandLine {
             System.out.println("[9] Export to file");
             System.out.println("[10] History");
             System.out.println("[11] Favourites / My Words");
+            System.out.println("[12] Speak");
             System.out.print("Your action: ");
             int choice = scanner.nextInt();
             scanner.nextLine();
@@ -225,6 +226,9 @@ class DictionaryCommandLine {
                 case 11:
                     DictionaryManagement.Favourite();
                    break;
+                case 12:
+                    DictionaryManagement.Speak();
+                    break;
                 default:
                     System.out.println("Action not supported.");
             }

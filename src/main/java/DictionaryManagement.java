@@ -1,5 +1,7 @@
 import java.io.*;
 import java.util.*;
+import com.sun.speech.freetts.Voice;
+import com.sun.speech.freetts.VoiceManager;
 
 class DictionaryManagement {
     private static Dictionary dictionary;
@@ -404,9 +406,6 @@ class DictionaryManagement {
         }
     }
 
-
-
-
     public static void Favourite() {
         importFavouritesFromFile();
 
@@ -507,4 +506,22 @@ class DictionaryManagement {
         }
     }
 
+    public static void speak(String text) {
+        System.setProperty("freetts.voices", "com.sun.speech.freetts.en.us.cmu_us_kal.KevinVoiceDirectory");
+        VoiceManager voiceManager = VoiceManager.getInstance();
+        Voice voice = voiceManager.getVoice("kevin16");
+        if (voice == null) {
+            System.err.println("Cannot find voice: kevin16");
+            System.exit(1);
+        }
+        voice.allocate();
+        voice.speak(text);
+        voice.deallocate();
+    }
+
+    public static void Speak() {
+        System.out.println("Input the word to speak: ");
+        String text = scanner.nextLine();
+        speak(text);
+    }
 }
