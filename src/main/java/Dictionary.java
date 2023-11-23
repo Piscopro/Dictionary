@@ -1,11 +1,24 @@
 import java.util.ArrayList;
 import java.util.LinkedList;
+import java.util.List;
 import java.util.Queue;
 
 class Dictionary {
     private ArrayList<Word> words = new ArrayList<>();
     private Queue<Word> searchHistory = new LinkedList<>();
-    private Queue<Word> favouriteWords = new LinkedList<>();
+    public static List<Word> favouriteWords = new ArrayList<>();
+    public static final int FAVOURITE_SIZE = 50;
+
+    public void addFavourite(Word word) {
+        if (favouriteWords.size() >= FAVOURITE_SIZE) {
+            favouriteWords.remove(0);  // Remove the oldest favourite if the list is full
+        }
+        favouriteWords.add(word);
+    }
+
+    public void deleteFavourite(Word word) {
+        favouriteWords.remove(word);
+    }
 
     public Dictionary() {
     }
@@ -24,7 +37,11 @@ class Dictionary {
         }
     }
 
-    public void addFavourite(Word word) {
+    public static List<Word> getFavouriteWords() {
+        return favouriteWords;
+    }
+
+    /*public void addFavourite(Word word) {
         final int favouriteSize = 50;
         if (favouriteWords.size() > favouriteSize - 1) {
             favouriteWords.poll();
@@ -36,7 +53,7 @@ class Dictionary {
 
     public void deleteFavourite(Word word) {
         favouriteWords.remove(word);
-    }
+    }*/
 
     public ArrayList<Word> getWords() {
         return this.words;
@@ -46,7 +63,7 @@ class Dictionary {
         return searchHistory;
     }
 
-    public Queue<Word> getFavouriteWords() {
+    /*public Queue<Word> getFavouriteWords() {
         return favouriteWords;
-    }
+    }*/
 }

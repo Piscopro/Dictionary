@@ -196,99 +196,35 @@ class DictionaryCommandLine {
                     this.insertFromCommandline();
                     break;
                 case 2:
-                    System.out.print("Enter the word to remove: ");
-                    String wordToRemove = scanner.nextLine();
-                    this.dictionaryManagement.deleteWord(wordToRemove);
+                    this.dictionaryManagement.deleteWord();
                     break;
                 case 3:
-                    System.out.print("Enter the word to update: ");
-                    String wordToUpdate = scanner.nextLine();
-                    System.out.print("Enter the new pronunciation: ");
-                    String newPronunciation = scanner.nextLine();
-                    System.out.print("Enter the new part of Speech: ");
-                    String newpartOfSpeech = scanner.nextLine();
-                    System.out.print("Enter the new description: ");
-                    String newdescription = scanner.nextLine();
-                    this.dictionaryManagement.editWord(wordToUpdate, newPronunciation, newpartOfSpeech, newdescription);
+                    this.dictionaryManagement.editWord();
                     break;
                 case 4:
                     this.showAllWords();
                     break;
                 case 5:
-                    System.out.print("Enter a word to look up: ");
-                    String wordToLookup = scanner.nextLine();
-                    this.dictionaryManagement.dictionaryLookup(wordToLookup);
+                    this.dictionaryManagement.dictionaryLookup();
                     break;
                 case 6:
-                    System.out.print("Enter a prefix to search for: ");
-                    String prefix = scanner.nextLine();
-                    ArrayList<Word> searchResults = this.dictionaryManagement.dictionarySearcher(prefix);
-
-                    if (!searchResults.isEmpty()) {
-                        System.out.println("Words that start with \"" + prefix + "\":");
-
-                        for (Word entry : searchResults) {
-                            System.out.println(entry.getWordTarget() + " " + entry.getPronunciation());
-                            for (Meaning meaning : entry.getMeanings()) {
-                                System.out.println("*  " + meaning.getPartOfSpeech());
-
-                                // Split the description into lines based on the dash '-'
-                                String[] descriptionLines = meaning.getDescription().split("\\s*-\\s*");
-                                boolean isFirstLine = true;
-                                for (String line : descriptionLines) {
-                                    if (!isFirstLine) {
-                                        System.out.println("   - " + line.trim());
-                                    } else {
-                                        isFirstLine = false;
-                                    }
-                                }
-                            }
-                            System.out.println();
-                        }
-
-                    } else {
-                        System.out.println("No words found.");
-                    }
-
+                    DictionaryManagement.BoxSearchPrefix();
                     break;
                 case 7:
                     this.startGame();
                     break;
                 case 8:
-                    String importFilePath = "src/main/dictionaries.txt";
-                    var10000 = this.dictionaryManagement;
-                    DictionaryManagement.insertFromFile(importFilePath);
+                    DictionaryManagement.insertFromFile();
                     break;
                 case 9:
-                    String exportFilePath = "src/main/dictionaries.txt";
-                    var10000 = this.dictionaryManagement;
-                    DictionaryManagement.dictionaryExportToFile(exportFilePath);
+                    DictionaryManagement.dictionaryExportToFile();
                     break;
                 case 10:
-                    System.out.println("1: Full history, 2: Search history");
-                    Scanner sc = new Scanner(System.in);
-                    int op = sc.nextInt();
-                    if (op == 1) {
-                        dictionaryManagement.showSearchHistory("full");
-                    } else if (op == 2) {
-                        dictionaryManagement.showSearchHistory("search");
-                    }
+                    dictionaryManagement.showSearchHistory();
                     break;
-//                case 11:
-//                    System.out.println("1: Full list, 2: Add word, 3: Delete word");
-//                    int op1 = scanner.nextInt();
-//                    if (op1 == 1) {
-//                        dictionaryManagement.showFavourite();
-//                    } else if (op1 == 2) {
-//                        System.out.println("Enter the word you want to add: ");
-//                        String word = scanner.next();
-//                        dictionaryManagement.addFavourite(word);
-//                    } else if (op1 == 3) {
-//                        System.out.println("Enter the word you want to delete: ");
-//                        String word = scanner.next();
-//                        dictionaryManagement.deleteFavourite(word);
-//                    }
-//                    break;
+                case 11:
+                    DictionaryManagement.Favourite();
+                   break;
                 default:
                     System.out.println("Action not supported.");
             }
