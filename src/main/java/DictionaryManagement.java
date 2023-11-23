@@ -99,6 +99,7 @@ class DictionaryManagement {
         return dictionary;
     }
 
+
     public void dictionaryLookup(String word) {
         // Sắp xếp danh sách từ điển nếu chưa được sắp xếp
         ArrayList<Word> words = dictionary.getWords();
@@ -240,7 +241,7 @@ class DictionaryManagement {
         System.out.println("Word not found in the dictionary.");
     }
 
-    public ArrayList<Word> dictionarySearcher(String prefix) {
+    /*public ArrayList<Word> dictionarySearcher(String prefix) {
         ArrayList<Word> searchResults = new ArrayList<>();
         Iterator<Word> iterator = dictionary.getWords().iterator();
 
@@ -253,6 +254,25 @@ class DictionaryManagement {
 
         return searchResults;
     }
+     */
+    //tối đa 5 từ
+    public ArrayList<Word> dictionarySearcher(String prefix) {
+        ArrayList<Word> searchResults = new ArrayList<>();
+        Iterator<Word> iterator = dictionary.getWords().iterator();
+
+        int count = 0;  // Biến đếm số lượng từ đã thêm vào searchResults
+
+        while (iterator.hasNext() && count < 5) {
+            Word entry = iterator.next();
+            if (entry.getWordTarget().toLowerCase().startsWith(prefix.toLowerCase())) {
+                searchResults.add(entry);
+                count++;  // Tăng biến đếm khi thêm từ vào kết quả
+            }
+        }
+
+        return searchResults;
+    }
+
 
     public void addWord(Word newWord) {
         dictionary.addWord(newWord);
@@ -281,7 +301,6 @@ class DictionaryManagement {
                     System.out.println(showWordFirstMeaning(history.get(i)));
                 }
             }
-
         }
     }
 
