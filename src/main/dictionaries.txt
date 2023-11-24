@@ -1274,4 +1274,800 @@
 *  danh từ
    - điện thoại cầm tay, máy trò chuyện di động
 
+@ice /aɪs/
+* danh từ
+  - đá, nước đá
+  - kem
+
+@ideal /aɪˈdiːəl/
+* tính từ
+  - lý tưởng, hoàn hảo
+* danh từ
+  - mục tiêu, mục đích lớn
+
+@ignite /ɪɡˈnaɪt/
+* ngoại động từ
+  - làm cháy, kích động
+  - thắp lên, làm bùng cháy
+
+@image /ˈɪmɪdʒ/
+* danh từ
+  - hình ảnh, hình tượng
+  - ấn tượng, ảnh hưởng
+
+@imagine /ɪˈmædʒɪn/
+* ngoại động từ
+  - tưởng tượng, hình dung
+  - nghĩ, đoán
+
+@imitate /ˈɪmɪteɪt/
+* ngoại động từ
+  - bắt chước, mô phỏng
+  - giả mạo, làm giả mạo
+
+@impact /ˈɪmpækt/
+* danh từ
+  - tác động, ảnh hưởng
+  - va chạm, tác động mạnh
+
+@implement /ˈɪmplɪmənt/
+* danh từ
+  - công cụ, dụng cụ
+* ngoại động từ
+  - thực hiện, thi hành
+
+@improve /ɪmˈpruːv/
+* ngoại động từ
+  - cải thiện, làm tốt hơn
+  - làm cho tốt đẹp hơn
+
+@inch /ɪntʃ/
+* danh từ
+  - inch (đơn vị đo chiều dài, bằng 2.54 cm)
+* ngoại động từ
+  - tiến từng chút một, điều chỉnh từng chút một
+
+@include /ɪnˈkluːd/
+* động từ
+  - bao gồm, tính cả
+  - đưa vào, thêm vào
+
+@income /ˈɪnkʌm/
+* danh từ
+  - thu nhập, lợi nhuận
+
+@increase /ɪnˈkriːs/
+* danh từ
+  - sự tăng, sự gia tăng
+* ngoại động từ
+  - tăng, làm tăng lên
+
+@individual /ˌɪndɪˈvɪdʒuəl/
+* danh từ
+  - cá nhân, người cá thể
+* tính từ
+  - riêng biệt, cá nhân
+
+@industry /ˈɪndəstri/
+* danh từ
+  - ngành công nghiệp
+  - sự chăm chỉ, sự siêng năng
+
+@influence /ˈɪnfluəns/
+* danh từ
+  - ảnh hưởng, sự tác động
+* ngoại động từ
+  - ảnh hưởng, tác động đến
+
+@inform /ɪnˈfɔːrm/
+* ngoại động từ
+  - thông báo, báo cho biết
+  - cung cấp thông tin, làm cho biết
+
+@ingredient /ɪnˈɡriːdiənt/
+* danh từ
+  - thành phần, nguyên liệu
+
+@inherit /ɪnˈherɪt/
+* ngoại động từ
+  - thừa kế, thụ hưởng
+  - nhận được từ tổ tiên
+
+@initial /ɪˈnɪʃəl/
+* tính từ
+  - ban đầu, đầu tiên
+* danh từ
+  - chữ cái đầu, chữ viết đầu
+
+@inject /ɪnˈdʒekt/
+* ngoại động từ
+  - tiêm, nhổ, nạp
+
+@injure /ˈɪndʒər/
+* ngoại động từ
+  - làm tổn thương, làm bị thương
+  - làm tổn hại, làm hại đến
+
+@innovate /ˈɪnəveɪt/
+* ngoại động từ
+  - đổi mới, sáng tạo
+
+@input /ˈɪnput/
+* danh từ
+  - đầu vào, thông tin đưa vào
+
+@insist /ɪnˈsɪst/
+* ngoại động từ
+  - khăng khăng đòi hỏi, đòi hỏi
+
+@inspect /ɪnˈspekt/
+* ngoại động từ
+  - kiểm tra, kiểm tra xem
+  - thanh tra, kiểm tra
+
+@install /ɪnˈstɔːl/
+* ngoại động từ
+  - lắp đặt, cài đặt
+  - đặt, cố định
+
+@instance /ˈɪnstəns/
+* danh từ
+  - ví dụ cụ thể, trường hợp
+  - một lần xảy ra cụ thể
+
+@insurance /ɪnˈʃʊərəns/
+* danh từ
+  - bảo hiểm
+
+@integrate /ˈɪntɪɡreɪt/
+* ngoại động từ
+  - tích hợp, hội nhập
+
+@intellect /ˈɪntəlekt/
+* danh từ
+  - trí tuệ, trí óc
+  - trí nhớ
+
+@intelligent /ɪnˈtelɪdʒənt/
+* tính từ
+  - thông minh, sáng tạo
+
+@intend /ɪnˈtend/
+* ngoại động từ
+  - dự định, có ý định
+  - ý định, mục đích
+
+@interact /ɪntəˈrækt/
+* ngoại động từ
+  - tương tác, tác động lẫn nhau
+
+@interest /ˈɪntrɪst/
+* danh từ
+  - sự quan tâm, sự hứng thú
+  - lợi tức, tiền lãi
+
+@interior /ɪnˈtɪəriər/
+* tính từ
+  - nội thất, bên trong
+* danh từ
+  - phần trong, bên trong
+
+@interpret /ɪnˈtɜːrprɪt/
+* ngoại động từ
+  - giải thích, diễn giải
+  - phiên dịch, dịch
+
+@interrupt /ɪntəˈrʌpt/
+* ngoại động từ
+  - làm gián đoạn, ngắt quãng
+  - làm gián đoạn, làm phiền
+
+@interview /ˈɪntəvjuː/
+* danh từ
+  - cuộc phỏng vấn
+* ngoại động từ
+  - phỏng vấn
+
+@invest /ɪnˈvest/
+* ngoại động từ
+  - đầu tư, đầu cơ
+
+@invite /ɪnˈvaɪt/
+* ngoại động từ
+  - mời, mời gọi
+
+@involve /ɪnˈvɒlv/
+* ngoại động từ
+  - liên quan, dính líu
+  - làm mắc kẹt, làm bị dính
+
+@isolate /ˈaɪsəleɪt/
+* ngoại động từ
+  - cô lập, cách ly
+  - tách biệt, phân tách
+
+@issue /ˈɪʃuː/
+* danh từ
+  - vấn đề, mối quan ngại
+* ngoại động từ
+  - phát hành, công bố
+
+@item /ˈaɪtəm/
+* danh từ
+  - mục, hàng hóa
+  - tin tức, bài viết
+
+@ivory /ˈaɪvəri/
+* danh từ
+  - ngà, ngà voi
+
+@illustrate /ˈɪləstreɪt/
+* ngoại động từ
+  - minh họa, làm rõ ý
+
+@image /ˈɪmɪdʒ/
+* danh từ
+  - hình ảnh, hình tượng
+  - ấn tượng, ảnh hưởng
+
+@imagine /ɪˈmædʒɪn/
+* ngoại động từ
+  - tưởng tượng, hình dung
+  - nghĩ, đoán
+
+@imitate /ˈɪmɪteɪt/
+* ngoại động từ
+  - bắt chước, mô phỏng
+  - giả mạo, làm giả mạo
+
+@impact /ˈɪmpækt/
+* danh từ
+  - tác động, ảnh hưởng
+  - va chạm, tác động mạnh
+
+@implement /ˈɪmplɪmənt/
+* danh từ
+  - công cụ, dụng cụ
+* ngoại động từ
+  - thực hiện, thi hành
+
+@improve /ɪmˈpruːv/
+* ngoại động từ
+  - cải thiện, làm tốt hơn
+  - làm cho tốt đẹp hơn
+
+@inch /ɪntʃ/
+* danh từ
+  - inch (đơn vị đo chiều dài, bằng 2.54 cm)
+* ngoại động từ
+  - tiến từng chút một, điều chỉnh từng chút một
+
+@include /ɪnˈkluːd/
+* động từ
+  - bao gồm, tính cả
+  - đưa vào, thêm vào
+
+@income /ˈɪnkʌm/
+* danh từ
+  - thu nhập, lợi nhuận
+
+@matter /ˈmætər/
+*  danh từ
+   - vật chất, chủ thể
+   - vấn đề, sự việc
+*  ngoại động từ
+   - làm nặng nề, quan trọng
+
+@magnify /ˈmæɡnɪfaɪ/
+*  ngoại động từ
+   - phóng đại, làm to lên
+   - làm nổi bật
+
+@mirror /ˈmɪrər/
+*  danh từ
+   - gương
+*  ngoại động từ
+   - phản ánh, tương ảnh
+
+@manage /ˈmænɪdʒ/
+*  ngoại động từ
+   - quản lý, điều hành
+   - xoay sở, giải quyết
+
+@migrate /ˈmaɪɡreɪt/
+*  ngoại động từ
+   - di trú, di cư
+*  nội động từ
+   - di cư, di trú
+
+@mansion /ˈmænʃən/
+*  danh từ
+   - biệt thự, dinh thự
+
+@multiply /ˈmʌltɪplaɪ/
+*  ngoại động từ
+   - nhân, nhân lên
+   - làm tăng, làm nhiều hơn
+*  nội động từ
+   - tăng lên, gia tăng
+
+@name /neɪm/
+*  danh từ
+   - tên, họ tên
+   - tên gọi, biệt danh
+*  ngoại động từ
+   - đặt tên, gọi tên
+
+@navigate /ˈnævɪˌɡeɪt/
+*  ngoại động từ
+   - định hướng, điều hướng
+   - điều khiển, thao tác (trên máy tính, trang web)
+
+@nature /ˈneɪtʃər/
+*  danh từ
+   - tự nhiên, thiên nhiên
+   - bản chất, tính cách
+
+@necessary /ˈnɛsəˌsɛri/
+*  tính từ
+   - cần thiết, quan trọng
+   - không thể tránh khỏi, tất yếu
+
+@novel /ˈnɒvəl/
+*  danh từ
+   - tiểu thuyết
+   - mới mẻ, mới lạ
+*  tính từ
+   - mới lạ, độc đáo
+
+@note /noʊt/
+*  danh từ
+   - ghi chú
+   - tờ, tờ giấy tiền
+*  ngoại động từ
+   - ghi chú, chú ý
+
+@noble /ˈnoʊbl/
+*  tính từ
+   - quý tộc, quý phái
+   - cao quý, cao thượng
+
+@observe /əbˈzɜrv/
+*  ngoại động từ
+   - quan sát, theo dõi
+   - tuân theo, làm theo
+*  nội động từ
+   - quan sát, nhìn
+
+@occupy /ˈɒkjʊˌpaɪ/
+*  ngoại động từ
+   - chiếm đóng, chiếm giữ
+   - làm đầy, chiếm hết thời gian, tâm trí
+
+@oppose /əˈpoʊz/
+*  ngoại động từ
+   - phản đối, chống đối
+   - đối lập, đối chiếu
+
+@option /ˈɒpʃən/
+*  danh từ
+   - sự lựa chọn, sự chọn lựa
+   - quyền chọn, quyền lựa chọn
+
+@organize /ˈɔrɡəˌnaɪz/
+*  ngoại động từ
+   - tổ chức, sắp xếp
+   - quản lý, điều hành
+
+@ordinary /ˈɔrdəˌnɛri/
+*  tính từ
+   - bình thường, thông thường
+   - đơn giản, thường dùng
+
+@outline /ˈaʊtˌlaɪn/
+*  danh từ
+   - đường nét chính, dáng điệu
+   - sơ lược, khung cương
+*  ngoại động từ
+   - vẽ đường nét chính, tóm tắt
+
+@overcome /ˌoʊvərˈkʌm/
+*  ngoại động từ
+   - vượt qua, khắc phục
+   - chiến thắng, đánh bại
+
+@origin /ˈɔrɪdʒɪn/
+*  danh từ
+   - nguồn gốc, căn nguyên
+   - điểm xuất phát
+
+@outline /ˈaʊtˌlaɪn/
+*  danh từ
+   - đường nét chính, dáng điệu
+   - sơ lược, khung cương
+*  ngoại động từ
+   - vẽ đường nét chính, tóm tắt
+
+@opposite /ˈɒpəzɪt/
+*  tính từ
+   - đối diện, ngược lại
+*  danh từ
+   - người hoặc vật đối diện
+
+@offer /ˈɒfər/
+*  danh từ
+   - sự đề nghị, sự đề xuất
+*  ngoại động từ
+   - đề nghị, đề xuất
+   - mang đến, cung cấp
+
+@occupant /ˈɒkjʊpənt/
+*  danh từ
+   - người cư trú, người ở
+
+@overtake /ˌoʊvərˈteɪk/
+*  ngoại động từ
+   - vượt qua, chạy trước
+   - bắt kịp, đuổi bắt
+
+@obtain /əbˈteɪn/
+*  ngoại động từ
+   - đạt được, giành được
+   - có được, thu được
+
+@observe /əbˈzɜrv/
+*  ngoại động từ
+   - quan sát, theo dõi
+   - tuân theo, làm theo
+*  nội động từ
+   - quan sát, nhìn
+
+@oblige /əˈblaɪdʒ/
+*  ngoại động từ
+   - bắt buộc, ép buộc
+   - làm ơn, giúp đỡ
+
+@occasion /əˈkeɪʒən/
+*  danh từ
+   - dịp, cơ hội
+*  ngoại động từ
+   - làm cho xảy ra, gây ra
+
+@obvious /ˈɒbviəs/
+*  tính từ
+   - rõ ràng, hiển nhiên
+   - dễ thấy, dễ nhận thức
+
+@obsolete /ˌɒbsəˈliːt/
+*  tính từ
+   - lỗi thời, đã cũ
+*  ngoại động từ
+   - làm cũ, làm lỗi thời
+
+@operate /ˈɒpəreɪt/
+*  ngoại động từ
+   - vận hành, điều khiển
+*  nội động từ
+   - hoạt động, thao tác
+
+@optimistic /ˌɒptɪˈmɪstɪk/
+*  tính từ
+   - lạc quan, lạc quan về tương lai
+
+@organism /ˈɔrɡəˌnɪzəm/
+*  danh từ
+   - hệ thống, cơ thể sống
+   - tổ chức, cấu trúc hữu cơ
+
+@outstanding /aʊtˈstændɪŋ/
+*  tính từ
+   - nổi bật, xuất sắc
+   - chưa thanh toán, còn nợ
+
+@overlap /ˌoʊvərˈlæp/
+*  danh từ
+   - sự chồng lấn, sự trùng lắp
+*  ngoại động từ
+   - chồng lấn, trùng khớp
+
+@overwhelm /ˌoʊvərˈwɛlm/
+*  ngoại động từ
+   - tràn ngập, át chủng
+   - áp đảo, làm cho quá tải
+
+@parallel /ˈpærəˌlɛl/
+*  tính từ
+   - song song, nối tiếp
+   - tương đương, tương tự
+
+@participate /pɑːrˈtɪsɪˌpeɪt/
+*  ngoại động từ
+   - tham gia, tham dự
+*  nội động từ
+   - tham gia, tham dự
+
+@perceive /pərˈsiːv/
+*  ngoại động từ
+   - nhận thức, nhận biết
+   - hiểu, lĩnh hội
+
+@persist /pərˈsɪst/
+*  nội động từ
+   - kiên trì, dai dẳng
+   - tồn tại, tiếp tục tồn tại
+
+@proclaim /prəˈkleɪm/
+*  ngoại động từ
+   - tuyên bố, công bố
+   - loan báo, kêu gọi
+
+@productive /prəˈdʌktɪv/
+*  tính từ
+   - sản xuất, mang lại nhiều kết quả
+   - có năng suất cao
+
+@profound /prəˈfaʊnd/
+*  tính từ
+   - sâu sắc, tri thức
+   - nghiêm túc, nặng nề
+
+@pursue /pərˈsuː/
+*  ngoại động từ
+   - theo đuổi, đuổi theo
+   - tiếp tục, theo đuổi mục tiêu
+
+@paradox /ˈpærəˌdɒks/
+*  danh từ
+   - nghịch lý, nghịch lội
+
+@proficient /prəˈfɪʃənt/
+*  tính từ
+   - thành thạo, giỏi
+   - lão luyện, kinh nghiệm
+
+@precise /prɪˈsaɪs/
+*  tính từ
+   - chính xác, đúng đắn
+   - rõ ràng, minh bạch
+
+@prosper /ˈprɒspər/
+*  ngoại động từ
+   - thịnh vượng, phồn thịnh
+   - phát triển, phồn thịnh
+
+@persevere /ˌpɜːrsɪˈvɪr/
+*  ngoại động từ
+   - kiên trì, bền bỉ
+   - dai dẳng, không chịu thua
+
+@prejudice /ˈprɛdʒədɪs/
+*  danh từ
+   - định kiến, thành kiến
+   - tư tưởng thành kiến
+
+@provoke /prəˈvoʊk/
+*  ngoại động từ
+   - kích động, khiêu khích
+   - gây ra, chọc tức
+
+@pioneer /ˌpaɪəˈnɪr/
+*  danh từ
+   - người tiên phong, người khai phá
+*  ngoại động từ
+   - đi tiên phong, mở đường
+
+@plausible /ˈplɔːzəbl/
+*  tính từ
+   - hợp lý, có thể tin được
+   - đường đảm bảo, có vẻ đúng
+
+@preclude /prɪˈkluːd/
+*  ngoại động từ
+   - ngăn chặn, loại trừ
+   - làm cho không thể, làm loại bỏ
+
+@venture /ˈvɛntʃər/
+*  danh từ
+   - mạo hiểm, sự phiêu lưu
+*  ngoại động từ
+   - mạo hiểm, liều lĩnh
+
+@vibrant /ˈvaɪbrənt/
+*  tính từ
+   - sôi động, hăng hái
+   - đầy sức sống, sống động
+
+@vast /væst/
+*  tính từ
+   - rộng lớn, bát ngát
+   - lớn lao, to lớn
+
+@venerate /ˈvɛnəˌreɪt/
+*  ngoại động từ
+   - tôn kính, kính trọng
+   - thờ cúng, tôn thờ
+
+@verbose /vərˈboʊs/
+*  tính từ
+   - dài dòng, nói nhiều
+   - rườm rà, lắm lời
+
+@vigorous /ˈvɪɡərəs/
+*  tính từ
+   - mạnh mẽ, nhiệt huyết
+   - sức mạnh, sức khỏe tốt
+
+@virtue /ˈvɜːrʧuː/
+*  danh từ
+   - đức tính, đạo đức
+   - phẩm chất tốt, đức hạnh
+
+@visionary /ˈvɪʒəˌnɛri/
+*  tính từ
+   - tầm nhìn, nhìn xa trông rộng
+*  danh từ
+   - người tầm nhìn, người có ý tưởng mới
+
+@vex /vɛks/
+*  ngoại động từ
+   - làm bực mình, làm phiền não
+   - làm bối rối, làm khó chịu
+
+@viable /ˈvaɪəbl/
+*  tính từ
+   - khả thi, có thể thực hiện được
+   - có thể sống được, có thể sinh sản
+
+@verbose /vərˈboʊs/
+*  tính từ
+   - dài dòng, nói nhiều
+   - rườm rà, lắm lời
+
+@verify /ˈvɛrəˌfaɪ/
+*  ngoại động từ
+   - xác minh, kiểm tra
+   - chứng minh, làm cho chắc chắn
+
+@vivid /ˈvɪvɪd/
+*  tính từ
+   - sống động, rõ nét
+   - sinh động, sặc sỡ
+
+@volatile /ˈvɒlətaɪl/
+*  tính từ
+   - dễ bay hơi, dễ bay hương
+   - biến động, thay đổi nhanh
+
+@vexation /vɛkˈseɪʃən/
+*  danh từ
+   - sự làm phiền, sự làm bực mình
+   - nguyên nhân gây phiền não, điều phiền lòng
+
+@vague /veɪɡ/
+*  tính từ
+   - mơ hồ, không rõ ràng
+   - mập mờ, không chắc chắn
+
+@valor /ˈvælər/
+*  danh từ
+   - dũng khí, lòng can đảm
+   - lòng dũng cảm, lòng gan dạ
+
+@vanish /ˈvænɪʃ/
+*  ngoại động từ
+   - biến mất, biến đi
+   - làm mất tích, làm mờ nhạt
+
+@venerate /ˈvɛnəˌreɪt/
+*  ngoại động từ
+   - tôn kính, kính trọng
+   - thờ cúng, tôn thờ
+
+@vibrant /ˈvaɪbrənt/
+*  tính từ
+   - sôi động, hăng hái
+   - đầy sức sống, sống động
+
+@zealous /ˈzɛləs/
+*  tính từ
+   - nhiệt tình, hết mình
+   - nồng nhiệt, say mê
+
+@zenith /ˈziːnɪθ/
+*  danh từ
+   - điểm cao nhất, đỉnh cao
+   - thời kỳ phồn thịnh, đỉnh điểm
+
+@zero /ˈzɪroʊ/
+*  danh từ
+   - số không, chữ số 0
+   - điểm xuất phát, điểm gốc
+
+@zest /zɛst/
+*  danh từ
+   - hương vị, mùi thơm
+   - sự hứng khởi, sự phấn khởi
+
+@zigzag /ˈzɪɡˌzæɡ/
+*  danh từ
+   - đường zigzag, đường vòng ziczac
+*  tính từ
+   - đi zigzag, đi theo hình ziczac
+
+@zone /zoʊn/
+*  danh từ
+   - vùng, khu vực
+   - khu vực đặc quyền, khu vực cấm
+
+@zen /zɛn/
+*  danh từ
+   - phật giáo Thiền, phái Thiền
+   - tâm hồn yên bình, sự tĩnh lặng
+
+@zephyr /ˈzɛfər/
+*  danh từ
+   - gió nhẹ, gió mát
+   - vị gió ôn hòa, dễ chịu
+
+@zeppelin /ˈzɛpəlɪn/
+*  danh từ
+   - khí cầu Zeppelin
+   - máy bay không người lái
+
+@zoo /zuː/
+*  danh từ
+   - sở thú, công viên động vật
+   - nơi trưng bày, sắp xếp hình ảnh
+
+@diagnose /ˈdaɪəɡnoʊz/
+*  ngoại động từ
+   - chẩn đoán, đặt chẩn đoán
+   - nhận biết, phân biệt
+
+@dictate /ˈdɪkteɪt/
+*  ngoại động từ
+   - ra lệnh, đọc cho người viết xuống
+   - đặt điều kiện, chỉ đạo
+
+@diffuse /dɪˈfjuːz/
+*  tính từ
+   - lan tỏa, phân tán
+   - không rõ ràng, mơ hồ
+
+@dignity /ˈdɪɡnɪti/
+*  danh từ
+   - phẩm giá, phẩm cách
+   - vẻ nghiêm trang, lòng tự trọng
+
+@diligent /ˈdɪlɪdʒənt/
+*  tính từ
+   - siêng năng, cần cù
+   - chăm chỉ, cẩn thận
+
+@dimension /dɪˈmɛnʒən/
+*  danh từ
+   - chiều, kích thước
+   - khía cạnh, mặt
+
+@discern /dɪˈsɜːrn/
+*  ngoại động từ
+   - nhận thức, nhận ra
+   - nhìn thấy rõ, phân biệt
+
+@dissonance /ˈdɪsənəns/
+*  danh từ
+   - âm không hòa, tiếng không hợp
+   - sự mâu thuẫn, sự xung đột
+
+@divergent /daɪˈvɜːrdʒənt/
+*  tính từ
+   - chệch, không giống nhau
+   - phân kỳ, chia ra
+
+@divine /dɪˈvaɪn/
+*  tính từ
+   - thần thánh, thiêng liêng
+   - tuyệt vời, xuất sắc
+
+
 
