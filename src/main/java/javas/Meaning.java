@@ -1,3 +1,5 @@
+package javas;
+
 public class Meaning {
     private String partOfSpeech;
     private String description;

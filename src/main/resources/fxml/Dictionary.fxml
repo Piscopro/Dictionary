@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.SeparatorMenuItem?>
+<?import javafx.scene.control.SplitPane?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<VBox prefHeight="600.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="javas.MainController">
+  <children>
+    <MenuBar VBox.vgrow="NEVER">
+      <menus>
+        <Menu mnemonicParsing="false" text="File">
+          <items>
+            <MenuItem mnemonicParsing="false" text="New" />
+            <MenuItem mnemonicParsing="false" text="Open…" />
+            <Menu mnemonicParsing="false" text="Open Recent" />
+            <SeparatorMenuItem mnemonicParsing="false" />
+            <MenuItem mnemonicParsing="false" text="Close" />
+            <MenuItem mnemonicParsing="false" text="Save" />
+            <MenuItem mnemonicParsing="false" text="Save As…" />
+            <MenuItem mnemonicParsing="false" text="Revert" />
+            <SeparatorMenuItem mnemonicParsing="false" />
+            <MenuItem mnemonicParsing="false" text="Preferences…" />
+            <SeparatorMenuItem mnemonicParsing="false" />
+            <MenuItem mnemonicParsing="false" text="Quit" />
+          </items>
+        </Menu>
+        <Menu mnemonicParsing="false" text="Edit">
+          <items>
+            <MenuItem mnemonicParsing="false" text="Undo" />
+            <MenuItem mnemonicParsing="false" text="Redo" />
+            <SeparatorMenuItem mnemonicParsing="false" />
+            <MenuItem mnemonicParsing="false" text="Cut" />
+            <MenuItem mnemonicParsing="false" text="Copy" />
+            <MenuItem mnemonicParsing="false" text="Paste" />
+            <MenuItem mnemonicParsing="false" text="Delete" />
+            <SeparatorMenuItem mnemonicParsing="false" />
+            <MenuItem mnemonicParsing="false" text="Select All" />
+            <MenuItem mnemonicParsing="false" text="Unselect All" />
+          </items>
+        </Menu>
+        <Menu mnemonicParsing="false" text="Help">
+          <items>
+            <MenuItem mnemonicParsing="false" text="About MyHelloApp" />
+          </items>
+        </Menu>
+            <Menu mnemonicParsing="false" text="Đã Lưu">
+              <items>
+                <MenuItem mnemonicParsing="false" text="Action 1" />
+              </items>
+            </Menu>
+            <Menu mnemonicParsing="false" text="Game">
+               <items>
+                  <MenuItem mnemonicParsing="false" text="Action 1" />
+               </items>
+            </Menu>
+            <Menu mnemonicParsing="false" text="Google ">
+               <items>
+                  <MenuItem mnemonicParsing="false" text="Action 1" />
+               </items>
+            </Menu>
+      </menus>
+    </MenuBar>
+    <SplitPane dividerPositions="0.2505567928730512" focusTraversable="true" prefHeight="-1.0" prefWidth="-1.0" VBox.vgrow="ALWAYS">
+      <items>
+        <AnchorPane>
+          <children>
+            <Label alignment="CENTER" layoutX="14.0" layoutY="14.0" minWidth="60.0" prefHeight="27.0" prefWidth="193.0" style="&#10;" text="Từ Điển Anh - Việt" textAlignment="CENTER" wrapText="false">
+              <font>
+                <Font size="18.0" fx:id="x1" />
+              </font>
+              <textFill>
+                <Color blue="0.624" green="0.624" red="0.624" fx:id="x2" />
+              </textFill>
+            </Label>
+                  <VBox layoutY="41.0" prefHeight="505.0" prefWidth="235.0" />
+            <AnchorPane id="Content" layoutY="50.0" minHeight="-1.0" minWidth="-1.0" prefHeight="495.0" prefWidth="235.0">
+              <children>
+                        <Button id="searchbtn" mnemonicParsing="false" onAction="#openSearchPane" prefHeight="53.0" prefWidth="237.0" text="Tra từ" />
+                        <Button id="savedwordsbtn" layoutY="53.0" mnemonicParsing="false" onAction="#openSavedWordsPane" prefHeight="53.0" prefWidth="237.0" text="Từ đã lưu" />
+                        <Button id="recentwordsbtn" layoutY="106.0" mnemonicParsing="false" onAction="#openRecentWordsPane" prefHeight="53.0" prefWidth="237.0" text="Lịch sử tra" />
+                        <Button id="displayallbtn" layoutY="159.0" mnemonicParsing="false" onAction="#openDisplayAllPane" prefHeight="53.0" prefWidth="237.0" text="Hiển thị tất cả từ" />
+              </children>
+            </AnchorPane>
+          </children>
+        </AnchorPane>
+        <AnchorPane id="contentpane" prefHeight="548.0" prefWidth="656.0">
+          <children>
+                  <SplitPane id="worddisplaypane" fx:id="worddisplaypane" dividerPositions="0.1575091575091575" orientation="VERTICAL" prefHeight="548.0" prefWidth="655.0" visible="false">
+                    <items>
+                      <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0">
+                           <children>
+                              <Label fx:id="worddisplayword" layoutX="14.0" layoutY="15.0" prefHeight="53.0" prefWidth="583.0">
+                                 <font>
+                                    <Font name="System Bold" size="36.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </AnchorPane>
+                      <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="456.0" prefWidth="664.0">
+                           <children>
+                              <Text fx:id="worddisplaymeanings" layoutX="21.0" layoutY="39.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="380.3134765625" />
+                           </children>
+                        </AnchorPane>
+                    </items>
+                  </SplitPane>
+                  <AnchorPane id="searchpane" fx:id="searchpane" prefHeight="548.0" prefWidth="655.0" visible="false">
+                     <children>
+                        <TextField id="searchinput" fx:id="searchpaneinput" alignment="TOP_LEFT" layoutX="188.0" layoutY="126.0" prefHeight="43.0" prefWidth="279.0" promptText="Search...">
+                           <font>
+                              <Font size="21.0" />
+                           </font>
+                        </TextField>
+                        <VBox fx:id="wordboxsearchholder" layoutX="128.0" layoutY="189.0" prefHeight="290.0" prefWidth="400.0" style="-fx-border-style: solid; -fx-border-width: 0.5;" />
+                     </children>
+                  </AnchorPane>
+                  <ScrollPane id="savedwordspane" fx:id="savedwordspane" prefHeight="563.0" prefWidth="665.0" visible="false">
+                     <content>
+                        <AnchorPane prefHeight="558.0" prefWidth="665.0">
+                           <children>
+                              <Pane prefHeight="60.0" prefWidth="647.0">
+                                 <children>
+                                    <Text layoutX="14.0" layoutY="27.0" strokeType="OUTSIDE" strokeWidth="0.0" text="TỪ 1" wrappingWidth="161.8720703125">
+                                       <font>
+                                          <Font name="System Bold" size="15.0" />
+                                       </font>
+                                    </Text>
+                                    <Text layoutX="13.0" layoutY="44.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Nghĩa 1 nghĩa 1 nghĩa 1" wrappingWidth="368.8720703125" />
+                                    <Separator layoutX="1.0" layoutY="59.0" prefHeight="3.0" prefWidth="665.0" />
+                                    <Button layoutX="560.0" layoutY="15.0" mnemonicParsing="false" text="Button" />
+                                 </children>
+                              </Pane>
+                              <Pane layoutY="60.0" prefHeight="60.0" prefWidth="665.0">
+                                 <children>
+                                    <Text layoutX="14.0" layoutY="27.0" strokeType="OUTSIDE" strokeWidth="0.0" text="TỪ 1" wrappingWidth="161.8720703125">
+                                       <font>
+                                          <Font name="System Bold" size="15.0" />
+                                       </font>
+                                    </Text>
+                                    <Text layoutX="13.0" layoutY="44.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Nghĩa 1 nghĩa 1 nghĩa 1" wrappingWidth="368.8720703125" />
+                                    <Separator layoutX="1.0" layoutY="59.0" prefHeight="3.0" prefWidth="665.0" />
+                                    <Text layoutX="576.0" layoutY="36.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Bỏ lưu" wrappingWidth="58.00002336502075" />
+                                 </children>
+                              </Pane>
+                              <Pane layoutY="120.0" prefHeight="60.0" prefWidth="665.0">
+                                 <children>
+                                    <Text layoutX="14.0" layoutY="27.0" strokeType="OUTSIDE" strokeWidth="0.0" text="TỪ 1" wrappingWidth="161.8720703125">
+                                       <font>
+                                          <Font name="System Bold" size="15.0" />
+                                       </font>
+                                    </Text>
+                                    <Text layoutX="13.0" layoutY="44.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Nghĩa 1 nghĩa 1 nghĩa 1" wrappingWidth="368.8720703125" />
+                                    <Separator layoutX="1.0" layoutY="59.0" prefHeight="3.0" prefWidth="665.0" />
+                                    <Text layoutX="576.0" layoutY="36.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Bỏ lưu" wrappingWidth="58.00002336502075" />
+                                 </children>
+                              </Pane>
+                              <Pane layoutY="180.0" prefHeight="60.0" prefWidth="665.0">
+                                 <children>
+                                    <Text layoutX="14.0" layoutY="27.0" strokeType="OUTSIDE" strokeWidth="0.0" text="TỪ 1" wrappingWidth="161.8720703125">
+                                       <font>
+                                          <Font name="System Bold" size="15.0" />
+                                       </font>
+                                    </Text>
+                                    <Text layoutX="13.0" layoutY="44.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Nghĩa 1 nghĩa 1 nghĩa 1" wrappingWidth="368.8720703125" />
+                                    <Separator layoutX="1.0" layoutY="59.0" prefHeight="3.0" prefWidth="665.0" />
+                                    <Text layoutX="576.0" layoutY="36.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Bỏ lưu" wrappingWidth="58.00002336502075" />
+                                 </children>
+                              </Pane>
+                           </children>
+                        </AnchorPane>
+                     </content>
+                  </ScrollPane>
+                  <ScrollPane id="recentwordspane" fx:id="recentwordspane" prefHeight="563.0" prefWidth="665.0" visible="false">
+                     <content>
+                        <AnchorPane prefHeight="558.0" prefWidth="665.0">
+                           <children>
+                              <Pane prefHeight="60.0" prefWidth="665.0">
+                                 <children>
+                                    <Text layoutX="43.0" layoutY="26.0" strokeType="OUTSIDE" strokeWidth="0.0" text="TỪ 1" wrappingWidth="161.8720703125">
+                                       <font>
+                                          <Font name="System Bold" size="15.0" />
+                                       </font>
+                                    </Text>
+                                    <Text layoutX="43.0" layoutY="47.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Nghĩa 1 nghĩa 1 nghĩa 1" wrappingWidth="368.8720703125" />
+                                    <Separator layoutX="1.0" layoutY="59.0" prefHeight="3.0" prefWidth="665.0" />
+                                    <Text layoutX="14.0" layoutY="36.0" strokeType="OUTSIDE" strokeWidth="0.0" text="🕜" wrappingWidth="58.00002336502075" />
+                                 </children>
+                              </Pane>
+                              <Pane layoutY="60.0" prefHeight="60.0" prefWidth="665.0">
+                                 <children>
+                                    <Text layoutX="43.0" layoutY="26.0" strokeType="OUTSIDE" strokeWidth="0.0" text="TỪ 1" wrappingWidth="161.8720703125">
+                                       <font>
+                                          <Font name="System Bold" size="15.0" />
+                                       </font>
+                                    </Text>
+                                    <Text layoutX="43.0" layoutY="47.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Nghĩa 1 nghĩa 1 nghĩa 1" wrappingWidth="368.8720703125" />
+                                    <Separator layoutX="1.0" layoutY="59.0" prefHeight="3.0" prefWidth="665.0" />
+                                    <Text layoutX="14.0" layoutY="36.0" strokeType="OUTSIDE" strokeWidth="0.0" text="🕜" wrappingWidth="58.00002336502075" />
+                                 </children>
+                              </Pane>
+                              <Pane layoutY="120.0" prefHeight="60.0" prefWidth="665.0">
+                                 <children>
+                                    <Text layoutX="43.0" layoutY="26.0" strokeType="OUTSIDE" strokeWidth="0.0" text="TỪ 1" wrappingWidth="161.8720703125">
+                                       <font>
+                                          <Font name="System Bold" size="15.0" />
+                                       </font>
+                                    </Text>
+                                    <Text layoutX="43.0" layoutY="47.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Nghĩa 1 nghĩa 1 nghĩa 1" wrappingWidth="368.8720703125" />
+                                    <Separator layoutX="1.0" layoutY="59.0" prefHeight="3.0" prefWidth="665.0" />
+                                    <Text layoutX="14.0" layoutY="36.0" strokeType="OUTSIDE" strokeWidth="0.0" text="🕜" wrappingWidth="58.00002336502075" />
+                                 </children>
+                              </Pane>
+                              <Pane layoutY="180.0" prefHeight="60.0" prefWidth="665.0">
+                                 <children>
+                                    <Text layoutX="43.0" layoutY="26.0" strokeType="OUTSIDE" strokeWidth="0.0" text="TỪ 1" wrappingWidth="161.8720703125">
+                                       <font>
+                                          <Font name="System Bold" size="15.0" />
+                                       </font>
+                                    </Text>
+                                    <Text layoutX="43.0" layoutY="47.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Nghĩa 1 nghĩa 1 nghĩa 1" wrappingWidth="368.8720703125" />
+                                    <Separator layoutX="1.0" layoutY="59.0" prefHeight="3.0" prefWidth="665.0" />
+                                    <Text layoutX="14.0" layoutY="36.0" strokeType="OUTSIDE" strokeWidth="0.0" text="🕜" wrappingWidth="58.00002336502075" />
+                                 </children>
+                              </Pane>
+                              <Pane layoutY="240.0" prefHeight="60.0" prefWidth="665.0">
+                                 <children>
+                                    <Text layoutX="43.0" layoutY="26.0" strokeType="OUTSIDE" strokeWidth="0.0" text="TỪ 1" wrappingWidth="161.8720703125">
+                                       <font>
+                                          <Font name="System Bold" size="15.0" />
+                                       </font>
+                                    </Text>
+                                    <Text layoutX="43.0" layoutY="47.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Nghĩa 1 nghĩa 1 nghĩa 1" wrappingWidth="368.8720703125" />
+                                    <Separator layoutX="1.0" layoutY="59.0" prefHeight="3.0" prefWidth="665.0" />
+                                    <Text layoutX="14.0" layoutY="36.0" strokeType="OUTSIDE" strokeWidth="0.0" text="🕜" wrappingWidth="58.00002336502075" />
+                                 </children>
+                              </Pane>
+                           </children>
+                        </AnchorPane>
+                     </content>
+                  </ScrollPane>
+                  <ScrollPane id="displayallpane" fx:id="displayallpane" prefHeight="558.0" prefWidth="665.0" visible="false">
+                    <content>
+                      <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="557.0" prefWidth="668.0">
+                           <children>
+                              <Pane prefHeight="60.0" prefWidth="665.0">
+                                 <children>
+                                    <Text layoutX="14.0" layoutY="27.0" strokeType="OUTSIDE" strokeWidth="0.0" text="TỪ 1" wrappingWidth="161.8720703125">
+                                       <font>
+                                          <Font name="System Bold" size="15.0" />
+                                       </font>
+                                    </Text>
+                                    <Text layoutX="13.0" layoutY="44.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Nghĩa 1 nghĩa 1 nghĩa 1" wrappingWidth="368.8720703125" />
+                                    <Separator layoutX="1.0" layoutY="59.0" prefHeight="3.0" prefWidth="665.0" />
+                                 </children>
+                              </Pane>
+                              <Pane layoutY="180.0" prefHeight="60.0" prefWidth="665.0">
+                                 <children>
+                                    <Text layoutX="14.0" layoutY="27.0" strokeType="OUTSIDE" strokeWidth="0.0" text="TỪ 1" wrappingWidth="161.8720703125">
+                                       <font>
+                                          <Font name="System Bold" size="15.0" />
+                                       </font>
+                                    </Text>
+                                    <Text layoutX="13.0" layoutY="44.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Nghĩa 1 nghĩa 1 nghĩa 1" wrappingWidth="368.8720703125" />
+                                    <Separator layoutX="1.0" layoutY="59.0" prefHeight="3.0" prefWidth="665.0" />
+                                 </children>
+                              </Pane>
+                              <Pane layoutY="60.0" prefHeight="60.0" prefWidth="665.0">
+                                 <children>
+                                    <Text layoutX="14.0" layoutY="27.0" strokeType="OUTSIDE" strokeWidth="0.0" text="TỪ 1" wrappingWidth="161.8720703125">
+                                       <font>
+                                          <Font name="System Bold" size="15.0" />
+                                       </font>
+                                    </Text>
+                                    <Text layoutX="13.0" layoutY="44.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Nghĩa 1 nghĩa 1 nghĩa 1" wrappingWidth="368.8720703125" />
+                                    <Separator layoutX="1.0" layoutY="59.0" prefHeight="3.0" prefWidth="665.0" />
+                                 </children>
+                              </Pane>
+                              <Pane layoutY="120.0" prefHeight="60.0" prefWidth="665.0">
+                                 <children>
+                                    <Text layoutX="14.0" layoutY="27.0" strokeType="OUTSIDE" strokeWidth="0.0" text="TỪ 1" wrappingWidth="161.8720703125">
+                                       <font>
+                                          <Font name="System Bold" size="15.0" />
+                                       </font>
+                                    </Text>
+                                    <Text layoutX="13.0" layoutY="44.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Nghĩa 1 nghĩa 1 nghĩa 1" wrappingWidth="368.8720703125" />
+                                    <Separator layoutX="1.0" layoutY="59.0" prefHeight="3.0" prefWidth="665.0" />
+                                 </children>
+                              </Pane>
+                           </children>
+                        </AnchorPane>
+                    </content>
+                  </ScrollPane>
+          </children>
+        </AnchorPane>
+      </items>
+    </SplitPane>
+    <HBox id="HBox" alignment="CENTER_LEFT" spacing="5.0" VBox.vgrow="NEVER">
+      <children>
+        <Label maxHeight="1.7976931348623157E308" maxWidth="-1.0" text="Left status" HBox.hgrow="ALWAYS">
+          <font>
+            <Font size="11.0" fx:id="x3" />
+          </font>
+          <textFill>
+            <Color blue="0.625" green="0.625" red="0.625" fx:id="x4" />
+          </textFill>
+        </Label>
+        <Pane prefHeight="-1.0" prefWidth="-1.0" HBox.hgrow="ALWAYS" />
+        <Label font="$x3" maxWidth="-1.0" text="Right status" textFill="$x4" HBox.hgrow="NEVER" />
+      </children>
+      <padding>
+        <Insets bottom="3.0" left="3.0" right="3.0" top="3.0" />
+      </padding>
+    </HBox>
+  </children>
+</VBox>
