@@ -9,7 +9,7 @@ import java.util.Scanner;
 
 class DictionaryCommandLine {
     private DictionaryManagement dictionaryManagement = new DictionaryManagement();
-    private static final String QUESTIONS_FILE = "questions.txt";
+    private static final String QUESTIONS_FILE = "src/main/questions.txt";
 
     public DictionaryCommandLine() {
     }
@@ -172,12 +172,12 @@ class DictionaryCommandLine {
                     this.startGame();
                     break;
                 case 8:
-                    String importFilePath = "dictionaries.txt";
+                    String importFilePath = "src/main/dictionaries.txt";
                     var10000 = this.dictionaryManagement;
                     DictionaryManagement.insertFromFile(importFilePath);
                     break;
                 case 9:
-                    String exportFilePath = "dictionaries.txt";
+                    String exportFilePath = "src/main/dictionaries.txt";
                     var10000 = this.dictionaryManagement;
                     DictionaryManagement.dictionaryExportToFile(exportFilePath);
                     break;
