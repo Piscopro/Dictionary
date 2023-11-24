@@ -217,7 +217,7 @@ class DictionaryCommandLine {
                     DictionaryManagement.searchHistory();
                     break;
                 case 11:
-                    DictionaryManagement.favourite();
+//                    DictionaryManagement.favourite();
                     break;
                 case 12:
                     DictionaryManagement.speak();
