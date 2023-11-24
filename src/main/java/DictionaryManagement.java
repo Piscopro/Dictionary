@@ -1,4 +1,9 @@
 import java.io.*;
+import java.net.HttpURLConnection;
+import java.net.MalformedURLException;
+import java.net.URL;
+import java.net.URLEncoder;
+import java.nio.charset.StandardCharsets;
 import java.util.*;
 import com.sun.speech.freetts.Voice;
 import com.sun.speech.freetts.VoiceManager;
@@ -68,7 +73,6 @@ class DictionaryManagement {
         }
     }
 
-
     public static void dictionaryExportToFile() {
         String exportFilePath = "src/main/dictionaries.txt";
 
@@ -96,12 +100,12 @@ class DictionaryManagement {
         }
     }
 
-    public Dictionary getDictionary() {
+    public static Dictionary getDictionary() {
         return dictionary;
     }
 
 
-    public void dictionaryLookup() {
+    public static void dictionaryLookup() {
         System.out.print("Enter a word to look up: ");
         String wordToLookup = scanner.nextLine();
 
@@ -115,25 +119,26 @@ class DictionaryManagement {
 
         if (index != -1) {
             Word entry = words.get(index);
-            System.out.println("Word: " + entry.getWordTarget() + " " + entry.getPronunciation());
-
-            for (Meaning meaning : entry.getMeanings()) {
-                System.out.println("*  " + meaning.getPartOfSpeech());
-
-                // Split the description into lines based on the dash '-'
-                String[] descriptionLines = meaning.getDescription().split("\\s*-\\s*");
-
-                // Print each line of the description without the leading empty line
-                boolean isFirstLine = true;
-                for (String line : descriptionLines) {
-                    if (!isFirstLine) {
-                        System.out.println("   - " + line.trim());
-                    } else {
-                        //System.out.println("   - " + line.trim());
-                        isFirstLine = false;
-                    }
-                }
-            }
+            entry.show();
+//            System.out.println("Word: " + entry.getWordTarget() + " " + entry.getPronunciation());
+//
+//            for (Meaning meaning : entry.getMeanings()) {
+//                System.out.println("*  " + meaning.getPartOfSpeech());
+//
+//                // Split the description into lines based on the dash '-'
+//                String[] descriptionLines = meaning.getDescription().split("\\s*-\\s*");
+//
+//                // Print each line of the description without the leading empty line
+//                boolean isFirstLine = true;
+//                for (String line : descriptionLines) {
+//                    if (!isFirstLine) {
+//                        System.out.println("   - " + line.trim());
+//                    } else {
+//                        //System.out.println("   - " + line.trim());
+//                        isFirstLine = false;
+//                    }
+//                }
+//            }
             dictionary.addHistory(entry);
         } else {
             System.out.println("Word not found in the dictionary.");
@@ -180,7 +185,7 @@ class DictionaryManagement {
         dictionary.addWord(newWord);
     }
 
-    public void editWord() {
+    public static void editWord() {
         System.out.print("Enter the word to update: ");
         String wordToUpdate = scanner.nextLine();
 
@@ -226,7 +231,7 @@ class DictionaryManagement {
         }
     }
 
-    public void deleteWord() {
+    public static void deleteWord() {
         System.out.print("Enter the word to remove: ");
         String wordToRemove = scanner.nextLine();
 
@@ -272,18 +277,12 @@ class DictionaryManagement {
         dictionary.addWord(newWord);
     }
 
-    /*public static String showWordFirstMeaning(Word word) {
-        StringBuilder wordMeaning = new StringBuilder();
-        wordMeaning.append(word.getFirstMeaning());
-        return wordMeaning.toString();
-    }*/
     public static String showWordFirstMeaning(Word word) {
         return word.getWordTarget() + " "
                 + word.getPronunciation() + "\n" + word.getFirstMeaning();
     }
 
     public static void BoxSearchPrefix() {
-        Scanner scanner = new Scanner(System.in);
         System.out.print("Enter a prefix to search for: ");
         String prefix = scanner.nextLine();
         ArrayList<Word> searchResults = dictionarySearcher(prefix);
@@ -292,7 +291,7 @@ class DictionaryManagement {
             //System.out.println("Words that start with \"" + prefix + "\":");
 
             for (Word entry : searchResults) {
-                System.out.println(showWordFirstMeaning(entry));
+                System.out.println(entry.showWordTargetFirstMeaning());
                 System.out.println();
                 }
             }
@@ -302,26 +301,25 @@ class DictionaryManagement {
         }
     }
 
-    public static void showSearchHistory() {
+    public static void searchHistory() {
         System.out.println("1: Full history, 2: Search history");
-        Scanner sc = new Scanner(System.in);
-        int op = sc.nextInt();
+        int op = scanner.nextInt();
 
         ArrayList<Word> history = new ArrayList<>(dictionary.getSearchHistory());
 
         if (op == 1) {
             for (int i = history.size() - 1; i >= 0; i--) {
-                System.out.println(showWordFirstMeaning(history.get(i)));
+                System.out.println(history.get(i).showWordTargetFirstMeaning());
             }
         } else if (op == 2) {
             int startIdx = history.size() - Math.min(5, history.size());
             for (int i = history.size() - 1; i >= startIdx; i--) {
-                System.out.println(showWordFirstMeaning(history.get(i)));
+                System.out.println(history.get(i).showWordTargetFirstMeaning());
             }
         }
     }
 
-    public static void exportFavouritesToFile() {
+    /*public static void exportFavouritesToFile() {
         String exportFilePath = "src/main/favourites.txt";
         Set<String> exportedWords = new HashSet<>();
 
@@ -345,7 +343,31 @@ class DictionaryManagement {
         } catch (IOException e) {
             e.printStackTrace();
         }
+    }*/
+    public static void exportFavouritesToFile() {
+        String exportFilePath = "src/main/favourites.txt";
+        Set<String> exportedWords = new HashSet<>();
+
+        try (BufferedWriter bw = new BufferedWriter(new FileWriter(exportFilePath, false))) { // false để tạo mới file
+            for (Word word : dictionary.getFavouriteWords()) {
+                if (!exportedWords.contains(word.getWordTarget())) {
+                    bw.write("@" + word.getWordTarget() + " " + word.getPronunciation() + "\n");
+
+                    for (Meaning meaning : word.getMeanings()) {
+                        bw.write("*  " + meaning.getPartOfSpeech() + "\n");
+                        bw.write("  " + meaning.getDescription() + "\n");
+                    }
+                    bw.newLine();
+
+                    exportedWords.add(word.getWordTarget());
+                }
+            }
+            System.out.println("Favorites exported to " + exportFilePath);
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
     }
+
 
     public static void importFavouritesFromFile() {
         String importFilePath = "src/main/favourites.txt";
@@ -406,15 +428,14 @@ class DictionaryManagement {
         }
     }
 
-    public static void Favourite() {
-        importFavouritesFromFile();
-
+    public static void favourite() {
         while (true) {
+
             System.out.println("[0] Exit:");
             System.out.println("[1] Show full favourite list:");
             System.out.println("[2] Add favourite:");
             System.out.println("[3] Delete favourite:");
-            System.out.println("[4] Save!");
+            System.out.println("[4] Import data");
             System.out.print("Choose an option: ");
             int op1 = scanner.nextInt();
             scanner.nextLine(); // Consume the newline character
@@ -435,7 +456,7 @@ class DictionaryManagement {
                     deleteFavourite();
                     break;
                 case 4:
-                    exportFavouritesToFile();
+                    importFavouritesFromFile();
                     break;
                 default:
                     System.out.println("Invalid option. Please choose 0, 1, 2, 3, or 4.");
@@ -455,11 +476,11 @@ class DictionaryManagement {
         ArrayList<Word> favourites = new ArrayList<>(Dictionary.getFavouriteWords());
         Set<String> displayedWords = new HashSet<>();
 
-        for (Word favourite : favourites) {
-            if (!displayedWords.contains(favourite.getWordTarget())) {
-                System.out.println(showWordFirstMeaning(favourite));
+        for (int i = favourites.size() - 1; i >= 0; i--) {
+            if (!displayedWords.contains(favourites.get(i).getWordTarget())) {
+                System.out.println(favourites.get(i).showWordTargetFirstMeaning());
                 System.out.println();
-                displayedWords.add(favourite.getWordTarget());
+                displayedWords.add(favourites.get(i).getWordTarget());
             }
         }
     }
@@ -480,7 +501,6 @@ class DictionaryManagement {
         }
     }
 
-
     public static void addFavourite() {
         System.out.println("Enter the word you want to add: ");
         String wordToAdd = scanner.nextLine();
@@ -489,6 +509,7 @@ class DictionaryManagement {
         if (wordObjToAdd != null) {
             dictionary.addFavourite(wordObjToAdd);
             System.out.println(wordToAdd + " added to favourites.");
+            exportFavouritesToFile();
         } else {
             System.out.println("Word not found.");
         }
@@ -496,17 +517,31 @@ class DictionaryManagement {
 
 
     public static void deleteFavourite() {
-        String wordToDelete = scanner.nextLine();
-        Word wordObjToDelete = findWord(wordToDelete);
-        if (wordObjToDelete != null) {
-            dictionary.deleteFavourite(wordObjToDelete);
-            System.out.println(wordToDelete + " removed from favourites.");
-        } else {
-            System.out.println("Word not found in favourites.");
+        System.out.print("Enter the word to remove from favourites: ");
+        String wordToRemove = scanner.nextLine();
+
+        Iterator<Word> iterator = dictionary.getFavouriteWords().iterator();
+        boolean isDeleted = false;
+
+        while (iterator.hasNext()) {
+            Word entry = iterator.next();
+
+            if (entry.getWordTarget().equalsIgnoreCase(wordToRemove)) {
+                iterator.remove();
+                isDeleted = true;
+                exportFavouritesToFile(); // Lưu thay đổi vào file nếu cần
+                break;
+            }
+        }
+
+        if (!isDeleted) {
+            System.out.println("Word not found in the favourites.");
         }
     }
 
-    public static void speak(String text) {
+
+
+    public static void speakWord(String text) {
         System.setProperty("freetts.voices", "com.sun.speech.freetts.en.us.cmu_us_kal.KevinVoiceDirectory");
         VoiceManager voiceManager = VoiceManager.getInstance();
         Voice voice = voiceManager.getVoice("kevin16");
@@ -519,9 +554,46 @@ class DictionaryManagement {
         voice.deallocate();
     }
 
-    public static void Speak() {
+    public static void speak() {
         System.out.println("Input the word to speak: ");
         String text = scanner.nextLine();
-        speak(text);
+        speakWord(text);
+    }
+
+    public static void translateSentence() throws IOException {
+        System.out.print("Choose language: 1. Eng-Vie, 2. Vie-Eng ");
+        int choice = scanner.nextInt();
+        String sl, tl;
+        if (choice == 1) {
+            System.out.println("Eng-Vie:");
+            sl = "en";
+            tl = "vi";
+        } else {
+            System.out.println("Vie-Eng:");
+            sl = "vi";
+            tl = "en";
+        }
+
+        scanner.nextLine(); // Consume newline left-over
+        System.out.print("Enter the sentence to be translated: ");
+        String query = scanner.nextLine();
+
+        query = URLEncoder.encode(query, StandardCharsets.UTF_8);
+
+        String urlStr = "https://translate.googleapis.com/translate_a/single?client=gtx&sl=" + sl + "&tl=" + tl + "&dt=t&q=" + query;
+        URL url = new URL(urlStr);
+        HttpURLConnection conn = (HttpURLConnection) url.openConnection();
+        conn.setRequestMethod("GET");
+        BufferedReader in = new BufferedReader(new InputStreamReader(conn.getInputStream()));
+        String inputLine;
+        StringBuffer content = new StringBuffer();
+        while ((inputLine = in.readLine()) != null) {
+            content.append(inputLine);
+        }
+        in.close();
+        conn.disconnect();
+        String jsonString = content.toString();
+        String translatedText = jsonString.split("\"")[1];
+        System.out.println("Translated sentenced: " + translatedText);
     }
 }

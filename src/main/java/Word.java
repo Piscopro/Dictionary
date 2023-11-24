@@ -2,17 +2,17 @@ import java.util.ArrayList;
 import java.util.List;
 
 class Word {
-    private String word_target;
+    private String wordTarget;
     private String pronunciation;
     private List<Meaning> meanings = new ArrayList<Meaning>();
 
-    public Word(String word_target, String pronunciation) {
-        this.word_target = word_target;
+    public Word(String wordTarget, String pronunciation) {
+        this.wordTarget = wordTarget;
         this.pronunciation = pronunciation;
     }
 
     public String getWordTarget() {
-        return this.word_target;
+        return this.wordTarget;
     }
 
     public String getPronunciation() {
@@ -23,12 +23,8 @@ class Word {
         this.pronunciation = pronunciation;
     }
 
-    public String getWord_target() {
-        return word_target;
-    }
-
     public void setWord_target(String word_target) {
-        this.word_target = word_target;
+        this.wordTarget = wordTarget;
     }
 
     public List<Meaning> getMeanings() {
@@ -42,6 +38,34 @@ class Word {
 
     public void addMeaning(Meaning currentMeaning) {
         meanings.add(currentMeaning);
+    }
+
+    public void show() {
+        // Print word and pronunciation
+        System.out.println(getWordTarget() + " " + getPronunciation());
+
+        // Loop through and print each meaning of the word
+        for (Meaning meaning : getMeanings()) {
+            System.out.println("*  " + meaning.getPartOfSpeech());
+
+            // Split the description into lines based on the dash '-'
+            String[] descriptionLines = meaning.getDescription().split("\\s*-\\s*");
+
+            // Print each line of the description without the leading empty line
+            boolean isFirstLine = true;
+            for (String line : descriptionLines) {
+                if (!isFirstLine) {
+                    System.out.println("   - " + line.trim());
+                } else {
+                    isFirstLine = false;
+                }
+            }
+        }
+    }
+
+    public String showWordTargetFirstMeaning() {
+        return getWordTarget() + " "
+                + getPronunciation() + "\n" + getFirstMeaning();
     }
 
     @Override

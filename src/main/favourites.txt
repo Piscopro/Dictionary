@@ -1,24 +1,10 @@
-@kiss /kɪs/
-*  ngoại động từ
-  - hôn, hôn môi - chạm nhẹ, hôn nhẹ
+@dimension /dɪˈmɛnʒən/
 *  danh từ
-  - sự hôn, nụ hôn - một nụ hôn nhẹ
+  - chiều, kích thước - khía cạnh, mặt
 
 @knit /nɪt/
 *  ngoại động từ
   - đan, đan len - kết nối chặt, liên kết chặt
 *  danh từ
   - sự đan, sự đan len - chiếc len, chiếc đan
-
-@lose /luːz/
-*  ngoại động từ
-  - mất, đánh mất - thua, bị đánh bại
-*  danh từ
-  - sự mất, sự đánh mất - sự thua, sự bị đánh bại
-
-@last /læst/
-*  ngoại động từ
-  - kéo dài, chịu được - cuối cùng, sau cùng
-*  danh từ
-  - thời gian kéo dài, thời kỳ - người hoặc vật cuối cùng
 

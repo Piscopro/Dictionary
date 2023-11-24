@@ -7,7 +7,8 @@ class Dictionary {
     private ArrayList<Word> words = new ArrayList<>();
     private Queue<Word> searchHistory = new LinkedList<>();
     public static List<Word> favouriteWords = new ArrayList<>();
-    public static final int FAVOURITE_SIZE = 50;
+    private static final int FAVOURITE_SIZE = 50;
+    private static final int HISTORY_SIZE = 50;
 
     public void addFavourite(Word word) {
         if (favouriteWords.size() >= FAVOURITE_SIZE) {
@@ -28,8 +29,7 @@ class Dictionary {
     }
 
     public void addHistory(Word word) {
-        final int maxNumOfWord = 50;
-        if (searchHistory.size() > maxNumOfWord - 1) {
+        if (searchHistory.size() > HISTORY_SIZE- 1) {
             searchHistory.poll();
             searchHistory.add(word);
         } else {
