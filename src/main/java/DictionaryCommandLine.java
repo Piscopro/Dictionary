@@ -14,44 +14,34 @@ class DictionaryCommandLine {
     public DictionaryCommandLine() {
     }
 
-    /*public void showAllWords() {
-        ArrayList<Word> words = this.dictionaryManagement.getDictionary().getWords();
-        System.out.println("No   | English             | Pronunciation       | VietNamese");
-
-        for(int i = 0; i < words.size(); ++i) {
-            Word word = (Word)words.get(i);
-            System.out.printf("%-5d| %-20s| %-20s| %s%n", i + 1, word.getWordTarget(), word.getPronunciation(), word.getWordExplain());
-        }
-
-    }*/
-
     public void showAllWords() {
-        ArrayList<Word> words = this.dictionaryManagement.getDictionary().getWords();
+        ArrayList<Word> words = DictionaryManagement.getDictionary().getWords();
 
         // Sort the words alphabetically
         Collections.sort(words, (w1, w2) -> w1.getWordTarget().compareToIgnoreCase(w2.getWordTarget()));
 
         for (Word word : words) {
-            // Print word and pronunciation
-            System.out.println(word.getWordTarget() + " " + word.getPronunciation());
-
-            // Loop through and print each meaning of the word
-            for (Meaning meaning : word.getMeanings()) {
-                System.out.println("*  " + meaning.getPartOfSpeech());
-
-                // Split the description into lines based on the dash '-'
-                String[] descriptionLines = meaning.getDescription().split("\\s*-\\s*");
-
-                // Print each line of the description without the leading empty line
-                boolean isFirstLine = true;
-                for (String line : descriptionLines) {
-                    if (!isFirstLine) {
-                        System.out.println("   - " + line.trim());
-                    } else {
-                        isFirstLine = false;
-                    }
-                }
-            }
+//            // Print word and pronunciation
+//            System.out.println(word.getWordTarget() + " " + word.getPronunciation());
+//
+//            // Loop through and print each meaning of the word
+//            for (Meaning meaning : word.getMeanings()) {
+//                System.out.println("*  " + meaning.getPartOfSpeech());
+//
+//                // Split the description into lines based on the dash '-'
+//                String[] descriptionLines = meaning.getDescription().split("\\s*-\\s*");
+//
+//                // Print each line of the description without the leading empty line
+//                boolean isFirstLine = true;
+//                for (String line : descriptionLines) {
+//                    if (!isFirstLine) {
+//                        System.out.println("   - " + line.trim());
+//                    } else {
+//                        isFirstLine = false;
+//                    }
+//                }
+//            }
+            word.show();
 
             System.out.println();
         }
@@ -166,9 +156,9 @@ class DictionaryCommandLine {
 
     }
 
-    public void dictionaryAdvanced() {
+    public void dictionaryAdvanced() throws IOException {
         Scanner scanner = new Scanner(System.in);
-
+        DictionaryManagement.insertFromFile();
         label32:
         while (true) {
             System.out.println("Welcome to My Application!");
@@ -185,6 +175,7 @@ class DictionaryCommandLine {
             System.out.println("[10] History");
             System.out.println("[11] Favourites / My Words");
             System.out.println("[12] Speak");
+            System.out.println("[13] Translate sentence");
             System.out.print("Your action: ");
             int choice = scanner.nextInt();
             scanner.nextLine();
@@ -194,25 +185,25 @@ class DictionaryCommandLine {
                     System.out.println("Goodbye!");
                     return;
                 case 1:
-                    this.insertFromCommandline();
+                    insertFromCommandline();
                     break;
                 case 2:
-                    this.dictionaryManagement.deleteWord();
+                    DictionaryManagement.deleteWord();
                     break;
                 case 3:
-                    this.dictionaryManagement.editWord();
+                    DictionaryManagement.editWord();
                     break;
                 case 4:
-                    this.showAllWords();
+                    showAllWords();
                     break;
                 case 5:
-                    this.dictionaryManagement.dictionaryLookup();
+                    DictionaryManagement.dictionaryLookup();
                     break;
                 case 6:
                     DictionaryManagement.BoxSearchPrefix();
                     break;
                 case 7:
-                    this.startGame();
+                    startGame();
                     break;
                 case 8:
                     DictionaryManagement.insertFromFile();
@@ -221,13 +212,16 @@ class DictionaryCommandLine {
                     DictionaryManagement.dictionaryExportToFile();
                     break;
                 case 10:
-                    dictionaryManagement.showSearchHistory();
+                    DictionaryManagement.searchHistory();
                     break;
                 case 11:
-                    DictionaryManagement.Favourite();
+                    DictionaryManagement.favourite();
                    break;
                 case 12:
-                    DictionaryManagement.Speak();
+                    DictionaryManagement.speak();
+                    break;
+                case 13:
+                    DictionaryManagement.translateSentence();
                     break;
                 default:
                     System.out.println("Action not supported.");
