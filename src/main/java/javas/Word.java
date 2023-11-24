@@ -6,7 +6,7 @@ import java.util.List;
 class Word {
     private String wordTarget;
     private String pronunciation;
-    private List<Meaning> meanings = new ArrayList<Meaning>();
+    private List<Meaning> meanings = new ArrayList<>();
 
     public Word(String wordTarget, String pronunciation) {
         this.wordTarget = wordTarget;
@@ -42,32 +42,35 @@ class Word {
         meanings.add(currentMeaning);
     }
 
-    public void show() {
-        // Print word and pronunciation
-        System.out.println(getWordTarget() + " " + getPronunciation());
+    public String getMeaning() {
+        StringBuilder result = new StringBuilder();
 
-        // Loop through and print each meaning of the word
         for (Meaning meaning : getMeanings()) {
-            System.out.println("*  " + meaning.getPartOfSpeech());
+            result.append("* ").append(meaning.getPartOfSpeech()).append("\n");
 
             // Split the description into lines based on the dash '-'
             String[] descriptionLines = meaning.getDescription().split("\\s*-\\s*");
 
-            // Print each line of the description without the leading empty line
+            // Concatenate each line of the description without the leading empty line
             boolean isFirstLine = true;
             for (String line : descriptionLines) {
                 if (!isFirstLine) {
-                    System.out.println("   - " + line.trim());
+                    result.append("   - ").append(line.trim()).append("\n");
                 } else {
                     isFirstLine = false;
                 }
             }
         }
+        return result.toString();
+    }
+
+
+    public String show() {
+        return getWordTarget() + " " + getPronunciation() + "\n" + getMeaning();
     }
 
     public String showWordTargetFirstMeaning() {
-        return getWordTarget() + " "
-                + getPronunciation() + "\n" + getFirstMeaning();
+        return getWordTarget() + " " + getPronunciation() + "\n" + getFirstMeaning();
     }
 
     @Override

@@ -117,22 +117,8 @@ class DictionaryManagement {
 
         if (index != -1) {
             Word entry = words.get(index);
-            StringBuilder result = new StringBuilder();
-            result.append("Word: ").append(entry.getWordTarget()).append(" ").append(entry.getPronunciation()).append("\n");
-
-            for (Meaning meaning : entry.getMeanings()) {
-                result.append("* ").append(meaning.getPartOfSpeech()).append("\n");
-                String[] descriptionLines = meaning.getDescription().split("\\s*-\\s*");
-
-                for (String line : descriptionLines) {
-                    if (!line.isEmpty()) {
-                        result.append("   - ").append(line.trim()).append("\n");
-                    }
-                }
-            }
-
             dictionary.addHistory(entry);
-            return result.toString();
+            return entry.show();
         } else {
             return "Word not found in the dictionary.";
         }
@@ -172,6 +158,17 @@ class DictionaryManagement {
         return -1; // Không tìm thấy từ
     }
 
+    public ArrayList<String> showAllWords() {
+        ArrayList<Word> words = DictionaryManagement.getDictionary().getWords();
+        ArrayList<String> result = new ArrayList<>();
+        // Sort the words alphabetically
+        Collections.sort(words, (w1, w2) -> w1.getWordTarget().compareToIgnoreCase(w2.getWordTarget()));
+
+        for (Word word : words) {
+            result.add(word.showWordTargetFirstMeaning());
+        }
+        return result;
+    }
 
     public void addWord(String word_target, String pronunciation, String partOfSpeech, String description) {
         Word newWord = new Word(word_target, pronunciation);
@@ -295,22 +292,21 @@ class DictionaryManagement {
     }
 
 
-    public static void searchHistory() {
-        System.out.println("1: Full history, 2: Search history");
-        int op = scanner.nextInt();
-
+    public ArrayList<String> searchHistory(String type) {
         ArrayList<Word> history = new ArrayList<>(dictionary.getSearchHistory());
+        ArrayList<String> result = new ArrayList<>();
 
-        if (op == 1) {
+        if (type.equals("full")) {
             for (int i = history.size() - 1; i >= 0; i--) {
-                System.out.println(history.get(i).showWordTargetFirstMeaning());
+                result.add(history.get(i).showWordTargetFirstMeaning());
             }
-        } else if (op == 2) {
+        } else if (type.equals("searchbox")) {
             int startIdx = history.size() - Math.min(5, history.size());
             for (int i = history.size() - 1; i >= startIdx; i--) {
-                System.out.println(history.get(i).showWordTargetFirstMeaning());
+                result.add(history.get(i).showWordTargetFirstMeaning());
             }
         }
+        return result;
     }
 
     /*public static void exportFavouritesToFile() {

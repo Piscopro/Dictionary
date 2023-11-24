@@ -10,45 +10,11 @@ import java.util.Scanner;
 import java.util.Collections;
 
 class DictionaryCommandLine {
-    private static final String QUESTIONS_FILE = "questions.txt";
+    private static final String QUESTIONS_FILE = "src/main/resources/text/questions.txt";
     private DictionaryManagement dictionaryManagement = new DictionaryManagement();
 
     public DictionaryCommandLine() {
     }
-
-    public void showAllWords() {
-        ArrayList<Word> words = DictionaryManagement.getDictionary().getWords();
-
-        // Sort the words alphabetically
-        Collections.sort(words, (w1, w2) -> w1.getWordTarget().compareToIgnoreCase(w2.getWordTarget()));
-
-        for (Word word : words) {
-//            // Print word and pronunciation
-//            System.out.println(word.getWordTarget() + " " + word.getPronunciation());
-//
-//            // Loop through and print each meaning of the word
-//            for (Meaning meaning : word.getMeanings()) {
-//                System.out.println("*  " + meaning.getPartOfSpeech());
-//
-//                // Split the description into lines based on the dash '-'
-//                String[] descriptionLines = meaning.getDescription().split("\\s*-\\s*");
-//
-//                // Print each line of the description without the leading empty line
-//                boolean isFirstLine = true;
-//                for (String line : descriptionLines) {
-//                    if (!isFirstLine) {
-//                        System.out.println("   - " + line.trim());
-//                    } else {
-//                        isFirstLine = false;
-//                    }
-//                }
-//            }
-            word.show();
-
-            System.out.println();
-        }
-    }
-
 
     public void insertFromCommandline() {
         Scanner scanner = new Scanner(System.in);
@@ -101,13 +67,13 @@ class DictionaryCommandLine {
     }
 
 
-    public void dictionaryBasic() {
-        this.insertFromCommandline();
-        this.showAllWords();
-    }
+//    public void dictionaryBasic() {
+//        this.insertFromCommandline();
+//        this.showAllWords();
+//    }
 
     private void readQuestionsFromFile(ArrayList<String[]> questions) throws IOException {
-        BufferedReader br = new BufferedReader(new FileReader("src/main/questions.txt"));
+        BufferedReader br = new BufferedReader(new FileReader(QUESTIONS_FILE));
         String line;
 
         while ((line = br.readLine()) != null) {
@@ -196,7 +162,10 @@ class DictionaryCommandLine {
                     DictionaryManagement.editWord();
                     break;
                 case 4:
-                    showAllWords();
+                    for (String x : dictionaryManagement.showAllWords()) {
+                        System.out.println(x);
+                    }
+
                     break;
                 case 5:
 //                    DictionaryManagement.dictionaryLookup();
@@ -214,7 +183,9 @@ class DictionaryCommandLine {
                     DictionaryManagement.dictionaryExportToFile();
                     break;
                 case 10:
-                    DictionaryManagement.searchHistory();
+                    for (String x : dictionaryManagement.searchHistory("full")) {
+                        System.out.println(x);
+                    }
                     break;
                 case 11:
 //                    DictionaryManagement.favourite();
