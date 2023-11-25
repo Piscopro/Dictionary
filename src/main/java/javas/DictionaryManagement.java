@@ -1,16 +1,16 @@
 package javas;
 
 import java.io.*;
-import java.net.HttpURLConnection;
-import java.net.MalformedURLException;
-import java.net.URL;
-import java.net.URLEncoder;
+import java.net.*;
 import java.nio.charset.StandardCharsets;
 import java.util.*;
 import com.sun.speech.freetts.Voice;
 import com.sun.speech.freetts.VoiceManager;
 
 import javax.sound.sampled.*;
+
+import javazoom.jl.decoder.JavaLayerException;
+import javazoom.jl.player.Player;
 
 class DictionaryManagement {
     private static Dictionary dictionary;
@@ -651,32 +651,22 @@ public static void historyFromFile() {
 //        speakWord(text);
 //    }
 
-    public static void speak() {
+    public static void speak(String word) {
         try {
-            System.out.print("Enter the word: ");
-            Scanner sc = new Scanner(System.in);
-            String word = sc.next();
             String string = "http://translate.google.com/translate_tts?tl=en&q="
                     + word + "&client=tw-ob";
+
             // URL of the audio file
             URL url = new URL(string);
+            URLConnection urlConnection = url.openConnection();
+            InputStream is = urlConnection.getInputStream();
 
-            // Open an audio input stream from the URL
-            AudioInputStream audioIn = AudioSystem.getAudioInputStream(url);
-
-            // Get a sound clip resource
-            Clip clip = AudioSystem.getClip();
-
-            // Open audio clip and load samples from the audio input stream
-            clip.open(audioIn);
-
-            // Start playing the audio clip
-            clip.start();
-
-            // Keep the program running until the audio clip finishes playing
-            Thread.sleep(clip.getMicrosecondLength() / 1000);
-        } catch (UnsupportedAudioFileException | IOException | LineUnavailableException | InterruptedException e) {
+            Player player = new Player(is);
+            player.play();
+        } catch (IOException e) {
             e.printStackTrace();
+        } catch (JavaLayerException e) {
+            throw new RuntimeException(e);
         }
     }
 

@@ -237,7 +237,9 @@ class DictionaryCommandLine {
 //                    DictionaryManagement.favourite();
                     break;
                 case 12:
-//                    DictionaryManagement.speak();
+                    System.out.print("Enter the word");
+                    String word = scanner.nextLine();
+                    DictionaryManagement.speak(word);
                     break;
                 case 13:
                     DictionaryManagement.translateSentence();
