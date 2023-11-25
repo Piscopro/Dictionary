@@ -100,11 +100,11 @@
         </AnchorPane>
         <AnchorPane id="contentpane" prefHeight="548.0" prefWidth="656.0">
           <children>
-                  <SplitPane id="worddisplaypane" fx:id="worddisplaypane" dividerPositions="0.1575091575091575" orientation="VERTICAL" prefHeight="548.0" prefWidth="655.0" visible="false">
+                  <SplitPane id="worddisplaypane" fx:id="worddisplaypane" dividerPositions="0.1575091575091575" orientation="VERTICAL" prefHeight="548.0" prefWidth="655.0">
                     <items>
                       <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0">
                            <children>
-                              <Label fx:id="worddisplayword" layoutX="14.0" layoutY="15.0" prefHeight="53.0" prefWidth="583.0">
+                              <Label fx:id="worddisplayword" layoutX="14.0" layoutY="6.0" prefHeight="53.0" prefWidth="583.0" text="Words">
                                  <font>
                                     <Font name="System Bold" size="36.0" />
                                  </font>
@@ -113,12 +113,12 @@
                         </AnchorPane>
                       <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="456.0" prefWidth="664.0">
                            <children>
-                              <Text fx:id="worddisplaymeanings" layoutX="21.0" layoutY="39.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="380.3134765625" />
+                              <Text fx:id="worddisplaymeanings" layoutX="22.0" layoutY="48.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Meanings" wrappingWidth="608.3134765625" />
                            </children>
                         </AnchorPane>
                     </items>
                   </SplitPane>
-                  <AnchorPane id="searchpane" fx:id="searchpane" prefHeight="548.0" prefWidth="655.0">
+                  <AnchorPane id="searchpane" fx:id="searchpane" prefHeight="548.0" prefWidth="655.0" visible="false">
                      <children>
                         <TextField id="searchinput" fx:id="searchpaneinput" alignment="TOP_LEFT" layoutX="188.0" layoutY="126.0" prefHeight="43.0" prefWidth="279.0" promptText="Search...">
                            <font>

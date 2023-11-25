@@ -2,8 +2,6 @@ package javas;
 
 import javafx.event.EventHandler;
 import javafx.scene.input.MouseEvent;
-import javas.MainController;
-import javas.WordBox;
 import javafx.scene.control.Separator;
 import javafx.scene.shape.StrokeType;
 import javafx.scene.text.Font;
@@ -39,6 +37,7 @@ public class WordBoxSearch extends WordBox {
             @Override public void handle(MouseEvent mouseEvent) {
                 controller.openWordDisplayPane(word);
                 DictionaryManagement.getDictionary().addHistory(word);
+                DictionaryManagement.historyExportToFile();
             }
         });
     }

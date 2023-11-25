@@ -32,6 +32,7 @@ public class MainController {
     private Node currentpane;
     @FXML
     private void initialize() {
+        DictionaryManagement.historyFromFile();
         DictionaryManagement.insertFromFile();
         searchpaneinput.textProperty().addListener(new ChangeListener<String>() {
             @Override
@@ -40,12 +41,19 @@ public class MainController {
             }
         });
         currentpane = searchpane;
+        for (Word word : DictionaryManagement.show5RecentHistory()) {
+            wordboxsearchholder.getChildren().add(new WordBoxSearch(this, word));
+        }
         currentpane.setVisible(true);
     }
     @FXML
     private void openSearchPane(){
         currentpane.setVisible(false);
         currentpane = searchpane;
+        wordboxsearchholder.getChildren().clear();
+        for (Word word : DictionaryManagement.show5RecentHistory()) {
+            wordboxsearchholder.getChildren().add(new WordBoxSearch(this, word));
+        }
         currentpane.setVisible(true);
     }
     @FXML
@@ -84,7 +92,7 @@ public class MainController {
     private void changeSearchResults(String newValue){
         wordboxsearchholder.getChildren().clear();
         if (Objects.equals(newValue, "")) {
-            for (Word word : dictionaryManagement.show5RecentHistory()) {
+            for (Word word : DictionaryManagement.show5RecentHistory()) {
                 wordboxsearchholder.getChildren().add(new WordBoxSearch(this, word));
             }
             return;
