@@ -12,7 +12,7 @@ public class WordBoxRecent extends WordBox {
     private Text wordboxmeanings = new Text();
     private Separator separator = new Separator();
     private Text icon = new Text();
-    public WordBoxRecent(MainController controller, Word word){
+    public WordBoxRecent(MainController controller, Word word) {
         super(controller, word);
         this.setPrefHeight(60);
         this.setPrefWidth(630);
