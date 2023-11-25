@@ -159,14 +159,14 @@ class DictionaryManagement {
         return -1; // Không tìm thấy từ
     }
 
-    public ArrayList<String> showAllWords() {
+    public ArrayList<Word> showAllWords() {
         ArrayList<Word> words = DictionaryManagement.getDictionary().getWords();
-        ArrayList<String> result = new ArrayList<>();
+        ArrayList<Word> result = new ArrayList<>();
         // Sort the words alphabetically
         Collections.sort(words, (w1, w2) -> w1.getWordTarget().compareToIgnoreCase(w2.getWordTarget()));
 
         for (Word word : words) {
-            result.add(word.showWordTargetFirstMeaning());
+            result.add(word);
         }
         return result;
     }

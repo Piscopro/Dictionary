@@ -165,9 +165,9 @@ class DictionaryCommandLine {
                     DictionaryManagement.editWord();
                     break;
                 case 4:
-                    for (String x : dictionaryManagement.showAllWords()) {
-                        System.out.println(x);
-                    }
+//                    for (String x : dictionaryManagement.showAllWords()) {
+//                        System.out.println(x);
+//                    }
 
                     break;
                 case 5:

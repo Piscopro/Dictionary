@@ -22,6 +22,7 @@
             <artifactId>javafx-controls</artifactId>
             <version>21-ea+24</version>
         </dependency>
+
         <dependency>
             <groupId>org.openjfx</groupId>
             <artifactId>javafx-fxml</artifactId>
@@ -35,6 +36,7 @@
             <version>${junit.version}</version>
             <scope>test</scope>
         </dependency>
+
         <dependency>
             <groupId>org.junit.jupiter</groupId>
             <artifactId>junit-jupiter-engine</artifactId>
@@ -47,10 +49,12 @@
             <groupId>com.google.cloud</groupId>
             <artifactId>google-cloud-bigqueryconnection</artifactId>
         </dependency>
+
         <dependency>
             <groupId>com.google.cloud</groupId>
             <artifactId>google-cloud-gkehub</artifactId>
         </dependency>
+
         <dependency>
             <groupId>com.google.cloud</groupId>
             <artifactId>google-cloud-texttospeech</artifactId>
@@ -64,6 +68,13 @@
         </dependency>
 
         <!-- JLayer Dependency -->
+        <dependency>
+            <groupId>javazoom</groupId>
+            <artifactId>jlayer</artifactId>
+            <version>1.0.1</version>
+        </dependency>
+
+
         <dependency>
             <groupId>javazoom</groupId>
             <artifactId>jlayer</artifactId>

@@ -1,46 +1,46 @@
-@cunning //ˈkʌnɪŋ//
+@cunning /ˈkʌnɪŋ/
 *  tính từ
   - ranh mãnh, tinh ranh - xảo quyệt, tài tình
 *  danh từ
   - sự ranh mãnh, sự tinh ranh
 
-@cuddle //ˈkʌdl//
+@cuddle /ˈkʌdl/
 *  ngoại động từ
   - ôm ấp, ôm sát
 *  danh từ
   - sự ôm, sự nâng niu
 
-@crave //kreɪv//
+@crave /kreɪv/
 *  ngoại động từ
   - khao khát, mong muốn - yêu cầu, đòi hỏi
 
-@contemplate //ˈkɑːntəmpleɪt//
+@contemplate /ˈkɑːntəmpleɪt/
 *  ngoại động từ
   - ngắm, nhìn chăm chú - suy ngẫm, trầm ngâm
 *  nội động từ
   - ngắm, nhìn chăm chú - suy ngẫm, trầm ngâm
 
-@crimson //ˈkrɪmzn̩//
+@crimson /ˈkrɪmzn̩/
 *  danh từ
   - màu đỏ tươi, màu đỏ rực rỡ
 *  tính từ
   - đỏ tươi, đỏ rực rỡ
 
-@crouch //kraʊtʃ//
+@crouch /kraʊtʃ/
 *  nội động từ
   - nghiêng người, uống mình - ngồi hạ mình, trốn tránh
 *  ngoại động từ
   - nghiêng người, uống mình
 
-@clumsy //ˈklʌmzi//
+@clumsy /ˈklʌmzi/
 *  tính từ
   - vụng trộm, lóng ngóng - cồng kềnh, lóng ngóng
 
-@coherent //kəˈhɪrənt//
+@coherent /kəˈhɪrənt/
 *  tính từ
   - mạch lạc, rõ ràng - nhất quán, liên kết
 
-@crescent //ˈkrɛsənt//
+@crescent /ˈkrɛsənt/
 *  danh từ
   - mặt trăng lưỡi liềm - hình lưỡi liềm
 
