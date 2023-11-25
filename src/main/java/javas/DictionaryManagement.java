@@ -286,22 +286,33 @@ class DictionaryManagement {
     }
 
 
-    public ArrayList<String> searchHistory(String type) {
+    public ArrayList<Word> showFullHistory() {
         ArrayList<Word> history = new ArrayList<>(dictionary.getSearchHistory());
-        ArrayList<String> result = new ArrayList<>();
+        ArrayList<Word> result = new ArrayList<>();
 
-        if (type.equals("full")) {
-            for (int i = history.size() - 1; i >= 0; i--) {
-                result.add(history.get(i).showWordTargetFirstMeaning());
-            }
-        } else if (type.equals("searchbox")) {
-            int startIdx = history.size() - Math.min(5, history.size());
-            for (int i = history.size() - 1; i >= startIdx; i--) {
-                result.add(history.get(i).showWordTargetFirstMeaning());
-            }
+        for (int i = history.size() - 1; i >= 0; i--) {
+            Word word = history.get(i);
+            result.add(word);
         }
+
         return result;
     }
+
+    public ArrayList<Word> show5RecentHistory() {
+        int maxEntries = 5;
+        ArrayList<Word> history = new ArrayList<>(dictionary.getSearchHistory());
+        int entriesToReturn = Math.min(maxEntries, history.size());
+        ArrayList<Word> result = new ArrayList<>();
+
+        int startIdx = history.size() - entriesToReturn;
+        for (int i = history.size() - 1; i >= startIdx; i--) {
+            Word word = history.get(i);
+            result.add(word);
+        }
+
+        return result;
+    }
+
 
     /*public static void exportFavouritesToFile() {
         String exportFilePath = "src/main/favourites.txt";
@@ -559,7 +570,7 @@ class DictionaryManagement {
 //        speakWord(text);
 //    }
 
-    public void speak() {
+    public static void speak() {
         try {
             System.out.print("Enter the word: ");
             Scanner sc = new Scanner(System.in);
