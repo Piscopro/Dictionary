@@ -10,6 +10,8 @@ import java.util.*;
 import com.sun.speech.freetts.Voice;
 import com.sun.speech.freetts.VoiceManager;
 
+import javax.sound.sampled.*;
+
 class DictionaryManagement {
     private static Dictionary dictionary;
     static Scanner scanner = new Scanner(System.in);
@@ -107,7 +109,7 @@ class DictionaryManagement {
     }
 
 
-    public String dictionaryLookup(String wordToLookup) {
+    public Word dictionaryLookup(String wordToLookup) {
         ArrayList<Word> words = dictionary.getWords();
         if (!isDictionarySorted(words)) {
             sortDictionary(words);
@@ -118,12 +120,11 @@ class DictionaryManagement {
         if (index != -1) {
             Word entry = words.get(index);
             dictionary.addHistory(entry);
-            return entry.show();
+            return entry;
         } else {
-            return "Word not found in the dictionary.";
+            return null;
         }
     }
-
 
     private static boolean isDictionarySorted(ArrayList<Word> words) {
         for (int i = 1; i < words.size(); i++) {
@@ -274,21 +275,14 @@ class DictionaryManagement {
                 + word.getPronunciation() + "\n" + word.getFirstMeaning();
     }
 
-    public static ArrayList<String> BoxSearchPrefix() {
-        System.out.print("Enter a prefix to search for: ");
-        String prefix = scanner.nextLine();
+    public static ArrayList<String> BoxSearchPrefix(String prefix) {
         ArrayList<Word> searchResults = dictionarySearcher(prefix);
         ArrayList<String> formattedResults = new ArrayList<>();
 
-        if (!searchResults.isEmpty()) {
-            for (Word entry : searchResults) {
-                formattedResults.add(entry.showWordTargetFirstMeaning());
-            }
-            return formattedResults;
-        } else {
-            System.out.println("No words found.");
-            return formattedResults; // Trả về mảng rỗng nếu không tìm thấy từ nào
+        for (Word entry : searchResults) {
+            formattedResults.add(entry.showWordTargetFirstMeaning());
         }
+        return formattedResults;
     }
 
 
@@ -559,10 +553,39 @@ class DictionaryManagement {
         voice.deallocate();
     }
 
-    public static void speak() {
-        System.out.println("Input the word to speak: ");
-        String text = scanner.nextLine();
-        speakWord(text);
+//    public static void speak() {
+//        System.out.println("Input the word to speak: ");
+//        String text = scanner.nextLine();
+//        speakWord(text);
+//    }
+
+    public void speak() {
+        try {
+            System.out.print("Enter the word: ");
+            Scanner sc = new Scanner(System.in);
+            String word = sc.next();
+            String string = "http://translate.google.com/translate_tts?tl=en&q="
+                    + word + "&client=tw-ob";
+            // URL of the audio file
+            URL url = new URL(string);
+
+            // Open an audio input stream from the URL
+            AudioInputStream audioIn = AudioSystem.getAudioInputStream(url);
+
+            // Get a sound clip resource
+            Clip clip = AudioSystem.getClip();
+
+            // Open audio clip and load samples from the audio input stream
+            clip.open(audioIn);
+
+            // Start playing the audio clip
+            clip.start();
+
+            // Keep the program running until the audio clip finishes playing
+            Thread.sleep(clip.getMicrosecondLength() / 1000);
+        } catch (UnsupportedAudioFileException | IOException | LineUnavailableException | InterruptedException e) {
+            e.printStackTrace();
+        }
     }
 
 
