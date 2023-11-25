@@ -11,13 +11,17 @@ class Dictionary {
 
     public void addFavourite(Word word) {
         if (favouriteWords.size() >= FAVOURITE_SIZE) {
+            favouriteWords.getFirst().setSaved(false);
             favouriteWords.remove(0);  // Remove the oldest favourite if the list is full
+
         }
         favouriteWords.add(word);
+        word.setSaved(true);
     }
 
     public void deleteFavourite(Word word) {
         favouriteWords.remove(word);
+        word.setSaved(false);
     }
 
     public Dictionary() {

@@ -6,6 +6,7 @@ import java.util.List;
 class Word {
     private String wordTarget;
     private String pronunciation;
+    private boolean saved;
     private List<Meaning> meanings = new ArrayList<>();
 
     public Word(String wordTarget, String pronunciation) {
@@ -31,6 +32,14 @@ class Word {
 
     public List<Meaning> getMeanings() {
         return meanings;
+    }
+
+    public boolean getSaved() {
+        return saved;
+    }
+
+    public void setSaved(boolean saved) {
+        this.saved = saved;
     }
 
     public String getFirstMeaning() {
