@@ -1,10 +1,16 @@
-@dimension /dɪˈmɛnʒən/
-*  danh từ
-  - chiều, kích thước - khía cạnh, mặt
-
 @knit /nɪt/
 *  ngoại động từ
   - đan, đan len - kết nối chặt, liên kết chặt
 *  danh từ
   - sự đan, sự đan len - chiếc len, chiếc đan
+
+@disrupt /dɪˈsrʌpt/
+*  ngoại động từ
+  - làm gián đoạn, làm rối loạn - phá vỡ, phá hủy
+
+@diverge /daɪˈvɜːrdʒ/
+*  ngoại động từ
+  - rẽ nhánh, chia rẽ
+*  nội động từ
+  - rẽ nhánh, chia rẽ - chệch hướng, không đồng nhất
 
