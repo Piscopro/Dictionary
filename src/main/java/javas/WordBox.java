@@ -7,8 +7,8 @@ import javafx.scene.layout.AnchorPane;
 
 public class WordBox extends AnchorPane {
     private MainController controller;
-    private String word;
-    public WordBox(MainController controller, String word){
+    private Word word;
+    public WordBox(MainController controller, Word word){
         this.controller = controller;
         this.word = word;
         this.setOnMouseClicked(new EventHandler<MouseEvent>() {

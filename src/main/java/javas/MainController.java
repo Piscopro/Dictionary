@@ -1,6 +1,5 @@
 package javas;
 
-import javas.WordBoxSearch;
 import javafx.beans.value.ChangeListener;
 import javafx.beans.value.ObservableValue;
 import javafx.fxml.FXML;
@@ -22,12 +21,16 @@ public class MainController {
     @FXML private VBox wordboxsearchholder;
     @FXML private ScrollPane savedwordspane;
     @FXML private ScrollPane recentwordspane;
+    @FXML private VBox wordboxrecentholder;
     @FXML private ScrollPane displayallpane;
+    @FXML private VBox wordboxallholder;
+    private DictionaryManagement dictionaryManagement = new DictionaryManagement();
     @FXML
     private Label tenapp;
     private Node currentpane;
     @FXML
     private void initialize() {
+        DictionaryManagement.insertFromFile();
         searchpaneinput.textProperty().addListener(new ChangeListener<String>() {
             @Override
             public void changed(ObservableValue<? extends String> observable, String oldValue, String newValue) {
@@ -36,7 +39,6 @@ public class MainController {
         });
         currentpane = searchpane;
         currentpane.setVisible(true);
-        openWordDisplayPane("kiss");
     }
     @FXML
     private void openSearchPane(){
@@ -55,25 +57,31 @@ public class MainController {
     private void openRecentWordsPane(){
         currentpane.setVisible(false);
         currentpane = recentwordspane;
+//        for (String word: dictionaryManagement.searchHistory("full")) {
+//            wordboxrecentholder.getChildren().add(new WordBoxRecent(this, word));
+//        }
         currentpane.setVisible(true);
     }
     @FXML
     private void openDisplayAllPane(){
         currentpane.setVisible(false);
         currentpane = displayallpane;
+        for (Word word: DictionaryManagement.getDictionary().getWords()) {
+            wordboxallholder.getChildren().add(new WordBoxAll(this, word));
+        }
         currentpane.setVisible(true);
     }
-    public void openWordDisplayPane(String word){
+    public void openWordDisplayPane(Word word){
         currentpane.setVisible(false);
         currentpane = worddisplaypane;
-        worddisplayword.setText(word);
-        DictionaryManagement dicman = new DictionaryManagement();
-        DictionaryManagement.insertFromFile();
-        worddisplaymeanings.setText(dicman.dictionaryLookup(word));
+        worddisplayword.setText(word.getWordTarget());
+        worddisplaymeanings.setText(word.getMeaning());
         currentpane.setVisible(true);
     }
     private void changeSearchResults(String newValue){
         wordboxsearchholder.getChildren().clear();
-        wordboxsearchholder.getChildren().addAll(new WordBoxSearch(this, newValue));
+        for (Word word: DictionaryManagement.dictionarySearcher(newValue)) {
+            wordboxsearchholder.getChildren().add(new WordBoxSearch(this, word));
+        }
     }
 }

@@ -171,7 +171,7 @@ class DictionaryCommandLine {
 //                    DictionaryManagement.dictionaryLookup();
                     break;
                 case 6:
-                    DictionaryManagement.BoxSearchPrefix();
+//                    DictionaryManagement.BoxSearchPrefix();
                     break;
                 case 7:
                     startGame();
@@ -191,7 +191,7 @@ class DictionaryCommandLine {
 //                    DictionaryManagement.favourite();
                     break;
                 case 12:
-                    DictionaryManagement.speak();
+//                    DictionaryManagement.speak();
                     break;
                 case 13:
                     DictionaryManagement.translateSentence();

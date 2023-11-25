@@ -11,7 +11,7 @@ public class WordBoxSaved extends WordBox {
     private Text wordboxmeanings = new Text();
     private Separator separator = new Separator();
     private Button unsavebtn = new Button();
-    public WordBoxSaved(MainController controller, String word){
+    public WordBoxSaved(MainController controller, Word word){
         super(controller,word);
     }
 }
