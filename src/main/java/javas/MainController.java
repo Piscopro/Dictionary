@@ -12,6 +12,8 @@ import javafx.scene.layout.AnchorPane;
 import javafx.scene.layout.VBox;
 import javafx.scene.text.Text;
 
+import java.util.Objects;
+
 public class MainController {
     @FXML private SplitPane worddisplaypane;
     @FXML private Label worddisplayword;
@@ -57,9 +59,10 @@ public class MainController {
     private void openRecentWordsPane(){
         currentpane.setVisible(false);
         currentpane = recentwordspane;
-//        for (String word: dictionaryManagement.searchHistory("full")) {
-//            wordboxrecentholder.getChildren().add(new WordBoxRecent(this, word));
-//        }
+        wordboxrecentholder.getChildren().clear();
+        for (Word word: dictionaryManagement.showFullHistory()) {
+            wordboxrecentholder.getChildren().add(new WordBoxRecent(this, word));
+        }
         currentpane.setVisible(true);
     }
     @FXML
@@ -80,6 +83,12 @@ public class MainController {
     }
     private void changeSearchResults(String newValue){
         wordboxsearchholder.getChildren().clear();
+        if (Objects.equals(newValue, "")) {
+            for (Word word : dictionaryManagement.show5RecentHistory()) {
+                wordboxsearchholder.getChildren().add(new WordBoxSearch(this, word));
+            }
+            return;
+        }
         for (Word word: DictionaryManagement.dictionarySearcher(newValue)) {
             wordboxsearchholder.getChildren().add(new WordBoxSearch(this, word));
         }

@@ -1,5 +1,7 @@
 package javas;
 
+import javafx.event.EventHandler;
+import javafx.scene.input.MouseEvent;
 import javas.MainController;
 import javas.WordBox;
 import javafx.scene.control.Separator;
@@ -11,7 +13,7 @@ public class WordBoxSearch extends WordBox {
     private Text wordboxword = new Text();
     private Text wordboxmeanings = new Text();
     private Separator separator = new Separator();
-    public WordBoxSearch(MainController controller, Word word){
+    public WordBoxSearch(MainController controller, Word word) {
         super(controller, word);
         this.setPrefHeight(60);
         this.setPrefWidth(400);
@@ -33,5 +35,11 @@ public class WordBoxSearch extends WordBox {
         separator.setPrefHeight(3);
         separator.setPrefWidth(400);
         this.getChildren().addAll(wordboxword, wordboxmeanings, separator);
+        this.setOnMouseClicked(new EventHandler<MouseEvent>() {
+            @Override public void handle(MouseEvent mouseEvent) {
+                controller.openWordDisplayPane(word);
+                DictionaryManagement.getDictionary().addHistory(word);
+            }
+        });
     }
 }
