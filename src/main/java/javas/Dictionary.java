@@ -1,9 +1,6 @@
 package javas;
-
-import java.util.ArrayList;
-import java.util.LinkedList;
-import java.util.List;
-import java.util.Queue;
+import java.util.Set;
+import java.util.*;
 
 class Dictionary {
     private ArrayList<Word> words = new ArrayList<>();
@@ -30,14 +27,26 @@ class Dictionary {
         this.words.add(word);
     }
 
-    public void addHistory(Word word) {
-        if (searchHistory.size() > HISTORY_SIZE- 1) {
+//    public void addHistory(Word word) {
+//        if (searchHistory.size() > HISTORY_SIZE- 1) {
+//            searchHistory.poll();
+//            searchHistory.add(word);
+//        } else {
+//            searchHistory.add(word);
+//        }
+//    }
+public void addHistory(Word word) {
+    // Kiểm tra xem từ đã có trong searchHistory chưa
+    if (!searchHistory.contains(word)) {
+        if (searchHistory.size() > HISTORY_SIZE - 1) {
             searchHistory.poll();
             searchHistory.add(word);
         } else {
             searchHistory.add(word);
         }
     }
+}
+
 
     public static List<Word> getFavouriteWords() {
         return favouriteWords;

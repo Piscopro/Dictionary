@@ -109,7 +109,7 @@ class DictionaryManagement {
     }
 
 
-    public Word dictionaryLookup(String wordToLookup) {
+    public static Word dictionaryLookup(String wordToLookup) {
         ArrayList<Word> words = dictionary.getWords();
         if (!isDictionarySorted(words)) {
             sortDictionary(words);
@@ -285,8 +285,92 @@ class DictionaryManagement {
         return formattedResults;
     }
 
+    public static void historyExportToFile() {
+        String exportFilePath = "src/main/resources/text/history.txt";
 
-    public ArrayList<Word> showFullHistory() {
+        Set<String> exportedWords = new HashSet<>();
+
+        try (BufferedWriter bw = new BufferedWriter(new FileWriter(exportFilePath, false))) { // false để tạo mới file
+            for (Word word : dictionary.getSearchHistory()) {
+                if (!exportedWords.contains(word.getWordTarget())) {
+                    bw.write("@" + word.getWordTarget() + " " + word.getPronunciation() + "\n");
+
+                    for (Meaning meaning : word.getMeanings()) {
+                        bw.write("*  " + meaning.getPartOfSpeech() + "\n");
+                        bw.write("  " + meaning.getDescription() + "\n");
+                    }
+                    bw.newLine();
+
+                    exportedWords.add(word.getWordTarget());
+                }
+            }
+            System.out.println("Data exported to " + exportFilePath);
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+
+
+public static void historyFromFile() {
+    String importFilePath = "src/main/resources/text/history.txt";
+
+    try (BufferedReader reader = new BufferedReader(new FileReader(importFilePath))) {
+        String line;
+        Word currentWord = null;
+        Meaning currentMeaning = null;
+        StringBuilder descriptionBuilder = new StringBuilder();
+
+        while ((line = reader.readLine()) != null) {
+            line = line.trim();
+
+            if (line.startsWith("@")) {
+                // Handle the end of the current Word
+                if (currentMeaning != null && descriptionBuilder.length() > 0) {
+                    currentMeaning.setDescription(descriptionBuilder.toString().trim());
+                    descriptionBuilder.setLength(0);
+                }
+                currentMeaning = null;
+
+                // Create a new Word
+                String[] parts = line.split(" /");
+                if (parts.length < 2) {
+                    System.out.println("Invalid data format at line: " + line);
+                    continue;
+                }
+                String word = parts[0].substring(1).trim();
+                String pronunciation = "/" + parts[1].trim();
+                currentWord = new Word(word, pronunciation);
+                dictionary.addHistory(currentWord);
+            } else if (currentWord != null && line.startsWith("*")) {
+                // End the current Meaning description
+                if (currentMeaning != null) {
+                    currentMeaning.setDescription(descriptionBuilder.toString().trim());
+                    descriptionBuilder.setLength(0);
+                }
+
+                // Create a new Meaning
+                String partOfSpeech = line.substring(1).trim();
+                currentMeaning = new Meaning(partOfSpeech, "");
+                currentWord.addMeaning(currentMeaning);
+            } else if (currentMeaning != null) {
+                // Add data to the description
+                descriptionBuilder.append(line).append(" ");
+            }
+        }
+
+        // Handle the final description
+        if (currentMeaning != null && descriptionBuilder.length() > 0) {
+            currentMeaning.setDescription(descriptionBuilder.toString().trim());
+        }
+
+    } catch (IOException e) {
+        e.printStackTrace();
+    }
+}
+
+
+
+    public static ArrayList<Word> showFullHistory() {
         ArrayList<Word> history = new ArrayList<>(dictionary.getSearchHistory());
         ArrayList<Word> result = new ArrayList<>();
 
@@ -298,7 +382,7 @@ class DictionaryManagement {
         return result;
     }
 
-    public ArrayList<Word> show5RecentHistory() {
+    public static ArrayList<Word> show5RecentHistory() {
         int maxEntries = 5;
         ArrayList<Word> history = new ArrayList<>(dictionary.getSearchHistory());
         int entriesToReturn = Math.min(maxEntries, history.size());
@@ -340,7 +424,7 @@ class DictionaryManagement {
         }
     }*/
     public static void exportFavouritesToFile() {
-        String exportFilePath = "src/main/favourites.txt";
+        String exportFilePath = "src/main/resources/text/favourites.txt";
         Set<String> exportedWords = new HashSet<>();
 
         try (BufferedWriter bw = new BufferedWriter(new FileWriter(exportFilePath, false))) { // false để tạo mới file
@@ -365,7 +449,7 @@ class DictionaryManagement {
 
 
     public static void importFavouritesFromFile() {
-        String importFilePath = "src/main/favourites.txt";
+        String importFilePath = "src/main/resources/text/favourites.txt";
 
         try (BufferedReader reader = new BufferedReader(new FileReader(importFilePath))) {
             String line;
@@ -522,9 +606,6 @@ class DictionaryManagement {
             return "Word not found.";
         }
     }
-
-
-
 
     public static void deleteFavourite() {
         System.out.print("Enter the word to remove from favourites: ");

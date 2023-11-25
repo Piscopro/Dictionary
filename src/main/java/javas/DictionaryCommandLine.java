@@ -9,6 +9,9 @@ import java.util.Random;
 import java.util.Scanner;
 import java.util.Collections;
 
+import static javas.DictionaryManagement.historyExportToFile;
+import static javas.DictionaryManagement.historyFromFile;
+
 class DictionaryCommandLine {
     private static final String QUESTIONS_FILE = "src/main/resources/text/questions.txt";
     private DictionaryManagement dictionaryManagement = new DictionaryManagement();
@@ -168,7 +171,10 @@ class DictionaryCommandLine {
 
                     break;
                 case 5:
-//                    DictionaryManagement.dictionaryLookup();
+                    System.out.println("nhập vào:");
+                    String s = scanner.nextLine();
+//                    DictionaryManagement.dictionaryLookup(s);
+                    System.out.println(DictionaryManagement.dictionaryLookup(s).getWordTarget() + "\n" + DictionaryManagement.dictionaryLookup(s).getMeaning());
                     break;
                 case 6:
 //                    DictionaryManagement.BoxSearchPrefix();
@@ -183,9 +189,49 @@ class DictionaryCommandLine {
                     DictionaryManagement.dictionaryExportToFile();
                     break;
                 case 10:
-                    for (Word x : dictionaryManagement.showFullHistory()) {
-                        System.out.println(x);
+                    do {
+                        System.out.println("Menu:");
+                        System.out.println("1. Export history to file");
+                        System.out.println("2. Import history from file");
+                        System.out.println("3. Show full history");
+                        System.out.println("4. Show 5 recent history");
+                        //System.out.println("5. Add word to history");
+                        System.out.println("0. Exit");
+                        System.out.print("Enter your choice: ");
+
+                        int Choice = scanner.nextInt();
+                        scanner.nextLine(); // Consume the newline character
+
+                        switch (Choice) {
+                            case 1:
+                                historyExportToFile();
+                                break;
+                            case 2:
+                                historyFromFile();
+                                break;
+                            case 3:
+                                ArrayList<Word> fullHistory = DictionaryManagement.showFullHistory();
+                                for (Word word : fullHistory) {
+                                    System.out.println(word.getWordTarget() + "\n" + word.getMeaning());
+                                }
+                                break;
+                            case 4:
+                                ArrayList<Word> recentHistory = DictionaryManagement.show5RecentHistory();
+                                for (Word word : recentHistory) {
+                                    System.out.println(word.getWordTarget() + "\n" + word.getMeaning());
+                                }
+                                break;
+                            case 5:
+                                //addWordToHistory();
+                                break;
+                            case 0:
+                                System.out.println("Exiting the program. Goodbye!");
+                                break;
+                            default:
+                                System.out.println("Invalid choice. Please enter a valid option.");
+                        }
                     }
+                    while (choice != 0);
                     break;
                 case 11:
 //                    DictionaryManagement.favourite();
