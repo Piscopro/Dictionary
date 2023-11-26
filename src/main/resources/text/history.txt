@@ -1,3 +1,19 @@
+@ladybug /ˈleɪdiˌbʌɡ/
+*  danh từ
+  - bọ rùa
+
+@fabricate //ˈfæbrɪˌkeɪt//
+*  ngoại động từ
+  - chế tạo, sản xuất - bịa đặt, make up
+
+@pants /pænts/
+*  danh từ số nhiều
+  - quần lót dài - (từ Mỹ,nghĩa Mỹ) quần dài
+
+@zoologist /zəʊˈɒl.ə.dʒɪst/
+*  danh từ
+  - nhà động vật học
+
 @weevil /ˈwiːvəl/
 *  danh từ
   - bọ cánh cứng
@@ -30,15 +46,6 @@
 *  danh từ
   - sự giữ, sự bảo quản - người giữ, người bảo vệ
 
-@ladybug /ˈleɪdiˌbʌɡ/
-*  danh từ
-  - bọ rùa
-
-@fabricate //ˈfæbrɪˌkeɪt//
-*  ngoại động từ
-  - chế tạo, sản xuất - bịa đặt, make up
-
-@affair /ə'feə/
-*  danh từ
-  - việc =it's my affair+ đây là việc (riêng) của tôi =mind your own affair+ hãy lo lấy việc của anh - (số nhiều) công việc, việc làm, sự vụ =internal affair of a country+ công việc nội bộ của một nước =Department of Home affair+ bộ nội vụ =Department of Foreign affairs+ bộ ngoại giao - chuyện tình, chuyện yêu đương - chuyện vấn đề =affair of honour+ vấn đề danh dự; cuộc đọ kiếm - việc buôn bán; việc giao thiệp =a profitable affair+ việc buôn bán có lời =to have an affair with somebody+ có việc giao thiệp với ai - (thông tục) cái, thứ, vật, đồ, món, chuyện =this motor-cycle is a very complicated affair+ cái mô tô này thật là một món phức tạp quá - (quân sự) trận đánh nhỏ
-
+@abandon //əˈbæn.dən//
+*  động từ
+  - từ bỏ, bỏ rơi - thôi, không làm nữa

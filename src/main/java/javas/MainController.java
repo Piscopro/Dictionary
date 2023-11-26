@@ -76,8 +76,8 @@ public class MainController {
         currentpane.setVisible(false);
         currentpane = savedwordspane;
         wordboxsavedholder.getChildren().clear();
-        for (Word word : Dictionary.getFavouriteWords()) {
-            wordboxsavedholder.getChildren().add(new WordBoxSaved(this, word));
+        for (int i = Dictionary.getFavouriteWords().size() - 1; i >= 0; i--) {
+            wordboxsavedholder.getChildren().add(new WordBoxSaved(this, Dictionary.getFavouriteWords().get(i)));
         }
         currentpane.setVisible(true);
 

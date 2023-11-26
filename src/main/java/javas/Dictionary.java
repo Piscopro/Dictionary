@@ -1,5 +1,4 @@
 package javas;
-import java.util.Set;
 import java.util.*;
 
 class Dictionary {
@@ -39,27 +38,6 @@ class Dictionary {
         this.words.add(word);
     }
 
-
-    //    public void addHistory(Word word) {
-//        if (searchHistory.size() > HISTORY_SIZE- 1) {
-//            searchHistory.poll();
-//            searchHistory.add(word);
-//        } else {
-//            searchHistory.add(word);
-//        }
-//    }
-//public void addHistory(Word word) {
-//    // Kiểm tra xem từ đã có trong searchHistory chưa
-//    if (!searchHistory.contains(word)) {
-//        if (searchHistory.size() > HISTORY_SIZE - 1) {
-//            searchHistory.poll();
-//            searchHistory.add(word);
-//        } else {
-//            searchHistory.add(word);
-//        }
-//    }
-//}
-
     public void addHistory(Word word) {
         // Kiểm tra xem từ đã có trong searchHistory chưa
         if (!searchHistory.contains(word)) {
@@ -79,25 +57,9 @@ class Dictionary {
         }
     }
 
-
-
     public static List<Word> getFavouriteWords() {
         return favouriteWords;
     }
-
-    /*public void addFavourite(Word word) {
-        final int favouriteSize = 50;
-        if (favouriteWords.size() > favouriteSize - 1) {
-            favouriteWords.poll();
-            favouriteWords.add(word);
-        } else {
-            favouriteWords.add(word);
-        }
-    }
-
-    public void deleteFavourite(Word word) {
-        favouriteWords.remove(word);
-    }*/
 
     public ArrayList<Word> getWords() {
         return this.words;

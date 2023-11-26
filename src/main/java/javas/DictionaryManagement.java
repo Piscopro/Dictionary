@@ -4,11 +4,6 @@ import java.io.*;
 import java.net.*;
 import java.nio.charset.StandardCharsets;
 import java.util.*;
-import com.sun.speech.freetts.Voice;
-import com.sun.speech.freetts.VoiceManager;
-
-import javax.sound.sampled.*;
-
 import javazoom.jl.decoder.JavaLayerException;
 import javazoom.jl.player.Player;
 
@@ -42,10 +37,6 @@ class DictionaryManagement {
 
                     // Create a new Word
                     String[] parts = line.split(" /");
-//                    if (parts.length < 2) {
-//                        System.out.println("Invalid data format at line: " + line);
-//                        continue;
-//                    }
                     String word = parts[0].substring(1).trim();
                     String pronunciation = "/" + parts[1].trim();
                     currentWord = new Word(word, pronunciation);
@@ -77,35 +68,6 @@ class DictionaryManagement {
         }
     }
 
-
-
-
-//    public static void dictionaryExportToFile() {
-//        String exportFilePath = "src/main/resources/text/dictionaries.txt";
-//
-//        try (BufferedWriter bw = new BufferedWriter(new FileWriter(exportFilePath))) {
-//            Iterator<Word> iterator = dictionary.getWords().iterator();
-//
-//            while (iterator.hasNext()) {
-//                Word entry = iterator.next();
-//                // Export word and pronunciation
-//                bw.write("@" + entry.getWordTarget() + " " + entry.getPronunciation() + "\n");
-//
-//                // Export each Meaning
-//                for (Meaning meaning : entry.getMeanings()) {
-//                    bw.write("*  " + meaning.getPartOfSpeech() + "\n");
-//                    bw.write("  " + meaning.getDescription() + "\n");
-//                }
-//
-//                // Add an empty line between words
-//                bw.newLine();
-//            }
-//
-//            System.out.println("Data exported to " + exportFilePath);
-//        } catch (IOException e) {
-//            e.printStackTrace();
-//        }
-//    }
 public static void dictionaryExportToFile() {
     String exportFilePath = "src/main/resources/text/dictionaries.txt";
 
@@ -132,7 +94,6 @@ public static void dictionaryExportToFile() {
         e.printStackTrace();
     }
 }
-
 
     public static Dictionary getDictionary() {
         return dictionary;
@@ -199,11 +160,6 @@ public static void dictionaryExportToFile() {
             result.add(word);
         }
         return result;
-    }
-
-    public void addWord(String word_target, String pronunciation, String partOfSpeech, String description) {
-        Word newWord = new Word(word_target, pronunciation);
-        dictionary.addWord(newWord);
     }
 
     public static String editWord() {
@@ -300,11 +256,6 @@ public static void dictionaryExportToFile() {
         dictionary.addWord(newWord);
     }
 
-    public static String showWordFirstMeaning(Word word) {
-        return word.getWordTarget() + " "
-                + word.getPronunciation() + "\n" + word.getFirstMeaning();
-    }
-
     public static ArrayList<String> BoxSearchPrefix(String prefix) {
         ArrayList<Word> searchResults = dictionarySearcher(prefix);
         ArrayList<String> formattedResults = new ArrayList<>();
@@ -339,7 +290,6 @@ public static void dictionaryExportToFile() {
             e.printStackTrace();
         }
     }
-
 
 public static void historyFromFile() {
     String importFilePath = "src/main/resources/text/history.txt";
@@ -398,38 +348,25 @@ public static void historyFromFile() {
     }
 }
 
+    public static ArrayList<Word> showFullHistory() {
+        ArrayList<Word> history = new ArrayList<>(dictionary.getSearchHistory());
+        ArrayList<Word> result = new ArrayList<>();
 
+        Set<Word> uniqueWords = new HashSet<>(); // Sử dụng HashSet để lưu trữ các từ duy nhất
 
-//    public static ArrayList<Word> showFullHistory() {
-//        ArrayList<Word> history = new ArrayList<>(dictionary.getSearchHistory());
-//        ArrayList<Word> result = new ArrayList<>();
-//
-//        for (int i = history.size() - 1; i >= 0; i--) {
-//            Word word = history.get(i);
-//            result.add(word);
-//        }
-//
-//        return result;
-//    }
-public static ArrayList<Word> showFullHistory() {
-    ArrayList<Word> history = new ArrayList<>(dictionary.getSearchHistory());
-    ArrayList<Word> result = new ArrayList<>();
+        // Duyệt qua danh sách lịch sử theo thứ tự ngược lại
+        for (int i = history.size() - 1; i >= 0; i--) {
+            Word word = history.get(i);
 
-    Set<Word> uniqueWords = new HashSet<>(); // Sử dụng HashSet để lưu trữ các từ duy nhất
-
-    // Duyệt qua danh sách lịch sử theo thứ tự ngược lại
-    for (int i = history.size() - 1; i >= 0; i--) {
-        Word word = history.get(i);
-
-        // Kiểm tra xem từ đã xuất hiện chưa
-        if (uniqueWords.add(word)) {
-            // Nếu chưa, thêm từ vào danh sách kết quả
-            result.add(word);
+            // Kiểm tra xem từ đã xuất hiện chưa
+            if (uniqueWords.add(word)) {
+                // Nếu chưa, thêm từ vào danh sách kết quả
+                result.add(word);
+            }
         }
-    }
 
-    return result;
-}
+        return result;
+    }
 
 
     public static ArrayList<Word> show5RecentHistory() {
@@ -447,32 +384,6 @@ public static ArrayList<Word> showFullHistory() {
         return result;
     }
 
-
-    /*public static void exportFavouritesToFile() {
-        String exportFilePath = "src/main/favourites.txt";
-        Set<String> exportedWords = new HashSet<>();
-
-        try (BufferedWriter bw = new BufferedWriter(new FileWriter(exportFilePath))) {
-            for (Word word : dictionary.getFavouriteWords()) {
-                // Check if the word has already been exported
-                if (!exportedWords.contains(word.getWordTarget())) {
-                    bw.write("@" + word.getWordTarget() + " " + word.getPronunciation() + "\n");
-
-                    for (Meaning meaning : word.getMeanings()) {
-                        bw.write("*  " + meaning.getPartOfSpeech() + "\n");
-                        bw.write("  " + meaning.getDescription() + "\n");
-                    }
-                    bw.newLine();
-
-                    // Add the word to the set of exported words
-                    exportedWords.add(word.getWordTarget());
-                }
-            }
-            System.out.println("Favorites exported to " + exportFilePath);
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-    }*/
     public static void exportFavouritesToFile() {
         String exportFilePath = "src/main/resources/text/favourites.txt";
         Set<String> exportedWords = new HashSet<>();
@@ -496,7 +407,6 @@ public static ArrayList<Word> showFullHistory() {
             e.printStackTrace();
         }
     }
-
 
     public static void importFavouritesFromFile() {
         String importFilePath = "src/main/resources/text/favourites.txt";
@@ -557,62 +467,6 @@ public static ArrayList<Word> showFullHistory() {
         }
     }
 
-//    public static void favourite() {
-//        while (true) {
-//
-//            System.out.println("[0] Exit:");
-//            System.out.println("[1] Show full favourite list:");
-//            System.out.println("[2] Add favourite:");
-//            System.out.println("[3] Delete favourite:");
-//            System.out.println("[4] Import data");
-//            System.out.print("Choose an option: ");
-//            int op1 = scanner.nextInt();
-//            scanner.nextLine(); // Consume the newline character
-//
-//            if (op1 == 0) {
-//                System.out.println("Exiting Favourites...");
-//                break;
-//            }
-//
-//            switch (op1) {
-//                case 1:
-//                    showFavourite();
-//                    break;
-//                case 2:
-//                    addFavourite();
-//                    break;
-//                case 3:
-//                    deleteFavourite();
-//                    break;
-//                case 4:
-//                    importFavouritesFromFile();
-//                    break;
-//                default:
-//                    System.out.println("Invalid option. Please choose 0, 1, 2, 3, or 4.");
-//                    break;
-//            }
-//        }
-//    }
-
-    /*public static void showFavourite() {
-        ArrayList<Word> favourites = new ArrayList<>(Dictionary.getFavouriteWords());
-        for (int i = favourites.size() - 1; i >= 0; i--) {
-            System.out.println(showWordFirstMeaning(favourites.get(i)));
-            System.out.println();
-        }
-    }*/
-    /*public static void showFavourite() {
-        ArrayList<Word> favourites = new ArrayList<>(Dictionary.getFavouriteWords());
-        Set<String> displayedWords = new HashSet<>();
-
-        for (int i = favourites.size() - 1; i >= 0; i--) {
-            if (!displayedWords.contains(favourites.get(i).getWordTarget())) {
-                System.out.println(favourites.get(i).showWordTargetFirstMeaning());
-                System.out.println();
-                displayedWords.add(favourites.get(i).getWordTarget());
-            }
-        }
-    }*/
     public static ArrayList<String> showFavourite() {
         ArrayList<Word> favourites = new ArrayList<>(Dictionary.getFavouriteWords());
         Set<String> displayedWords = new HashSet<>();
@@ -627,8 +481,6 @@ public static ArrayList<Word> showFullHistory() {
 
         return formattedResults;
     }
-
-
 
     public static Word findWord(String wordToFind) {
         ArrayList<Word> words = dictionary.getWords();
@@ -657,50 +509,6 @@ public static ArrayList<Word> showFullHistory() {
         }
     }
 
-    public static void deleteFavourite() {
-        System.out.print("Enter the word to remove from favourites: ");
-        String wordToRemove = scanner.nextLine();
-
-        Iterator<Word> iterator = dictionary.getFavouriteWords().iterator();
-        boolean isDeleted = false;
-
-        while (iterator.hasNext()) {
-            Word entry = iterator.next();
-
-            if (entry.getWordTarget().equalsIgnoreCase(wordToRemove)) {
-                iterator.remove();
-                isDeleted = true;
-                exportFavouritesToFile(); // Lưu thay đổi vào file nếu cần
-                break;
-            }
-        }
-
-        if (!isDeleted) {
-            System.out.println("Word not found in the favourites.");
-        }
-    }
-
-
-
-    public static void speakWord(String text) {
-        System.setProperty("freetts.voices", "com.sun.speech.freetts.en.us.cmu_us_kal.KevinVoiceDirectory");
-        VoiceManager voiceManager = VoiceManager.getInstance();
-        Voice voice = voiceManager.getVoice("kevin16");
-        if (voice == null) {
-            System.err.println("Cannot find voice: kevin16");
-            System.exit(1);
-        }
-        voice.allocate();
-        voice.speak(text);
-        voice.deallocate();
-    }
-
-//    public static void speak() {
-//        System.out.println("Input the word to speak: ");
-//        String text = scanner.nextLine();
-//        speakWord(text);
-//    }
-
     public static void speak(String word) {
         try {
             String string = "http://translate.google.com/translate_tts?tl=en&q="
@@ -719,7 +527,6 @@ public static ArrayList<Word> showFullHistory() {
             throw new RuntimeException(e);
         }
     }
-
 
     public static String translateSentence(String sentence) throws IOException {
         sentence = URLEncoder.encode(sentence, StandardCharsets.UTF_8);
@@ -788,5 +595,4 @@ public static ArrayList<Word> showFullHistory() {
         int randomIndex = rand.nextInt(dictionary.getGameQuestions().size());
         return dictionary.getGameQuestions().get(randomIndex);
     }
-
 }

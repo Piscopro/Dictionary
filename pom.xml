@@ -44,29 +44,6 @@
             <scope>test</scope>
         </dependency>
 
-        <!-- Google Cloud Dependencies -->
-        <dependency>
-            <groupId>com.google.cloud</groupId>
-            <artifactId>google-cloud-bigqueryconnection</artifactId>
-        </dependency>
-
-        <dependency>
-            <groupId>com.google.cloud</groupId>
-            <artifactId>google-cloud-gkehub</artifactId>
-        </dependency>
-
-        <dependency>
-            <groupId>com.google.cloud</groupId>
-            <artifactId>google-cloud-texttospeech</artifactId>
-        </dependency>
-
-        <!-- FreeTTS Dependency -->
-        <dependency>
-            <groupId>net.sf.sociaal</groupId>
-            <artifactId>freetts</artifactId>
-            <version>1.2.2</version>
-        </dependency>
-
         <!-- JLayer Dependency -->
         <dependency>
             <groupId>javazoom</groupId>
