@@ -204,15 +204,321 @@
 *  tính từ
   - thẩm mỹ, có tính mỹ học
 
+@bag /bæɡ/
+*  danh từ
+  - cái túi
+
+@balance /ˈbæləns/
+*  ngoại động từ
+  - cân đối
+*  nội động từ
+  - giữ thăng bằng
+
+@ball /bɔːl/
+*  danh từ
+  - quả bóng
+
+@band /bænd/
+*  danh từ
+  - ban nhạc
+*  ngoại động từ
+  - buộc, băng (vết thương)
+
+@bank /bæŋk/
+*  danh từ
+  - ngân hàng, bờ (sông)
+
+@bar /bɑːr/
+*  danh từ
+  - thanh, quầy bar
+*  ngoại động từ
+  - chắn, ngăn cản
+
+@base /beɪs/
+*  danh từ
+  - cơ sở, đế
+*  ngoại động từ
+  - đặt cơ sở
+
+@sunglasses /ˈsʌnˌɡlæsɪz/
+*  danh từ
+  - kính râm
+
+@bottle /ˈbɒtl/
+*  danh từ
+  - chai, lọ
+
+@plate /pleɪt/
+*  danh từ
+  - đĩa (đồ ăn)
+
+@spoon /spuːn/
+*  danh từ
+  - cái thìa
+
+@fork /fɔːrk/
+*  danh từ
+  - cái nĩa
+
+@knife /naɪf/
+*  danh từ
+  - con dao
+
+@hat /hæt/
+*  danh từ
+  - cái mũ
+
+@towel /ˈtaʊəl/
+*  danh từ
+  - khăn tắm
+
+@soap /soʊp/
+*  danh từ
+  - xà phòng
+
+@brush /brʌʃ/
+*  danh từ
+  - bàn chải
+
+@bat /bæt/
+*  danh từ
+  - con dơi, gậy (bóng chày)
+
+@bath /bɑːθ/
+*  danh từ
+  - bồn tắm, phòng tắm
+
+@battle /ˈbætəl/
+*  danh từ
+  - trận chiến
+*  ngoại động từ
+  - chiến đấu
+
+@be /biː/
+*  nội động từ
+  - là, tồn tại
+
+@bed /bɛd/
+*  danh từ
+  - cái giường
+
+@bicycle /ˈbaɪsɪkəl/
+*  danh từ
+  - xe đạp
+
+@bird /bɜːrd/
+*  danh từ
+  - con chim
+
+@book /bʊk/
+*  danh từ
+  - quyển sách
+
 @candid //ˈkændɪd//
 *  tính từ
   - chân thật, trung thực - không giấu diếm, không ngần ngại
 *  danh từ
   - ảnh chân dung
 
+@ant /ænt/
+*  danh từ
+  - con kiến
+
+@ape /eɪp/
+*  danh từ
+  - con vượn
+
+@alligator /ˈælɪˌgeɪtər/
+*  danh từ
+  - cá sấu
+
+@armadillo /ˌɑːrməˈdɪloʊ/
+*  danh từ
+  - con tatu
+
+@albatross /ˈælbətrɒs/
+*  danh từ
+  - chim hải âu
+
+@apple /ˈæpl/
+*  danh từ
+  - quả táo
+
+@anchor /ˈæŋkər/
+*  danh từ
+  - mỏ neo
+
+@arrow /ˈæroʊ/
+*  danh từ
+  - mũi tên
+
+@album /ˈælbəm/
+*  danh từ
+  - cuốn album
+
+@apron /ˈeɪprən/
+*  danh từ
+  - tạp dề
+
+@airplane /ˈɛrˌpleɪn/
+*  danh từ
+  - máy bay
+
+@automobile /ˈɔːtəmoʊˌbiːl/
+*  danh từ
+  - ô tô
+
+@ambulance /ˈæmbjʊləns/
+*  danh từ
+  - xe cứu thương
+
+@airship /ˈɛrˌʃɪp/
+*  danh từ
+  - khinh khí cầu
+
+@auto-rickshaw /ˈɔːtoʊ ˈrɪkʃɔː/
+*  danh từ
+  - xe ba gác tự động
+
+@all-terrain vehicle /ˈɔːl təˈreɪn ˈviːɪkəl/
+*  danh từ
+  - xe đa địa hình
+
+@astronautical vehicle /ˌæstrəˈnɔːtɪkəl ˈviːɪkəl/
+*  danh từ
+  - tàu vũ trụ
+
+@amphibian /æmˈfɪbiən/
+*  danh từ
+  - phương tiện lưỡng cư
+
+@armored vehicle /ˈɑːrmərd ˈviːɪkəl/
+*  danh từ
+  - xe bọc thép
+
+@articulated lorry /ɑːrˈtɪkjuleɪtɪd ˈlɒri/
+*  danh từ
+  - xe tải nối dài
+
+@airliner /ˈeərlaɪnər/
+*  danh từ
+  - máy bay dân dụng
+
+@airtaxi /ˈeərˌtæksi/
+*  danh từ
+  - taxi hàng không
+
+@amphibious vehicle /æmˈfɪbiəs ˈviːɪkəl/
+*  danh từ
+  - xe lưỡng cư
+
+@astronautical craft /ˌæstrəˈnɔːtɪkəl kræft/
+*  danh từ
+  - tàu vũ trụ
+
+@auto-train /ˈɔːtoʊ treɪn/
+*  danh từ
+  - tàu hỏa tự động
+
+@articulated bus /ɑːrˈtɪkjuleɪtɪd bʌs/
+*  danh từ
+  - xe buýt nối dài
+
+@aircraft carrier /ˈeərkraft ˈkæriər/
+*  danh từ
+  - tàu sân bay
+
+@air scooter /ˈeər ˈskuːtər/
+*  danh từ
+  - xe scooter hàng không
+
+@armored train /ˈɑːrmərd treɪn/
+*  danh từ
+  - tàu hỏa bọc thép
+
+@bouncing bunny /ˈbaʊnsɪŋ ˈbʌni/
+*  danh từ
+  - con thỏ nhảy tung tăng
+
+@blazing butterfly /ˈbleɪzɪŋ ˈbʌtərflaɪ/
+*  danh từ
+  - con bướm bùng cháy
+
+@burrowing beetle /ˈbʌrəʊɪŋ ˈbiːtl/
+*  danh từ
+  - con bọ xâm nhập
+
+@buzzing bat /ˈbʌzɪŋ bæt/
+*  danh từ
+  - con dơi kêu rì
+
+@brilliant beetle /ˈbrɪljənt ˈbiːtl/
+*  danh từ
+  - con bọ rực rỡ
+
+@bashful bear /ˈbæʃfəl bɛr/
+*  danh từ
+  - con gấu xấu hổ
+
+@blitheful bird /ˈblaɪðfəl bɜrd/
+*  danh từ
+  - con chim vui vẻ
+
+@bubbly beaver /ˈbʌbli ˈbiːvər/
+*  danh từ
+  - con hải ly nhiệt tình
+
+@bewitched bunny /bɪˈwɪtʃt ˈbʌni/
+*  danh từ
+  - con thỏ bị phép thuật
+
+@brawny buffalo /ˈbrɔːni ˈbʌfəloʊ/
+*  danh từ
+  - con trâu mạnh mẽ
+
+@blissful butterfly /ˈblɪsfl̩ ˈbʌtərflaɪ/
+*  danh từ
+  - con bướm hạnh phúc
+
+@buoyant beagle /ˈbɔɪənt ˈbiːɡəl/
+*  danh từ
+  - chú chó trôi nổi
+
+@bouncing beaver /ˈbaʊnsɪŋ ˈbiːvər/
+*  danh từ
+  - con hải ly nhảy tung tăng
+
+@bashful bat /ˈbæʃfəl bæt/
+*  danh từ
+  - con dơi xấu hổ
+
+@brisk bobcat /brɪsk ˈbɒbkæt/
+*  danh từ
+  - con linh cẩu nhanh nhẹn
+
+@air ferry /ˈeər ˈfɛri/
+*  danh từ
+  - phà hàng không
+
+@car /kɑːr/
+*  danh từ
+  - xe hơi
+
+@cat /kæt/
+*  danh từ
+  - con mèo
+
+@chair /tʃɛər/
+*  danh từ
+  - cái ghế
+
 @chaos //ˈkeɪ.ɑːs//
 *  danh từ
   - hỗn loạn, lộn xộn - tình trạng hỗn độn, sự rối bời
+
+@clock /klɑːk/
+*  danh từ
+  - đồng hồ
 
 @clumsy //ˈklʌmzi//
 *  tính từ
@@ -241,6 +547,10 @@
 @comprehensive //ˌkɑːm.prəˈhensɪv//
 *  tính từ
   - toàn diện, bao quát - rộng lớn, bao la
+
+@computer /kəmˈpjuːtər/
+*  danh từ
+  - máy tính
 
 @conceal //kənˈsiːl//
 *  ngoại động từ
@@ -323,6 +633,10 @@
   - ranh mãnh, tinh ranh - xảo quyệt, tài tình
 *  danh từ
   - sự ranh mãnh, sự tinh ranh
+
+@cup /kʌp/
+*  danh từ
+  - cốc, chén
 
 @curious //ˈkjʊriəs//
 *  tính từ
@@ -468,6 +782,10 @@
 *  ngoại động từ
   - dự đoán, tiên tri - nhìn thấu, hiểu rõ
 
+@dog /dɔːɡ/
+*  danh từ
+  - con chó
+
 @dominate //ˈdɒmɪneɪt//
 *  ngoại động từ
   - thống trị, chi phối - áp đảo, đè bẹp
@@ -513,6 +831,10 @@
   - tỉ mỉ, công phu - phức tạp, chi tiết
 *  ngoại động từ
   - phát triển, mở rộng - làm chi tiết, làm tỉ mỉ
+
+@elephant /ˈɛlɪfənt/
+*  danh từ
+  - con voi
 
 @elicit //ɪˈlɪsɪt//
 *  ngoại động từ
@@ -613,6 +935,14 @@
 @ferocious //fəˈroʊʃəs//
 *  tính từ
   - hung dữ, dữ tợn - mãnh liệt, dữ dội
+
+@fish /fɪʃ/
+*  danh từ
+  - con cá
+
+@flower /ˈflaʊər/
+*  danh từ
+  - bông hoa
 
 @gather //ˈɡæðər//
 *  ngoại động từ
@@ -978,6 +1308,10 @@
 *  danh từ
   - sự giữ, sự bảo quản - người giữ, người bảo vệ
 
+@key /kiː/
+*  danh từ
+  - chìa khóa
+
 @kick //kɪk//
 *  ngoại động từ
   - đá, đạp - đẩy bằng chân
@@ -1007,6 +1341,10 @@
   - đan, đan len - kết nối chặt, liên kết chặt
 *  danh từ
   - sự đan, sự đan len - chiếc len, chiếc đan
+
+@lamp /læmp/
+*  danh từ
+  - cái đèn
 
 @lash //læʃ//
 *  ngoại động từ
@@ -1188,6 +1526,10 @@
 *  ngoại động từ
   - ghi chú, chú ý
 
+@notebook /ˈnoʊtbʊk/
+*  danh từ
+  - quyển ghi chép
+
 @novel //ˈnɒvəl//
 *  danh từ
   - tiểu thuyết - mới mẻ, mới lạ
@@ -1356,6 +1698,10 @@
 *  danh từ
   - con bồ nông
 
+@pen /pɛn/
+*  danh từ
+  - cây bút
+
 @penguin //ˈpɛŋɡwɪn//
 *  danh từ
   - chim cánh cụt
@@ -1379,6 +1725,14 @@
 @persist //pərˈsɪst//
 *  nội động từ
   - kiên trì, dai dẳng - tồn tại, tiếp tục tồn tại
+
+@phone /foʊn/
+*  danh từ
+  - điện thoại
+
+@pillow /ˈpɪloʊ/
+*  danh từ
+  - cái gối
 
 @pioneer //ˌpaɪəˈnɪr//
 *  danh từ
@@ -1474,6 +1828,18 @@
 *  danh từ
   - con thỏ
 
+@refrigerator /rɪˈfrɪdʒəreɪtər/
+*  danh từ
+  - tủ lạnh
+
+@shoe /ʃuː/
+*  danh từ
+  - đôi giày
+
+@table /ˈteɪbəl/
+*  danh từ
+  - cái bàn
+
 @telephone //ˈtɛlɪfoʊn//
 *  danh từ
   - điện thoại
@@ -1481,6 +1847,10 @@
 @telescope //ˈtɛlɪskoʊp//
 *  danh từ
   - ống nhòm, kính viễn vọng
+
+@television /ˈtɛlɪvɪʒən/
+*  danh từ
+  - ti vi, tivi
 
 @tractor //ˈtræktər//
 *  danh từ
@@ -1495,6 +1865,10 @@
 @tram //træm//
 *  danh từ
   - xe điện, xe điện ngầm
+
+@tree /triː/
+*  danh từ
+  - cái cây
 
 @tricycle //ˈtraɪsɪkəl//
 *  danh từ
@@ -1717,4 +2091,268 @@
 @zoo //zuː//
 *  danh từ
   - sở thú, công viên động vật - nơi trưng bày, sắp xếp hình ảnh
+
+@courageous cheetah /kəˈreɪdʒəs ˈʧiːtə/
+*  danh từ
+  - con báo dũng cảm
+
+@charming chinchilla /ˈʧɑːrmɪŋ ʧɪnˈʧɪlə/
+*  danh từ
+  - con chinchilla quyến rũ
+
+@cheerful chimpanzee /ˈʧɪrfl̩ ˌʧɪmˈpænziː/
+*  danh từ
+  - con tinh tế hồn nhiên
+
+@cunning cobra /ˈkʌnɪŋ ˈkoʊbrə/
+*  danh từ
+  - con rắn hổ mang xảo quyệt
+
+@curious catfish /ˈkjʊriəs ˈkætfɪʃ/
+*  danh từ
+  - con cá trê tò mò
+
+@companionable corgi /kəmˈpænjənəbl ˈkɔːrɡi/
+*  danh từ
+  - chú chó corgi thân thiện
+
+@communicative canary /kəˈmjuːnɪkətɪv kəˈnæri/
+*  danh từ
+  - chú hồng yến thông tin
+
+@cooperative cat /kəʊˈɒpərətɪv kæt/
+*  danh từ
+  - chú mèo hợp tác
+
+@comforting cockatoo /ˈkʌmfərtɪŋ ˌkɒkəˈtuː/
+*  danh từ
+  - chú vẹt an ủi
+
+@caring chameleon /ˈkɛrɪŋ kəˈmiːliən/
+*  danh từ
+  - con thằn lằn quan tâm
+
+@captivating cat /ˈkæptɪˌveɪtɪŋ kæt/
+*  danh từ
+  - chú mèo quyến rũ
+
+@cheerful cat /ˈʧɪrfl̩ kæt/
+*  danh từ
+  - chú mèo vui vẻ
+
+@cunning cat /ˈkʌnɪŋ kæt/
+*  danh từ
+  - chú mèo xảo quyệt
+
+@charismatic cat /ˌkærɪzˈmætɪk kæt/
+*  danh từ
+  - chú mèo hấp dẫn
+
+@companionable cat /kəmˈpænjənəbl kæt/
+*  danh từ
+  - chú mèo thân thiện
+
+@dashing dog /ˈdæʃɪŋ dɔɡ/
+*  danh từ
+  - chú chó hấp dẫn
+
+@delightful dog /dɪˈlaɪtfl̩ dɔɡ/
+*  danh từ
+  - chú chó dễ thương
+
+@devoted dog /dɪˈvoʊtɪd dɔɡ/
+*  danh từ
+  - chú chó tận tụy
+
+@daring dog /ˈdɛrɪŋ dɔɡ/
+*  danh từ
+  - chú chó dũng cảm
+
+@dynamic dog /daɪˈnæmɪk dɔɡ/
+*  danh từ
+  - chú chó năng động
+
+@diverse dolphin /daɪˈvɜːrs ˈdɒlfɪn/
+*  danh từ
+  - cá heo đa dạng
+
+@dazzling dragonfly /ˈdæzlɪŋ ˈdræɡənflaɪ/
+*  danh từ
+  - chuồn chuồn lấp lánh
+
+@ethereal eagle /ɪˈθɪriəl ˈiːɡəl/
+*  danh từ
+  - đại bàng huyền bí
+
+@enigmatic elephant /ˌɛnɪɡˈmætɪk ˈɛlɪfənt/
+*  danh từ
+  - voi bí ẩn
+
+@eclectic egret /ɪˈklɛktɪk ˈiːɡrət/
+*  danh từ
+  - diệc đa dạng
+
+@enchanting earthworm /ɪnˈʧæntɪŋ ˈɜːrθwɜːrm/
+*  danh từ
+  - giun đất quyến rũ
+
+@endearing elk /ɪnˈdɪrɪŋ ɛlk/
+*  danh từ
+  - nai dễ thương
+
+@ephemeral elephant seal /ɪˈfɛmərəl ˈɛlɪfənt sil/
+*  danh từ
+  - hải cẩu voi thoáng qua
+
+@exquisite egret /ɪkˈskwɪzɪt ˈiːɡrət/
+*  danh từ
+  - diệc tinh tế
+
+@explorative earthworm /ɪkˈsplɒrətɪv ˈɜːrθwɜːrm/
+*  danh từ
+  - giun đất thám hiểm
+
+@aphid /ˈeɪfɪd/
+*  danh từ
+  - bọ rơi
+
+@bee /biː/
+*  danh từ
+  - ong
+
+@beetle /ˈbiːtl̩/
+*  danh từ
+  - bọ cánh cứng
+
+@butterfly /ˈbʌtərflaɪ/
+*  danh từ
+  - bướm
+
+@centipede /ˈsɛntɪpiːd/
+*  danh từ
+  - giày cỏ
+
+@cockroach /ˈkɒkrəʊtʃ/
+*  danh từ
+  - gián
+
+@caterpillar /ˈkætəˌpɪlər/
+*  danh từ
+  - sâu bướm
+
+@cricket /ˈkrɪkɪt/
+*  danh từ
+  - châu chấu
+
+@dragonfly /ˈdræɡənflaɪ/
+*  danh từ
+  - chuồn chuồn
+
+@dung beetle /dʌŋ ˈbiːtl̩/
+*  danh từ
+  - bọ cánh cứng
+
+@earwig /ˈɪərwɪɡ/
+*  danh từ
+  - con rệp
+
+@firefly /ˈfaɪərflaɪ/
+*  danh từ
+  - đom đóm
+
+@flea /fliː/
+*  danh từ
+  - bọ chét
+
+@fly /flaɪ/
+*  danh từ
+  - con ruồi
+
+@grasshopper /ˈɡræsˌhɒpər/
+*  danh từ
+  - châu chấu
+
+@hornet /ˈhɔːrnɪt/
+*  danh từ
+  - ong góp
+
+@housefly /haʊs flaɪ/
+*  danh từ
+  - ruồi nhà
+
+@june beetle /dʒuːn ˈbiːtl̩/
+*  danh từ
+  - bọ cánh cứng tháng sáu
+
+@ladybug /ˈleɪdiˌbʌɡ/
+*  danh từ
+  - bọ rùa
+
+@lacewing /ˈleɪsˌwɪŋ/
+*  danh từ
+  - châu chấu nhện
+
+@leafhopper /ˈliːfˌhɒpər/
+*  danh từ
+  - bọ cánh cứng
+
+@louse /laʊs/
+*  danh từ
+  - bọ chét
+
+@mayfly /ˈmeɪflaɪ/
+*  danh từ
+  - ruồi tháng 5
+
+@millipede /ˈmɪlɪˌpiːd/
+*  danh từ
+  - giày cỏ
+
+@moth /mɒθ/
+*  danh từ
+  - bướm đêm
+
+@praying mantis /ˈpreɪɪŋ ˈmæntɪs/
+*  danh từ
+  - bọ ngựa
+
+@scarab beetle /ˈskæræb ˈbiːtl̩/
+*  danh từ
+  - bọ cánh cứng
+
+@silverfish /ˈsɪlvərˌfɪʃ/
+*  danh từ
+  - cá bạc
+
+@spider /ˈspaɪdər/
+*  danh từ
+  - nhện
+
+@stick insect /stɪk ˈɪnsɛkt/
+*  danh từ
+  - kiến bò
+
+@stink bug /stɪŋk bʌɡ/
+*  danh từ
+  - bọ rệp
+
+@termite /ˈtɜːrmaɪt/
+*  danh từ
+  - mối
+
+@thrip /θrɪp/
+*  danh từ
+  - bọ cánh cứng
+
+@tick /tɪk/
+*  danh từ
+  - bọ chét
+
+@wasp /wɒsp/
+*  danh từ
+  - ong
+
+@weevil /ˈwiːvəl/
+*  danh từ
+  - bọ cánh cứng
 
