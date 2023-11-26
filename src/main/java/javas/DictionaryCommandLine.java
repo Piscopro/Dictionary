@@ -9,12 +9,13 @@ import java.util.Random;
 import java.util.Scanner;
 import java.util.Collections;
 
-import static javas.DictionaryManagement.historyExportToFile;
-import static javas.DictionaryManagement.historyFromFile;
+import static javas.DictionaryManagement.*;
 
 class DictionaryCommandLine {
     private static final String QUESTIONS_FILE = "src/main/resources/text/questions.txt";
     private DictionaryManagement dictionaryManagement = new DictionaryManagement();
+
+    private Dictionary dictionary = new Dictionary();
 
     public DictionaryCommandLine() {
     }
@@ -89,42 +90,64 @@ class DictionaryCommandLine {
         br.close();
     }
 
+//    public void startGame() {
+//        ArrayList<String[]> questions = new ArrayList<>();
+//        try {
+//            readQuestionsFromFile(questions);
+//        } catch (IOException e) {
+//            e.printStackTrace();
+//            System.out.println("Error reading questions from file.");
+//            return;
+//        }
+//        System.out.println("Enter the number of question you want to play: ");
+//        Scanner sc = new Scanner(System.in);
+//        int questionNumber = sc.nextInt();
+//
+//        int index = 0;
+//        int userScore = 0;
+//        while (index < questionNumber) {
+//            Random rand = new Random();
+//            int randomIndex = rand.nextInt(questions.size());
+//            String[] randomQuestion = questions.get(randomIndex);
+//            System.out.println("Question " + (index + 1) + ": " + randomQuestion[0]);
+//            for (int j = 0; j < 4; j++) {
+//                System.out.println("[" + ((char) (65 + j)) + "] " + randomQuestion[j + 1]);
+//            }
+//            System.out.println("Your choice [A/B/C/D]: ");
+//            String answer = sc.next();
+//            if (answer.equalsIgnoreCase(randomQuestion[5])) {
+//                userScore += 1;
+//                System.out.println("Correct! Your points: " + userScore + "/" + questionNumber);
+//            } else {
+//                System.out.println("Incorrect! The correct answer is: " + randomQuestion[5]);
+//                System.out.println("Your points: " + userScore + "/" + questionNumber);
+//            }
+//            questions.remove(randomIndex);
+//            index++;
+//        }
+//
+//    }
     public void startGame() {
-        ArrayList<String[]> questions = new ArrayList<>();
-        try {
-            readQuestionsFromFile(questions);
-        } catch (IOException e) {
-            e.printStackTrace();
-            System.out.println("Error reading questions from file.");
-            return;
+        dictionaryManagement.insertGameQuestion();
+        int questionNumber = 3;
+        int i = 0;
+        while (i < questionNumber) {
+            GameQuestion randomQuestion = dictionaryManagement.getRandomQuestion();
+            System.out.println(randomQuestion.getQuestion());
+//            for (int j = 0; j < randomQuestion.getAnswers().size(); j++) {
+//                System.out.println("[" + ((char) (65 + j)) + "] " + randomQuestion.getAnswers().get(j));
+//            }
+//            System.out.println("Your choice [A/B/C/D]: ");
+//            String answer = scanner.next();
+//            if (answer.equalsIgnoreCase(randomQuestion.getCorrectAnswer())) {
+//                System.out.println("Correct!");
+//            } else {
+//                System.out.println("Incorrect! The correct answer is: " + randomQuestion.getCorrectAnswer());
+//            }
+//            dictionary.removeQuestion(randomQuestion);
+            System.out.println(randomQuestion.getCorrectAnswer());
+            i++;
         }
-        System.out.println("Enter the number of question you want to play: ");
-        Scanner sc = new Scanner(System.in);
-        int questionNumber = sc.nextInt();
-
-        int index = 0;
-        int userScore = 0;
-        while (index < questionNumber) {
-            Random rand = new Random();
-            int randomIndex = rand.nextInt(questions.size());
-            String[] randomQuestion = questions.get(randomIndex);
-            System.out.println("Question " + (index + 1) + ": " + randomQuestion[0]);
-            for (int j = 0; j < 4; j++) {
-                System.out.println("[" + ((char) (65 + j)) + "] " + randomQuestion[j + 1]);
-            }
-            System.out.println("Your choice [A/B/C/D]: ");
-            String answer = sc.next();
-            if (answer.equalsIgnoreCase(randomQuestion[5])) {
-                userScore += 1;
-                System.out.println("Correct! Your points: " + userScore + "/" + questionNumber);
-            } else {
-                System.out.println("Incorrect! The correct answer is: " + randomQuestion[5]);
-                System.out.println("Your points: " + userScore + "/" + questionNumber);
-            }
-            questions.remove(randomIndex);
-            index++;
-        }
-
     }
 
     public void dictionaryAdvanced() throws IOException {

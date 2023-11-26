@@ -730,11 +730,28 @@ public static void historyFromFile() {
                 if (parts.length >= 2) {
                     GameQuestion question = new GameQuestion();
                     question.setQuestion(parts[0]);
-                    question.setCorrectAnswer(parts[parts.length - 1]);
-
                     for (int i = 1; i < parts.length - 1; i++) {
                         question.getAnswers().add(parts[i]);
                     }
+                    String correctAnswerLetter = parts[parts.length - 1];
+                    int correctAnswerIndex = 0;
+                    switch (correctAnswerLetter) {
+                        case "A":
+                            correctAnswerIndex = 0;
+                            break;
+                        case "B":
+                            correctAnswerIndex = 1;
+                            break;
+                        case "C":
+                            correctAnswerIndex = 2;
+                            break;
+                        case "D":
+                            correctAnswerIndex = 3;
+                            break;
+                    }
+                    question.setCorrectAnswer(question.getAnswers().get(correctAnswerIndex));
+
+
 
                     dictionary.addQuestion(question);
                 } else {
@@ -744,7 +761,6 @@ public static void historyFromFile() {
         } catch (IOException e) {
             e.printStackTrace(); // Handle the exception according to your application's needs
         }
-
     }
 
     public GameQuestion getRandomQuestion() {

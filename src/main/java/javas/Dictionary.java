@@ -94,4 +94,8 @@ public void addHistory(Word word) {
     public void addQuestion(GameQuestion question) {
         gameQuestions.add(question);
     }
+
+    public void removeQuestion(GameQuestion question) {
+        gameQuestions.remove(question);
+    }
 }
