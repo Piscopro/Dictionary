@@ -741,7 +741,7 @@ public static ArrayList<Word> showFullHistory() {
         return translatedText;
     }
 
-    public void insertGameQuestion() {
+    public static void insertGameQuestion() {
         try (BufferedReader reader = new BufferedReader(new FileReader("src/main/resources/text/questions.txt"))) {
             String line;
 
@@ -783,7 +783,7 @@ public static ArrayList<Word> showFullHistory() {
         }
     }
 
-    public GameQuestion getRandomQuestion() {
+    public static GameQuestion getRandomQuestion() {
         Random rand = new Random();
         int randomIndex = rand.nextInt(dictionary.getGameQuestions().size());
         return dictionary.getGameQuestions().get(randomIndex);

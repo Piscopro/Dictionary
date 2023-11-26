@@ -31,18 +31,26 @@ public class MainController {
     @FXML private VBox wordboxsavedholder;
     @FXML private ScrollPane recentwordspane;
     @FXML private VBox wordboxrecentholder;
-    @FXML private ScrollPane displayallpane;
-    @FXML private VBox wordboxallholder;
     @FXML private AnchorPane graphtranslatepane;
     @FXML private TextArea translateinput;
+    @FXML private Text wordtranslatespeaker;
     @FXML private Text translateinputwordcount;
     @FXML private Text translatedtext;
+    @FXML private AnchorPane gamepane;
+    @FXML private Text gametext;
+    @FXML private TextField questionnumberinput;
+    @FXML public AnchorPane testpane;
+    @FXML public Text questionindexdisplay;
+    @FXML public Text rightanswersdisplay;
+    @FXML public Text questiondisplay;
+
     private DictionaryManagement dictionaryManagement = new DictionaryManagement();
     @FXML
     private Label tenapp;
     private Node currentpane;
     @FXML
     private void initialize() {
+        DictionaryManagement.insertGameQuestion();
         DictionaryManagement.historyFromFile();
         DictionaryManagement.insertFromFile();
         DictionaryManagement.importFavouritesFromFile();
@@ -50,16 +58,6 @@ public class MainController {
             @Override
             public void changed(ObservableValue<? extends String> observable, String oldValue, String newValue) {
                 changeSearchResults(newValue);
-            }
-        });
-        translateinput.textProperty().addListener(new ChangeListener<String>() {
-            @Override
-            public void changed(ObservableValue<? extends String> observable, String oldValue, String newValue) {
-                if(newValue.length() > 100) {
-                    translateinput.setText(oldValue);
-                    newValue = oldValue;
-                }
-                translateinputwordcount.setText("(" + newValue.length() + "/100)");
             }
         });
         currentpane = searchpane;
@@ -91,15 +89,6 @@ public class MainController {
         wordboxrecentholder.getChildren().clear();
         for (Word word: DictionaryManagement.showFullHistory()) {
             wordboxrecentholder.getChildren().add(new WordBoxRecent(this, word));
-        }
-        currentpane.setVisible(true);
-    }
-    @FXML
-    private void openDisplayAllPane(){
-        currentpane.setVisible(false);
-        currentpane = displayallpane;
-        for (Word word: DictionaryManagement.showAllWords()) {
-            wordboxallholder.getChildren().add(new WordBoxAll(this, word));
         }
         currentpane.setVisible(true);
     }
@@ -149,9 +138,43 @@ public class MainController {
     @FXML private void openDisplayGraphTranslatePane() {
         currentpane.setVisible(false);
         currentpane = graphtranslatepane;
+        translateinput.textProperty().addListener(new ChangeListener<String>() {
+            @Override
+            public void changed(ObservableValue<? extends String> observable, String oldValue, String newValue) {
+                if(newValue.length() > 100) {
+                    translateinput.setText(oldValue);
+                    newValue = oldValue;
+                }
+                translateinputwordcount.setText("(" + newValue.length() + "/100)");
+            }
+        });
+        wordtranslatespeaker.setOnMouseClicked(new EventHandler<MouseEvent>() {
+            @Override
+            public void handle(MouseEvent mouseEvent) {
+                DictionaryManagement.speak(translateinput.getText());
+            }
+        });
         currentpane.setVisible(true);
     }
     @FXML private void translateText() throws IOException {
         translatedtext.setText(DictionaryManagement.translateSentence(translateinput.getText()));
+    }
+    @FXML public void openGamePane() {
+        currentpane.setVisible(false);
+        currentpane = gamepane;
+        currentpane.setVisible(true);
+    }
+
+    @FXML private void startGame() {
+        String input = questionnumberinput.getText();
+        try {
+            int number = Integer.parseInt(input);
+            currentpane.setVisible(false);
+            currentpane = testpane;
+            currentpane.setVisible(true);
+            GameTest test = new GameTest(this, number);
+        } catch (NumberFormatException e) {
+            gametext.setText("Vui lòng nhập vào một số nguyên!");
+        }
     }
 }

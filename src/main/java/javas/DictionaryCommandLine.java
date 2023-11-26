@@ -76,7 +76,7 @@ class DictionaryCommandLine {
 //        this.showAllWords();
 //    }
 
-    private void readQuestionsFromFile(ArrayList<String[]> questions) throws IOException {
+    public void readQuestionsFromFile(ArrayList<String[]> questions) throws IOException {
         BufferedReader br = new BufferedReader(new FileReader(QUESTIONS_FILE));
         String line;
 
