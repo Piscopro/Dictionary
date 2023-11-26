@@ -42,10 +42,10 @@ class DictionaryManagement {
 
                     // Create a new Word
                     String[] parts = line.split(" /");
-                    if (parts.length < 2) {
-                        System.out.println("Invalid data format at line: " + line);
-                        continue;
-                    }
+//                    if (parts.length < 2) {
+//                        System.out.println("Invalid data format at line: " + line);
+//                        continue;
+//                    }
                     String word = parts[0].substring(1).trim();
                     String pronunciation = "/" + parts[1].trim();
                     currentWord = new Word(word, pronunciation);
@@ -400,17 +400,37 @@ public static void historyFromFile() {
 
 
 
-    public static ArrayList<Word> showFullHistory() {
-        ArrayList<Word> history = new ArrayList<>(dictionary.getSearchHistory());
-        ArrayList<Word> result = new ArrayList<>();
+//    public static ArrayList<Word> showFullHistory() {
+//        ArrayList<Word> history = new ArrayList<>(dictionary.getSearchHistory());
+//        ArrayList<Word> result = new ArrayList<>();
+//
+//        for (int i = history.size() - 1; i >= 0; i--) {
+//            Word word = history.get(i);
+//            result.add(word);
+//        }
+//
+//        return result;
+//    }
+public static ArrayList<Word> showFullHistory() {
+    ArrayList<Word> history = new ArrayList<>(dictionary.getSearchHistory());
+    ArrayList<Word> result = new ArrayList<>();
 
-        for (int i = history.size() - 1; i >= 0; i--) {
-            Word word = history.get(i);
+    Set<Word> uniqueWords = new HashSet<>(); // Sử dụng HashSet để lưu trữ các từ duy nhất
+
+    // Duyệt qua danh sách lịch sử theo thứ tự ngược lại
+    for (int i = history.size() - 1; i >= 0; i--) {
+        Word word = history.get(i);
+
+        // Kiểm tra xem từ đã xuất hiện chưa
+        if (uniqueWords.add(word)) {
+            // Nếu chưa, thêm từ vào danh sách kết quả
             result.add(word);
         }
-
-        return result;
     }
+
+    return result;
+}
+
 
     public static ArrayList<Word> show5RecentHistory() {
         int maxEntries = 5;
