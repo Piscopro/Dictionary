@@ -701,27 +701,10 @@ public static void historyFromFile() {
     }
 
 
-    public static void translateSentence() throws IOException {
-        System.out.print("Choose language: 1. Eng-Vie, 2. Vie-Eng ");
-        int choice = scanner.nextInt();
-        String sl, tl;
-        if (choice == 1) {
-            System.out.println("Eng-Vie:");
-            sl = "en";
-            tl = "vi";
-        } else {
-            System.out.println("Vie-Eng:");
-            sl = "vi";
-            tl = "en";
-        }
+    public static String translateSentence(String sentence) throws IOException {
+        sentence = URLEncoder.encode(sentence, StandardCharsets.UTF_8);
 
-        scanner.nextLine(); // Consume newline left-over
-        System.out.print("Enter the sentence to be translated: ");
-        String query = scanner.nextLine();
-
-        query = URLEncoder.encode(query, StandardCharsets.UTF_8);
-
-        String urlStr = "https://translate.googleapis.com/translate_a/single?client=gtx&sl=" + sl + "&tl=" + tl + "&dt=t&q=" + query;
+        String urlStr = "https://translate.googleapis.com/translate_a/single?client=gtx&sl=en&tl=vi&dt=t&q=" + sentence;
         URL url = new URL(urlStr);
         HttpURLConnection conn = (HttpURLConnection) url.openConnection();
         conn.setRequestMethod("GET");
@@ -735,6 +718,6 @@ public static void historyFromFile() {
         conn.disconnect();
         String jsonString = content.toString();
         String translatedText = jsonString.split("\"")[1];
-        System.out.println("Translated sentenced: " + translatedText);
+        return translatedText;
     }
 }

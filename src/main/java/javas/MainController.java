@@ -5,10 +5,7 @@ import javafx.beans.value.ObservableValue;
 import javafx.event.EventHandler;
 import javafx.fxml.FXML;
 import javafx.scene.Node;
-import javafx.scene.control.Label;
-import javafx.scene.control.ScrollPane;
-import javafx.scene.control.SplitPane;
-import javafx.scene.control.TextField;
+import javafx.scene.control.*;
 import javafx.scene.input.KeyCode;
 import javafx.scene.input.KeyEvent;
 import javafx.scene.input.MouseEvent;
@@ -16,6 +13,7 @@ import javafx.scene.layout.AnchorPane;
 import javafx.scene.layout.VBox;
 import javafx.scene.text.Text;
 
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Objects;
 
@@ -35,6 +33,10 @@ public class MainController {
     @FXML private VBox wordboxrecentholder;
     @FXML private ScrollPane displayallpane;
     @FXML private VBox wordboxallholder;
+    @FXML private AnchorPane graphtranslatepane;
+    @FXML private TextArea translateinput;
+    @FXML private Text translateinputwordcount;
+    @FXML private Text translatedtext;
     private DictionaryManagement dictionaryManagement = new DictionaryManagement();
     @FXML
     private Label tenapp;
@@ -48,6 +50,16 @@ public class MainController {
             @Override
             public void changed(ObservableValue<? extends String> observable, String oldValue, String newValue) {
                 changeSearchResults(newValue);
+            }
+        });
+        translateinput.textProperty().addListener(new ChangeListener<String>() {
+            @Override
+            public void changed(ObservableValue<? extends String> observable, String oldValue, String newValue) {
+                if(newValue.length() > 100) {
+                    translateinput.setText(oldValue);
+                    newValue = oldValue;
+                }
+                translateinputwordcount.setText("(" + newValue.length() + "/100)");
             }
         });
         currentpane = searchpane;
@@ -128,7 +140,18 @@ public class MainController {
         currentpane.setOnKeyPressed((KeyEvent event) -> {
             if (event.getCode() == KeyCode.ENTER) {
                 openWordDisplayPane(finalFwbs.getWord());
+                DictionaryManagement.getDictionary().addHistory(finalFwbs.getWord());
+                DictionaryManagement.historyExportToFile();
             }
         });
+    }
+
+    @FXML private void openDisplayGraphTranslatePane() {
+        currentpane.setVisible(false);
+        currentpane = graphtranslatepane;
+        currentpane.setVisible(true);
+    }
+    @FXML private void translateText() throws IOException {
+        translatedtext.setText(DictionaryManagement.translateSentence(translateinput.getText()));
     }
 }

@@ -244,7 +244,7 @@ class DictionaryCommandLine {
                     DictionaryManagement.speak(word);
                     break;
                 case 13:
-                    DictionaryManagement.translateSentence();
+//                    DictionaryManagement.translateSentence();
                     break;
                 default:
                     System.out.println("Action not supported.");
