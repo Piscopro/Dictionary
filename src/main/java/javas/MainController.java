@@ -2,12 +2,16 @@ package javas;
 
 import javafx.beans.value.ChangeListener;
 import javafx.beans.value.ObservableValue;
+import javafx.event.EventHandler;
 import javafx.fxml.FXML;
 import javafx.scene.Node;
 import javafx.scene.control.Label;
 import javafx.scene.control.ScrollPane;
 import javafx.scene.control.SplitPane;
 import javafx.scene.control.TextField;
+import javafx.scene.input.KeyCode;
+import javafx.scene.input.KeyEvent;
+import javafx.scene.input.MouseEvent;
 import javafx.scene.layout.AnchorPane;
 import javafx.scene.layout.VBox;
 import javafx.scene.text.Text;
@@ -47,19 +51,14 @@ public class MainController {
             }
         });
         currentpane = searchpane;
-        for (Word word : DictionaryManagement.show5RecentHistory()) {
-            wordboxsearchholder.getChildren().add(new WordBoxSearch(this, word));
-        }
-        currentpane.setVisible(true);
+        openSearchPane();
     }
     @FXML
     private void openSearchPane(){
         currentpane.setVisible(false);
         currentpane = searchpane;
         wordboxsearchholder.getChildren().clear();
-        for (Word word : DictionaryManagement.show5RecentHistory()) {
-            wordboxsearchholder.getChildren().add(new WordBoxSearch(this, word));
-        }
+        changeSearchResults("");
         currentpane.setVisible(true);
     }
     @FXML
@@ -87,7 +86,7 @@ public class MainController {
     private void openDisplayAllPane(){
         currentpane.setVisible(false);
         currentpane = displayallpane;
-        for (Word word: DictionaryManagement.getDictionary().getWords()) {
+        for (Word word: DictionaryManagement.showAllWords()) {
             wordboxallholder.getChildren().add(new WordBoxAll(this, word));
         }
         currentpane.setVisible(true);
@@ -98,19 +97,38 @@ public class MainController {
         worddisplayupperpane.getChildren().add(new SaveButton(this, word));
         worddisplayword.setText(word.getWordTarget());
         worddisplayspelling.setText(word.getPronunciation());
+        worddisplayspeaker.setOnMouseClicked(new EventHandler<MouseEvent>() {
+            @Override
+            public void handle(MouseEvent mouseEvent) {
+                DictionaryManagement.speak(word.getWordTarget());
+            }
+        });
         worddisplaymeanings.setText(word.getMeaning());
         currentpane.setVisible(true);
     }
     private void changeSearchResults(String newValue){
         wordboxsearchholder.getChildren().clear();
+        ArrayList<Word> results = null;
         if (Objects.equals(newValue, "")) {
-            for (Word word : DictionaryManagement.show5RecentHistory()) {
+            results = DictionaryManagement.show5RecentHistory();
+        }
+        else{
+            results = DictionaryManagement.dictionarySearcher(newValue);
+        }
+        WordBoxSearch fwbs = null;
+        for (Word word : results) {
+            if (fwbs == null) {
+                fwbs = new WordBoxSearch(this, word);
+                wordboxsearchholder.getChildren().add(fwbs);
+            } else {
                 wordboxsearchholder.getChildren().add(new WordBoxSearch(this, word));
             }
-            return;
         }
-        for (Word word: DictionaryManagement.dictionarySearcher(newValue)) {
-            wordboxsearchholder.getChildren().add(new WordBoxSearch(this, word));
-        }
+        WordBoxSearch finalFwbs = fwbs;
+        currentpane.setOnKeyPressed((KeyEvent event) -> {
+            if (event.getCode() == KeyCode.ENTER) {
+                openWordDisplayPane(finalFwbs.getWord());
+            }
+        });
     }
 }
