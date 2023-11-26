@@ -159,7 +159,7 @@ class DictionaryManagement {
         return -1; // Không tìm thấy từ
     }
 
-    public ArrayList<Word> showAllWords() {
+    public static ArrayList<Word> showAllWords() {
         ArrayList<Word> words = DictionaryManagement.getDictionary().getWords();
         ArrayList<Word> result = new ArrayList<>();
         // Sort the words alphabetically

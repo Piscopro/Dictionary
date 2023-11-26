@@ -18,4 +18,8 @@ public class WordBox extends AnchorPane {
             }
         });
     }
+
+    public Word getWord() {
+        return word;
+    }
 }
