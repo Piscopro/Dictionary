@@ -720,4 +720,37 @@ public static void historyFromFile() {
         String translatedText = jsonString.split("\"")[1];
         return translatedText;
     }
+
+    public void insertGameQuestion() {
+        try (BufferedReader reader = new BufferedReader(new FileReader("src/main/resources/text/questions.txt"))) {
+            String line;
+
+            while ((line = reader.readLine()) != null) {
+                String[] parts = line.split(";");
+                if (parts.length >= 2) {
+                    GameQuestion question = new GameQuestion();
+                    question.setQuestion(parts[0]);
+                    question.setCorrectAnswer(parts[parts.length - 1]);
+
+                    for (int i = 1; i < parts.length - 1; i++) {
+                        question.getAnswers().add(parts[i]);
+                    }
+
+                    dictionary.addQuestion(question);
+                } else {
+                    System.out.println("Invalid question format: " + line);
+                }
+            }
+        } catch (IOException e) {
+            e.printStackTrace(); // Handle the exception according to your application's needs
+        }
+
+    }
+
+    public GameQuestion getRandomQuestion() {
+        Random rand = new Random();
+        int randomIndex = rand.nextInt(dictionary.getGameQuestions().size());
+        return dictionary.getGameQuestions().get(randomIndex);
+    }
+
 }

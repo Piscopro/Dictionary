@@ -6,6 +6,7 @@ class Dictionary {
     private ArrayList<Word> words = new ArrayList<>();
     private Queue<Word> searchHistory = new LinkedList<>();
     public static List<Word> favouriteWords = new ArrayList<>();
+    private ArrayList<GameQuestion> gameQuestions = new ArrayList<>();
     private static final int FAVOURITE_SIZE = 50;
     private static final int HISTORY_SIZE = 50;
 
@@ -86,7 +87,11 @@ public void addHistory(Word word) {
         return searchHistory;
     }
 
-    /*public Queue<Word> getFavouriteWords() {
-        return favouriteWords;
-    }*/
+    public ArrayList<GameQuestion> getGameQuestions() {
+        return gameQuestions;
+    }
+
+    public void addQuestion(GameQuestion question) {
+        gameQuestions.add(question);
+    }
 }
