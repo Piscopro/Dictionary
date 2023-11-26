@@ -42,10 +42,10 @@ class DictionaryManagement {
 
                     // Create a new Word
                     String[] parts = line.split(" /");
-                    if (parts.length < 2) {
-                        System.out.println("Invalid data format at line: " + line);
-                        continue;
-                    }
+//                    if (parts.length < 2) {
+//                        System.out.println("Invalid data format at line: " + line);
+//                        continue;
+//                    }
                     String word = parts[0].substring(1).trim();
                     String pronunciation = "/" + parts[1].trim();
                     currentWord = new Word(word, pronunciation);
