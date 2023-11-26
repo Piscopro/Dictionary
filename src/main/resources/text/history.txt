@@ -1,52 +1,36 @@
+@weevil /ˈwiːvəl/
+*  danh từ
+  - bọ cánh cứng
+
+@tick /tɪk/
+*  danh từ
+  - bọ chét
+
+@kiss //kɪs//
+*  ngoại động từ
+  - hôn, hôn môi - chạm nhẹ, hôn nhẹ
+*  danh từ
+  - sự hôn, nụ hôn - một nụ hôn nhẹ
+
+@knit //nɪt//
+*  ngoại động từ
+  - đan, đan len - kết nối chặt, liên kết chặt
+*  danh từ
+  - sự đan, sự đan len - chiếc len, chiếc đan
+
 @cunning //ˈkʌnɪŋ//
 *  tính từ
   - ranh mãnh, tinh ranh - xảo quyệt, tài tình
 *  danh từ
   - sự ranh mãnh, sự tinh ranh
 
-@cuddle //ˈkʌdl//
+@keep //kiːp//
 *  ngoại động từ
-  - ôm ấp, ôm sát
+  - giữ, bảo quản - duy trì, giữ gìn
 *  danh từ
-  - sự ôm, sự nâng niu
+  - sự giữ, sự bảo quản - người giữ, người bảo vệ
 
-@disrupt /dɪˈsrʌpt/
-*  ngoại động từ
-  - làm gián đoạn, làm rối loạn - phá vỡ, phá hủy
-
-@diverge /daɪˈvɜːrdʒ/
-*  ngoại động từ
-  - rẽ nhánh, chia rẽ
-*  nội động từ
-  - rẽ nhánh, chia rẽ - chệch hướng, không đồng nhất
-
-@zoo /zuː/
+@ladybug /ˈleɪdiˌbʌɡ/
 *  danh từ
-  - sở thú, công viên động vật - nơi trưng bày, sắp xếp hình ảnh
-
-@kiss /kɪs/
-*  ngoại động từ
-  - hôn, hôn môi - chạm nhẹ, hôn nhẹ
-*  danh từ
-  - sự hôn, nụ hôn - một nụ hôn nhẹ
-
-@hesitate /ˈhɛzɪˌteɪt/
-*  ngoại động từ
-  - ngần ngại, do dự - nói ngắc ngứ
-*  nội động từ
-  - ngần ngại, do dự - nói ngắc ngứ
-
-@knit /nɪt/
-*  ngoại động từ
-  - đan, đan len - kết nối chặt, liên kết chặt
-*  danh từ
-  - sự đan, sự đan len - chiếc len, chiếc đan
-
-@deceptive /dɪˈsɛptɪv/
-*  tính từ
-  - lừa dối, đánh lừa - gây hiểu lầm, gây ảo tưởng
-
-@deter /dɪˈtɜːr/
-*  ngoại động từ
-  - ngăn chặn, cản trở - làm nản chí, làm mất hứng thú
+  - bọ rùa
 

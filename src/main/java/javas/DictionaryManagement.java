@@ -400,17 +400,37 @@ public static void historyFromFile() {
 
 
 
-    public static ArrayList<Word> showFullHistory() {
-        ArrayList<Word> history = new ArrayList<>(dictionary.getSearchHistory());
-        ArrayList<Word> result = new ArrayList<>();
+//    public static ArrayList<Word> showFullHistory() {
+//        ArrayList<Word> history = new ArrayList<>(dictionary.getSearchHistory());
+//        ArrayList<Word> result = new ArrayList<>();
+//
+//        for (int i = history.size() - 1; i >= 0; i--) {
+//            Word word = history.get(i);
+//            result.add(word);
+//        }
+//
+//        return result;
+//    }
+public static ArrayList<Word> showFullHistory() {
+    ArrayList<Word> history = new ArrayList<>(dictionary.getSearchHistory());
+    ArrayList<Word> result = new ArrayList<>();
 
-        for (int i = history.size() - 1; i >= 0; i--) {
-            Word word = history.get(i);
+    Set<Word> uniqueWords = new HashSet<>(); // Sử dụng HashSet để lưu trữ các từ duy nhất
+
+    // Duyệt qua danh sách lịch sử theo thứ tự ngược lại
+    for (int i = history.size() - 1; i >= 0; i--) {
+        Word word = history.get(i);
+
+        // Kiểm tra xem từ đã xuất hiện chưa
+        if (uniqueWords.add(word)) {
+            // Nếu chưa, thêm từ vào danh sách kết quả
             result.add(word);
         }
-
-        return result;
     }
+
+    return result;
+}
+
 
     public static ArrayList<Word> show5RecentHistory() {
         int maxEntries = 5;
@@ -720,4 +740,37 @@ public static void historyFromFile() {
         String translatedText = jsonString.split("\"")[1];
         return translatedText;
     }
+
+    public void insertGameQuestion() {
+        try (BufferedReader reader = new BufferedReader(new FileReader("src/main/resources/text/questions.txt"))) {
+            String line;
+
+            while ((line = reader.readLine()) != null) {
+                String[] parts = line.split(";");
+                if (parts.length >= 2) {
+                    GameQuestion question = new GameQuestion();
+                    question.setQuestion(parts[0]);
+                    question.setCorrectAnswer(parts[parts.length - 1]);
+
+                    for (int i = 1; i < parts.length - 1; i++) {
+                        question.getAnswers().add(parts[i]);
+                    }
+
+                    dictionary.addQuestion(question);
+                } else {
+                    System.out.println("Invalid question format: " + line);
+                }
+            }
+        } catch (IOException e) {
+            e.printStackTrace(); // Handle the exception according to your application's needs
+        }
+
+    }
+
+    public GameQuestion getRandomQuestion() {
+        Random rand = new Random();
+        int randomIndex = rand.nextInt(dictionary.getGameQuestions().size());
+        return dictionary.getGameQuestions().get(randomIndex);
+    }
+
 }

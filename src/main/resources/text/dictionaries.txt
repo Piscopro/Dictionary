@@ -200,13 +200,173 @@
 *  động từ
   - khuyên bảo, tư vấn
 
+@advisor /ədˈvaɪzər/
+*  danh từ
+  - người tư vấn
+
 @aesthetic //iːsˈθet.ɪk//
 *  tính từ
   - thẩm mỹ, có tính mỹ học
 
+@air ferry /ˈeər ˈfɛri/
+*  danh từ
+  - phà hàng không
+
+@air scooter /ˈeər ˈskuːtər/
+*  danh từ
+  - xe scooter hàng không
+
+@aircraft carrier /ˈeərkraft ˈkæriər/
+*  danh từ
+  - tàu sân bay
+
+@airliner /ˈeərlaɪnər/
+*  danh từ
+  - máy bay dân dụng
+
+@airplane /ˈɛrˌpleɪn/
+*  danh từ
+  - máy bay
+
+@airship /ˈɛrˌʃɪp/
+*  danh từ
+  - khinh khí cầu
+
+@airtaxi /ˈeərˌtæksi/
+*  danh từ
+  - taxi hàng không
+
+@albatross /ˈælbətrɒs/
+*  danh từ
+  - chim hải âu
+
+@album /ˈælbəm/
+*  danh từ
+  - cuốn album
+
+@all-terrain vehicle /ˈɔːl təˈreɪn ˈviːɪkəl/
+*  danh từ
+  - xe đa địa hình
+
+@alligator /ˈælɪˌgeɪtər/
+*  danh từ
+  - cá sấu
+
+@ambulance /ˈæmbjʊləns/
+*  danh từ
+  - xe cứu thương
+
+@amphibian /æmˈfɪbiən/
+*  danh từ
+  - phương tiện lưỡng cư
+
+@amphibious vehicle /æmˈfɪbiəs ˈviːɪkəl/
+*  danh từ
+  - xe lưỡng cư
+
+@analyst /ˈæn.ə.lɪst/
+*  danh từ
+  - nhà phân tích
+
+@anchor /ˈæŋkər/
+*  danh từ
+  - mỏ neo
+
+@ant /ænt/
+*  danh từ
+  - con kiến
+
+@ape /eɪp/
+*  danh từ
+  - con vượn
+
+@aphid /ˈeɪfɪd/
+*  danh từ
+  - bọ rơi
+
+@apple /ˈæpl/
+*  danh từ
+  - quả táo
+
+@apron /ˈeɪprən/
+*  danh từ
+  - tạp dề
+
+@architect /ˈɑː.kɪ.tekt/
+*  danh từ
+  - kiến trúc sư
+
+@armadillo /ˌɑːrməˈdɪloʊ/
+*  danh từ
+  - con tatu
+
+@armored train /ˈɑːrmərd treɪn/
+*  danh từ
+  - tàu hỏa bọc thép
+
+@armored vehicle /ˈɑːrmərd ˈviːɪkəl/
+*  danh từ
+  - xe bọc thép
+
+@arrow /ˈæroʊ/
+*  danh từ
+  - mũi tên
+
+@articulated bus /ɑːrˈtɪkjuleɪtɪd bʌs/
+*  danh từ
+  - xe buýt nối dài
+
+@articulated lorry /ɑːrˈtɪkjuleɪtɪd ˈlɒri/
+*  danh từ
+  - xe tải nối dài
+
+@artisan /ˌɑː.tɪˈzæn/
+*  danh từ
+  - nghệ nhân
+
+@artist /ˈɑːtɪst/
+*  danh từ
+  - người nghệ sĩ
+
+@astronautical craft /ˌæstrəˈnɔːtɪkəl kræft/
+*  danh từ
+  - tàu vũ trụ
+
+@astronautical vehicle /ˌæstrəˈnɔːtɪkəl ˈviːɪkəl/
+*  danh từ
+  - tàu vũ trụ
+
+@astronomer /əˈstrɒn.ə.mər/
+*  danh từ
+  - nhà thiên văn học
+
+@athlete /ˈæθliːt/
+*  danh từ
+  - vận động viên
+
+@author /ˈɔː.θər/
+*  danh từ
+  - tác giả
+
+@auto-rickshaw /ˈɔːtoʊ ˈrɪkʃɔː/
+*  danh từ
+  - xe ba gác tự động
+
+@auto-train /ˈɔːtoʊ treɪn/
+*  danh từ
+  - tàu hỏa tự động
+
+@automobile /ˈɔːtəmoʊˌbiːl/
+*  danh từ
+  - ô tô
+
 @bag /bæɡ/
 *  danh từ
   - cái túi
+
+@baker /ˈbeɪ.kər/
+*  danh từ
+  - người làm bánh
 
 @balance /ˈbæləns/
 *  ngoại động từ
@@ -234,51 +394,27 @@
 *  ngoại động từ
   - chắn, ngăn cản
 
+@barber /ˈbɑː.bər/
+*  danh từ
+  - thợ cắt tóc
+
+@barista /bəˈriːs.tə/
+*  danh từ
+  - người pha cà phê
+
 @base /beɪs/
 *  danh từ
   - cơ sở, đế
 *  ngoại động từ
   - đặt cơ sở
 
-@sunglasses /ˈsʌnˌɡlæsɪz/
+@bashful bat /ˈbæʃfəl bæt/
 *  danh từ
-  - kính râm
+  - con dơi xấu hổ
 
-@bottle /ˈbɒtl/
+@bashful bear /ˈbæʃfəl bɛr/
 *  danh từ
-  - chai, lọ
-
-@plate /pleɪt/
-*  danh từ
-  - đĩa (đồ ăn)
-
-@spoon /spuːn/
-*  danh từ
-  - cái thìa
-
-@fork /fɔːrk/
-*  danh từ
-  - cái nĩa
-
-@knife /naɪf/
-*  danh từ
-  - con dao
-
-@hat /hæt/
-*  danh từ
-  - cái mũ
-
-@towel /ˈtaʊəl/
-*  danh từ
-  - khăn tắm
-
-@soap /soʊp/
-*  danh từ
-  - xà phòng
-
-@brush /brʌʃ/
-*  danh từ
-  - bàn chải
+  - con gấu xấu hổ
 
 @bat /bæt/
 *  danh từ
@@ -302,17 +438,93 @@
 *  danh từ
   - cái giường
 
+@bee /biː/
+*  danh từ
+  - ong
+
+@beetle /ˈbiːtl̩/
+*  danh từ
+  - bọ cánh cứng
+
+@bewitched bunny /bɪˈwɪtʃt ˈbʌni/
+*  danh từ
+  - con thỏ bị phép thuật
+
 @bicycle /ˈbaɪsɪkəl/
 *  danh từ
   - xe đạp
+
+@biologist /baɪˈɒl.ə.dʒɪst/
+*  danh từ
+  - nhà sinh học
 
 @bird /bɜːrd/
 *  danh từ
   - con chim
 
+@blazing butterfly /ˈbleɪzɪŋ ˈbʌtərflaɪ/
+*  danh từ
+  - con bướm bùng cháy
+
+@blissful butterfly /ˈblɪsfl̩ ˈbʌtərflaɪ/
+*  danh từ
+  - con bướm hạnh phúc
+
+@blitheful bird /ˈblaɪðfəl bɜrd/
+*  danh từ
+  - con chim vui vẻ
+
 @book /bʊk/
 *  danh từ
   - quyển sách
+
+@bottle /ˈbɒtl/
+*  danh từ
+  - chai, lọ
+
+@bouncing beaver /ˈbaʊnsɪŋ ˈbiːvər/
+*  danh từ
+  - con hải ly nhảy tung tăng
+
+@bouncing bunny /ˈbaʊnsɪŋ ˈbʌni/
+*  danh từ
+  - con thỏ nhảy tung tăng
+
+@brawny buffalo /ˈbrɔːni ˈbʌfəloʊ/
+*  danh từ
+  - con trâu mạnh mẽ
+
+@brilliant beetle /ˈbrɪljənt ˈbiːtl/
+*  danh từ
+  - con bọ rực rỡ
+
+@brisk bobcat /brɪsk ˈbɒbkæt/
+*  danh từ
+  - con linh cẩu nhanh nhẹn
+
+@brush /brʌʃ/
+*  danh từ
+  - bàn chải
+
+@bubbly beaver /ˈbʌbli ˈbiːvər/
+*  danh từ
+  - con hải ly nhiệt tình
+
+@buoyant beagle /ˈbɔɪənt ˈbiːɡəl/
+*  danh từ
+  - chú chó trôi nổi
+
+@burrowing beetle /ˈbʌrəʊɪŋ ˈbiːtl/
+*  danh từ
+  - con bọ xâm nhập
+
+@butterfly /ˈbʌtərflaɪ/
+*  danh từ
+  - bướm
+
+@buzzing bat /ˈbʌzɪŋ bæt/
+*  danh từ
+  - con dơi kêu rì
 
 @candid //ˈkændɪd//
 *  tính từ
@@ -320,193 +532,37 @@
 *  danh từ
   - ảnh chân dung
 
-@ant /ænt/
+@captivating cat /ˈkæptɪˌveɪtɪŋ kæt/
 *  danh từ
-  - con kiến
-
-@ape /eɪp/
-*  danh từ
-  - con vượn
-
-@alligator /ˈælɪˌgeɪtər/
-*  danh từ
-  - cá sấu
-
-@armadillo /ˌɑːrməˈdɪloʊ/
-*  danh từ
-  - con tatu
-
-@albatross /ˈælbətrɒs/
-*  danh từ
-  - chim hải âu
-
-@apple /ˈæpl/
-*  danh từ
-  - quả táo
-
-@anchor /ˈæŋkər/
-*  danh từ
-  - mỏ neo
-
-@arrow /ˈæroʊ/
-*  danh từ
-  - mũi tên
-
-@album /ˈælbəm/
-*  danh từ
-  - cuốn album
-
-@apron /ˈeɪprən/
-*  danh từ
-  - tạp dề
-
-@airplane /ˈɛrˌpleɪn/
-*  danh từ
-  - máy bay
-
-@automobile /ˈɔːtəmoʊˌbiːl/
-*  danh từ
-  - ô tô
-
-@ambulance /ˈæmbjʊləns/
-*  danh từ
-  - xe cứu thương
-
-@airship /ˈɛrˌʃɪp/
-*  danh từ
-  - khinh khí cầu
-
-@auto-rickshaw /ˈɔːtoʊ ˈrɪkʃɔː/
-*  danh từ
-  - xe ba gác tự động
-
-@all-terrain vehicle /ˈɔːl təˈreɪn ˈviːɪkəl/
-*  danh từ
-  - xe đa địa hình
-
-@astronautical vehicle /ˌæstrəˈnɔːtɪkəl ˈviːɪkəl/
-*  danh từ
-  - tàu vũ trụ
-
-@amphibian /æmˈfɪbiən/
-*  danh từ
-  - phương tiện lưỡng cư
-
-@armored vehicle /ˈɑːrmərd ˈviːɪkəl/
-*  danh từ
-  - xe bọc thép
-
-@articulated lorry /ɑːrˈtɪkjuleɪtɪd ˈlɒri/
-*  danh từ
-  - xe tải nối dài
-
-@airliner /ˈeərlaɪnər/
-*  danh từ
-  - máy bay dân dụng
-
-@airtaxi /ˈeərˌtæksi/
-*  danh từ
-  - taxi hàng không
-
-@amphibious vehicle /æmˈfɪbiəs ˈviːɪkəl/
-*  danh từ
-  - xe lưỡng cư
-
-@astronautical craft /ˌæstrəˈnɔːtɪkəl kræft/
-*  danh từ
-  - tàu vũ trụ
-
-@auto-train /ˈɔːtoʊ treɪn/
-*  danh từ
-  - tàu hỏa tự động
-
-@articulated bus /ɑːrˈtɪkjuleɪtɪd bʌs/
-*  danh từ
-  - xe buýt nối dài
-
-@aircraft carrier /ˈeərkraft ˈkæriər/
-*  danh từ
-  - tàu sân bay
-
-@air scooter /ˈeər ˈskuːtər/
-*  danh từ
-  - xe scooter hàng không
-
-@armored train /ˈɑːrmərd treɪn/
-*  danh từ
-  - tàu hỏa bọc thép
-
-@bouncing bunny /ˈbaʊnsɪŋ ˈbʌni/
-*  danh từ
-  - con thỏ nhảy tung tăng
-
-@blazing butterfly /ˈbleɪzɪŋ ˈbʌtərflaɪ/
-*  danh từ
-  - con bướm bùng cháy
-
-@burrowing beetle /ˈbʌrəʊɪŋ ˈbiːtl/
-*  danh từ
-  - con bọ xâm nhập
-
-@buzzing bat /ˈbʌzɪŋ bæt/
-*  danh từ
-  - con dơi kêu rì
-
-@brilliant beetle /ˈbrɪljənt ˈbiːtl/
-*  danh từ
-  - con bọ rực rỡ
-
-@bashful bear /ˈbæʃfəl bɛr/
-*  danh từ
-  - con gấu xấu hổ
-
-@blitheful bird /ˈblaɪðfəl bɜrd/
-*  danh từ
-  - con chim vui vẻ
-
-@bubbly beaver /ˈbʌbli ˈbiːvər/
-*  danh từ
-  - con hải ly nhiệt tình
-
-@bewitched bunny /bɪˈwɪtʃt ˈbʌni/
-*  danh từ
-  - con thỏ bị phép thuật
-
-@brawny buffalo /ˈbrɔːni ˈbʌfəloʊ/
-*  danh từ
-  - con trâu mạnh mẽ
-
-@blissful butterfly /ˈblɪsfl̩ ˈbʌtərflaɪ/
-*  danh từ
-  - con bướm hạnh phúc
-
-@buoyant beagle /ˈbɔɪənt ˈbiːɡəl/
-*  danh từ
-  - chú chó trôi nổi
-
-@bouncing beaver /ˈbaʊnsɪŋ ˈbiːvər/
-*  danh từ
-  - con hải ly nhảy tung tăng
-
-@bashful bat /ˈbæʃfəl bæt/
-*  danh từ
-  - con dơi xấu hổ
-
-@brisk bobcat /brɪsk ˈbɒbkæt/
-*  danh từ
-  - con linh cẩu nhanh nhẹn
-
-@air ferry /ˈeər ˈfɛri/
-*  danh từ
-  - phà hàng không
+  - chú mèo quyến rũ
 
 @car /kɑːr/
 *  danh từ
   - xe hơi
 
+@caretaker /ˈkeə.teɪ.kər/
+*  danh từ
+  - người chăm sóc
+
+@caring chameleon /ˈkɛrɪŋ kəˈmiːliən/
+*  danh từ
+  - con thằn lằn quan tâm
+
+@cashier /kæˈʃɪər/
+*  danh từ
+  - người thu ngân
+
 @cat /kæt/
 *  danh từ
   - con mèo
+
+@caterpillar /ˈkætəˌpɪlər/
+*  danh từ
+  - sâu bướm
+
+@centipede /ˈsɛntɪpiːd/
+*  danh từ
+  - giày cỏ
 
 @chair /tʃɛər/
 *  danh từ
@@ -516,6 +572,34 @@
 *  danh từ
   - hỗn loạn, lộn xộn - tình trạng hỗn độn, sự rối bời
 
+@charismatic cat /ˌkærɪzˈmætɪk kæt/
+*  danh từ
+  - chú mèo hấp dẫn
+
+@charming chinchilla /ˈʧɑːrmɪŋ ʧɪnˈʧɪlə/
+*  danh từ
+  - con chinchilla quyến rũ
+
+@cheerful cat /ˈʧɪrfl̩ kæt/
+*  danh từ
+  - chú mèo vui vẻ
+
+@cheerful chimpanzee /ˈʧɪrfl̩ ˌʧɪmˈpænziː/
+*  danh từ
+  - con tinh tế hồn nhiên
+
+@chef /ʃɛf/
+*  danh từ
+  - đầu bếp
+
+@chemist /ˈkemɪst/
+*  danh từ
+  - nhà hóa học
+
+@citizen /ˈsɪtɪzən/
+*  danh từ
+  - công dân
+
 @clock /klɑːk/
 *  danh từ
   - đồng hồ
@@ -524,21 +608,45 @@
 *  tính từ
   - vụng trộm, lóng ngóng - cồng kềnh, lóng ngóng
 
+@coach /kəʊtʃ/
+*  danh từ
+  - huấn luyện viên
+
 @coax //koʊks//
 *  ngoại động từ
   - láo xược, dỗ dành - lấy, giật
 *  danh từ
   - sợi dây lưng (ở động vật)
 
+@cockroach /ˈkɒkrəʊtʃ/
+*  danh từ
+  - gián
+
 @coherent //kəˈhɪrənt//
 *  tính từ
   - mạch lạc, rõ ràng - nhất quán, liên kết
+
+@comforting cockatoo /ˈkʌmfərtɪŋ ˌkɒkəˈtuː/
+*  danh từ
+  - chú vẹt an ủi
 
 @commence //kəˈmens//
 *  ngoại động từ
   - bắt đầu, khởi đầu
 *  nội động từ
   - bắt đầu, khởi đầu
+
+@communicative canary /kəˈmjuːnɪkətɪv kəˈnæri/
+*  danh từ
+  - chú hồng yến thông tin
+
+@companionable cat /kəmˈpænjənəbl kæt/
+*  danh từ
+  - chú mèo thân thiện
+
+@companionable corgi /kəmˈpænjənəbl ˈkɔːrɡi/
+*  danh từ
+  - chú chó corgi thân thiện
 
 @comply //kəmˈplaɪ//
 *  nội động từ
@@ -582,6 +690,10 @@
 *  tính từ
   - hài lòng, thoải mái
 
+@cooperative cat /kəʊˈɒpərətɪv kæt/
+*  danh từ
+  - chú mèo hợp tác
+
 @cordial //ˈkɔːr.dʒəl//
 *  tính từ
   - nồng, chân thành - thân thiện, tốt bụng
@@ -592,6 +704,10 @@
 *  danh từ
   - lòng dũng cảm, can đảm - sự gan dạ, lòng can đảm
 
+@courageous cheetah /kəˈreɪdʒəs ˈʧiːtə/
+*  danh từ
+  - con báo dũng cảm
+
 @crave //kreɪv//
 *  ngoại động từ
   - khao khát, mong muốn - yêu cầu, đòi hỏi
@@ -599,6 +715,10 @@
 @crescent //ˈkrɛsənt//
 *  danh từ
   - mặt trăng lưỡi liềm - hình lưỡi liềm
+
+@cricket /ˈkrɪkɪt/
+*  danh từ
+  - châu chấu
 
 @crimson //ˈkrɪmzn̩//
 *  danh từ
@@ -634,6 +754,14 @@
 *  danh từ
   - sự ranh mãnh, sự tinh ranh
 
+@cunning cat /ˈkʌnɪŋ kæt/
+*  danh từ
+  - chú mèo xảo quyệt
+
+@cunning cobra /ˈkʌnɪŋ ˈkoʊbrə/
+*  danh từ
+  - con rắn hổ mang xảo quyệt
+
 @cup /kʌp/
 *  danh từ
   - cốc, chén
@@ -641,6 +769,10 @@
 @curious //ˈkjʊriəs//
 *  tính từ
   - tò mò, ham muốn biết - lạ, kỳ cục
+
+@curious catfish /ˈkjʊriəs ˈkætfɪʃ/
+*  danh từ
+  - con cá trê tò mò
 
 @cynical //ˈsɪn.ɪ.kəl//
 *  tính từ
@@ -652,9 +784,21 @@
 *  ngoại động từ
   - nhúng chân, nhúng tay - làm cái gì một cách nông cạn, làm cái gì một cách thoái thác
 
+@daring dog /ˈdɛrɪŋ dɔɡ/
+*  danh từ
+  - chú chó dũng cảm
+
+@dashing dog /ˈdæʃɪŋ dɔɡ/
+*  danh từ
+  - chú chó hấp dẫn
+
 @dazzle //ˈdæzl//
 *  ngoại động từ
   - làm chói lọi, làm chói lọi - làm kinh ngạc, làm mê hoặc
+
+@dazzling dragonfly /ˈdæzlɪŋ ˈdræɡənflaɪ/
+*  danh từ
+  - chuồn chuồn lấp lánh
 
 @deceptive //dɪˈsɛptɪv//
 *  tính từ
@@ -670,9 +814,17 @@
 *  ngoại động từ
   - cân nhắc, thảo luận - tính toán, tính kỹ lưỡng
 
+@delightful dog /dɪˈlaɪtfl̩ dɔɡ/
+*  danh từ
+  - chú chó dễ thương
+
 @delve //delv//
 *  ngoại động từ
   - đào sâu, nghiên cứu kỹ lưỡng - đào lên, bới cỏn
+
+@dentist /ˈden.tɪst/
+*  danh từ
+  - nha sĩ
 
 @depict //dɪˈpɪkt//
 *  ngoại động từ
@@ -681,6 +833,10 @@
 @derive //dɪˈraɪv//
 *  ngoại động từ
   - xuất phát từ, bắt nguồn từ - có được, đạt được
+
+@designer /dɪˈzaɪnər/
+*  danh từ
+  - nhà thiết kế
 
 @despise //dɪˈspaɪz//
 *  ngoại động từ
@@ -695,6 +851,10 @@
   - lệch hướng, đi chệch - làm sai lệch, làm chệch hướng
 *  nội động từ
   - lệch hướng, đi chệch - làm sai lệch, làm chệch hướng
+
+@devoted dog /dɪˈvoʊtɪd dɔɡ/
+*  danh từ
+  - chú chó tận tụy
 
 @devour //dɪˈvaʊər//
 *  ngoại động từ
@@ -776,11 +936,19 @@
 *  tính từ
   - chệch, không giống nhau - phân kỳ, chia ra
 
+@diverse dolphin /daɪˈvɜːrs ˈdɒlfɪn/
+*  danh từ
+  - cá heo đa dạng
+
 @divine //dɪˈvaɪn//
 *  tính từ
   - thần thánh, linh thiêng - tuyệt vời, phi thường
 *  ngoại động từ
   - dự đoán, tiên tri - nhìn thấu, hiểu rõ
+
+@doctor /ˈdɒktər/
+*  danh từ
+  - bác sĩ
 
 @dog /dɔːɡ/
 *  danh từ
@@ -798,6 +966,14 @@
 *  danh từ
   - thúc đẩy, cổng nhà thừa - người ngủ, người nằm yên
 
+@dragonfly /ˈdræɡənflaɪ/
+*  danh từ
+  - chuồn chuồn
+
+@dreamer /ˈdriːmər/
+*  danh từ
+  - người mơ mộng
+
 @dreary //ˈdrɪri//
 *  tính từ
   - buồn chán, u ám - làm buồn chán, làm ảm đạm
@@ -806,9 +982,17 @@
 *  ngoại động từ
   - làm ướt sũng, làm nhỏ giọt - ngập tràn, tràn đầy
 
+@driver /ˈdraɪvər/
+*  danh từ
+  - tài xế
+
 @dubious //ˈduːbiəs//
 *  tính từ
   - đáng ngờ, nghi ngờ - không chắc chắn, không dứt khoát
+
+@dung beetle /dʌŋ ˈbiːtl̩/
+*  danh từ
+  - bọ cánh cứng
 
 @duplicate //ˈduːplɪkeɪt//
 *  ngoại động từ
@@ -820,17 +1004,37 @@
 *  tính từ
   - năng động, linh hoạt - có động lực, có năng lượng
 
+@dynamic dog /daɪˈnæmɪk dɔɡ/
+*  danh từ
+  - chú chó năng động
+
+@earwig /ˈɪərwɪɡ/
+*  danh từ
+  - con rệp
+
+@eclectic egret /ɪˈklɛktɪk ˈiːɡrət/
+*  danh từ
+  - diệc đa dạng
+
 @eclipse //ɪˈklɪps//
 *  danh từ
   - sự nhìn kín, sự che phủ - sự mất vinh quang, sự giảm sút
 *  ngoại động từ
   - che phủ, đậy lấp - làm mất vinh quang, làm giảm sút
 
+@economist /ɪˈkɒn.ə.mɪst/
+*  danh từ
+  - nhà kinh tế học
+
 @elaborate //ɪˈlæbərət//
 *  tính từ
   - tỉ mỉ, công phu - phức tạp, chi tiết
 *  ngoại động từ
   - phát triển, mở rộng - làm chi tiết, làm tỉ mỉ
+
+@electrician /ɪˌlekˈtrɪʃ.ən/
+*  danh từ
+  - thợ điện
 
 @elephant /ˈɛlɪfənt/
 *  danh từ
@@ -858,6 +1062,14 @@
 *  ngoại động từ
   - quyến rũ, mê hoặc - làm say đắm, làm mê mẩn
 
+@enchanting earthworm /ɪnˈʧæntɪŋ ˈɜːrθwɜːrm/
+*  danh từ
+  - giun đất quyến rũ
+
+@endearing elk /ɪnˈdɪrɪŋ ɛlk/
+*  danh từ
+  - nai dễ thương
+
 @endow //ɪnˈdaʊ//
 *  ngoại động từ
   - ban tặng, trang bị - tài trợ, quyên góp
@@ -866,13 +1078,33 @@
 *  ngoại động từ
   - chịu đựng, cam chịu - kéo dài, tồn tại
 
+@engineer /ˌɛndʒɪˈnɪər/
+*  danh từ
+  - kỹ sư
+
+@enigmatic elephant /ˌɛnɪɡˈmætɪk ˈɛlɪfənt/
+*  danh từ
+  - voi bí ẩn
+
 @enthrall //ɪnˈθrɔːl//
 *  ngoại động từ
   - cuốn hút, mê hoặc - làm cho bị chìm đắm, làm cho mê mải
 
+@entrepreneur /ˌɒn.trə.prəˈnɜːr/
+*  danh từ
+  - doanh nhân
+
+@ephemeral elephant seal /ɪˈfɛmərəl ˈɛlɪfənt sil/
+*  danh từ
+  - hải cẩu voi thoáng qua
+
 @epoch //ˈiːpɑːk//
 *  danh từ
   - thời kỳ, kỷ nguyên - sự đánh dấu, sự bắt đầu mới
+
+@ethereal eagle /ɪˈθɪriəl ˈiːɡəl/
+*  danh từ
+  - đại bàng huyền bí
 
 @exclaim //ɪkˈskleɪm//
 *  ngoại động từ
@@ -886,9 +1118,17 @@
 *  tính từ
   - kỳ lạ, lạ mắt - độc đáo, ngoại lai
 
+@explorative earthworm /ɪkˈsplɒrətɪv ˈɜːrθwɜːrm/
+*  danh từ
+  - giun đất thám hiểm
+
 @exquisite //ɪkˈskwɪzɪt//
 *  tính từ
   - tinh xảo, tinh tế - tuyệt vời, tuyệt diệu
+
+@exquisite egret /ɪkˈskwɪzɪt ˈiːɡrət/
+*  danh từ
+  - diệc tinh tế
 
 @exude //ɪɡˈzjuːd//
 *  ngoại động từ
@@ -936,13 +1176,41 @@
 *  tính từ
   - hung dữ, dữ tợn - mãnh liệt, dữ dội
 
+@firefighter /ˈfaɪə.faɪtər/
+*  danh từ
+  - lính cứu hỏa
+
+@firefly /ˈfaɪərflaɪ/
+*  danh từ
+  - đom đóm
+
 @fish /fɪʃ/
 *  danh từ
   - con cá
 
+@flea /fliː/
+*  danh từ
+  - bọ chét
+
 @flower /ˈflaʊər/
 *  danh từ
   - bông hoa
+
+@fly /flaɪ/
+*  danh từ
+  - con ruồi
+
+@follower /ˈfɒləʊər/
+*  danh từ
+  - người theo đuổi
+
+@fork /fɔːrk/
+*  danh từ
+  - cái nĩa
+
+@friend /frɛnd/
+*  danh từ
+  - bạn bè
 
 @gather //ˈɡæðər//
 *  ngoại động từ
@@ -959,6 +1227,10 @@
   - tạo ra, sản xuất - sinh ra, phát sinh
 *  nội động từ
   - tạo ra, phát sinh
+
+@geologist /dʒiˈɒl.ə.dʒɪst/
+*  danh từ
+  - nhà địa chất học
 
 @glance //ɡlæns//
 *  ngoại động từ
@@ -979,6 +1251,10 @@
   - nắm bắt, lấy, túm - hiểu rõ, grasp the concept: hiểu rõ khái niệm
 *  danh từ
   - sự nắm bắt, sự lấy - sự hiểu biết, sự nhận thức
+
+@grasshopper /ˈɡræsˌhɒpər/
+*  danh từ
+  - châu chấu
 
 @grieve //ɡriːv//
 *  ngoại động từ
@@ -1052,6 +1328,10 @@
 *  nội động từ
   - nhanh chóng, vội vã - đi nhanh chóng, chạy vụt
 
+@hat /hæt/
+*  danh từ
+  - cái mũ
+
 @haunt //hɔːnt//
 *  ngoại động từ
   - ám ảnh, làm ám ảnh - ghé thăm thường xuyên, đến thường xuyên
@@ -1076,6 +1356,10 @@
 *  nội động từ
   - ngần ngại, do dự - nói ngắc ngứ
 
+@historian /hɪˈstɔː.ri.ən/
+*  danh từ
+  - nhà sử học
+
 @hoist //hɔɪst//
 *  ngoại động từ
   - nâng lên, kéo lên - giương, treo lên cao
@@ -1087,6 +1371,14 @@
   - bóng, làm sáng bóng - làm sắc bén, làm tinh tế
 *  danh từ
   - đá mài, đá bóng - trạng thái tốt nhất
+
+@hornet /ˈhɔːrnɪt/
+*  danh từ
+  - ong góp
+
+@housefly /haʊs flaɪ/
+*  danh từ
+  - ruồi nhà
 
 @humiliate //hjuːˈmɪliˌeɪt//
 *  ngoại động từ
@@ -1302,6 +1594,14 @@
 *  danh từ
   - ngà, ngà voi
 
+@journalist /ˈdʒɜː.nə.lɪst/
+*  danh từ
+  - nhà báo
+
+@june beetle /dʒuːn ˈbiːtl̩/
+*  danh từ
+  - bọ cánh cứng tháng sáu
+
 @keep //kiːp//
 *  ngoại động từ
   - giữ, bảo quản - duy trì, giữ gìn
@@ -1336,11 +1636,23 @@
 *  danh từ
   - sự nhào bột, sự nhào - phương pháp nhào bột
 
+@knife /naɪf/
+*  danh từ
+  - con dao
+
 @knit //nɪt//
 *  ngoại động từ
   - đan, đan len - kết nối chặt, liên kết chặt
 *  danh từ
   - sự đan, sự đan len - chiếc len, chiếc đan
+
+@lacewing /ˈleɪsˌwɪŋ/
+*  danh từ
+  - châu chấu nhện
+
+@ladybug /ˈleɪdiˌbʌɡ/
+*  danh từ
+  - bọ rùa
 
 @lamp /læmp/
 *  danh từ
@@ -1364,6 +1676,18 @@
 *  danh từ
   - sự cười, sự vui vẻ - tiếng cười, mỉm cười
 
+@lawyer /ˈlɔː.jər/
+*  danh từ
+  - luật sư
+
+@leader /ˈliːdər/
+*  danh từ
+  - người lãnh đạo
+
+@leafhopper /ˈliːfˌhɒpər/
+*  danh từ
+  - bọ cánh cứng
+
 @leak //liːk//
 *  ngoại động từ
   - rò rỉ, chảy ra - tiết lộ, để lộ
@@ -1376,6 +1700,10 @@
 *  danh từ
   - cú nhảy, cú nhảy qua - sự tiến triển nhanh chóng
 
+@librarian /laɪˈbreəriən/
+*  danh từ
+  - thủ thư
+
 @light //laɪt//
 *  ngoại động từ
   - đốt sáng, bật sáng - đánh lửa, thắp lửa
@@ -1387,6 +1715,10 @@
   - lưu lại, kéo dài - chần chừ, nán lại
 *  nội động từ
   - lưu lại, kéo dài - chần chừ, nán lại
+
+@linguist /ˈlɪŋ.ɡwɪst/
+*  danh từ
+  - nhà ngôn ngữ học
 
 @listen //ˈlɪsn̩//
 *  ngoại động từ
@@ -1405,6 +1737,10 @@
   - mất, đánh mất - thua, bị đánh bại
 *  danh từ
   - sự mất, sự đánh mất - sự thua, sự bị đánh bại
+
+@louse /laʊs/
+*  danh từ
+  - bọ chét
 
 @love //lʌv//
 *  ngoại động từ
@@ -1436,15 +1772,27 @@
 *  danh từ
   - cá kiếm
 
+@mathematician /ˌmæθ.ə.məˈtɪʃ.ən/
+*  danh từ
+  - nhà toán học
+
 @matter //ˈmætər//
 *  danh từ
   - vật chất, chủ thể - vấn đề, sự việc
 *  ngoại động từ
   - làm nặng nề, quan trọng
 
+@mayfly /ˈmeɪflaɪ/
+*  danh từ
+  - ruồi tháng 5
+
 @meadow //ˈmɛdoʊ//
 *  danh từ
   - đồng cỏ, đồng cỏ xanh
+
+@mentor /ˈmen.tər/
+*  danh từ
+  - người hướng dẫn
 
 @meow //miːaʊ//
 *  nội động từ
@@ -1457,6 +1805,10 @@
   - di trú, di cư
 *  nội động từ
   - di cư, di trú
+
+@millipede /ˈmɪlɪˌpiːd/
+*  danh từ
+  - giày cỏ
 
 @mirror //ˈmɪrər//
 *  danh từ
@@ -1486,6 +1838,10 @@
 *  danh từ
   - con muỗi
 
+@moth /mɒθ/
+*  danh từ
+  - bướm đêm
+
 @mouse //maʊs//
 *  danh từ
   - con chuột
@@ -1497,6 +1853,10 @@
   - nhân, nhân lên - làm tăng, làm nhiều hơn
 *  nội động từ
   - tăng lên, gia tăng
+
+@musician /mjuːˈzɪʃən/
+*  danh từ
+  - nhạc sĩ
 
 @name //neɪm//
 *  danh từ
@@ -1515,6 +1875,10 @@
 @necessary //ˈnɛsəˌsɛri//
 *  tính từ
   - cần thiết, quan trọng - không thể tránh khỏi, tất yếu
+
+@neighbor /ˈneɪbər/
+*  danh từ
+  - người hàng xóm
 
 @noble //ˈnoʊbl//
 *  tính từ
@@ -1596,6 +1960,10 @@
 *  danh từ
   - người hoặc vật đối diện
 
+@optimist /ˈɒptɪmɪst/
+*  danh từ
+  - người lạc quan
+
 @optimistic //ˌɒptɪˈmɪstɪk//
 *  tính từ
   - lạc quan, lạc quan về tương lai
@@ -1672,6 +2040,10 @@
 *  tính từ
   - song song, nối tiếp - tương đương, tương tự
 
+@parent /ˈpɛrənt/
+*  danh từ
+  - người cha/mẹ
+
 @parrot //ˈpærət//
 *  danh từ
   - con vẹt
@@ -1726,9 +2098,33 @@
 *  nội động từ
   - kiên trì, dai dẳng - tồn tại, tiếp tục tồn tại
 
+@pessimist /ˈpɛsɪmɪst/
+*  danh từ
+  - người bi quan
+
+@pharmacist /ˈfɑː.mə.sɪst/
+*  danh từ
+  - dược sĩ
+
+@philanthropist /fɪˈlæn.θrə.pɪst/
+*  danh từ
+  - nhà từ thiện
+
+@philosopher /fɪˈlɒs.ə.fər/
+*  danh từ
+  - nhà triết học
+
 @phone /foʊn/
 *  danh từ
   - điện thoại
+
+@photographer /fəˈtɒɡrəfər/
+*  danh từ
+  - nhiếp ảnh gia
+
+@physicist /ˈfɪz.ɪ.sɪst/
+*  danh từ
+  - nhà vật lý học
 
 @pillow /ˈpɪloʊ/
 *  danh từ
@@ -1740,6 +2136,10 @@
 *  ngoại động từ
   - đi tiên phong, mở đường
 
+@plate /pleɪt/
+*  danh từ
+  - đĩa (đồ ăn)
+
 @platypus //ˈplætɪpəs//
 *  danh từ
   - con vịt trời
@@ -1748,9 +2148,21 @@
 *  tính từ
   - hợp lý, có thể tin được - đường đảm bảo, có vẻ đúng
 
+@plumber /ˈplʌm.bər/
+*  danh từ
+  - thợ sửa ống nước
+
+@poet /pəʊ.ɪt/
+*  danh từ
+  - nhà thơ
+
 @pointer //ˈpɔɪntər//
 *  danh từ
   - chó săn
+
+@politician /ˌpɒl.ɪˈtɪʃ.ən/
+*  danh từ
+  - nhà chính trị học
 
 @pomeranian //ˌpɒməˈreɪniən//
 *  danh từ
@@ -1771,6 +2183,10 @@
 @porpoise //ˈpɔːrpəs//
 *  danh từ
   - cá heo nhỏ
+
+@praying mantis /ˈpreɪɪŋ ˈmæntɪs/
+*  danh từ
+  - bọ ngựa
 
 @precise //prɪˈsaɪs//
 *  tính từ
@@ -1800,6 +2216,10 @@
 *  tính từ
   - sâu sắc, tri thức - nghiêm túc, nặng nề
 
+@programmer /ˈprəʊ.ɡræmər/
+*  danh từ
+  - lập trình viên
+
 @prosper //ˈprɒspər//
 *  ngoại động từ
   - thịnh vượng, phồn thịnh - phát triển, phồn thịnh
@@ -1807,6 +2227,14 @@
 @provoke //prəˈvoʊk//
 *  ngoại động từ
   - kích động, khiêu khích - gây ra, chọc tức
+
+@psychiatrist /saɪˈkaɪ.ə.trɪst/
+*  danh từ
+  - bác sĩ tâm thần học
+
+@psychologist /saɪˈkɒl.ə.dʒɪst/
+*  danh từ
+  - nhà tâm lý học
 
 @pug //pʌɡ//
 *  danh từ
@@ -1832,13 +2260,81 @@
 *  danh từ
   - tủ lạnh
 
+@researcher /rɪˈsɜː.tʃər/
+*  danh từ
+  - người nghiên cứu
+
+@scarab beetle /ˈskæræb ˈbiːtl̩/
+*  danh từ
+  - bọ cánh cứng
+
+@scientist /ˈsaɪəntɪst/
+*  danh từ
+  - nhà khoa học
+
+@sculptor /ˈskʌlp.tər/
+*  danh từ
+  - nhà điêu khắc
+
 @shoe /ʃuː/
 *  danh từ
   - đôi giày
 
+@silverfish /ˈsɪlvərˌfɪʃ/
+*  danh từ
+  - cá bạc
+
+@singer /ˈsɪŋər/
+*  danh từ
+  - ca sĩ
+
+@soap /soʊp/
+*  danh từ
+  - xà phòng
+
+@sociologist /ˌsəʊ.siˈɒl.ə.dʒɪst/
+*  danh từ
+  - nhà xã hội học
+
+@spider /ˈspaɪdər/
+*  danh từ
+  - nhện
+
+@spoon /spuːn/
+*  danh từ
+  - cái thìa
+
+@stick insect /stɪk ˈɪnsɛkt/
+*  danh từ
+  - kiến bò
+
+@stink bug /stɪŋk bʌɡ/
+*  danh từ
+  - bọ rệp
+
+@stranger /ˈstreɪndʒər/
+*  danh từ
+  - người lạ
+
+@student /ˈstjuːdənt/
+*  danh từ
+  - sinh viên
+
+@sunglasses /ˈsʌnˌɡlæsɪz/
+*  danh từ
+  - kính râm
+
 @table /ˈteɪbəl/
 *  danh từ
   - cái bàn
+
+@tailor /ˈteɪ.lər/
+*  danh từ
+  - thợ may
+
+@teacher /ˈtiːtʃər/
+*  danh từ
+  - giáo viên
 
 @telephone //ˈtɛlɪfoʊn//
 *  danh từ
@@ -1851,6 +2347,26 @@
 @television /ˈtɛlɪvɪʒən/
 *  danh từ
   - ti vi, tivi
+
+@termite /ˈtɜːrmaɪt/
+*  danh từ
+  - mối
+
+@therapist /ˈθer.ə.pɪst/
+*  danh từ
+  - nhà trị liệu
+
+@thrip /θrɪp/
+*  danh từ
+  - bọ cánh cứng
+
+@tick /tɪk/
+*  danh từ
+  - bọ chét
+
+@towel /ˈtaʊəl/
+*  danh từ
+  - khăn tắm
 
 @tractor //ˈtræktər//
 *  danh từ
@@ -1948,6 +2464,10 @@
 *  ngoại động từ
   - xác minh, kiểm tra - chứng minh, làm cho chắc chắn
 
+@veterinarian /ˌvet.ə.rɪˈneə.ri.ən/
+*  danh từ
+  - bác sĩ thú y
+
 @vex //vɛks//
 *  ngoại động từ
   - làm bực mình, làm phiền não - làm bối rối, làm khó chịu
@@ -1982,6 +2502,10 @@
 *  danh từ
   - người tầm nhìn, người có ý tưởng mới
 
+@visitor /ˈvɪzɪtər/
+*  danh từ
+  - người thăm
+
 @vivid //ˈvɪvɪd//
 *  tính từ
   - sống động, rõ nét - sinh động, sặc sỡ
@@ -1989,6 +2513,18 @@
 @volatile //ˈvɒlətaɪl//
 *  tính từ
   - dễ bay hơi, dễ bay hương - biến động, thay đổi nhanh
+
+@volunteer /ˌvɒl.ənˈtɪər/
+*  danh từ
+  - tình nguyện viên
+
+@waiter /ˈweɪ.tər/
+*  danh từ
+  - người phục vụ
+
+@waitress /ˈweɪ.trɪs/
+*  danh từ
+  - nữ phục vụ
 
 @walkie_talkie //ˌwɔːkiˈtɔːki//
 *  danh từ
@@ -2010,6 +2546,10 @@
 *  danh từ
   - máy giặt
 
+@wasp /wɒsp/
+*  danh từ
+  - ong
+
 @watch //wɒʧ//
 *  danh từ
   - đồng hồ đeo tay
@@ -2021,6 +2561,10 @@
 @water_heater //ˈwɔːtər ˌhiːtər//
 *  danh từ
   - máy nước nóng
+
+@weevil /ˈwiːvəl/
+*  danh từ
+  - bọ cánh cứng
 
 @wheelbarrow //ˈwiːlbæroʊ//
 *  danh từ
@@ -2046,9 +2590,17 @@
 *  danh từ
   - thìa gạt gỗ
 
+@worker /ˈwɜːrkər/
+*  danh từ
+  - người lao động
+
 @wristwatch //ˈrɪstˌwɒtʃ//
 *  danh từ
   - đồng hồ đeo tay
+
+@writer /ˈraɪtər/
+*  danh từ
+  - người viết
 
 @zealous //ˈzɛləs//
 *  tính từ
@@ -2092,267 +2644,3490 @@
 *  danh từ
   - sở thú, công viên động vật - nơi trưng bày, sắp xếp hình ảnh
 
-@courageous cheetah /kəˈreɪdʒəs ˈʧiːtə/
+@zoologist /zəʊˈɒl.ə.dʒɪst/
 *  danh từ
-  - con báo dũng cảm
+  - nhà động vật học
 
-@charming chinchilla /ˈʧɑːrmɪŋ ʧɪnˈʧɪlə/
+@biographer /baɪˈɒɡ.rə.fər/
 *  danh từ
-  - con chinchilla quyến rũ
+  - nhà soạn thảo tiểu sử
 
-@cheerful chimpanzee /ˈʧɪrfl̩ ˌʧɪmˈpænziː/
+@cartoonist /kɑːrˈtuː.nɪst/
 *  danh từ
-  - con tinh tế hồn nhiên
+  - nhà vẽ tranh hài hước
 
-@cunning cobra /ˈkʌnɪŋ ˈkoʊbrə/
+@composer /kəmˈpəʊ.zər/
 *  danh từ
-  - con rắn hổ mang xảo quyệt
+  - nhà soạn nhạc
 
-@curious catfish /ˈkjʊriəs ˈkætfɪʃ/
+@dancer /ˈdæn.sər/
 *  danh từ
-  - con cá trê tò mò
+  - người múa
 
-@companionable corgi /kəmˈpænjənəbl ˈkɔːrɡi/
+@diplomat /ˈdɪp.lə.mæt/
 *  danh từ
-  - chú chó corgi thân thiện
+  - nhà ngoại giao
 
-@communicative canary /kəˈmjuːnɪkətɪv kəˈnæri/
+@ethicist /ˈeθɪsɪst/
 *  danh từ
-  - chú hồng yến thông tin
+  - nhà đạo đức học
 
-@cooperative cat /kəʊˈɒpərətɪv kæt/
+@fashion designer /ˈfæʃ.ən dɪˈzaɪ.nər/
 *  danh từ
-  - chú mèo hợp tác
+  - nhà thiết kế thời trang
 
-@comforting cockatoo /ˈkʌmfərtɪŋ ˌkɒkəˈtuː/
+@gardener /ˈɡɑːd.ənər/
 *  danh từ
-  - chú vẹt an ủi
+  - người làm vườn
 
-@caring chameleon /ˈkɛrɪŋ kəˈmiːliən/
+@jeweler /ˈdʒuː.əl.ər/
 *  danh từ
-  - con thằn lằn quan tâm
+  - thợ làm đồ trang sức
 
-@captivating cat /ˈkæptɪˌveɪtɪŋ kæt/
+@lecturer /ˈlek.tʃər.ər/
 *  danh từ
-  - chú mèo quyến rũ
+  - giảng viên
 
-@cheerful cat /ˈʧɪrfl̩ kæt/
+@nutritionist /njuːˈtrɪʃənɪst/
 *  danh từ
-  - chú mèo vui vẻ
+  - chuyên gia dinh dưỡng
 
-@cunning cat /ˈkʌnɪŋ kæt/
+@ornithologist /ˌɔː.nɪˈθɒl.ə.dʒɪst/
 *  danh từ
-  - chú mèo xảo quyệt
+  - nhà nghiên cứu chim
 
-@charismatic cat /ˌkærɪzˈmætɪk kæt/
+@pilot /ˈpaɪ.lət/
 *  danh từ
-  - chú mèo hấp dẫn
+  - phi công
 
-@companionable cat /kəmˈpænjənəbl kæt/
+@quilter /ˈkwɪl.tər/
 *  danh từ
-  - chú mèo thân thiện
+  - người làm chăn
 
-@dashing dog /ˈdæʃɪŋ dɔɡ/
+@radiologist /ˌreɪ.diˈɒl.ə.dʒɪst/
 *  danh từ
-  - chú chó hấp dẫn
+  - bác sĩ chụp X quang
 
-@delightful dog /dɪˈlaɪtfl̩ dɔɡ/
+@translator /trænsˈleɪ.tər/
 *  danh từ
-  - chú chó dễ thương
+  - người dịch
 
-@devoted dog /dɪˈvoʊtɪd dɔɡ/
+@vocalist /ˈvəʊ.kəl.ɪst/
 *  danh từ
-  - chú chó tận tụy
+  - ca sĩ
 
-@daring dog /ˈdɛrɪŋ dɔɡ/
+@weather forecaster /ˈweð.ər fɔːˈkæs.tər/
 *  danh từ
-  - chú chó dũng cảm
+  - nhà dự báo thời tiết
 
-@dynamic dog /daɪˈnæmɪk dɔɡ/
+@xylophonist /ˈzaɪ.lə.fəʊ.nɪst/
 *  danh từ
-  - chú chó năng động
+  - người chơi xylophone
 
-@diverse dolphin /daɪˈvɜːrs ˈdɒlfɪn/
+@yoga instructor /ˈjoʊ.ɡə ɪnˈstrʌk.tər/
 *  danh từ
-  - cá heo đa dạng
+  - hướng dẫn viên yoga
 
-@dazzling dragonfly /ˈdæzlɪŋ ˈdræɡənflaɪ/
+@zookeeper /ˈzuː.kiː.pər/
 *  danh từ
-  - chuồn chuồn lấp lánh
+  - người chăm sóc động vật trong công viên
 
-@ethereal eagle /ɪˈθɪriəl ˈiːɡəl/
+@antique dealer /ænˈtiːk ˈdiː.lər/
 *  danh từ
-  - đại bàng huyền bí
+  - người bán đồ cổ
 
-@enigmatic elephant /ˌɛnɪɡˈmætɪk ˈɛlɪfənt/
+@beautician /bjuːˈtɪʃ.ən/
 *  danh từ
-  - voi bí ẩn
+  - thợ làm đẹp
 
-@eclectic egret /ɪˈklɛktɪk ˈiːɡrət/
+@consultant /kənˈsʌl.tənt/
 *  danh từ
-  - diệc đa dạng
+  - tư vấn viên
 
-@enchanting earthworm /ɪnˈʧæntɪŋ ˈɜːrθwɜːrm/
+@deejay /ˈdiː.dʒeɪ/
 *  danh từ
-  - giun đất quyến rũ
+  - DJ
 
-@endearing elk /ɪnˈdɪrɪŋ ɛlk/
+@ethnographer /eθˈnɒɡ.rə.fər/
 *  danh từ
-  - nai dễ thương
+  - nhà dân tộc học
 
-@ephemeral elephant seal /ɪˈfɛmərəl ˈɛlɪfənt sil/
+@florist /ˈflɒr.ɪst/
 *  danh từ
-  - hải cẩu voi thoáng qua
+  - người bán hoa
 
-@exquisite egret /ɪkˈskwɪzɪt ˈiːɡrət/
+@graphic designer /ˈɡræfɪk dɪˈzaɪ.nər/
 *  danh từ
-  - diệc tinh tế
+  - nhà thiết kế đồ họa
 
-@explorative earthworm /ɪkˈsplɒrətɪv ˈɜːrθwɜːrm/
+@hairdresser /ˈheə.dre.sər/
 *  danh từ
-  - giun đất thám hiểm
+  - thợ làm tóc
 
-@aphid /ˈeɪfɪd/
+@insurance agent /ɪnˈʃʊə.rəns ˈeɪ.dʒənt/
 *  danh từ
-  - bọ rơi
+  - người môi giới bảo hiểm
 
-@bee /biː/
+@juggler /ˈdʒʌɡ.lər/
 *  danh từ
-  - ong
+  - người làm xiếc
 
-@beetle /ˈbiːtl̩/
+@kinesiologist /kɪˌniː.siˈɒl.ə.dʒɪst/
 *  danh từ
-  - bọ cánh cứng
+  - chuyên gia về động lực học
 
-@butterfly /ˈbʌtərflaɪ/
+@lifeguard /ˈlaɪf.ɡɑːrd/
 *  danh từ
-  - bướm
+  - người bảo vệ bãi biển
 
-@centipede /ˈsɛntɪpiːd/
+@makeup artist /ˈmeɪk.ʌp ɑː.tɪst/
 *  danh từ
-  - giày cỏ
+  - nhà trang điểm
 
-@cockroach /ˈkɒkrəʊtʃ/
+@occupational therapist /ˌɒk.jəˈpeɪ.ʃən.əl ˈθɛr.ə.pɪst/
 *  danh từ
-  - gián
+  - nhà trị liệu nghề nghiệp
 
-@caterpillar /ˈkætəˌpɪlər/
+@paralegal /ˌpær.əˈliː.ɡəl/
 *  danh từ
-  - sâu bướm
+  - trợ lý pháp lý
 
-@cricket /ˈkrɪkɪt/
+@quantum physicist /ˈkwɒn.təm ˈfɪz.ɪ.sɪst/
 *  danh từ
-  - châu chấu
+  - nhà vật lý học lượng tử
 
-@dragonfly /ˈdræɡənflaɪ/
+@radiographer /ˌreɪ.diˈɒɡ.rə.fər/
 *  danh từ
-  - chuồn chuồn
+  - chuyên viên chụp hình X
 
-@dung beetle /dʌŋ ˈbiːtl̩/
+@sound engineer /saʊnd ˌɛn.dʒɪˈnɪər/
 *  danh từ
-  - bọ cánh cứng
+  - kỹ sư âm thanh
 
-@earwig /ˈɪərwɪɡ/
+@tour guide /tʊər ɡaɪd/
 *  danh từ
-  - con rệp
+  - hướng dẫn viên du lịch
 
-@firefly /ˈfaɪərflaɪ/
+@urban planner /ˈɜː.bən ˈplæn.ər/
 *  danh từ
-  - đom đóm
+  - nhà quy hoạch đô thị
 
-@flea /fliː/
+@wedding planner /ˈwɛdɪŋ ˈplænər/
 *  danh từ
-  - bọ chét
+  - người lên kế hoạch đám cưới
 
-@fly /flaɪ/
+@xylographer /ˈzaɪ.ləˌɡræf.ər/
 *  danh từ
-  - con ruồi
+  - người in khắc gỗ
 
-@grasshopper /ˈɡræsˌhɒpər/
+@yacht captain /jɒt ˈkæp.tɪn/
 *  danh từ
-  - châu chấu
+  - thuyền trưởng du thuyền
 
-@hornet /ˈhɔːrnɪt/
+@acupuncturist /ˈæk.jʊ.pʌŋk.tjʊr.ɪst/
 *  danh từ
-  - ong góp
+  - người châm cứu
 
-@housefly /haʊs flaɪ/
+@ballet dancer /ˈbæl.eɪ ˈdæn.sər/
+*  danh từ
+  - vũ công ba lê
+
+@crime scene investigator /kraɪm siːn ɪnˈvɛs.tɪˌɡeɪtər/
+*  danh từ
+  - điều tra viên hiện trường tội phạm
+
+@data analyst /ˈdeɪ.tə ˈæn.ə.lɪst/
+*  danh từ
+  - nhà phân tích dữ liệu
+
+@environmentalist /ɪnˌvaɪ.rənˈmen.təl.ɪst/
+*  danh từ
+  - nhà môi trường học
+
+@forensic scientist /fəˈrɛn.zɪk ˈsaɪəntɪst/
+*  danh từ
+  - nhà khoa học phân tích hình sự
+
+@golf instructor /ɡɒlf ɪnˈstrʌk.tər/
+*  danh từ
+  - huấn luyện viên golf
+
+@hotel manager /hoʊˈtɛl ˈmæn.ɪ.dʒər/
+*  danh từ
+  - quản lý khách sạn
+
+@investment banker /ɪnˈvɛst.mənt ˈbæŋkər/
+*  danh từ
+  - ngân hàng đầu tư
+
+@jewelry designer /ˈdʒuːəlri dɪˈzaɪnər/
+*  danh từ
+  - nhà thiết kế trang sức
+
+@smartphone /ˈsmɑːrtfoʊn/
+*  danh từ
+  - điện thoại thông minh
+
+@flip phone /flɪp foʊn/
+*  danh từ
+  - điện thoại gập
+
+@touchscreen /ˈtʌʧskriːn/
+*  danh từ
+  - màn hình cảm ứng
+
+@camera phone /ˈkæmərə foʊn/
+*  danh từ
+  - điện thoại có camera
+
+@wireless charger /ˈwaɪrləs ˈʧɑrdʒər/
+*  danh từ
+  - bộ sạc không dây
+
+@headphones /ˈhɛdˌfoʊnz/
+*  danh từ
+  - tai nghe
+
+@power bank /ˈpaʊər bæŋk/
+*  danh từ
+  - pin dự phòng
+
+@bluetooth earbuds /ˈbluːtuːθ ˈɪrbʌdz/
+*  danh từ
+  - tai nghe không dây Bluetooth
+
+@screen protector /skriːn prəˈtɛktər/
+*  danh từ
+  - miếng dán màn hình
+
+@virtual assistant /ˈvɜːrtʃuəl əˈsɪstənt/
+*  danh từ
+  - trợ lý ảo
+
+@waterproof phone /ˈwɔːtərpruːf foʊn/
+*  danh từ
+  - điện thoại chống nước
+
+@foldable phone /ˈfoʊldəbl foʊn/
+*  danh từ
+  - điện thoại có thể gập lại
+
+@mobile app /ˈmoʊbəl æp/
+*  danh từ
+  - ứng dụng di động
+
+@notification /ˌnoʊtɪfɪˈkeɪʃən/
+*  danh từ
+  - thông báo
+
+@fingerprint sensor /ˈfɪŋɡərˌprɪnt ˈsɛnsər/
+*  danh từ
+  - cảm biến vân tay
+
+@voice recognition /vɔɪs rɛkəɡˈnɪʃən/
+*  danh từ
+  - nhận diện giọng nói
+
+@app store /æp stɔːr/
+*  danh từ
+  - cửa hàng ứng dụng
+
+@facial recognition /ˈfeɪʃl rɛkəɡˈnɪʃən/
+*  danh từ
+  - nhận diện khuôn mặt
+
+@home button /hoʊm ˈbʌtn/
+*  danh từ
+  - nút home
+
+@lock screen /lɒk skriːn/
+*  danh từ
+  - màn hình khóa
+
+@VR headset /ˌviː ˈɑːr ˈhɛdˌsɛt/
+*  danh từ
+  - kính thực tế ảo
+
+@emoji /ɪˈmoʊdʒi/
+*  danh từ
+  - biểu tượng cảm xúc
+
+@video call /ˈvɪdi.oʊ kɔːl/
+*  danh từ
+  - cuộc gọi video
+
+@wireless earphones /ˈwaɪrləs ˈɪrˌfoʊnz/
+*  danh từ
+  - tai nghe không dây
+
+@digital assistant /ˈdɪdʒɪtl əˈsɪstənt/
+*  danh từ
+  - trợ lý số
+
+@USB cable /ˌjuː ˌɛs ˈbiː ˈkeɪbl/
+*  danh từ
+  - cáp USB
+
+@AR glasses /ˌeɪ ˈɑːr ˈɡlæsɪz/
+*  danh từ
+  - kính thực tế ảo
+
+@QR code /ˌkjuː ˈɑːr koʊd/
+*  danh từ
+  - mã QR
+
+@home screen /hoʊm skriːn/
+*  danh từ
+  - màn hình chính
+
+@memory card /ˈmɛməri kɑːrd/
+*  danh từ
+  - thẻ nhớ
+
+@password /ˈpæsˌwɜːrd/
+*  danh từ
+  - mật khẩu
+
+@pop-up camera /ˈpɒp ʌp ˈkæmərə/
+*  danh từ
+  - camera tự động nảy lên
+
+@stylus pen /ˈstaɪləs pɛn/
+*  danh từ
+  - bút cảm ứng
+
+@farmer /ˈfɑːrmər/
+*  danh từ
+  - nông dân
+
+@agronomist /əˈɡrɒn.ə.mɪst/
+*  danh từ
+  - nhà nông học
+
+@rancher /ˈræn.tʃər/
+*  danh từ
+  - người chăn nuôi trâu bò
+
+@horticulturist /ˌhɔː.tɪˈkʌl.tʃərɪst/
+*  danh từ
+  - nhà làm vườn
+
+@beekeeper /ˈbiːˌkiː.pər/
+*  danh từ
+  - người chăn nuôi ong
+
+@vineyard owner /ˈvɪn.jərd ˈoʊ.nər/
+*  danh từ
+  - chủ vườn nho
+
+@fisherman /ˈfɪʃ.ər.mən/
+*  danh từ
+  - người đánh cá
+
+@poultry farmer /ˈpoʊltri ˈfɑːrmər/
+*  danh từ
+  - người chăn nuôi gia cầm
+
+@botanist /ˈbɒt.ən.ɪst/
+*  danh từ
+  - nhà thực vật học
+
+@forester /ˈfɒr.ɪstər/
+*  danh từ
+  - nhà lâm nghiệp
+
+@grape grower /ɡreɪp ɡroʊər/
+*  danh từ
+  - người trồng nho
+
+@arborist /ˈɑː.bər.ɪst/
+*  danh từ
+  - người chăm sóc cây
+
+@irrigation specialist /ˌɪr.ɪˈɡeɪ.ʃən ˈspɛʃəlɪst/
+*  danh từ
+  - chuyên gia tưới tiêu
+
+@soil scientist /sɔɪl ˈsaɪəntɪst/
+*  danh từ
+  - nhà khoa học đất
+
+@tractor driver /ˈtræk.tər ˈdraɪvər/
+*  danh từ
+  - tài xế máy cày
+
+@agricultural engineer /ˌæɡ.rɪˈkʌl.tʃərəl ˌɛn.dʒɪˈnɪr/
+*  danh từ
+  - kỹ sư nông nghiệp
+
+@herdsman /ˈhɜːrdzmən/
+*  danh từ
+  - người chăn nuôi gia súc
+
+@entomologist /ˌen.təˈmɒl.ə.dʒɪst/
+*  danh từ
+  - nhà nghiên cứu côn trùng
+
+@horticulturalist /ˌhɔː.tɪˈkʌl.tʃərəlɪst/
+*  danh từ
+  - chuyên gia làm vườn
+
+@veterinary nurse /ˈvɛtərɪnəri nɜːrs/
+*  danh từ
+  - y tá thú y
+
+@plant breeder /plænt ˈbriː.dər/
+*  danh từ
+  - người lai tạo cây trồng
+
+@livestock inspector /ˈlaɪvstɒk ɪnˈspɛktər/
+*  danh từ
+  - thanh tra gia súc
+
+@bee pollinator /biː ˈpɒlɪˌneɪtər/
+*  danh từ
+  - người gần cây mật ong để thụ phấn
+
+@aquaculturist /ˌækwəˈkʌltʃərɪst/
+*  danh từ
+  - nhà nuôi trồng thủy sản
+
+@crop consultant /krɒp kənˈsʌltənt/
+*  danh từ
+  - tư vấn về nông sản
+
+@viticulturist /vɪˈtɪkəltʃərɪst/
+*  danh từ
+  - người chuyên nghiên cứu về nho
+
+@weed scientist /wiːd ˈsaɪəntɪst/
+*  danh từ
+  - nhà nghiên cứu cỏ dại
+
+@organic farmer /ɔːˈɡænɪk ˈfɑːrmər/
+*  danh từ
+  - nông dân hữu cơ
+
+@forestry technician /ˈfɒrɪstri tɛkˈnɪʃən/
+*  danh từ
+  - kỹ thuật viên lâm nghiệp
+
+@horticultural technician /ˌhɔːtɪˈkʌltʃərəl tɛkˈnɪʃən/
+*  danh từ
+  - kỹ thuật viên làm vườn
+
+@irrigation worker /ˌɪr.ɪˈɡeɪ.ʃən ˈwɜːrkər/
+*  danh từ
+  - công nhân tưới tiêu
+
+@tractor mechanic /ˈtræk.tər məˈkæn.ɪk/
+*  danh từ
+  - thợ máy cày
+
+@beekeeping apprentice /ˈbiːˌkiːpɪŋ əˈprɛntɪs/
+*  danh từ
+  - người học việc chăn nuôi ong
+
+@flight attendant /flaɪt əˈtɛndənt/
+*  danh từ
+  - tiếp viên hàng không
+
+@air traffic controller /ɛr ˈtræfɪk kənˈtroʊlər/
+*  danh từ
+  - kiểm soát viên không lưu
+
+@aviator /ˈeɪviˌeɪtər/
+*  danh từ
+  - người lái máy bay
+
+@aerospace engineer /ˈɛroʊspeɪs ɛnˈdʒɪnɪr/
+*  danh từ
+  - kỹ sư hàng không vũ trụ
+
+@parachutist /ˈpærəˌʃuːtɪst/
+*  danh từ
+  - người nhảy dù
+
+@airline mechanic /ˈɛrˌlaɪn məˈkænɪk/
+*  danh từ
+  - kỹ thuật viên máy bay
+
+@flight instructor /flaɪt ɪnˈstrʌktər/
+*  danh từ
+  - giáo viên lái máy bay
+
+@aircraft designer /ˈɛrˌkræft dɪˈzaɪnər/
+*  danh từ
+  - nhà thiết kế máy bay
+
+@flight engineer /flaɪt ˌɛn.dʒɪˈnɪr/
+*  danh từ
+  - kỹ sư máy bay
+
+@skydiver /ˈskaɪˌdaɪvər/
+*  danh từ
+  - người nhảy dù từ không trung
+
+@airport security /ˈɛrˌpɔrt sɪˈkyʊrəti/
+*  danh từ
+  - an ninh sân bay
+
+@airline executive /ˈɛrˌlaɪn ɪɡˈzɛkjətɪv/
+*  danh từ
+  - quản lý hàng không
+
+@meteorologist /ˌmiː.t̬i.əˈrɑː.lə.dʒɪst/
+*  danh từ
+  - nhà khí tượng học
+
+@airplane spotter /ˈɛrˌpleɪn ˈspɑːtər/
+*  danh từ
+  - người đam mê quan sát máy bay
+
+@airline stewardess /ˈɛrˌlaɪn ˈstjuːərdɪs/
+*  danh từ
+  - tiếp viên nữ hàng không
+
+@glider pilot /ˈɡlaɪdər ˈpaɪlət/
+*  danh từ
+  - phi công máy bay lượn
+
+@airline captain /ˈɛrˌlaɪn ˈkæptən/
+*  danh từ
+  - đội trưởng hãng hàng không
+
+@air traffic analyst /ɛr ˈtræfɪk ˈænəlɪst/
+*  danh từ
+  - chuyên viên phân tích giao thông hàng không
+
+@rocket scientist /ˈrɒkɪt ˈsaɪəntɪst/
+*  danh từ
+  - nhà khoa học tên lửa
+
+@air marshal /ˈɛr ˈmɑːrʃəl/
+*  danh từ
+  - cảnh sát trên máy bay
+
+@airline dispatcher /ˈɛrˌlaɪn dɪˈspætʃər/
+*  danh từ
+  - người phân công chuyến bay trong hãng hàng không
+
+@paraglider /ˈpærəˌɡlaɪdər/
+*  danh từ
+  - người lái dù dạng dẻo
+
+@aircraft maintenance technician /ˈɛrˌkræft ˈmeɪntənəns tɛkˈnɪʃən/
+*  danh từ
+  - kỹ thuật viên bảo dưỡng máy bay
+
+@aviation photographer /ˌeɪviˈeɪʃən fəˈtɑːɡrəfər/
+*  danh từ
+  - nhiếp ảnh gia hàng không
+
+@developer /dɪˈvɛləpər/
+*  danh từ
+  - nhà phát triển
+
+@hacker /ˈhækər/
+*  danh từ
+  - tin tặc
+
+@cybersecurity expert /ˈsaɪbərˌsɪˈkjʊrəti ˈɛkspərt/
+*  danh từ
+  - chuyên gia an ninh mạng
+
+@data scientist /ˈdeɪtə ˈsaɪəntɪst/
+*  danh từ
+  - nhà khoa học dữ liệu
+
+@AI researcher /eɪˈaɪ ˈriːsərtʃər/
+*  danh từ
+  - nhà nghiên cứu trí tuệ nhân tạo
+
+@biomedical engineer /ˌbaɪ.oʊˈmɛdɪkəl ˌɛn.dʒɪˈnɪr/
+*  danh từ
+  - kỹ sư y sinh học
+
+@database administrator /ˈdeɪtəˌbeɪs ədˈmɪn.ɪˌstreɪ.tər/
+*  danh từ
+  - quản trị viên cơ sở dữ liệu
+
+@IT consultant /ˌaɪ ˈtiː kənˌsʌltənt/
+*  danh từ
+  - tư vấn công nghệ thông tin
+
+@software tester /ˈsɒftˌwɛr ˈtɛstər/
+*  danh từ
+  - người kiểm thử phần mềm
+
+@UI/UX designer /juːˌaɪ juːˌɛks dɪˈzaɪnər/
+*  danh từ
+  - nhà thiết kế giao diện/người dùng
+
+@computer scientist /kəmˈpjuː.t̬ɚ ˈsaɪəntɪst/
+*  danh từ
+  - nhà khoa học máy tính
+
+@network administrator /ˈnɛtˌwɜːrk ədˈmɪn.ɪˌstreɪ.tər/
+*  danh từ
+  - quản trị viên mạng
+
+@tech support /tɛk səˈpɔrt/
+*  danh từ
+  - hỗ trợ kỹ thuật
+
+@VR developer /viːˈɑːr dɪˈvɛləpər/
+*  danh từ
+  - nhà phát triển thực tế ảo
+
+@IoT specialist /ˌaɪ.oʊˈtiː ˈspɛʃəlɪst/
+*  danh từ
+  - chuyên gia IoT
+
+@telecommunications engineer /ˌtɛlɪkəˌmjuːnɪˈkeɪʃənz ˌɛn.dʒɪˈnɪr/
+*  danh từ
+  - kỹ sư viễn thông
+
+@hardware engineer /ˈhɑːrdwɛr ˌɛn.dʒɪˈnɪr/
+*  danh từ
+  - kỹ sư phần cứng
+
+@system administrator /ˈsɪstəm ədˈmɪnɪˌstreɪtər/
+*  danh từ
+  - quản trị viên hệ thống
+
+@machine learning engineer /məˈʃin ˈlɜːrnɪŋ ˌɛn.dʒɪˈnɪr/
+*  danh từ
+  - kỹ sư máy học
+
+@frontend developer /frʌntˈdɛvəˌləpər/
+*  danh từ
+  - nhà phát triển frontend
+
+@backend developer /ˈbækˌɛnd dɪˈvɛləpər/
+*  danh từ
+  - nhà phát triển backend
+
+@system analyst /ˈsɪstəm ˈænəlɪst/
+*  danh từ
+  - nhà phân tích hệ thống
+
+@blockchain developer /ˈblɒkˌtʃeɪn dɪˈvɛləpər/
+*  danh từ
+  - nhà phát triển blockchain
+
+@ethical hacker /ˈɛθɪkəl ˈhækər/
+*  danh từ
+  - tin tặc đạo đức
+
+@cloud architect /klaʊd ˈɑːr.kɪ.tekt/
+*  danh từ
+  - kiến trúc sư đám mây
+
+@DevOps engineer /ˈdɛv.ɒps ˌɛn.dʒɪˈnɪr/
+*  danh từ
+  - kỹ sư DevOps
+
+@AR developer /ˈeɪˌɑːr dɪˈvɛləpər/
+*  danh từ
+  - nhà phát triển thực tế ảo
+
+@nurse /nɜːrs/
+*  danh từ
+  - y tá
+
+@surgeon /ˈsɜːrdʒən/
+*  danh từ
+  - bác sĩ phẫu thuật
+
+@paramedic /ˌpærəˈmɛdɪk/
+*  danh từ
+  - người cấp cứu
+
+@physical therapist /ˈfɪzɪkəl ˈθɛrəpɪst/
+*  danh từ
+  - người trị liệu vật lý
+
+@optometrist /ɒpˈtɒmɪtrɪst/
+*  danh từ
+  - bác sĩ mắt
+
+@obstetrician /əbˌstɛtrɪˈnɪʃən/
+*  danh từ
+  - bác sĩ phụ khoa
+
+@gynecologist /ˌdʒaɪnɪˈkɑːlədʒɪst/
+*  danh từ
+  - bác sĩ phụ nữ
+
+@pediatrician /ˌpiːdiəˈtrɪʃən/
+*  danh từ
+  - bác sĩ trẻ em
+
+@dermatologist /ˌdɜːrməˈtɒlədʒɪst/
+*  danh từ
+  - bác sĩ da liễu
+
+@oncologist /ɑːnˈkɒlədʒɪst/
+*  danh từ
+  - bác sĩ ung thư
+
+@orthopedic surgeon /ɔrθəˈpidɪk ˈsɜrdʒən/
+*  danh từ
+  - bác sĩ phẫu thuật chỉnh hình
+
+@medical researcher /ˈmɛdɪkəl rɪˈsɜːrtʃər/
+*  danh từ
+  - nhà nghiên cứu y học
+
+@emergency room doctor /ɪˈmɜːrdʒənsi rum ˈdɑːktər/
+*  danh từ
+  - bác sĩ khoa cấp cứu
+
+@dental hygienist /ˈdɛntəl ˈhaɪdʒənɪst/
+*  danh từ
+  - chuyên viên vệ sinh nha khoa
+
+@medical student /ˈmɛdɪkəl ˈstjuːdənt/
+*  danh từ
+  - sinh viên y khoa
+
+@anesthesiologist /ˌænɪsˌθiːziˈɒlədʒɪst/
+*  danh từ
+  - bác sĩ gây mê
+
+@neurologist /njʊˈrɒlədʒɪst/
+*  danh từ
+  - bác sĩ thần kinh học
+
+@physical trainer /ˈfɪzɪkəl ˈtreɪnər/
+*  danh từ
+  - huấn luyện viên thể dục
+
+@dietitian /daɪəˈtɪʃən/
+*  danh từ
+  - chuyên gia dinh dưỡng
+
+@speech therapist /spiːʧ ˈθɛrəpɪst/
+*  danh từ
+  - người trị liệu nói
+
+@phlebotomist /fləˈbɑːtəmɪst/
+*  danh từ
+  - người lấy mẫu máu
+
+@pharmacologist /ˌfɑːrməˈkɒlədʒɪst/
+*  danh từ
+  - nhà dược học
+
+@statistician /stəˌtɪsˈtɪʃən/
+*  danh từ
+  - nhà thống kê
+
+@math teacher /mæθ ˈtiːtʃər/
+*  danh từ
+  - giáo viên toán
+
+@algebra expert /ˈæl.dʒɪ.brə ˈɛk.spɝːt/
+*  danh từ
+  - chuyên gia đại số
+
+@geometry professor /dʒɪˈɒm.ɪ.tri prəˈfɛs.ər/
+*  danh từ
+  - giáo sư hình học
+
+@calculus instructor /ˈkæl.kjə.ləs ɪnˈstrʌk.tər/
+*  danh từ
+  - giảng viên giáo trình tích phân
+
+@number theorist /ˈnʌm.bər ˈθɪər.ɪst/
+*  danh từ
+  - nhà lý thuyết số
+
+@math researcher /mæθ rɪˈsɜːrtʃər/
+*  danh từ
+  - nhà nghiên cứu toán học
+
+@probability expert /ˌprɒb.əˈbɪl.ɪ.ti ˈɛk.spɝːt/
+*  danh từ
+  - chuyên gia xác suất
+
+@arithmetic tutor /əˈrɪθ.mə.tɪk ˈtuː.t̬ɚ/
+*  danh từ
+  - gia sư số học
+
+@trigonometry professor /ˌtrɪɡ.əˈnɑː.mɪ.tri prəˈfes.ər/
+*  danh từ
+  - giáo sư lượng giác
+
+@mathematical physicist /ˌmæθəˈmæt̬.ɪ.kəl fɪˈzɪ.sɪst/
+*  danh từ
+  - nhà vật lý toán học
+
+@cryptographer /ˌkrɪpˈtɑːɡrəfər/
+*  danh từ
+  - chuyên gia mật mã học
+
+@game theorist /ɡeɪm ˈθɪərɪst/
+*  danh từ
+  - nhà lý thuyết trò chơi
+
+@applied mathematician /əˈplaɪd ˌmæθəməˈtɪʃən/
+*  danh từ
+  - nhà toán học ứng dụng
+
+@logician /ləˈdʒɪʃ.ən/
+*  danh từ
+  - nhà logic học
+
+@algorithms expert /ˈæl.ɡə.rɪ.ðəmz ˈɛk.spɝːt/
+*  danh từ
+  - chuyên gia thuật toán
+
+@numerical analyst /ˌnuː.mərɪ.kəl ˈænəlɪst/
+*  danh từ
+  - nhà phân tích số
+
+@combinatorics professor /ˌkɒm.bɪˈnæt.ərɪks prəˈfes.ər/
+*  danh từ
+  - giáo sư tổ hợp học
+
+@mathematics lecturer /ˌmæθəˈmætɪks ˈlɛktʃərər/
+*  danh từ
+  - giảng viên toán học
+
+@fluid dynamics expert /ˈfluː.ɪd daɪˈnæmɪks ˈɛk.spɝːt/
+*  danh từ
+  - chuyên gia động lực học chất lỏng
+
+@math education researcher /mæθ ˌɛdʒəˈkeɪʃən rɪˈsɜːrtʃər/
+*  danh từ
+  - nhà nghiên cứu giáo dục toán học
+
+@astrophysicist /ˌæstroʊˈfɪzɪsɪst/
+*  danh từ
+  - nhà vật lý thiên văn
+
+@nuclear physicist /ˈnjuːkliər ˈfɪzɪsɪst/
+*  danh từ
+  - nhà vật lý hạt nhân
+
+@theoretical physicist /ˌθiːəˈrɛtɪkəl ˈfɪzɪsɪst/
+*  danh từ
+  - nhà vật lý lý thuyết
+
+@particle physicist /ˈpɑːr.t̬ɪ.kəl ˈfɪz.ɪ.sɪst/
+*  danh từ
+  - nhà vật lý hạt
+
+@condensed matter physicist /kənˈdɛnst ˈmætər ˈfɪzɪsɪst/
+*  danh từ
+  - nhà vật lý chất đặc
+
+@biophysicist /ˌbaɪ.oʊˈfɪz.ɪ.sɪst/
+*  danh từ
+  - nhà vật lý sinh học
+
+@computational physicist /ˌkɑːm.pjʊˈteɪ.ʃənl ˈfɪz.ɪ.sɪst/
+*  danh từ
+  - nhà vật lý tính toán
+
+@fluid dynamics researcher /ˈfluː.ɪd daɪˈnæmɪks rɪˈsɜːrtʃər/
+*  danh từ
+  - nhà nghiên cứu động lực học chất lỏng
+
+@optical physicist /ˈɑːp.tɪ.kəl ˈfɪz.ɪ.sɪst/
+*  danh từ
+  - nhà vật lý quang học
+
+@acoustics expert /əˈkuːs.tɪks ˈɛk.spɝːt/
+*  danh từ
+  - chuyên gia âm thanh
+
+@thermal physicist /ˈθɜːr.moʊˌdʒɪk ˈfɪzɪsɪst/
+*  danh từ
+  - nhà vật lý nhiệt độ
+
+@plasma physicist /ˈplæz.mə ˈfɪz.ɪ.sɪst/
+*  danh từ
+  - nhà vật lý plazma
+
+@solid-state physicist /ˌsɑː.lɪdˈsteɪt ˈfɪz.ɪ.sɪst/
+*  danh từ
+  - nhà vật lý chất rắn
+
+@mechanical physicist /məˈkæn.ɪ.kəl ˈfɪz.ɪ.sɪst/
+*  danh từ
+  - nhà vật lý cơ học
+
+@atomic physicist /əˈtɑː.mɪk ˈfɪzɪsɪst/
+*  danh từ
+  - nhà vật lý nguyên tử
+
+@cosmologist /kɑːzˈmɑː.lə.dʒɪst/
+*  danh từ
+  - nhà vật lý vũ trụ
+
+@astrophysics researcher /ˌæstrəˈfɪzɪks rɪˈsɜːrtʃər/
+*  danh từ
+  - nhà nghiên cứu vật lý thiên văn
+
+@environmental physicist /ɪnˌvaɪ.rənˈmɛn.t̬əl ˈfɪzɪsɪst/
+*  danh từ
+  - nhà vật lý môi trường
+
+@quantum mechanics expert /ˈkwɒntəm mɪˈkæn.ɪks ˈɛk.spɝːt/
+*  danh từ
+  - chuyên gia cơ học lượng tử
+
+@novelist /ˈnɒv.ə.lɪst/
+*  danh từ
+  - nhà văn
+
+@playwright /ˈpleɪ.raɪt/
+*  danh từ
+  - nhà soạn kịch
+
+@essayist /ˈɛs.eɪ.ɪst/
+*  danh từ
+  - nhà tiểu luận
+
+@literary critic /ˈlɪtəreri ˈkrɪtɪk/
+*  danh từ
+  - nhà phê bình văn học
+
+@editor /ˈɛdɪtər/
+*  danh từ
+  - biên tập viên
+
+@columnist /ˈkɒl.ə.mɪst/
+*  danh từ
+  - người viết chuyên mục
+
+@book critic /bʊk ˈkrɪt.ɪk/
+*  danh từ
+  - nhà phê bình sách
+
+@screenwriter /ˈskriːn.raɪ.tər/
+*  danh từ
+  - nhà biên kịch
+
+@poet laureate /ˌpoʊ.ɪt ˈlɒr.i.ət/
+*  danh từ
+  - nhà thơ lưu danh
+
+@biographical novelist /ˌbaɪ.əˈɡræf.ɪ.kəl ˈnɒv.ə.lɪst/
+*  danh từ
+  - nhà văn viết về tiểu sử
+
+@children's book author /ˈtʃɪl.drənz bʊk ˈɔː.θər/
+*  danh từ
+  - tác giả sách dành cho trẻ em
+
+@literary historian /ˈlɪtəreri hɪsˈtɔːriən/
+*  danh từ
+  - nhà sử học văn học
+
+@speechwriter /ˈspiːʧˌraɪ.t̬ər/
+*  danh từ
+  - người viết bài diễn thuyết
+
+@folklorist /ˈfoʊk.lɔːrɪst/
+*  danh từ
+  - nhà dân gian học
+
+@romance novelist /roʊˈmæns ˈnɒvəlɪst/
+*  danh từ
+  - nhà văn viết tiểu thuyết lãng mạn
+
+@literary translator /ˈlɪtəreri trænsˈleɪtər/
+*  danh từ
+  - người dịch văn học
+
+@satirist /ˈsæt.ɪr.ɪst/
+*  danh từ
+  - nhà châm biếm
+
+@science fiction writer /ˈsaɪ.əns ˈfɪk.ʃən ˈraɪ.t̬ər/
+*  danh từ
+  - nhà văn khoa học viễn tưởng
+
+@travel writer /ˈtræv.əl ˈraɪ.t̬ər/
+*  danh từ
+  - nhà văn viết về du lịch
+
+@poetry critic /ˈpoʊ.ɪ.tri ˈkrɪt.ɪk/
+*  danh từ
+  - nhà phê bình thơ
+
+@fiction writer /ˈfɪk.ʃən ˈraɪ.t̬ər/
+*  danh từ
+  - nhà văn hư cấu
+
+@organic chemist /ɔrˈgænɪk ˈkɛmɪst/
+*  danh từ
+  - nhà hóa học hữu cơ
+
+@inorganic chemist /ˌɪnəˈrɡænɪk ˈkɛmɪst/
+*  danh từ
+  - nhà hóa học không hữu cơ
+
+@analytical chemist /ˌænəˈlɪtɪkəl ˈkɛmɪst/
+*  danh từ
+  - nhà hóa học phân tích
+
+@physical chemist /ˈfɪzɪkəl ˈkɛmɪst/
+*  danh từ
+  - nhà hóa học vật lý
+
+@biochemist /ˌbaɪoʊˈkɛmɪst/
+*  danh từ
+  - nhà hóa học sinh học
+
+@theoretical chemist /ˌθɪəˈrɛtɪkəl ˈkɛmɪst/
+*  danh từ
+  - nhà hóa học lý thuyết
+
+@quantum chemist /ˈkwɒntəm ˈkɛmɪst/
+*  danh từ
+  - nhà hóa học lượng tử
+
+@physical organic chemist /ˈfɪzɪkəl ɔrˈɡænɪk ˈkɛmɪst/
+*  danh từ
+  - nhà hóa học vật lý hữu cơ
+
+@polymer chemist /ˈpɑːləmər ˈkɛmɪst/
+*  danh từ
+  - nhà hóa học polymer
+
+@medicinal chemist /mɪˈdɪs.ə.nəl ˈkɛmɪst/
+*  danh từ
+  - nhà hóa học dược
+
+@computational chemist /ˌkɑːm.pjʊˈteɪ.ʃənl ˈkɛmɪst/
+*  danh từ
+  - nhà hóa học tính toán
+
+@food chemist /fuːd ˈkɛmɪst/
+*  danh từ
+  - nhà hóa học thực phẩm
+
+@environmental chemist /ɪnˌvaɪ.rənˈmɛn.təl ˈkɛmɪst/
+*  danh từ
+  - nhà hóa học môi trường
+
+@surface chemist /ˈsɜːr.fəs ˈkɛmɪst/
+*  danh từ
+  - nhà hóa học bề mặt
+
+@materials chemist /məˈtɪriəlz ˈkɛmɪst/
+*  danh từ
+  - nhà hóa học vật liệu
+
+@chemical engineer /ˌkɛmɪkəl ˌɛn.dʒɪˈnɪr/
+*  danh từ
+  - kỹ sư hóa học
+
+@geochemist /ˈdʒiː.oʊˌkɛmɪst/
+*  danh từ
+  - nhà hóa học địa chất
+
+@petroleum chemist /pəˈtroʊliəm ˈkɛmɪst/
+*  danh từ
+  - nhà hóa học dầu mỏ
+
+@research chemist /rɪˈsɜːrtʃ ˈkɛmɪst/
+*  danh từ
+  - nhà hóa học nghiên cứu
+
+@forensic chemist /fəˈrɛn.zɪk ˈkɛmɪst/
+*  danh từ
+  - nhà hóa học pháp y
+
+@geographer /dʒiˈɒɡrəfər/
+*  danh từ
+  - nhà địa lý học
+
+@physical geographer /ˈfɪzɪkəl dʒiˈɒɡrəfər/
+*  danh từ
+  - nhà địa lý học vật lý
+
+@cultural geographer /ˈkʌl.tʃərəl dʒiˈɒɡrəfər/
+*  danh từ
+  - nhà địa lý học văn hóa
+
+@human geographer /ˈhjuː.mən dʒiˈɒɡrəfər/
+*  danh từ
+  - nhà địa lý học nhân khẩu học
+
+@environmental geographer /ɪnˌvaɪ.rənˈmɛn.t̬əl dʒiˈɒɡrəfər/
+*  danh từ
+  - nhà địa lý học môi trường
+
+@urban geographer /ˈɜːrbən dʒiˈɒɡrəfər/
+*  danh từ
+  - nhà địa lý học đô thị
+
+@regional geographer /ˈriː.dʒənl dʒiˈɒɡrəfər/
+*  danh từ
+  - nhà địa lý học khu vực
+
+@cartographer /kɑːrˈtɑːɡrəfər/
+*  danh từ
+  - nhà bản đồ học
+
+@GIS specialist /ˈdʒiː.aɪ.ˈes ˈspɛʃ.ə.lɪst/
+*  danh từ
+  - chuyên gia hệ thống thông tin địa lý
+
+@geographic information scientist /dʒi.oʊˌɡræf.ɪk ˌɪn.fɚˈmeɪ.ʃən ˈsaɪ.əntɪst/
+*  danh từ
+  - nhà khoa học thông tin địa lý
+
+@geomorphologist /ˌdʒiː.oʊˈmɔːr.fə.lə.dʒɪst/
+*  danh từ
+  - nhà địa chất học
+
+@hydrologist /haɪˈdrɒl.ə.dʒɪst/
+*  danh từ
+  - nhà thủy văn học
+
+@climatologist /ˌklaɪ.məˈtɑː.lə.dʒɪst/
+*  danh từ
+  - nhà khí tượng học
+
+@oceanographer /ˌoʊ.ʃəˈnɑː.ɡrə.fɚ/
+*  danh từ
+  - nhà đại dương học
+
+@environmental scientist /ɪnˌvaɪ.rənˈmɛn.t̬əl ˈsaɪ.əntɪst/
+*  danh từ
+  - nhà khoa học môi trường
+
+@seismologist /ˌsaɪzˈmɑː.lə.dʒɪst/
+*  danh từ
+  - nhà động đất học
+
+@volcanologist /ˌvɑːl.kəˈnɑː.lə.dʒɪst/
+*  danh từ
+  - nhà nghiên cứu núi lửa
+
+@ecologist /ɪˈkɑː.lə.dʒɪst/
+*  danh từ
+  - nhà sinh thái học
+
+@geomagnetic scientist /ˌdʒiː.oʊ.mæɡˈnɛtɪk ˈsaɪ.əntɪst/
+*  danh từ
+  - nhà khoa học địa từ
+
+@geological engineer /dʒiəˈlɒdʒɪkəl ˌɛn.dʒɪˈnɪr/
+*  danh từ
+  - kỹ sư địa chất
+
+@environmental planner /ɪnˌvaɪ.rənˈmɛn.t̬əl ˈplæn.ɚ/
+*  danh từ
+  - nhà quy hoạch môi trường
+
+@geomicrobiologist /ˌdʒiː.oʊ.maɪ.kroʊ.baɪˈɑː.lə.dʒɪst/
+*  danh từ
+  - nhà địa vi sinh học
+
+@cardiologist /ˌkɑːr.diˈɑː.lə.dʒɪst/
+*  danh từ
+  - bác sĩ tim mạch
+
+@gastroenterologist /ˌɡæs.troʊˌɛn.təˈrɑː.lə.dʒɪst/
+*  danh từ
+  - bác sĩ tiêu hóa
+
+@urologist /jʊˈrɑː.lə.dʒɪst/
+*  danh từ
+  - bác sĩ tiết niệu
+
+@ophthalmologist /ˌɑːfˌθælˈmɑː.lə.dʒɪst/
+*  danh từ
+  - bác sĩ mắt
+
+@endocrinologist /ˌɛn.doʊˌkraɪˈnɑː.lə.dʒɪst/
+*  danh từ
+  - bác sĩ nội tiết
+
+@pulmonologist /ˌpʊl.məˈnɑː.lə.dʒɪst/
+*  danh từ
+  - bác sĩ phổi
+
+@geriatrician /ˌdʒɛr.iəˈtrɪʃən/
+*  danh từ
+  - bác sĩ lão khoa
+
+@nephrologist /nɪˈfrɑː.lə.dʒɪst/
+*  danh từ
+  - bác sĩ thận
+
+@hematologist /ˌhiː.məˈtɑː.lə.dʒɪst/
+*  danh từ
+  - bác sĩ huyết học
+
+@vascular surgeon /ˈvæskjələr ˈsɜːrdʒən/
+*  danh từ
+  - bác sĩ phẫu thuật mạch máu
+
+@rheumatologist /ˌruː.məˈtɑː.lə.dʒɪst/
+*  danh từ
+  - bác sĩ thấp khớp
+
+@ophthalmic technician /ˌɑːfˌθælˈmɪk tɛkˈnɪʃən/
+*  danh từ
+  - kỹ thuật viên mắt
+
+@medical technologist /ˈmɛdɪkəl tɛkˈnɑː.lə.dʒɪst/
+*  danh từ
+  - kỹ thuật viên y khoa
+
+@urban fox /ˈɜːrbən fɑːks/
+*  danh từ
+  - cáo thành phố
+
+@city pigeon /ˈsɪti ˈpɪdʒ.ɪn/
+*  danh từ
+  - chim bồ câu thành phố
+
+@suburban squirrel /ˈsʌbɜːbən ˈskwɜː.rəl/
+*  danh từ
+  - sóc nằm ngoại ô
+
+@street cat /striːt kæt/
+*  danh từ
+  - mèo đường phố
+
+@alley rat /ˈæli ræt/
+*  danh từ
+  - chuột nhà hẻm
+
+@rooftop seagull /ˈruːfˌtɑːp ˈsiː.ɡʌl/
+*  danh từ
+  - hải âu mái nhà
+
+@park squirrel /pɑːrk ˈskwɜː.rəl/
+*  danh từ
+  - sóc công viên
+
+@neighborhood cat /ˈneɪ.bər.hʊd kæt/
+*  danh từ
+  - mèo khu phố
+
+@sidewalk sparrow /ˈsaɪd.wɔːk ˈspæroʊ/
+*  danh từ
+  - chim sẻ vỉa hè
+
+@backyard rabbit /ˈbækjɑːrd ˈræbɪt/
+*  danh từ
+  - thỏ sân sau
+
+@house fly /haʊs flaɪ/
 *  danh từ
   - ruồi nhà
 
-@june beetle /dʒuːn ˈbiːtl̩/
+@garden snail /ˈɡɑːrdn̩ sneɪl/
 *  danh từ
-  - bọ cánh cứng tháng sáu
+  - ốc sên vườn
 
-@ladybug /ˈleɪdiˌbʌɡ/
+@porch raccoon /pɔːrtʃ ræˈkuːn/
 *  danh từ
-  - bọ rùa
+  - gấu mèo sân thềm
 
-@lacewing /ˈleɪsˌwɪŋ/
+@apartment ant /əˈpɑːrt.mənt ænt/
 *  danh từ
-  - châu chấu nhện
+  - kiến chung cư
 
-@leafhopper /ˈliːfˌhɒpər/
+@driveway rabbit /ˈdraɪvweɪ ˈræbɪt/
 *  danh từ
-  - bọ cánh cứng
+  - thỏ lối xe
 
-@louse /laʊs/
+@backyard blue jay /ˈbækjɑːrd bluː dʒeɪ/
 *  danh từ
-  - bọ chét
+  - chim xanh sân sau
 
-@mayfly /ˈmeɪflaɪ/
+@windowpane spider /ˈwɪndoʊˌpeɪn ˈspaɪ.dər/
 *  danh từ
-  - ruồi tháng 5
+  - nhện cửa sổ
 
-@millipede /ˈmɪlɪˌpiːd/
+@streetlight moth /ˈstriːtˌlaɪt mɒθ/
 *  danh từ
-  - giày cỏ
+  - bướm đèn đường
 
-@moth /mɒθ/
+@pond frog /pɒnd frɒɡ/
 *  danh từ
-  - bướm đêm
+  - ếch ao
 
-@praying mantis /ˈpreɪɪŋ ˈmæntɪs/
+@curbside cat /kɜːrb.saɪd kæt/
 *  danh từ
-  - bọ ngựa
+  - mèo ven đường
 
-@scarab beetle /ˈskæræb ˈbiːtl̩/
+@skyscraper pigeon /ˈskaɪˌskreɪ.pər ˈpɪdʒ.ɪn/
 *  danh từ
-  - bọ cánh cứng
+  - chim bồ câu tòa nhà chọc trời
 
-@silverfish /ˈsɪlvərˌfɪʃ/
+@fire escape raccoon /ˈfaɪər ɪˌskeɪp ræˈkuːn/
 *  danh từ
-  - cá bạc
+  - gấu mèo cầu thang thoát hiểm
 
-@spider /ˈspaɪdər/
+@traffic island squirrel /ˈtræf.ɪk ˈaɪ.lənd ˈskwɜː.rəl/
 *  danh từ
-  - nhện
+  - sóc đảo giao thông
 
-@stick insect /stɪk ˈɪnsɛkt/
+@dumpster rat /ˈdʌmpstər ræt/
 *  danh từ
-  - kiến bò
+  - chuột rác
 
-@stink bug /stɪŋk bʌɡ/
+@bus stop sparrow /bʌs stɒp ˈspær.oʊ/
 *  danh từ
-  - bọ rệp
+  - chim sẻ trạm xe buýt
 
-@termite /ˈtɜːrmaɪt/
+@bookstore /ˈbʊkˌstɔːr/
 *  danh từ
-  - mối
+  - hiệu sách
 
-@thrip /θrɪp/
+@coffeeshop /ˈkɒfiˌʃɒp/
 *  danh từ
-  - bọ cánh cứng
+  - quán cà phê
 
-@tick /tɪk/
+@pharmacy /ˈfɑːrməsi/
 *  danh từ
-  - bọ chét
+  - hiệu thuốc
 
-@wasp /wɒsp/
+@library /ˈlaɪˌbreri/
 *  danh từ
-  - ong
+  - thư viện
 
-@weevil /ˈwiːvəl/
+@bakery /ˈbeɪkəri/
 *  danh từ
-  - bọ cánh cứng
+  - tiệm bánh
 
+@grocery store /ˈɡroʊsəri stɔːr/
+*  danh từ
+  - cửa hàng tạp hóa
+
+@hardware store /ˈhɑːrdˌwɛr stɔːr/
+*  danh từ
+  - cửa hàng vật liệu xây dựng
+
+@pet store /ˈpɛt stɔːr/
+*  danh từ
+  - cửa hàng thú cưng
+
+@boutique /buːˈtiːk/
+*  danh từ
+  - cửa hàng thời trang
+
+@barbershop /ˈbɑːrbərʃɒp/
+*  danh từ
+  - tiệm cắt tóc
+
+@post office /poʊst ˈɒfɪs/
+*  danh từ
+  - bưu điện
+
+@electronics store /ɪˌlɛkˈtrɒnɪks stɔːr/
+*  danh từ
+  - cửa hàng điện tử
+
+@toy store /tɔɪ stɔːr/
+*  danh từ
+  - cửa hàng đồ chơi
+
+@shoe store /ʃuː stɔːr/
+*  danh từ
+  - cửa hàng giày
+
+@music store /ˈmjuːzɪk stɔːr/
+*  danh từ
+  - cửa hàng nhạc
+
+@butcher shop /ˈbʊtʃər ʃɒp/
+*  danh từ
+  - tiệm thịt
+
+@diner /ˈdaɪnər/
+*  danh từ
+  - quán ăn nhỏ
+
+@antique store /ænˈtiːk stɔːr/
+*  danh từ
+  - cửa hàng đồ cổ
+
+@pet grooming salon /pɛt ˈɡruːmɪŋ səˈlɑːn/
+*  danh từ
+  - salon làm đẹp cho thú cưng
+
+@stationery store /ˈsteɪʃəˌnɛri stɔːr/
+*  danh từ
+  - cửa hàng văn phòng phẩm
+
+@jewelry store /ˈdʒuːəlri stɔːr/
+*  danh từ
+  - cửa hàng trang sức
+
+@art gallery /ɑːrt ˈɡæləri/
+*  danh từ
+  - phòng trưng bày nghệ thuật
+
+@vintage shop /ˈvɪntɪdʒ ʃɒp/
+*  danh từ
+  - cửa hàng đồ cổ
+
+@bookshop /ˈbʊkˌʃɒp/
+*  danh từ
+  - cửa hàng sách
+
+@supermarket /ˈsuːpərˌmɑːrkɪt/
+*  danh từ
+  - siêu thị
+
+@market /ˈmɑːrkɪt/
+*  danh từ
+  - chợ
+
+@restaurant /ˈrɛstəˌrɑːnt/
+*  danh từ
+  - nhà hàng
+
+@food truck /fuːd trʌk/
+*  danh từ
+  - xe đẩy thức ăn
+
+@home improvement store /hoʊm ɪmˈpruːvmənt stɔːr/
+*  danh từ
+  - cửa hàng nâng cấp nhà cửa
+
+@bicycle shop /ˈbaɪsɪkl ʃɒp/
+*  danh từ
+  - cửa hàng xe đạp
+
+@auto repair shop /ˈɔːtoʊ rɪˈpɛr ʃɒp/
+*  danh từ
+  - cửa hàng sửa xe ô tô
+
+@game store /ɡeɪm stɔːr/
+*  danh từ
+  - cửa hàng trò chơi
+
+@home goods store /hoʊm ɡʊdz stɔːr/
+*  danh từ
+  - cửa hàng đồ gia dụng
+
+@liquor store /ˈlɪkər stɔːr/
+*  danh từ
+  - cửa hàng rượu
+
+@flower shop /ˈflaʊər ʃɒp/
+*  danh từ
+  - cửa hàng hoa
+
+@pet supply store /pɛt səˈplaɪ stɔːr/
+*  danh từ
+  - cửa hàng vật dụng cho thú cưng
+
+@computer store /kəmˈpjuːtər stɔːr/
+*  danh từ
+  - cửa hàng máy tính
+
+@pet boutique /pɛt buːˈtiːk/
+*  danh từ
+  - cửa hàng thú cưng cao cấp
+
+@beauty salon /ˈbjuti səˌlɑːn/
+*  danh từ
+  - salon làm đẹp
+
+@grandparent /ˈɡrændˌpɛrənt/
+*  danh từ
+  - ông bà
+
+@grandfather /ˈɡrændˌfɑːðər/
+*  danh từ
+  - ông
+
+@grandmother /ˈɡrændˌmʌðər/
+*  danh từ
+  - bà
+
+@grandchild /ˈɡrændˌʧaɪld/
+*  danh từ
+  - cháu
+
+@father /ˈfɑːðər/
+*  danh từ
+  - bố
+
+@mother /ˈmʌðər/
+*  danh từ
+  - mẹ
+
+@child /ʧaɪld/
+*  danh từ
+  - con cái
+
+@son /sʌn/
+*  danh từ
+  - con trai
+
+@daughter /ˈdɔːtər/
+*  danh từ
+  - con gái
+
+@brother /ˈbrʌðər/
+*  danh từ
+  - anh em trai
+
+@sister /ˈsɪstər/
+*  danh từ
+  - anh em gái
+
+@uncle /ˈʌŋkl̩/
+*  danh từ
+  - chú
+
+@aunt /ænt/
+*  danh từ
+  - cô
+
+@cousin /ˈkʌzn̩/
+*  danh từ
+  - anh chị em họ
+
+@nephew /ˈnɛfjuː/
+*  danh từ
+  - cháu trai (con của anh em)
+
+@niece /niːs/
+*  danh từ
+  - cháu gái (con của anh em)
+
+@in-law /ɪn lɔː/
+*  danh từ
+  - họ hàng họ hàng (thường dùng để chỉ người phối ngẫu của con cái)
+
+@father-in-law /ˈfɑːðər ɪn lɔː/
+*  danh từ
+  - bố chồng
+
+@mother-in-law /ˈmʌðər ɪn lɔː/
+*  danh từ
+  - mẹ chồng
+
+@brother-in-law /ˈbrʌðər ɪn lɔː/
+*  danh từ
+  - anh em rể
+
+@sister-in-law /ˈsɪstər ɪn lɔː/
+*  danh từ
+  - chị em dâu
+
+@son-in-law /sʌn ɪn lɔː/
+*  danh từ
+  - con rể
+
+@daughter-in-law /ˈdɔːtər ɪn lɔː/
+*  danh từ
+  - con dâu
+
+@spouse /spaʊs/
+*  danh từ
+  - người chồng hoặc vợ
+
+@husband /ˈhʌzbənd/
+*  danh từ
+  - chồng
+
+@wife /waɪf/
+*  danh từ
+  - vợ
+
+@partner /ˈpɑːrtnər/
+*  danh từ
+  - đối tác, bạn đồng hành
+
+@boyfriend /ˈbɔɪˌfrɛnd/
+*  danh từ
+  - bạn trai
+
+@girlfriend /ˈɡɜːrlˌfrɛnd/
+*  danh từ
+  - bạn gái
+
+@fiancé /fiˈɑːnseɪ/
+*  danh từ
+  - hôn thê (nam)
+
+@fiancée /fiˈɑːnseɪ/
+*  danh từ
+  - hôn thê (nữ)
+
+@ex-husband /ˌɛksˈhʌzbənd/
+*  danh từ
+  - người chồng cũ
+
+@ex-wife /ˌɛksˈwaɪf/
+*  danh từ
+  - người vợ cũ
+
+@stepfather /ˈstɛpˌfɑːðər/
+*  danh từ
+  - bố kế
+
+@stepmother /ˈstɛpˌmʌðər/
+*  danh từ
+  - mẹ kế
+
+@stepson /ˈstɛpsʌn/
+*  danh từ
+  - con trai kế
+
+@stepdaughter /ˈstɛpˌdɔːtər/
+*  danh từ
+  - con gái kế
+
+@half-brother /ˈhæfˌbrʌðər/
+*  danh từ
+  - anh em trai ruột
+
+@half-sister /ˈhæfˌsɪstər/
+*  danh từ
+  - anh em gái ruột
+
+@cousin once removed /ˈkʌzn̩ wʌns rɪˈmuvd/
+*  danh từ
+  - anh chị em họ họ họ (quá một thế hệ)
+
+@cousin twice removed /ˈkʌzn̩ twaɪs rɪˈmuvd/
+*  danh từ
+  - anh chị em họ họ họ (quá hai thế hệ)
+
+@godfather /ˈɡɒdˌfɑːðər/
+*  danh từ
+  - cha đỡ đầu
+
+@godmother /ˈɡɒdˌmʌðər/
+*  danh từ
+  - mẹ đỡ đầu
+
+@godson /ˈɡɒdsʌn/
+*  danh từ
+  - con trai đỡ đầu
+
+@goddaughter /ˈɡɒdˌdɔːtər/
+*  danh từ
+  - con gái đỡ đầu
+
+@guardian /ˈɡɑːrdiən/
+*  danh từ
+  - người giám hộ
+
+@country /ˈkʌntri/
+*  danh từ
+  - quốc gia
+
+@nation /ˈneɪʃən/
+*  danh từ
+  - dân tộc, quốc gia
+
+@state /steɪt/
+*  danh từ
+  - tiểu bang, quốc gia
+
+@government /ˈɡʌvərnmənt/
+*  danh từ
+  - chính phủ
+
+@capital /ˈkæpɪtl̩/
+*  danh từ
+  - thủ đô
+
+@city /ˈsɪti/
+*  danh từ
+  - thành phố
+
+@town /taʊn/
+*  danh từ
+  - thị trấn
+
+@village /ˈvɪlɪdʒ/
+*  danh từ
+  - làng
+
+@territory /ˈterɪtəri/
+*  danh từ
+  - lãnh thổ
+
+@border /ˈbɔːrdər/
+*  danh từ
+  - biên giới
+
+@flag /flæɡ/
+*  danh từ
+  - lá cờ
+
+@national anthem /ˈnæʃənl ˈænθəm/
+*  danh từ
+  - quốc ca
+
+@currency /ˈkɜːrənsi/
+*  danh từ
+  - đơn vị tiền tệ
+
+@population /ˌpɒpjʊˈleɪʃən/
+*  danh từ
+  - dân số
+
+@language /ˈlæŋɡwɪdʒ/
+*  danh từ
+  - ngôn ngữ
+
+@culture /ˈkʌltʃər/
+*  danh từ
+  - văn hóa
+
+@religion /rɪˈlɪdʒən/
+*  danh từ
+  - tôn giáo
+
+@Christianity /ˌkrɪsˈtɪænəti/
+*  danh từ
+  - Kitô giáo
+
+@Islam /ˈɪslɑːm/
+*  danh từ
+  - Hồi giáo
+
+@Hinduism /ˈhɪnduɪzəm/
+*  danh từ
+  - đạo Hindu
+
+@Buddhism /ˈbuːdɪzəm/
+*  danh từ
+  - đạo Phật giáo
+
+@Judaism /ˈdʒuːdeɪɪzəm/
+*  danh từ
+  - đạo Do Thái
+
+@Sikhism /ˈsiːkɪzəm/
+*  danh từ
+  - đạo Sikh
+
+@Taoism /ˈdaʊɪzəm/
+*  danh từ
+  - đạo Lão
+
+@Shinto /ˈʃɪntoʊ/
+*  danh từ
+  - đạo Shinto
+
+@confucianism /kənˈfjuːʃənɪzəm/
+*  danh từ
+  - đạo Khổng giáo
+
+@atheism /ˈeɪθiɪzəm/
+*  danh từ
+  - chủ nghĩa vô thần
+
+@agnosticism /æɡˈnɒstɪsɪzəm/
+*  danh từ
+  - chủ nghĩa không biết có Chúa hay không
+
+@ritual /ˈrɪtʃuəl/
+*  danh từ
+  - nghi thức, nghi lễ
+
+@tradition /trəˈdɪʃən/
+*  danh từ
+  - truyền thống
+
+@custom /ˈkʌstəm/
+*  danh từ
+  - phong tục
+
+@social media /ˈsoʊʃəl ˈmidiə/
+*  danh từ
+  - mạng xã hội
+
+@Facebook /ˈfeɪsˌbʊk/
+*  danh từ
+  - Facebook
+
+@Instagram /ˈɪnstəˌɡræm/
+*  danh từ
+  - Instagram
+
+@Twitter /ˈtwɪtər/
+*  danh từ
+  - Twitter
+
+@LinkedIn /ˌlɪŋktˈwɪn/
+*  danh từ
+  - LinkedIn
+
+@Snapchat /ˈsnæpˌʧæt/
+*  danh từ
+  - Snapchat
+
+@WhatsApp /ˈwɒtsˌæp/
+*  danh từ
+  - WhatsApp
+
+@TikTok /ˈtɪktɒk/
+*  danh từ
+  - TikTok
+
+@YouTube /ˈjuːˌtuːb/
+*  danh từ
+  - YouTube
+
+@Pinterest /ˈpɪntrɛst/
+*  danh từ
+  - Pinterest
+
+@Reddit /ˈrɛdɪt/
+*  danh từ
+  - Reddit
+
+@Tumblr /ˈtʌmbl̩/
+*  danh từ
+  - Tumblr
+
+@Quora /ˈkwɔːrə/
+*  danh từ
+  - Quora
+
+@Flickr /ˈflɪkər/
+*  danh từ
+  - Flickr
+
+@Vimeo /ˈvɪmioʊ/
+*  danh từ
+  - Vimeo
+
+@Periscope /ˈpɛrɪskoʊp/
+*  danh từ
+  - Periscope
+
+@WeChat /ˈwiˌʧæt/
+*  danh từ
+  - WeChat
+
+@Skype /skaɪp/
+*  danh từ
+  - Skype
+
+@Telegram /ˈtɛlɪˌɡræm/
+*  danh từ
+  - Telegram
+
+@Viber /ˈvaɪbər/
+*  danh từ
+  - Viber
+
+@Line /laɪn/
+*  danh từ
+  - Line
+
+@KakaoTalk /ˈkɑːkaʊ tɔːk/
+*  danh từ
+  - KakaoTalk
+
+@Weibo /weɪboʊ/
+*  danh từ
+  - Weibo
+
+@VKontakte /vɪˈkɒntɑːkti/
+*  danh từ
+  - VKontakte
+
+@Yelp /jɛlp/
+*  danh từ
+  - Yelp
+
+@Foursquare /ˈfɔːrskwɛər/
+*  danh từ
+  - Foursquare
+
+@Goodreads /ˈɡʊdˌrɛdz/
+*  danh từ
+  - Goodreads
+
+@Mix /mɪks/
+*  danh từ
+  - Mix
+
+@Clubhouse /ˈklʌbˌhaʊs/
+*  danh từ
+  - Clubhouse
+
+@tool /tuːl/
+*  danh từ
+  - công cụ
+
+@hammer /ˈhæmər/
+*  danh từ
+  - cái búa
+
+@screwdriver /ˈskruːˌdraɪvər/
+*  danh từ
+  - cái tua vít
+
+@wrench /rɛnʧ/
+*  danh từ
+  - cái chìa vặn
+
+@pliers /plaɪərz/
+*  danh từ
+  - cái kềm
+
+@saw /sɔː/
+*  danh từ
+  - cái cưa
+
+@drill /drɪl/
+*  danh từ
+  - máy khoan
+
+@tape measure /teɪp ˈmɛʒər/
+*  danh từ
+  - thước đo dài
+
+@level /ˈlɛvəl/
+*  danh từ
+  - cái bia
+
+@screw /skruː/
+*  danh từ
+  - ốc vít
+
+@nut /nʌt/
+*  danh từ
+  - đinh ốc
+
+@bolt /boʊlt/
+*  danh từ
+  - cái bulong
+
+@nail /neɪl/
+*  danh từ
+  - cái đinh
+
+@safety goggles /ˈseɪfti ˈɡɒɡəlz/
+*  danh từ
+  - kính bảo hộ
+
+@gloves /ɡlʌvz/
+*  danh từ
+  - găng tay
+
+@helmet /ˈhɛlmɪt/
+*  danh từ
+  - mũ bảo hiểm
+
+@toolbox /ˈtuːlˌbɒks/
+*  danh từ
+  - hộp đựng dụng cụ
+
+@ladder /ˈlædər/
+*  danh từ
+  - cái thang
+
+@power drill /ˈpaʊər drɪl/
+*  danh từ
+  - máy khoan cầm tay
+
+@soldering iron /ˈsɒldərɪŋ ˈaɪərn/
+*  danh từ
+  - cái hàn
+
+@plunger /ˈplʌndʒər/
+*  danh từ
+  - cái ống hút
+
+@welding machine /ˈwɛldɪŋ məˈʃin/
+*  danh từ
+  - máy hàn
+
+@paintbrush /ˈpeɪntˌbrʌʃ/
+*  danh từ
+  - cọ sơn
+
+@roller /ˈroʊlər/
+*  danh từ
+  - cuộn sơn
+
+@putty knife /ˈpʌti naɪf/
+*  danh từ
+  - dao gạt chất trám
+
+@trowel /traʊəl/
+*  danh từ
+  - cái xẻng
+
+@jack /dʒæk/
+*  danh từ
+  - cờ-líp (để nâng xe)
+
+@tire iron /ˈtaɪr ˌaɪərn/
+*  danh từ
+  - cái cờ lửa (để lấy lốp xe)
+
+@hydrogen /ˈhaɪdrədʒən/
+*  danh từ
+  - hydro (H): Hydro là nguyên tố đầu tiên trong bảng tuần hoàn, có số nguyên tử là 1 và ký hiệu là H. Nó là một khí không màu, không mùi, và không vị. Hydrogen là nguyên tố nguyên khí, tồn tại dưới dạng H2.
+
+@helium /ˈhiːliəm/
+*  danh từ
+  - helium (He): Helium là nguyên tố thứ hai trong bảng tuần hoàn, có số nguyên tử là 2 và ký hiệu là He. Nó là một khí không màu, không mùi, và không mùi. Helium thường được sử dụng trong các ứng dụng làm lạnh và trong bóng bay.
+
+@lithium /ˈlɪθiəm/
+*  danh từ
+  - lithium (Li): Lithium là nguyên tố thứ ba trong bảng tuần hoàn, có số nguyên tử là 3 và ký hiệu là Li. Nó là một kim loại nhẹ, mềm, có màu bạc trắng. Lithium thường được sử dụng trong việc sản xuất pin.
+
+@beryllium /bəˈrɪliəm/
+*  danh từ
+  - beryllium (Be): Beryllium là nguyên tố thứ tư trong bảng tuần hoàn, có số nguyên tử là 4 và ký hiệu là Be. Nó là một kim loại nhẹ, cứng, có màu xám nhạt. Beryllium có nhiều ứng dụng trong ngành công nghiệp và y học.
+
+@boron /ˈbɔːrɒn/
+*  danh từ
+  - boron (B): Boron là nguyên tố thứ năm trong bảng tuần hoàn, có số nguyên tử là 5 và ký hiệu là B. Nó tồn tại dưới nhiều dạng khác nhau, bao gồm borax và bôrixide. Boron thường được sử dụng trong các ứng dụng công nghiệp và chế tạo thủy tinh chịu nhiệt.
+
+@carbon /ˈkɑːrbən/
+*  danh từ
+  - carbon (C): Carbon là nguyên tố thứ sáu trong bảng tuần hoàn, có số nguyên tử là 6 và ký hiệu là C. Nó là nguyên tố quan trọng trong hóa học hữu cơ và có mặt trong hầu hết các hợp chất hữu cơ.
+
+@nitrogen /ˈnaɪtrədʒən/
+*  danh từ
+  - nitrogen (N): Nitrogen là nguyên tố thứ bảy trong bảng tuần hoàn, có số nguyên tử là 7 và ký hiệu là N. Nó là một khí không màu, không mùi, và không cháy. Nitrogen chiếm phần lớn khí trong không khí.
+
+@oxygen /ˈɒksɪdʒən/
+*  danh từ
+  - oxygen (O): Oxygen là nguyên tố thứ tám trong bảng tuần hoàn, có số nguyên tử là 8 và ký hiệu là O. Nó là một khí không màu, không mùi, và có thể cháy. Oxygen là cực kỳ quan trọng đối với sự sống, vì nó là cần thiết cho quá trình hô hấp của các sinh vật.
+
+@fluorine /ˈflʊəriːn/
+*  danh từ
+  - fluorine (F): Fluorine là nguyên tố thứ chín trong bảng tuần hoàn, có số nguyên tử là 9 và ký hiệu là F. Nó là một khí độc hại có màu vàng nhạt. Fluorine thường được sử dụng trong các hợp chất fluoride để bảo vệ răng.
+
+@neon /niːɒn/
+*  danh từ
+  - neon (Ne): Neon là nguyên tố thứ mười trong bảng tuần hoàn, có số nguyên tử là 10 và ký hiệu là Ne. Nó là một khí không màu, không mùi, và không màu. Neon được sử dụng trong các biển quảng cáo và đèn neon.
+
+@sodium /ˈsoʊdiəm/
+*  danh từ
+  - sodium (Na): Sodium là nguyên tố thứ mười một trong bảng tuần hoàn, có số nguyên tử là 11 và ký hiệu là Na. Nó là một kim loại mềm, có màu trắng bạch. Sodium là một thành phần quan trọng trong muối và có ứng dụng trong nhiều lĩnh vực khác nhau.
+
+@magnesium /mæɡˈniːziəm/
+*  danh từ
+  - magnesium (Mg): Magnesium là nguyên tố thứ mười hai trong bảng tuần hoàn, có số nguyên tử là 12 và ký hiệu là Mg. Nó là một kim loại nhẹ, có màu bạc trắng. Magnesium thường được sử dụng trong sản xuất hợp kim và trong ngành công nghiệp hóa chất.
+
+@aluminum /əˈluːmɪnəm/
+*  danh từ
+  - aluminum (Al): Aluminum là nguyên tố thứ mười ba trong bảng tuần hoàn, có số nguyên tử là 13 và ký hiệu là Al. Nó là một kim loại nhẹ, có màu bạc trắng. Aluminum là nguyên liệu chính để sản xuất nhôm.
+
+@silicon /ˈsɪlɪkən/
+*  danh từ
+  - silicon (Si): Silicon là nguyên tố thứ mười bốn trong bảng tuần hoàn, có số nguyên tử là 14 và ký hiệu là Si. Nó là một nguyên tố bán dẫn và là thành phần chính của các chip và mạch điện tử.
+
+@phosphorus /ˈfɒsfərəs/
+*  danh từ
+  - phosphorus (P): Phosphorus là nguyên tố thứ mười lăm trong bảng tuần hoàn, có số nguyên tử là 15 và ký hiệu là P. Nó có màu trắng chất, và nó là một phần quan trọng của DNA và RNA.
+
+@sulfur /ˈsʌlfər/
+*  danh từ
+  - sulfur (S): Sulfur là nguyên tố thứ mười sáu trong bảng tuần hoàn, có số nguyên tử là 16 và ký hiệu là S. Nó có màu vàng nhạt, và nó thường được sử dụng trong sản xuất các hợp chất sulfur.
+
+@chlorine /ˈklɔːriːn/
+*  danh từ
+  - chlorine (Cl): Chlorine là nguyên tố thứ mười bảy trong bảng tuần hoàn, có số nguyên tử là 17 và ký hiệu là Cl. Nó là một khí độc hại màu vàng xanh và thường được sử dụng để làm sạch nước.
+
+@argon /ˈɑːrɡɒn/
+*  danh từ
+  - argon (Ar): Argon là nguyên tố thứ mười tám trong bảng tuần hoàn, có số nguyên tử là 18 và ký hiệu là Ar. Nó là một khí không màu, không mùi, và không cháy. Argon thường được sử dụng trong đèn huỳnh quang và trong quá trình hàn.
+
+@potassium /pəˈtæsiəm/
+*  danh từ
+  - potassium (K): Potassium là nguyên tố thứ mười chín trong bảng tuần hoàn, có số nguyên tử là 19 và ký hiệu là K. Nó là một kim loại mềm, có màu bạc trắng. Potassium là một nguyên tố quan trọng trong sinh học, thường được tìm thấy trong nước và thức ăn.
+
+@calcium /ˈkælsiəm/
+*  danh từ
+  - calcium (Ca): Calcium là nguyên tố thứ hai mươi trong bảng tuần hoàn, có số nguyên tử là 20 và ký hiệu là Ca. Nó là một kim loại mềm, có màu bạc trắng. Calcium là một thành phần quan trọng của xương và răng.
+
+@scandium /ˈskændiəm/
+*  danh từ
+  - scandium (Sc): Scandium là nguyên tố thứ hai mươi một trong bảng tuần hoàn, có số nguyên tử là 21 và ký hiệu là Sc. Nó là một kim loại nhẹ, có màu trắng bạch. Scandium có nhiều ứng dụng trong công nghiệp và kỹ thuật.
+
+@titanium /taɪˈteɪniəm/
+*  danh từ
+  - titanium (Ti): Titanium là nguyên tố thứ hai mươi hai trong bảng tuần hoàn, có số nguyên tử là 22 và ký hiệu là Ti. Nó là một kim loại nhẹ, có màu trắng bạch và chống ăn mòn. Titanium thường được sử dụng trong sản xuất máy bay, tàu thủy, và implant nha khoa.
+
+@vanadium /vəˈneɪdiəm/
+*  danh từ
+  - vanadium (V): Vanadium là nguyên tố thứ hai mươi ba trong bảng tuần hoàn, có số nguyên tử là 23 và ký hiệu là V. Nó là một kim loại dẻo, có màu xám bạch. Vanadium có nhiều ứng
+
+@manga /ˈmæŋɡə/
+*  danh từ
+  - truyện tranh (tiếng Nhật)
+
+@anime /ˈænɪmeɪ/
+*  danh từ
+  - hoạt hình (tiếng Nhật)
+
+@comic book /ˈkɒmɪk bʊk/
+*  danh từ
+  - truyện tranh (tiếng Anh)
+
+@graphic novel /ˈɡræfɪk ˈnɒvəl/
+*  danh từ
+  - tiểu thuyết tranh
+
+@manhwa /ˈmænhwɑː/
+*  danh từ
+  - truyện tranh Hàn Quốc
+
+@manhua /ˈmænhwɑː/
+*  danh từ
+  - truyện tranh Trung Quốc
+
+@shōnen /ˈʃoʊnɛn/
+*  danh từ
+  - thể loại truyện tranh dành cho nam giới (tiếng Nhật)
+
+@shōjo /ˈʃoʊdʒoʊ/
+*  danh từ
+  - thể loại truyện tranh dành cho nữ giới (tiếng Nhật)
+
+@seinen /ˈsaɪnɛn/
+*  danh từ
+  - thể loại truyện tranh dành cho người trưởng thành (tiếng Nhật)
+
+@josei /ˈdʒoʊseɪ/
+*  danh từ
+  - thể loại truyện tranh dành cho phụ nữ trưởng thành (tiếng Nhật)
+
+@mangaka /ˈmæŋɡəkə/
+*  danh từ
+  - họa sĩ truyện tranh (tiếng Nhật)
+
+@otaku /oʊˈtɑːkuː/
+*  danh từ
+  - người yêu thích văn hóa Nhật Bản, đặc biệt là anime và manga (tiếng Nhật)
+
+@cosplay /ˈkɒspleɪ/
+*  danh từ
+  - trang phục và hành động giả tạo nhân vật trong anime, manga (tiếng Nhật)
+
+@shōnen-ai /ˈʃoʊnɛn ˈaɪ/
+*  danh từ
+  - thể loại truyện tranh đồng tính nam, tập trung vào mối quan hệ tình cảm giữa các nhân vật nam (tiếng Nhật)
+
+@yaoi /ˈjaʊi/
+*  danh từ
+  - thể loại truyện tranh đồng tính nam, có yếu tố nặng hơn shōnen-ai (tiếng Nhật)
+
+@isekai /ˈiːsɛkaɪ/
+*  danh từ
+  - thể loại truyện tranh với cốt truyện xoay quanh việc nhân vật chính chuyển sinh hoặc chuyển thế giới (tiếng Nhật)
+
+@dish /dɪʃ/
+*  danh từ
+  - món ăn
+
+@appetizer /ˈæpɪˌtaɪzər/
+*  danh từ
+  - món khai vị
+
+@main course /meɪn kɔːrs/
+*  danh từ
+  - món chính
+
+@dessert /dɪˈzɜːrt/
+*  danh từ
+  - món tráng miệng
+
+@salad /ˈsæləd/
+*  danh từ
+  - salad
+
+@soup /suːp/
+*  danh từ
+  - súp
+
+@sandwich /ˈsændwɪʧ/
+*  danh từ
+  - sandwich
+
+@pizza /ˈpiːtsə/
+*  danh từ
+  - pizza
+
+@hamburger /ˈhæmbɜːrɡər/
+*  danh từ
+  - hamburger
+
+@pasta /ˈpæstə/
+*  danh từ
+  - pasta
+
+@sushi /ˈsuːʃi/
+*  danh từ
+  - sushi
+
+@sashimi /səˈʃiːmi/
+*  danh từ
+  - sashimi
+
+@tempura /ˈtɛmpʊrə/
+*  danh từ
+  - tempura
+
+@ramen /ˈrɑːmən/
+*  danh từ
+  - ramen
+
+@curry /ˈkʌri/
+*  danh từ
+  - cà ri
+
+@stir-fry /stɜːr fraɪ/
+*  danh từ
+  - xào
+
+@grill /ɡrɪl/
+*  danh từ
+  - nướng
+
+@barbecue /ˈbɑːrbiːkjuː/
+*  danh từ
+  - barbecue
+
+@roast /roʊst/
+*  danh từ
+  - quay
+
+@bake /beɪk/
+*  danh từ
+  - nướng
+
+@fry /fraɪ/
+*  danh từ
+  - chiên
+
+@steamed /stiːmd/
+*  danh từ
+  - hấp
+
+@boiled /bɔɪld/
+*  danh từ
+  - luộc
+
+@poached /poʊʧt/
+*  danh từ
+  - hấp
+
+@smoked /smoʊkt/
+*  danh từ
+  - hương khói
+
+@pickled /ˈpɪkəld/
+*  danh từ
+  - muối chua
+
+@fermented /ˈfɜːrmɛntɪd/
+*  danh từ
+  - lên men
+
+@sweet /swiːt/
+*  danh từ
+  - ngọt
+
+@savory /ˈseɪvəri/
+*  danh từ
+  - mặn
+
+@bowl /boʊl/
+*  danh từ
+  - bát
+
+@glass /ɡlæs/
+*  danh từ
+  - cốc (kính)
+
+@chopsticks /ˈtʃɒpstɪks/
+*  danh từ
+  - đũa
+
+@napkin /ˈnæpkɪn/
+*  danh từ
+  - khăn trải bàn
+
+@tablecloth /ˈteɪblˌklɔːθ/
+*  danh từ
+  - khăn trải bàn
+
+@teapot /ˈtiːˌpɑːt/
+*  danh từ
+  - ấm trà
+
+@coffee pot /ˈkɒfi pɑːt/
+*  danh từ
+  - ấm pha cà phê
+
+@mug /mʌɡ/
+*  danh từ
+  - cốc (nặng, đinh)
+
+@wine glass /waɪn ɡlæs/
+*  danh từ
+  - cốc rượu
+
+@beer mug /bɪr mʌɡ/
+*  danh từ
+  - cốc bia
+
+@cutting board /ˈkʌtɪŋ bɔːrd/
+*  danh từ
+  - thớt
+
+@kitchen knife /ˈkɪtʃən naɪf/
+*  danh từ
+  - con dao bếp
+
+@peeler /ˈpiːlər/
+*  danh từ
+  - cái bào
+
+@grater /ˈɡreɪtər/
+*  danh từ
+  - cái bào nhuyễn
+
+@whisk /wɪsk/
+*  danh từ
+  - cái đánh trứng
+
+@strainer /ˈstreɪnər/
+*  danh từ
+  - cái rổ lọc
+
+@bottle opener /ˈbɒtl ˌoʊpənər/
+*  danh từ
+  - cái mở nắp chai
+
+@corkscrew /ˈkɔːrkˌskruː/
+*  danh từ
+  - cái mở nắp chai rượu
+
+@can opener /ˈkæn ˌoʊpənər/
+*  danh từ
+  - cái mở nắp lon
+
+@serving tray /ˈsɜːrvɪŋ treɪ/
+*  danh từ
+  - khay phục vụ
+
+@serving spoon /ˈsɜːrvɪŋ spuːn/
+*  danh từ
+  - thìa phục vụ
+
+@fork and knife set /fɔːrk ənd naɪf sɛt/
+*  danh từ
+  - bộ nĩa và dao
+
+@spatula /ˈspætjələ/
+*  danh từ
+  - cái xẻng
+
+@video game /ˈvɪdioʊ ɡeɪm/
+*  danh từ
+  - trò chơi điện tử
+
+@console /ˈkɒnsəʊl/
+*  danh từ
+  - máy chơi game
+
+@PC game /ˌpiːˈsiː ɡeɪm/
+*  danh từ
+  - trò chơi máy tính
+
+@mobile game /ˈmoʊbəl ɡeɪm/
+*  danh từ
+  - trò chơi di động
+
+@online game /ˈɒnˌlaɪn ɡeɪm/
+*  danh từ
+  - trò chơi trực tuyến
+
+@multiplayer game /ˌmʌltiˈpleɪər ɡeɪm/
+*  danh từ
+  - trò chơi nhiều người chơi
+
+@single-player game /ˈsɪŋɡəl pleɪər ɡeɪm/
+*  danh từ
+  - trò chơi một người chơi
+
+@role-playing game (RPG) /roʊl pleɪɪŋ ɡeɪm/
+*  danh từ
+  - trò chơi nhập vai
+
+@strategy game /ˈstrætədʒi ɡeɪm/
+*  danh từ
+  - trò chơi chiến lược
+
+@simulation game /ˌsɪmjəˈleɪʃən ɡeɪm/
+*  danh từ
+  - trò chơi mô phỏng
+
+@sports game /spɔrts ɡeɪm/
+*  danh từ
+  - trò chơi thể thao
+
+@adventure game /ədˈvɛn.tʃər ɡeɪm/
+*  danh từ
+  - trò chơi phiêu lưu
+
+@horror game /ˈhɒrər ɡeɪm/
+*  danh từ
+  - trò chơi kinh dị
+
+@first-person shooter (FPS) /fɜrst ˈpɜrsən ˈʃuːtər/
+*  danh từ
+  - trò chơi bắn súng góc nhìn người đầu tiên
+
+@platformer /ˈplætfɔːrmər/
+*  danh từ
+  - trò chơi nhảy cầu
+
+@puzzle game /ˈpʌzl ɡeɪm/
+*  danh từ
+  - trò chơi trí tuệ
+
+@fighting game /ˈfaɪtɪŋ ɡeɪm/
+*  danh từ
+  - trò chơi đối kháng
+
+@music game /ˈmjuːzɪk ɡeɪm/
+*  danh từ
+  - trò chơi âm nhạc
+
+@party game /ˈpɑːrti ɡeɪm/
+*  danh từ
+  - trò chơi dành cho đám đông
+
+@educational game /ˌɛdʒəˈkeɪʃənl ɡeɪm/
+*  danh từ
+  - trò chơi giáo dục
+
+@virtual reality game (VR game) /ˈvɜːrtʃuəl riˈæləti ɡeɪm/
+*  danh từ
+  - trò chơi thực tế ảo
+
+@augmented reality game (AR game) /ɔːɡˈmɛntɪd rɪˈæləti ɡeɪm/
+*  danh từ
+  - trò chơi thực tế ảo mở rộng
+
+@music /ˈmjuːzɪk/
+*  danh từ
+  - âm nhạc
+
+@song /sɔŋ/
+*  danh từ
+  - bài hát
+
+@guitar /ɡɪˈtɑːr/
+*  danh từ
+  - guitar
+
+@piano /piˈænoʊ/
+*  danh từ
+  - đàn piano
+
+@drums /drʌmz/
+*  danh từ
+  - trống
+
+@trumpet /ˈtrʌmpɪt/
+*  danh từ
+  - kèn trumpet
+
+@flute /fluːt/
+*  danh từ
+  - sáo
+
+@saxophone /ˈsæksəfoʊn/
+*  danh từ
+  - kèn saxophone
+
+@clarinet /ˌklærɪˈnɛt/
+*  danh từ
+  - kèn clarinet
+
+@bass guitar /beɪs ɡɪˈtɑːr/
+*  danh từ
+  - guitar bass
+
+@keyboard /ˈkiːbɔːrd/
+*  danh từ
+  - bàn phím
+
+@microphone /ˈmaɪkrəˌfoʊn/
+*  danh từ
+  - micro
+
+@record /rɪˈkɔːrd/
+*  danh từ
+  - đĩa ghi âm
+
+@lyrics /ˈlɪrɪks/
+*  danh từ
+  - lời bài hát
+
+@melody /ˈmɛlədi/
+*  danh từ
+  - giai điệu
+
+@harmony /ˈhɑːrməni/
+*  danh từ
+  - hòa âm
+
+@beat /biːt/
+*  danh từ
+  - nhịp
+
+@rhythm /ˈrɪðəm/
+*  danh từ
+  - nhịp điệu
+
+@genre /ˈʒɑːnrə/
+*  danh từ
+  - thể loại (âm nhạc)
+
+@concert /ˈkɒnsərt/
+*  danh từ
+  - buổi hòa nhạc
+
+@festival /ˈfɛstəvəl/
+*  danh từ
+  - lễ hội âm nhạc
+
+@carnival /ˈkɑːrnɪvəl/
+*  danh từ
+  - lễ hội múa lân
+
+@parade /pəˈreɪd/
+*  danh từ
+  - diễu hành
+
+@celebration /ˌsɛlɪˈbreɪʃən/
+*  danh từ
+  - sự kỷ niệm, lễ kỷ niệm
+
+@holiday /ˈhɒlədeɪ/
+*  danh từ
+  - ngày lễ
+
+@ceremony /ˈsɛrəmoʊni/
+*  danh từ
+  - nghi lễ
+
+@fireworks /ˈfaɪrˌwɜːrks/
+*  danh từ
+  - pháo hoa
+
+@lantern festival /ˈlæntərn ˈfɛstəvəl/
+*  danh từ
+  - lễ hội đèn lồng
+
+@music festival /ˈmjuːzɪk ˈfɛstəvəl/
+*  danh từ
+  - lễ hội âm nhạc
+
+@film festival /fɪlm ˈfɛstəvəl/
+*  danh từ
+  - liên hoan phim
+
+@food festival /fuːd ˈfɛstəvəl/
+*  danh từ
+  - lễ hội đồ ăn
+
+@cultural festival /ˈkʌltʃərəl ˈfɛstəvəl/
+*  danh từ
+  - lễ hội văn hóa
+
+@art festival /ɑːrt ˈfɛstəvəl/
+*  danh từ
+  - lễ hội nghệ thuật
+
+@street festival /striːt ˈfɛstəvəl/
+*  danh từ
+  - lễ hội đường phố
+
+@religious festival /rɪˈlɪdʒəs ˈfɛstəvəl/
+*  danh từ
+  - lễ hội tôn giáo
+
+@harvest festival /ˈhɑːrvɪst ˈfɛstəvəl/
+*  danh từ
+  - lễ hội mùa màng
+
+@spring festival /sprɪŋ ˈfɛstəvəl/
+*  danh từ
+  - lễ hội xuân
+
+@summer festival /ˈsʌmər ˈfɛstəvəl/
+*  danh từ
+  - lễ hội hè
+
+@autumn festival /ˈɔːtəm ˈfɛstəvəl/
+*  danh từ
+  - lễ hội thu
+
+@winter festival /ˈwɪntər ˈfɛstəvəl/
+*  danh từ
+  - lễ hội đông
+
+@religious celebration /rɪˈlɪdʒəs ˌsɛlɪˈbreɪʃən/
+*  danh từ
+  - sự kỷ niệm tôn giáo
+
+@machine /məˈʃiːn/
+*  danh từ
+  - máy móc
+
+@device /dɪˈvaɪs/
+*  danh từ
+  - thiết bị
+
+@appliance /əˈplaɪəns/
+*  danh từ
+  - thiết bị điện
+
+@gadget /ˈɡædʒɪt/
+*  danh từ
+  - đồ chơi công nghệ
+
+@equipment /ɪˈkwɪpmənt/
+*  danh từ
+  - trang thiết bị
+
+@instrument /ˈɪnstrəmənt/
+*  danh từ
+  - dụng cụ, công cụ
+
+@laptop /ˈlæptɒp/
+*  danh từ
+  - laptop
+
+@tablet /ˈtæblət/
+*  danh từ
+  - máy tính bảng
+
+@camera /ˈkæmərə/
+*  danh từ
+  - máy ảnh
+
+@remote control /rɪˈmoʊt kənˈtroʊl/
+*  danh từ
+  - điều khiển từ xa
+
+@printer /ˈprɪntər/
+*  danh từ
+  - máy in
+
+@scanner /ˈskænər/
+*  danh từ
+  - máy quét
+
+@speakers /ˈspiːkərz/
+*  danh từ
+  - loa
+
+@projector /prəˈdʒɛktər/
+*  danh từ
+  - máy chiếu
+
+@robot /ˈroʊbɑːt/
+*  danh từ
+  - robot
+
+@drone /droʊn/
+*  danh từ
+  - drone, máy bay không người lái
+
+@wearable device /ˈwɛrəbl dɪˈvaɪs/
+*  danh từ
+  - thiết bị đeo
+
+@virtual reality headset /ˈvɜːrtʃuəl riˈæləti ˈhɛdˌsɛt/
+*  danh từ
+  - kính thực tế ảo
+
+@3D printer /θriː diː ˈprɪntər/
+*  danh từ
+  - máy in 3D
+
+@industrial robot /ɪnˈdʌstriəl ˈroʊbət/
+*  danh từ
+  - robot công nghiệp
+
+@service robot /ˈsɜːrvɪs ˈroʊbət/
+*  danh từ
+  - robot dịch vụ
+
+@domestic robot /dəˈmɛstɪk ˈroʊbət/
+*  danh từ
+  - robot gia đình
+
+@educational robot /ˌɛdʒəˈkeɪʃənl ˈroʊbət/
+*  danh từ
+  - robot giáo dục
+
+@medical robot /ˈmɛdɪkəl ˈroʊbət/
+*  danh từ
+  - robot y tế
+
+@military robot /ˈmɪlɪˌtɛri ˈroʊbət/
+*  danh từ
+  - robot quân sự
+
+@entertainment robot /ˌɛntərˈteɪnmənt ˈroʊbət/
+*  danh từ
+  - robot giải trí
+
+@agricultural robot /ˌæɡrɪˈkʌltʃərəl ˈroʊbət/
+*  danh từ
+  - robot nông nghiệp
+
+@space exploration robot /speɪs ˌɛkspləˈreɪʃən ˈroʊbət/
+*  danh từ
+  - robot khám phá không gian
+
+@humanoid robot /ˈhjuːmənɔɪd ˈroʊbət/
+*  danh từ
+  - robot giống người
+
+@telepresence robot /ˌtɛlɪˈprɛzəns ˈroʊbət/
+*  danh từ
+  - robot thụ động từ xa
+
+@social robot /ˈsoʊʃəl ˈroʊbət/
+*  danh từ
+  - robot xã hội
+
+@cleaning robot /ˈkliːnɪŋ ˈroʊbət/
+*  danh từ
+  - robot lau nhà
+
+@delivery robot /dɪˈlɪvəri ˈroʊbət/
+*  danh từ
+  - robot giao hàng
+
+@search and rescue robot /sɜːrtʃ ənd rɪˈsjuː ˈroʊbət/
+*  danh từ
+  - robot tìm kiếm và cứu hộ
+
+@security robot /sɪˈkjʊrəti ˈroʊbət/
+*  danh từ
+  - robot an ninh
+
+@underwater robot /ˌʌndərˈwɔːtər ˈroʊbət/
+*  danh từ
+  - robot dưới nước
+
+@robotics /roʊˈbɑːtɪks/
+*  danh từ
+  - ngành robot học
+
+@business /ˈbɪznɪs/
+*  danh từ
+  - kinh doanh
+
+@company /ˈkʌmpəni/
+*  danh từ
+  - công ty
+
+@corporation /ˌkɔːrpəˈreɪʃən/
+*  danh từ
+  - tập đoàn
+
+@startup /ˈstɑːrtʌp/
+*  danh từ
+  - công ty khởi nghiệp
+
+@CEO (Chief Executive Officer) /ˌsiːiːˈoʊ/ or
+*  danh từ
+  - Giám đốc điều hành
+
+@manager /ˈmænɪdʒər/
+*  danh từ
+  - quản lý
+
+@employee /ɪmˈplɔɪiː/
+*  danh từ
+  - nhân viên
+
+@boss /bɔːs/
+*  danh từ
+  - sếp
+
+@colleague /ˈkɒliːɡ/
+*  danh từ
+  - đồng nghiệp
+
+@client /ˈklaɪənt/
+*  danh từ
+  - khách hàng
+
+@customer /ˈkʌstəmər/
+*  danh từ
+  - khách hàng
+
+@product /ˈprɒdʌkt/
+*  danh từ
+  - sản phẩm
+
+@service /ˈsɜːrvɪs/
+*  danh từ
+  - dịch vụ
+
+@brand /brænd/
+*  danh từ
+  - thương hiệu
+
+@advertisement /ədˈvɜːrtɪsmənt/
+*  danh từ
+  - quảng cáo
+
+@promotion /prəˈmoʊʃən/
+*  danh từ
+  - khuyến mãi
+
+@profit /ˈprɒfɪt/
+*  danh từ
+  - lợi nhuận
+
+@loss /lɒs/
+*  danh từ
+  - lỗ
+
+@investment /ɪnˈvɛstmənt/
+*  danh từ
+  - đầu tư
+
+@expense /ɪkˈspɛns/
+*  danh từ
+  - chi phí
+
+@budget /ˈbʌdʒɪt/
+*  danh từ
+  - ngân sách
+
+@tax /tæks/
+*  danh từ
+  - thuế
+
+@invoice /ˈɪnvɔɪs/
+*  danh từ
+  - hóa đơn
+
+@receipt /rɪˈsiːt/
+*  danh từ
+  - biên lai
+
+@contract /ˈkɒntrækt/
+*  danh từ
+  - hợp đồng
+
+@negotiation /nɪˌɡoʊʃiˈeɪʃən/
+*  danh từ
+  - đàm phán
+
+@conference /ˈkɒnfərəns/
+*  danh từ
+  - hội nghị
+
+@meeting /ˈmiːtɪŋ/
+*  danh từ
+  - cuộc họp
+
+@presentation /ˌprɛzənˈteɪʃən/
+*  danh từ
+  - bài thuyết trình
+
+@strategy /ˈstrætədʒi/
+*  danh từ
+  - chiến lược
+
+@innovation /ˌɪnəˈveɪʃən/
+*  danh từ
+  - đổi mới
+
+@competition /ˌkɒmpɪˈtɪʃən/
+*  danh từ
+  - cạnh tranh
+
+@risk /rɪsk/
+*  danh từ
+  - rủi ro
+
+@revenue /ˈrɛvənjuː/
+*  danh từ
+  - doanh thu
+
+@network /ˈnɛtˌwɜːrk/
+*  danh từ
+  - mạng máy tính
+
+@internet /ˈɪntərnɛt/
+*  danh từ
+  - internet
+
+@router /ˈraʊtər/
+*  danh từ
+  - router
+
+@modem /ˈmoʊdəm/
+*  danh từ
+  - modem
+
+@firewall /ˈfaɪərwɔːl/
+*  danh từ
+  - tường lửa
+
+@server /ˈsɜːrvər/
+*  danh từ
+  - máy chủ
+
+@website /ˈwɛbsaɪt/
+*  danh từ
+  - trang web
+
+@domain /doʊˈmeɪn/
+*  danh từ
+  - miền
+
+@URL (Uniform Resource Locator) /juː ɑːr ɛl/ (Địa chỉ tài nguyên thống nhất)
+*  danh từ
+  - địa chỉ web
+
+@web browser /wɛb ˈbraʊzər/
+*  danh từ
+  - trình duyệt web
+
+@search engine /sɜːrtʃ ˈɛndʒɪn/
+*  danh từ
+  - công cụ tìm kiếm
+
+@email /ˈiːmeɪl/
+*  danh từ
+  - thư điện tử
+
+@attachment /əˈtætʃmənt/
+*  danh từ
+  - file đính kèm
+
+@spam /spæm/
+*  danh từ
+  - thư rác
+
+@virus /ˈvaɪrəs/
+*  danh từ
+  - virus
+
+@malware /ˈmælwɛər/
+*  danh từ
+  - phần mềm độc hại
+
+@encryption /ɛnˈkrɪpʃən/
+*  danh từ
+  - mã hóa
+
+@authentication /ɔːˌθɛntɪˈkeɪʃən/
+*  danh từ
+  - xác thực
+
+@cybersecurity /ˌsaɪbərˈsɪkjʊrəti/
+*  danh từ
+  - an toàn thông tin
+
+@username /ˈjuːzərneɪm/
+*  danh từ
+  - tên đăng nhập
+
+@blog /blɒɡ/
+*  danh từ
+  - blog
+
+@podcast /ˈpɒdˌkæst/
+*  danh từ
+  - podcast
+
+@online shopping /ˈɒnˌlaɪn ˈʃɒpɪŋ/
+*  danh từ
+  - mua sắm trực tuyến
+
+@e-commerce /ˈiː ˈkɒmərs/
+*  danh từ
+  - thương mại điện tử
+
+@cloud computing /klaʊd kəmˈpjuːtɪŋ/
+*  danh từ
+  - điện toán đám mây
+
+@military /ˈmɪlɪtɛri/
+*  danh từ
+  - quân sự
+
+@army /ˈɑːrmi/
+*  danh từ
+  - quân đội
+
+@navy /ˈneɪvi/
+*  danh từ
+  - hải quân
+
+@air force /ɛr fɔrs/
+*  danh từ
+  - không quân
+
+@soldier /ˈsoʊldʒər/
+*  danh từ
+  - binh sĩ
+
+@officer /ˈɒfɪsər/
+*  danh từ
+  - sĩ quan
+
+@sergeant /ˈsɑːrdʒənt/
+*  danh từ
+  - trung sĩ
+
+@weapon /ˈwɛpən/
+*  danh từ
+  - vũ khí
+
+@firearm /ˈfaɪrˌɑːrm/
+*  danh từ
+  - vũ khí lạc đà
+
+@ammunition /ˌæmjuˈnɪʃən/
+*  danh từ
+  - đạn dược
+
+@tank /tæŋk/
+*  danh từ
+  - xe tăng
+
+@aircraft /ˈɛrˌkræft/
+*  danh từ
+  - máy bay
+
+@helicopter /ˈhɛlɪˌkɒptər/
+*  danh từ
+  - trực thăng
+
+@warship /ˈwɔːrʃɪp/
+*  danh từ
+  - tàu chiến
+
+@missile /ˈmɪslaɪ/
+*  danh từ
+  - tên lửa
+
+@submarine /ˌsʌbməˈriːn/
+*  danh từ
+  - tàu ngầm
+
+@combat /ˈkɒmbæt/
+*  danh từ
+  - chiến đấu
+
+@tactic /ˈtæktɪk/
+*  danh từ
+  - chiến thuật
+
+@intelligence /ɪnˈtɛlɪdʒəns/
+*  danh từ
+  - tình báo
+
+@surveillance /sərˈveɪləns/
+*  danh từ
+  - giám sát
+
+@security /sɪˈkjʊrəti/
+*  danh từ
+  - an ninh
+
+@defense /dɪˈfɛns/
+*  danh từ
+  - phòng thủ
+
+@attack /əˈtæk/
+*  danh từ
+  - tấn công
+
+@peacekeeping /ˈpiːsˌkiːpɪŋ/
+*  danh từ
+  - duy trì hòa bình
+
+@sniper /ˈsnaɪpər/
+*  danh từ
+  - lính bắn tỉa
+
+@paratrooper /ˈpærətruːpər/
+*  danh từ
+  - lính dù
+
+@veteran /ˈvɛtərən/
+*  danh từ
+  - cựu chiến binh
+
+@medal /ˈmɛdəl/
+*  danh từ
+  - huy chương
+
+@uniform /ˈjuːnɪfɔːrm/
+*  danh từ
+  - đồng phục
+
+@school /skuːl/
+*  danh từ
+  - trường học
+
+@classroom /ˈklæsruːm/
+*  danh từ
+  - lớp học
+
+@lesson /ˈlɛsən/
+*  danh từ
+  - bài học
+
+@homework /ˈhoʊmwɜːrk/
+*  danh từ
+  - bài tập về nhà
+
+@test /tɛst/
+*  danh từ
+  - bài kiểm tra
+
+@exam /ɪɡˈzæm/
+*  danh từ
+  - kỳ thi
+
+@grade /ɡreɪd/
+*  danh từ
+  - điểm số
+
+@pencil /ˈpɛnsəl/
+*  danh từ
+  - bút chì
+
+@backpack /ˈbækˌpæk/
+*  danh từ
+  - cặp sách
+
+@lunch /lʌntʃ/
+*  danh từ
+  - bữa trưa
+
+@break /breɪk/
+*  danh từ
+  - giờ nghỉ
+
+@recess /ˈriːsɛs/
+*  danh từ
+  - giờ giải lao
+
+@extracurricular activities /ˌɛkstrəkəˈrɪkjʊlər ækˈtɪvətiz/
+*  danh từ
+  - hoạt động ngoại khóa
+
+@club /klʌb/
+*  danh từ
+  - câu lạc bộ
+
+@science /ˈsaɪəns/
+*  danh từ
+  - môn khoa học
+
+@mathematics /ˌmæθəˈmætɪks/
+*  danh từ
+  - môn toán
+
+@literature /ˈlɪtərətʃər/
+*  danh từ
+  - văn học
+
+@history /ˈhɪstəri/
+*  danh từ
+  - lịch sử
+
+@geography /dʒiˈɒɡrəfi/
+*  danh từ
+  - địa lý
+
+@physical education /ˌfɪzɪkəl ˌɛdʒʊˈkeɪʒən/
+*  danh từ
+  - giáo dục thể chất
+
+@art /ɑːrt/
+*  danh từ
+  - mỹ thuật
+
+@foreign language /ˈfɒrɪn ˈlæŋɡwɪdʒ/
+*  danh từ
+  - ngoại ngữ
+
+@truck /trʌk/
+*  danh từ
+  - xe tải
+
+@bus /bʌs/
+*  danh từ
+  - xe buýt
+
+@motorcycle /ˈmoʊtərsaɪkl/
+*  danh từ
+  - xe máy
+
+@subway /ˈsʌbweɪ/
+*  danh từ
+  - tàu điện ngầm
+
+@ship /ʃɪp/
+*  danh từ
+  - tàu
+
+@boat /boʊt/
+*  danh từ
+  - thuyền
+
+@rocket /ˈrɒkɪt/
+*  danh từ
+  - tên lửa
+
+@bicycle lane /ˈbaɪsɪkl leɪn/
+*  danh từ
+  - làn đường cho xe đạp
+
+@crosswalk /ˈkrɔːswɔːk/
+*  danh từ
+  - vạch dành cho người đi bộ
+
+@traffic light /ˈtræfɪk laɪt/
+*  danh từ
+  - đèn giao thông
+
+@speed limit /spiːd ˈlɪmɪt/
+*  danh từ
+  - giới hạn tốc độ
+
+@license plate /ˈlaɪsəns pleɪt/
+*  danh từ
+  - biển số xe
+
+@gas station /ɡæs ˈsteɪʃən/
+*  danh từ
+  - trạm xăng
+
+@parking lot /ˈpɑːrkɪŋ lɒt/
+*  danh từ
+  - bãi đậu xe
+
+@pedestrian /pəˈdɛstriən/
+*  danh từ
+  - người đi bộ
+
+@commute /kəˈmjuːt/
+*  danh từ
+  - đường đi hàng ngày
+
+@rush hour /rʌʃ ˈaʊər/
+*  danh từ
+  - giờ cao điểm
+
+@ticket /ˈtɪkɪt/
+*  danh từ
+  - vé
+
+@fare /fɛr/
+*  danh từ
+  - tiền vé
+
+@passenger /ˈpæsɪndʒər/
+*  danh từ
+  - hành khách
+
+@contest /ˈkɒntɛst/
+*  danh từ
+  - cuộc thi đấu
+
+@championship /ˈʧæmpiənʃɪp/
+*  danh từ
+  - giải đấu
+
+@tournament /ˈtʊrnəmənt/
+*  danh từ
+  - giải đấu
+
+@race /reɪs/
+*  danh từ
+  - cuộc đua
+
+@marathon /ˈmærəθən/
+*  danh từ
+  - marathon
+
+@sprint /sprɪnt/
+*  danh từ
+  - cuộc đua nhanh
+
+@relay /ˈriːleɪ/
+*  danh từ
+  - đua tiếp sức
+
+@triathlon /traɪˈæθlɒn/
+*  danh từ
+  - đua ba môn phối hợp
+
+@Olympics /oʊˈlɪmpɪks/
+*  danh từ
+  - Thế vận hội
+
+@world cup /wɜːrld kʌp/
+*  danh từ
+  - World Cup
+
+@chess /ʧɛs/
+*  danh từ
+  - cờ vua
+
+@checkers /ˈʧɛkərz/
+*  danh từ
+  - cờ tướng
+
+@card game /kɑːrd ɡeɪm/
+*  danh từ
+  - trò chơi bài
+
+@board game /bɔːrd ɡeɪm/
+*  danh từ
+  - trò chơi trên bàn cờ
+
+@quiz /kwɪz/
+*  danh từ
+  - cuộc thi kiến thức
+
+@talent show /ˈtælənt ʃoʊ/
+*  danh từ
+  - chương trình tìm kiếm tài năng
+
+@beauty pageant /ˈbjuti ˈpædʒənt/
+*  danh từ
+  - cuộc thi sắc đẹp
+
+@dance competition /dæns ˌkɒmpɪˈtɪʃən/
+*  danh từ
+  - cuộc thi nhảy
+
+@karaoke contest /ˌkæriˈoʊki ˌkɒntɛst/
+*  danh từ
+  - cuộc thi hát karaoke
+
+@appliance /əˈplaɪəns/
+* danh từ
+  - thiết bị
+
+@electronic device /ɪˌlɛkˈtrɒnɪk dɪˈvaɪs/
+* danh từ
+  - thiết bị điện tử
+
+@smartphone /ˈsmɑːrtˌfoʊn/
+* danh từ
+  - điện thoại thông minh
+
+@tablet /ˈtæblɪt/
+* danh từ
+  - máy tính bảng
+
+@laptop /ˈlæptɒp/
+* danh từ
+  - laptop
+
+@desktop computer /ˈdɛsktɒp kəmˈpjuːtər/
+* danh từ
+  - máy tính để bàn
+
+@printer /ˈprɪntər/
+* danh từ
+  - máy in
+
+@scanner /ˈskænər/
+* danh từ
+  - máy quét
+
+@camera /ˈkæmərə/
+* danh từ
+  - máy ảnh
+
+@television /ˈtɛlɪˌvɪʒən/
+* danh từ
+  - truyền hình
+
+@remote control /rɪˈmoʊt kənˈtroʊl/
+* danh từ
+  - điều khiển từ xa
+
+@home theater system /hoʊm ˈθɪətər ˈsɪstəm/
+* danh từ
+  - hệ thống giải trí tại nhà
+
+@headphones /ˈhɛdˌfoʊnz/
+* danh từ
+  - tai nghe
+
+@speaker /ˈspikər/
+* danh từ
+  - loa
+
+@microwave /ˈmaɪkrəˌweɪv/
+* danh từ
+  - lò vi sóng
+
+@refrigerator /rɪˈfrɪdʒəˌreɪtər/
+* danh từ
+  - tủ lạnh
+
+@washing machine /ˈwɒʃɪŋ məˌʃin/
+* danh từ
+  - máy giặt
+
+@dishwasher /ˈdɪʃˌwɒʃər/
+* danh từ
+  - máy rửa chén
+
+@air conditioner /ɛr kənˈdɪʃənər/
+* danh từ
+  - máy điều hòa không khí
+
+@heater /ˈhitər/
+* danh từ
+  - máy sưởi
+
+@fan /fæn/
+* danh từ
+  - quạt
+
+@iron /ˈaɪən/
+* danh từ
+  - bàn là
+
+@vacuum cleaner /ˈvækjuːm ˈkliːnər/
+* danh từ
+  - máy hút bụi
+
+@blender /ˈblɛndər/
+* danh từ
+  - máy xay sinh tố

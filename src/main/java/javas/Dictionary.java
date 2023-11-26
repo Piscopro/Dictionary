@@ -6,6 +6,7 @@ class Dictionary {
     private ArrayList<Word> words = new ArrayList<>();
     private Queue<Word> searchHistory = new LinkedList<>();
     public static List<Word> favouriteWords = new ArrayList<>();
+    private ArrayList<GameQuestion> gameQuestions = new ArrayList<>();
     private static final int FAVOURITE_SIZE = 50;
     private static final int HISTORY_SIZE = 50;
 
@@ -47,17 +48,37 @@ class Dictionary {
 //            searchHistory.add(word);
 //        }
 //    }
-public void addHistory(Word word) {
-    // Kiểm tra xem từ đã có trong searchHistory chưa
-    if (!searchHistory.contains(word)) {
-        if (searchHistory.size() > HISTORY_SIZE - 1) {
-            searchHistory.poll();
-            searchHistory.add(word);
-        } else {
+//public void addHistory(Word word) {
+//    // Kiểm tra xem từ đã có trong searchHistory chưa
+//    if (!searchHistory.contains(word)) {
+//        if (searchHistory.size() > HISTORY_SIZE - 1) {
+//            searchHistory.poll();
+//            searchHistory.add(word);
+//        } else {
+//            searchHistory.add(word);
+//        }
+//    }
+//}
+
+    public void addHistory(Word word) {
+        // Kiểm tra xem từ đã có trong searchHistory chưa
+        if (!searchHistory.contains(word)) {
+            // Kiểm tra xem danh sách đã đầy chưa
+            if (searchHistory.size() > HISTORY_SIZE - 1) {
+                // Kiểm tra xem từ đã có trong searchHistory chưa
+                if (searchHistory.contains(word)) {
+                    // Nếu từ đã có, xóa nó khỏi danh sách
+                    searchHistory.remove(word);
+                } else {
+                    // Nếu danh sách đã đầy, loại bỏ phần tử đầu tiên
+                    searchHistory.poll();
+                }
+            }
+            // Thêm từ mới vào danh sách
             searchHistory.add(word);
         }
     }
-}
+
 
 
     public static List<Word> getFavouriteWords() {
@@ -86,7 +107,11 @@ public void addHistory(Word word) {
         return searchHistory;
     }
 
-    /*public Queue<Word> getFavouriteWords() {
-        return favouriteWords;
-    }*/
+    public ArrayList<GameQuestion> getGameQuestions() {
+        return gameQuestions;
+    }
+
+    public void addQuestion(GameQuestion question) {
+        gameQuestions.add(question);
+    }
 }

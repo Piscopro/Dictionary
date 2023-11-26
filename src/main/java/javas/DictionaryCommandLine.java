@@ -172,11 +172,13 @@ class DictionaryCommandLine {
                     }
                     break;
                 case 5:
-                    System.out.println("nhập vào:");
-                    String s = scanner.nextLine();
-//                    DictionaryManagement.dictionaryLookup(s);
-                    System.out.println(DictionaryManagement.dictionaryLookup(s).getWordTarget()
-                            + "\n" + DictionaryManagement.dictionaryLookup(s).getMeaning());
+//                    System.out.println("nhập vào:");
+//                    String s = scanner.nextLine();
+////                    DictionaryManagement.dictionaryLookup(s);
+//                    System.out.println(DictionaryManagement.dictionaryLookup(s).getWordTarget()
+//                            + "\n" + DictionaryManagement.dictionaryLookup(s).getMeaning());
+                    ArrayList<Word> aaa = DictionaryManagement.showAllWords();
+                    System.out.println(aaa.size());
                     break;
                 case 6:
 //                    DictionaryManagement.BoxSearchPrefix();

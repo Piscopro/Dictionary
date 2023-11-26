@@ -38,6 +38,7 @@ public class WordBoxSearch extends WordBox {
                 controller.openWordDisplayPane(word);
                 DictionaryManagement.getDictionary().addHistory(word);
                 DictionaryManagement.historyExportToFile();
+                DictionaryManagement.historyFromFile();;
             }
         });
     }
