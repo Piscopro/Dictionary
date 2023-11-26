@@ -28,10 +28,18 @@ class Dictionary {
     }
 
     public void addWord(Word word) {
+        // Kiểm tra xem từ đã tồn tại trong danh sách hay chưa
+        for (Word existingWord : this.words) {
+            if (existingWord.getWordTarget().equalsIgnoreCase(word.getWordTarget())) {
+                return; // Trả về ngay lập tức để không thêm từ trùng lặp
+            }
+        }
+        // Thêm từ mới nếu nó chưa tồn tại
         this.words.add(word);
     }
 
-//    public void addHistory(Word word) {
+
+    //    public void addHistory(Word word) {
 //        if (searchHistory.size() > HISTORY_SIZE- 1) {
 //            searchHistory.poll();
 //            searchHistory.add(word);

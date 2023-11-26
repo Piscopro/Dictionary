@@ -165,16 +165,18 @@ class DictionaryCommandLine {
                     DictionaryManagement.editWord();
                     break;
                 case 4:
-//                    for (String x : dictionaryManagement.showAllWords()) {
-//                        System.out.println(x);
-//                    }
-
+                    for (Word word : DictionaryManagement.showAllWords()) {
+                        System.out.println(word.getWordTarget()
+                                + " " + word.getPronunciation()
+                                + "\n" + word.getMeaning());
+                    }
                     break;
                 case 5:
                     System.out.println("nhập vào:");
                     String s = scanner.nextLine();
 //                    DictionaryManagement.dictionaryLookup(s);
-                    System.out.println(DictionaryManagement.dictionaryLookup(s).getWordTarget() + "\n" + DictionaryManagement.dictionaryLookup(s).getMeaning());
+                    System.out.println(DictionaryManagement.dictionaryLookup(s).getWordTarget()
+                            + "\n" + DictionaryManagement.dictionaryLookup(s).getMeaning());
                     break;
                 case 6:
 //                    DictionaryManagement.BoxSearchPrefix();

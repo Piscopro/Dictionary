@@ -77,37 +77,66 @@ class DictionaryManagement {
         }
     }
 
-    public static void dictionaryExportToFile() {
-        String exportFilePath = "src/main/resources/text/dictionaries.txt";
 
-        try (BufferedWriter bw = new BufferedWriter(new FileWriter(exportFilePath))) {
-            Iterator<Word> iterator = dictionary.getWords().iterator();
 
-            while (iterator.hasNext()) {
-                Word entry = iterator.next();
-                // Export word and pronunciation
-                bw.write("@" + entry.getWordTarget() + " /" + entry.getPronunciation() + "/\n");
 
-                // Export each Meaning
-                for (Meaning meaning : entry.getMeanings()) {
-                    bw.write("*  " + meaning.getPartOfSpeech() + "\n");
-                    bw.write("  " + meaning.getDescription() + "\n");
-                }
+//    public static void dictionaryExportToFile() {
+//        String exportFilePath = "src/main/resources/text/dictionaries.txt";
+//
+//        try (BufferedWriter bw = new BufferedWriter(new FileWriter(exportFilePath))) {
+//            Iterator<Word> iterator = dictionary.getWords().iterator();
+//
+//            while (iterator.hasNext()) {
+//                Word entry = iterator.next();
+//                // Export word and pronunciation
+//                bw.write("@" + entry.getWordTarget() + " " + entry.getPronunciation() + "\n");
+//
+//                // Export each Meaning
+//                for (Meaning meaning : entry.getMeanings()) {
+//                    bw.write("*  " + meaning.getPartOfSpeech() + "\n");
+//                    bw.write("  " + meaning.getDescription() + "\n");
+//                }
+//
+//                // Add an empty line between words
+//                bw.newLine();
+//            }
+//
+//            System.out.println("Data exported to " + exportFilePath);
+//        } catch (IOException e) {
+//            e.printStackTrace();
+//        }
+//    }
+public static void dictionaryExportToFile() {
+    String exportFilePath = "src/main/resources/text/dictionaries.txt";
 
-                // Add an empty line between words
-                bw.newLine();
+    try (BufferedWriter bw = new BufferedWriter(new FileWriter(exportFilePath, false))) { // Set 'false' to overwrite
+        Iterator<Word> iterator = dictionary.getWords().iterator();
+
+        while (iterator.hasNext()) {
+            Word entry = iterator.next();
+            // Export word and pronunciation
+            bw.write("@" + entry.getWordTarget() + " " + entry.getPronunciation() + "\n");
+
+            // Export each Meaning
+            for (Meaning meaning : entry.getMeanings()) {
+                bw.write("*  " + meaning.getPartOfSpeech() + "\n");
+                bw.write("  " + meaning.getDescription() + "\n");
             }
 
-            System.out.println("Data exported to " + exportFilePath);
-        } catch (IOException e) {
-            e.printStackTrace();
+            // Add an empty line between words
+            bw.newLine();
         }
+
+        System.out.println("Data exported to " + exportFilePath);
+    } catch (IOException e) {
+        e.printStackTrace();
     }
+}
+
 
     public static Dictionary getDictionary() {
         return dictionary;
     }
-
 
     public static Word dictionaryLookup(String wordToLookup) {
         ArrayList<Word> words = dictionary.getWords();
@@ -159,11 +188,12 @@ class DictionaryManagement {
         return -1; // Không tìm thấy từ
     }
 
-    public ArrayList<Word> showAllWords() {
+    public static ArrayList<Word> showAllWords() {
         ArrayList<Word> words = DictionaryManagement.getDictionary().getWords();
         ArrayList<Word> result = new ArrayList<>();
         // Sort the words alphabetically
-        Collections.sort(words, (w1, w2) -> w1.getWordTarget().compareToIgnoreCase(w2.getWordTarget()));
+        //Collections.sort(words, (w1, w2) -> w1.getWordTarget().compareToIgnoreCase(w2.getWordTarget()));
+        sortDictionary(words);
 
         for (Word word : words) {
             result.add(word);
